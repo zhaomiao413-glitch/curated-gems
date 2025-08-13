@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: #fafafa;
+    color: #222
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    margin-top: 8px
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 14px;
+    padding: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .04)
+}
+
+.card h3 {
+    margin: 0 0 8px;
+    font-size: 18px
+}
+
+.card a {
+    color: #0a58ca;
+    text-decoration: none
+}
+
+.card a:hover {
+    text-decoration: underline
+}
+
+.meta {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666
+}
+
+.hidden {
+    display: none
+}
+
+/* 控件区 */
+.controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 8px
+}
+
+input,
+select,
+button {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    background: #eee
+}
+
+button:hover {
+    background: #ddd
+}
+
+/* 标签容器与标签样式 */
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap
+}
+
+.tag {
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #eee;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.tag.active {
+    background: #222;
+    color: #fff
+}

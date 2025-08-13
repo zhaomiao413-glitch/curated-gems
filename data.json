@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Power of Regret",
+    "source": "Hidden Brain",
+    "desc": "How regret shapes choices and helps us learn.",
+    "link": "https://hiddenbrain.org/podcast/the-power-of-regret/",
+    "tags": ["psychology", "behavioral"],
+    "date": "2022-02-14"
+  },
+  {
+    "id": 2,
+    "title": "You 2.0: When Things Click",
+    "source": "Hidden Brain",
+    "desc": "On 'aha' moments and cognitive insight.",
+    "link": "https://hiddenbrain.org/podcast/you-2-0-when-things-click/",
+    "tags": ["psychology", "learning"],
+    "date": "2024-08-05"
+  },
+  {
+    "id": 3,
+    "title": "Do Things that Don't Scale",
+    "source": "Paul Graham",
+    "desc": "Early-stage startup advice: hand-holding your first users.",
+    "link": "http://www.paulgraham.com/ds.html",
+    "tags": ["startups", "growth"],
+    "date": "2013-07-01"
+  },
+  {
+    "id": 4,
+    "title": "Maker's Schedule, Manager's Schedule",
+    "source": "Paul Graham",
+    "desc": "Why meeting cadence disrupts deep work.",
+    "link": "http://www.paulgraham.com/makersschedule.html",
+    "tags": ["productivity", "work"],
+    "date": "2009-07-01"
+  },
+  {
+    "id": 5,
+    "title": "The Double-Edged Sword of Compliments",
+    "source": "Hidden Brain",
+    "desc": "How praise motivates—and sometimes backfires.",
+    "link": "https://hiddenbrain.org/podcast/the-double-edged-sword-of-compliments/",
+    "tags": ["behavioral", "communication"],
+    "date": "2023-03-13"
+  },
+  {
+    "id": 6,
+    "title": "Default Alive or Default Dead?",
+    "source": "Paul Graham",
+    "desc": "A simple way to see if your startup is on track.",
+    "link": "http://www.paulgraham.com/aord.html",
+    "tags": ["startups", "metrics"],
+    "date": "2015-10-01"
+  },
+  {
+    "id": 7,
+    "title": "You 2.0: Slow Down!",
+    "source": "Hidden Brain",
+    "desc": "Why slowing down can make us more effective.",
+    "link": "https://hiddenbrain.org/podcast/you-2-0-slow-down/",
+    "tags": ["psychology", "productivity"],
+    "date": "2022-08-22"
+  },
+  {
+    "id": 8,
+    "title": "How to Do Great Work",
+    "source": "Paul Graham",
+    "desc": "Finding ambitious projects and sustaining momentum.",
+    "link": "http://www.paulgraham.com/greatwork.html",
+    "tags": ["career", "creativity"],
+    "date": "2023-05-01"
+  },
+  {
+    "id": 9,
+    "title": "The Power of the Situation",
+    "source": "Hidden Brain",
+    "desc": "Situations shape behavior more than we think.",
+    "link": "https://hiddenbrain.org/podcast/the-power-of-the-situation/",
+    "tags": ["behavioral", "psychology"],
+    "date": "2021-11-29"
+  },
+  {
+    "id": 10,
+    "title": "Write Simply",
+    "source": "Paul Graham",
+    "desc": "Clarity and simplicity in writing.",
+    "link": "http://www.paulgraham.com/simp.html",
+    "tags": ["writing", "communication"],
+    "date": "2009-10-01"
+  },
+  {
+    "id": 11,
+    "title": "How to Make Hard Choices",
+    "source": "Hidden Brain",
+    "desc": "Frameworks for deciding when options are incomparable.",
+    "link": "https://hiddenbrain.org/podcast/how-to-make-hard-choices/",
+    "tags": ["decision", "psychology"],
+    "date": "2020-09-14"
+  },
+  {
+    "id": 12,
+    "title": "What You Can't Say",
+    "source": "Paul Graham",
+    "desc": "On taboo ideas and independent thinking.",
+    "link": "http://www.paulgraham.com/say.html",
+    "tags": ["thinking", "culture"],
+    "date": "2004-01-01"
+  }
+]
