@@ -1,4 +1,22 @@
 [
-  {"name":"Hidden Brain","url":"https://hiddenbrain.org/feed","tags":["psychology","behavioral"]},
-  {"name":"Paul Graham","url":"http://www. paulgraham.com/rss.html","tags":["startups","essay"]}
+  {
+    "name": "Paul Graham Essays",
+    "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss"
+  },
+  {
+    "name": "Derek Sivers",
+    "url": "https://sivers.org/en.atom"
+  },
+  {
+    "name": "Wait But Why",
+    "url": "https://waitbutwhy.com/feed"
+  },
+  {
+    "name": "Farnam Street",
+    "url": "https://fs.blog/feed"
+  },
+  {
+    "name": "Seth Godin",
+    "url": "http://sethgodin.typepad.com/seths_blog/atom.xml"
+  }
 ]
