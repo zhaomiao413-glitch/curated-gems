@@ -168,7 +168,7 @@ for source in sources:
                 }
                 
                 response = requests.post(OPENROUTER_URL, headers=headers, json=data)
-                print("LLM Model:", MODEL)
+                print("LLM Model:", MODEL.title)
                 print("Status code:", response.status_code)
                 print("Response text:", response.text)
                 response.raise_for_status()
