@@ -156,10 +156,16 @@ for source in sources:
                 data = {
                     "model": MODEL,
                     "messages": [
-                        {"role": "system", "content": "你是一位专业的AI助手，擅长内容分析和总结。请严格按照用户的指令，返回一个有效的、符合要求的JSON对象，不要包含任何额外文字。"},
-                        {"role": "user", "content": prompt_content}
-                    ],
-                    "response_format": {"type": "json_object"}
+                        {
+                            "role": "system",
+                            "content": "你是一位专业的AI助手，擅长内容分析和总结。请严格按照用户的指令，**仅返回一个有效的、符合要求的JSON对象**，不要包含任何额外文字。"
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt_content
+                        }
+                    ]
+                    # 不再包含 "response_format" 参数
                 }
                 
                 response = requests.post(OPENROUTER_URL, headers=headers, json=data)
