@@ -180,4 +180,98 @@
     "summary_zh": "这篇文章讨论了好品味的概念，通过展示艺术中存在品味并影响所有形式的艺术创作，挑战了好品味是主观的观念。",
     "best_quote_en": "If there's no such thing as good taste, then there's no such thing as good art.",
     "best_quote_zh": "如果没有好品味，那么就没有好艺术。"
+  },{
+    "id": 11,
+    "title": "Beyond Smart",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/smart.html",
+    "tags": [
+      "intelligence",
+      "ideas",
+      "innovation",
+      "thinking",
+      "creativity"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article argues that being smart is not the only, or even the most important, factor in having new ideas. Other key ingredients include an obsessive interest in a topic, independent-mindedness, writing ability, and cultivating beneficial working habits. These qualities can be cultivated, offering more control over generating innovative ideas.",
+    "summary_zh": "文章认为，聪明并不是产生新想法的唯一或最重要的因素。其他关键因素包括对某个主题的痴迷兴趣、独立思考能力、写作能力以及培养有益的工作习惯。这些品质可以培养，从而在产生创新想法方面提供更多控制。",
+    "best_quote_en": "Being very smart was a necessary precondition for having those ideas, but the two are not identical.",
+    "best_quote_zh": "非常聪明是产生那些想法的必要前提，但两者并不相同。"
+  },
+  {
+    "id": 12,
+    "title": "Why did I move to New Zealand?",
+    "source": "Derek Sivers",
+    "desc": "<p>\nI get this question a lot, so here’s my honest answer.\n</p><p>\nI was living in Singapore, feeling culturally adventurous, wanting to live everywhere, meet everyone, and get to know the whole world.\nBut then I had a baby.\n</p><p>\nAt first I thought we’d raise him in Singapore, fluent in all the cultures of Asia.\nBut after a few months, I realized how important it was to me that he have a real connection with nature.\nFeet in the river, hands in the mud, climbing trees, running in fields, at home in the forest.\nGreat foundation for the soul.\nMaybe even a competitive advantage in a world where everyone else is dependent on devices.\n</p><p>\nAlso, Singapore was a super-social place for me, where I knew too many people, and I wanted to give my boy my full attention without distraction — to live where I didn’t know anyone.\nSo the plan was to raise him in nature for the first six years, then move somewhere more culturally expansive for the next six.\n</p><p>\nNew Zealand is a nature paradise, but I also loved the safety of its location in times of global trouble.\nThey make you a citizen if you live here for six years.\nSo, perfect match for our situation.\nRaise a baby in nature, then leave with an amazing passport, and the right to return forever.\n</p><p>\nIt took nine months of paperwork to become a legal resident, but the government is friendly and helpful.\nIt’s really sweet to live in a country where the government agencies are really small, sensible, and personable.\nI like the culture here better than I expected.\n</p><p>\nHis upbringing went as planned.\nFull nature boy.\nNot into screens or phones at all.\nHe’s always outside, spends his days in forests and the rocky coast, and loves building physical things like tools and shelters for his adventures.\n</p><p>\nAfter getting New Zealand citizenship, we moved to Europe, but then Covid hit.\nSo in a way it was just as predicted: New Zealand was a great location in times of global trouble - one of the only Covid-free places on earth - and only citizens were allowed in, so our passports felt like the golden ticket, and we moved back.\nWhile his cousins across the world were locked down in isolation, staring at screens, he was playing with friends.\n</p><p>\nHis mom loves her job in the government here, so no more moving.\nHe’s in high school now, and he’s still not into screens.\nHe’s mentally healthy and wise, I think partially due to being raised outside in nature.\n</p><p>\nI’ve made a lot of mistakes in my life, but moving to New Zealand was a good choice.\n</p>",
+    "link": "https://sive.rs/nz0",
+    "tags": [
+      "new zealand",
+      "nature",
+      "raising children",
+      "citizenship",
+      "mental health"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The author moved to New Zealand to raise her son in nature, away from distractions and screens, believing it's a great foundation for the soul. New Zealand offered safety in times of global trouble and a pathway to citizenship. After living in Europe, they returned to New Zealand during Covid, appreciating the safe environment. Raising her son in nature contributed to his mental health.",
+    "summary_zh": "作者搬到新西兰是为了在自然环境中抚养儿子，远离干扰和屏幕，她认为这能为孩子的灵魂打下良好的基础。新西兰在全球动荡时期提供了安全保障，也提供了公民身份。在欧洲生活后，他们在疫情期间返回新西兰，看重这里的安全环境。在自然环境中抚养儿子有助于他的心理健康。",
+    "best_quote_en": "Feet in the river, hands in the mud, climbing trees, running in fields, at home in the forest. Great foundation for the soul.",
+    "best_quote_zh": "赤脚踩在河里，双手沾满泥土，爬树，在田野里奔跑，以森林为家。这是灵魂的绝佳基础。"
+  },
+  {
+    "id": 13,
+    "title": "The 2024 Trump-Biden Debate",
+    "source": "Wait But Why",
+    "desc": "<p>Jeez</p>\n<p>The post <a href=\"https://waitbutwhy.com/2024/06/debate2024.html\">The 2024 Trump-Biden Debate</a> appeared first on <a href=\"https://waitbutwhy.com\">Wait But Why</a>.</p>",
+    "link": "https://waitbutwhy.com/2024/06/debate2024.html",
+    "tags": [
+      "debate",
+      "economy",
+      "immigration",
+      "taxes",
+      "roe v. wade"
+    ],
+    "date": "2024-06-28",
+    "summary_en": "The debate between Biden and Trump covered economy, taxes, Roe v. Wade, and border security. They clashed on their records, with Trump touting economic success and border control, while Biden criticized Trump's handling of the economy and immigration policies. Both candidates made strong, often exaggerated claims.",
+    "summary_zh": "拜登和特朗普的辩论涵盖了经济、税收、罗诉韦德案和边境安全。他们就彼此的执政记录展开了激烈的交锋，特朗普吹捧了他的经济成就和边境控制，而拜登则批评了特朗普对经济和移民政策的处理。两位候选人都发表了强烈的、有时是夸张的主张。",
+    "best_quote_en": "We had the greatest economy in the history of this world or any other world.",
+    "best_quote_zh": "我们拥有这个世界或任何其他世界历史上最伟大的经济。"
+  },
+  {
+    "id": 14,
+    "title": "Dr. Sue Johnson: The Science of Lasting Love",
+    "source": "Farnam Street",
+    "desc": "<p>This conversation will change how you handle your relationship starting&#160;tonight. The late Dr. Sue Johnson basically gave me a cheat code for relationships that not only last but amplify. She breaks down the real signals to look for in a partner.  Why people actually cheat (not what you think) and how to spot it coming &#8230;</p>\n<p>The post <a href=\"https://fs.blog/knowledge-project-podcast/dr-sue-johnson-2/\">Dr. Sue Johnson: The Science of Lasting Love </a> appeared first on <a href=\"https://fs.blog\">Farnam Street</a>.</p>",
+    "link": "https://fs.blog/knowledge-project-podcast/dr-sue-johnson-2/",
+    "tags": [
+      "relationships",
+      "love",
+      "communication",
+      "infidelity",
+      "connection"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Dr. Sue Johnson's insights offer a new perspective on relationships, providing tools to identify crucial signals in a partner, understand the real reasons behind infidelity, and transform conflicts into opportunities for deeper connection. It covers keeping the spark alive, surviving the empty-nest phase, and strengthening relationships.",
+    "summary_zh": "苏·约翰逊博士的见解为处理人际关系提供了新的视角，提供了识别伴侣关键信号的工具，理解不忠的真正原因，并将冲突转化为更深层次联系的机会。内容涵盖保持激情、度过空巢期以及加强人际关系。",
+    "best_quote_en": "This conversation will change how you handle your relationship starting tonight.",
+    "best_quote_zh": "今晚开始，这场对话将改变你处理人际关系的方式。"
+  },
+  {
+    "id": 15,
+    "title": "Weird Languages",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/weird.html",
+    "tags": [
+      "programming languages",
+      "lisp",
+      "macros",
+      "weird languages",
+      "software development"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article suggests that most programming involves gluing library functions together, at which common languages excel. However, the interesting part lies in the remaining small percentage, best explored through \"weird languages.\" These languages reveal programming techniques beyond simple gluing, like using Lisp macros for domain-specific language creation. Learning weird languages expands one's understanding of programming possibilities.",
+    "summary_zh": "文章指出，大多数编程是将库函数连接在一起，常见语言对此非常擅长。然而，有趣的部分在于剩余的小部分，通过“怪异语言”可以最好地探索这一点。这些语言揭示了超越简单连接的编程技术，例如使用Lisp宏来创建特定领域的语言。学习怪异语言可以扩展人们对编程可能性的理解。",
+    "best_quote_en": "In the process of learning how to say things you couldn't previously say, you'll probably be learning how to think things you couldn't previously think.",
+    "best_quote_zh": "在学习如何表达你以前无法表达的事物的过程中，你可能会学习到如何思考你以前无法思考的事物。"
   }]
