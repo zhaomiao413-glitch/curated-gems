@@ -10,7 +10,7 @@ if (document.readyState === 'loading') {
 
 async function init() {
     mountControls();
-    const res = await fetch('/data.json', { cache: 'no-store' }); raw = await res.json();
+    const res = await fetch('/output.json', { cache: 'no-store' }); raw = await res.json();
     renderSources(['all', ...new Set(raw.map(x => x.source))]);
     renderTags(['all', ...new Set(raw.flatMap(x => x.tags || []))]);
     bind(); applyAndRender();
