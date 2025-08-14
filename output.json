@@ -1,1 +1,92 @@
-[]
+[{
+    "id": 1,
+    "title": "Superlinear Returns",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/superlinear.html",
+    "tags": [
+      "superlinear returns",
+      "exponential growth",
+      "thresholds",
+      "success",
+      "winner-take-all"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Understanding the concept of superlinear returns is crucial for navigating success and exponential growth in various fields such as business, fame, and power. Exponential growth and thresholds are fundamental causes of superlinear returns. The phenomenon of winner-take-all emphasizes the impact of thresholds on outcomes.",
+    "summary_zh": "理解超线性回报的概念对于在各领域如商业、名望和权力中取得成功和指数增长至关重要。指数增长和门槛是超线性回报的基本原因。赢者通吃的现象强调了门槛对结果的影响。",
+    "best_quote_en": "You can't understand the world without understanding the concept of superlinear returns. And if you're ambitious you definitely should, because this will be the wave you surf on.",
+    "best_quote_zh": "如果你有雄心壮志，就一定要理解超线性回报的概念，因为这将是你乘风破浪的浪潮。"
+  },
+  {
+    "id": 2,
+    "title": "How to Do Great Work",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/greatwork.html",
+    "tags": [
+      "great work",
+      "curiosity",
+      "passion",
+      "ambition",
+      "knowledge frontier"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "To do great work, choose tasks aligned with your natural aptitude and deep interest, learn at the frontier of knowledge, notice gaps, and explore outlier ideas. Working on your own projects, driven by curiosity and passion, can lead to impactful discoveries.",
+    "summary_zh": "要做出杰出的工作，选择与自己天赋和浓厚兴趣相关的任务，学习知识的前沿，发现知识中的空白，探索非主流的想法。专注于个人项目，以好奇心和激情驱动，可能会带来有影响力的发现。",
+    "best_quote_en": "Interest will drive you to work harder than mere diligence ever could.",
+    "best_quote_zh": "兴趣将比单纯的勤奋推动你更努力地工作。"
+  },
+  {
+    "id": 3,
+    "title": "How to Get New Ideas",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/getideas.html",
+    "tags": [
+      "ideas",
+      "anomalies",
+      "knowledge",
+      "creativity"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "To get new ideas, notice anomalies at the frontiers of knowledge where gaps exist, leading to new discoveries.",
+    "summary_zh": "要获得新创意，注意知识边界上存在的异常，这些空白处能带来新的发现。",
+    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?",
+    "best_quote_zh": "获得新创意的方法是注意异常：看起来奇怪、缺失或有问题的地方？"
+  },
+  {
+    "id": 4,
+    "title": "The Need to Read",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "reading",
+      "writing",
+      "knowledge acquisition",
+      "critical thinking"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Reading is essential not only for acquiring knowledge about specific topics but also for developing critical thinking and writing skills.",
+    "summary_zh": "阅读不仅能帮助获取特定主题知识，还能培养批判性思维和写作能力。",
+    "best_quote_en": "You can't think well without writing well, and you can't write well without reading well.",
+    "best_quote_zh": "你无法写作得好而思维不清晰，也无法阅读得好而写作不出色。"
+  },
+  {
+    "id": 5,
+    "title": "What You (Want to)* Want",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "free will",
+      "determinism",
+      "choice",
+      "desires"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article discusses the paradox between free will and determinism, highlighting the complexity of wanting and choosing in human behavior.",
+    "summary_zh": "本文讨论了自由意志与决定论之间的悖论，突出了人类行为中欲望和选择的复杂性。",
+    "best_quote_en": "You can do what you want, but you can't want what you want.",
+    "best_quote_zh": "你可以做你想做的事，但你不能想要你想要的事。"
+  }]
