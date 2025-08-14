@@ -4,6 +4,7 @@ import requests
 import feedparser
 from datetime import datetime
 from bs4 import BeautifulSoup
+import time
 
 # 从环境变量中获取 OpenRouter API Key
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
@@ -12,7 +13,7 @@ if not OPENROUTER_API_KEY:
 
 # 设置 OpenRouter API 的端点和模型
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = os.getenv("OPENROUTER_MODEL", "google/gemini-pro") 
+MODEL = os.getenv("OPENROUTER_MODEL", "google/gemini-2.5-flash-lite") 
 
 # 结果列表，用于存储所有处理后的 JSON 对象
 results = []
@@ -56,8 +57,13 @@ for source in sources:
                 continue
             # --- 检查链接的代码块结束 ---
 
-            date_str = datetime.fromtimestamp(latest_entry.get('published_parsed', datetime.now()).timestamp()).strftime('%Y-%m-%d')
-            
+            published_parsed = latest_entry.get('published_parsed')
+            if published_parsed:
+                # Convert time.struct_time to datetime object
+                dt_object = datetime.fromtimestamp(time.mktime(published_parsed))
+                date_str = dt_object.strftime('%Y-%m-%d')
+            else:
+                date_str = datetime.now().strftime('%Y-%m-%d')            
             print(f"  正在处理新条目：{title}")
             print(f"  链接: {link}")
 
