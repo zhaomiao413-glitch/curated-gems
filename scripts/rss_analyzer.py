@@ -29,8 +29,8 @@ except (FileNotFoundError, json.JSONDecodeError):
 print(f"已加载 {len(processed_links)} 个已处理链接。")
 # --- 读取已处理链接的代码块结束 ---
 
-# 读取 source.json 文件
-with open('source.json', 'r', encoding='utf-8') as f:
+# 读取 sources.json 文件
+with open('sources.json', 'r', encoding='utf-8') as f:
     sources = json.load(f)
 
 for source in sources:
