@@ -30,7 +30,7 @@ jobs:
           pip install requests feedparser beautifulsoup4
 
       - name: Run Python script
-        run: python rss_analyzer.py
+        run: python scripts/rss_analyzer.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
