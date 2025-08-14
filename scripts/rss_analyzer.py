@@ -5,6 +5,8 @@ import requests
 import feedparser
 from datetime import datetime
 from bs4 import BeautifulSoup
+import re
+import json
 
 # ========== 基本配置 ==========
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
@@ -113,8 +115,54 @@ def extract_full_content(link, rss_content_html):
     else:
         return content_from_rss, "警告：未能提取正文内容，将使用RSS摘要。"
 
+
+def parse_json_safely(text):
+    """
+    兼容以下返回：
+    - 纯 JSON
+    - ```json ... ``` 或 ``` ... ``` 包裹
+    - 前后有提示语/空行/空格
+    - 多段文本里包含一个或多个 {...} JSON 块（取第一个完整块）
+    """
+    # 1) 直接尝试
+    try:
+        return json.loads(text)
+    except Exception:
+        pass
+
+    # 2) 去掉 ```json ... ``` / ``` ... ``` 代码围栏
+    fenced = re.search(r"```(?:json)?\s*(.+?)\s*```", text, flags=re.DOTALL | re.IGNORECASE)
+    if fenced:
+        inner = fenced.group(1).strip()
+        try:
+            return json.loads(inner)
+        except Exception:
+            text = inner  # 继续后续步骤
+
+    # 3) 从全文中提取首个完整的大括号 JSON 块
+    #    用栈匹配，避免正则贪婪带来的误判
+    start = text.find('{')
+    while start != -1:
+        stack = 0
+        for i in range(start, len(text)):
+            if text[i] == '{':
+                stack += 1
+            elif text[i] == '}':
+                stack -= 1
+                if stack == 0:
+                    candidate = text[start:i+1]
+                    try:
+                        return json.loads(candidate)
+                    except Exception:
+                        break  # 换一个起点再试
+        # 找下一个 '{'
+        start = text.find('{', start + 1)
+
+    # 4) 实在不行就抛错，让上层记录原文
+    raise json.JSONDecodeError("No valid JSON object found", text, 0)
+
+
 def call_openrouter(model, title, full_content):
-    """调用 OpenRouter 进行摘要分析，返回 (analysis_data_dict, raw_text_for_debug)。"""
     prompt_content = f"""
 请分析以下文章内容，并以一个JSON对象的形式返回分析结果。
 
@@ -125,6 +173,7 @@ JSON对象需要包含以下键（key）：
 - "best_quote_zh": 提取文章中最有洞察力的一句中文金句。
 - "tags": 3到5个与文章内容相关的关键词标签，以列表（array）形式返回，全部使用小写英文字符。
 
+严格要求：仅返回一个有效的 JSON 对象，**不要**包含任何代码块围栏（如```json）、前后提示语或多余文字。
 文章标题：{title}
 文章内容：
 {full_content}
@@ -134,51 +183,69 @@ JSON对象需要包含以下键（key）：
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json"
     }
-    data = {
+
+    base_payload = {
         "model": model,
         "messages": [
             {
                 "role": "system",
-                "content": "你是一位专业的AI助手，擅长内容分析和总结。请严格按照用户的指令，**仅返回一个有效的、符合要求的JSON对象**，不要包含任何额外文字。"
+                "content": "你是一位专业的AI助手，擅长内容分析和总结。请仅返回一个有效 JSON 对象，不能包含```、说明文字或额外字符。"
             },
-            {
-                "role": "user",
-                "content": prompt_content
-            }
+            {"role": "user", "content": prompt_content}
         ],
     }
 
-    try:
-        resp = requests.post(OPENROUTER_URL, headers=headers, json=data, timeout=HTTP_TIMEOUT)
-        status = resp.status_code
-        text = resp.text
-        print(f"[OpenRouter] HTTP {status}")
-        if status >= 400:
-            print(f"[OpenRouter] Body: {text[:1000]}")
-        resp.raise_for_status()
-    except requests.HTTPError:
-        return None, f"HTTPError: {resp.status_code}; body: {resp.text[:1000]}"
-    except Exception as e:
-        return None, f"RequestError: {e}"
+    # 尝试 1：带 response_format（更可能得到纯 JSON）
+    for attempt in (1, 2):
+        data = dict(base_payload)  # 浅拷贝
+        if attempt == 1:
+            data["response_format"] = {"type": "json_object"}
+            print("[OpenRouter] 尝试使用 response_format=json_object")
+        else:
+            print("[OpenRouter] 不使用 response_format 进行降级重试")
 
-    try:
-        api_response = resp.json()
-    except json.JSONDecodeError as e:
-        return None, f"JSONDecodeError(resp): {e}; raw: {text[:1000]}"
+        try:
+            resp = requests.post(OPENROUTER_URL, headers=headers, json=data, timeout=HTTP_TIMEOUT)
+            status = resp.status_code
+            text = resp.text
+            print(f"[OpenRouter] HTTP {status}")
+            if status >= 400:
+                print(f"[OpenRouter] Body: {text[:1000]}")
+                # 某些模型会对 response_format 报 400，这里直接进入下一轮降级
+                if attempt == 1:
+                    continue
+                resp.raise_for_status()
+            # 解析
+            api_response = resp.json()
+            if isinstance(api_response, dict) and api_response.get("error"):
+                # 如果是明确的 API 错误且是尝试1，做降级重试
+                if attempt == 1:
+                    print(f"[OpenRouter] API Error on attempt 1, will retry without response_format: {api_response['error']}")
+                    continue
+                return None, f"API Error: {api_response['error']}"
 
-    if isinstance(api_response, dict) and api_response.get("error"):
-        return None, f"API Error: {api_response['error']}"
+            content = api_response['choices'][0]['message']['content']
+            try:
+                analysis_data = parse_json_safely(content)
+                return analysis_data, content
+            except json.JSONDecodeError as e:
+                # 尝试1失败则降级；尝试2仍失败则返回错误
+                if attempt == 1:
+                    print(f"[解析失败@attempt1] {e}; 将降级重试。原文前 500 字：{content[:500]}")
+                    continue
+                return None, f"JSONDecodeError(after fallback): {e}; content: {content[:1000]}"
 
-    try:
-        model_output_json_str = api_response['choices'][0]['message']['content']
-    except Exception as e:
-        return None, f"Parse choices error: {e}; resp: {str(api_response)[:1000]}"
+        except requests.HTTPError:
+            if attempt == 1:
+                continue
+            return None, f"HTTPError: {resp.status_code}; body: {resp.text[:1000]}"
+        except Exception as e:
+            if attempt == 1:
+                continue
+            return None, f"RequestError: {e}"
 
-    try:
-        analysis_data = json.loads(model_output_json_str)
-        return analysis_data, model_output_json_str
-    except json.JSONDecodeError as e:
-        return None, f"JSONDecodeError(content): {e}; content: {model_output_json_str[:1000]}"
+    # 理论上到不了这里
+    return None, "Unknown error"
 
 # ========== 阶段 1：按源分桶收集候选 ==========
 candidates_by_source = {}  # { source_name: [entry, entry, ...] }
