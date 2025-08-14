@@ -61,4 +61,103 @@
     "best_quote_en": "Reputation is trust, and trust takes decades to build, seconds to destroy.",
     "best_quote_zh": "信任是信解，信解需要多年才建立，只需要几秒才破灭。"
   }
-]
+,{
+    "id": 4,
+    "title": "Superlinear Returns",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/superlinear.html",
+    "tags": [
+      "superlinear returns",
+      "exponential growth",
+      "thresholds",
+      "performance",
+      "rewards",
+      "business",
+      "fame",
+      "power"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article discusses the concept of superlinear returns, a phenomenon where the rewards for performance exceed the initial investment. It highlights two fundamental causes: exponential growth and thresholds. Examples given include growing bacterial cultures, startups, fame, and power. The article emphasizes the importance of understanding superlinear returns for those who are ambitious.",
+    "summary_zh": "文章讨论了超线性回报的概念，这是指性能 rewards 超过了初始投资。它解释了两个基本原因：指数增长和阈值。给出了 inclusion  namely growing bacterial cultures, startups, fame, 和 力量 的示例。文章强调理解超线性回报对有志于成功的人尤其重要。",
+    "best_quote_en": "In all of these, the rich get richer.",
+    "best_quote_zh": "在所有这些方面，富人会更 wealthy。"
+  },
+  {
+    "id": 5,
+    "title": "How to Do Great Work",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/greatwork.html",
+    "tags": [
+      "great work",
+      "curiosity",
+      "ambition",
+      "learning",
+      "leadership",
+      "personal projects"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article offers a recipe for doing great work, stressing the importance of passion, curiosity, and boldness in choosing a field, learning its frontier, noticing gaps, and exploring promising ones. It encourages personal projects, outlier ideas, and a deep interest in work.",
+    "summary_zh": "文章在介绍如何做出伟大成就的方法时强调了选择领域、学习其前沿、探索itz Hierarchy金字塔的口袋以及Status Quo，有期限的学习和卥章思维是成功的关键。它鼓励个人项目、极外焦点和对工作的深保 сы中性.",
+    "best_quote_en": "The three most powerful motives are curiosity, delight, and the desire to do something impressive.",
+    "best_quote_zh": "素质、喜欢和릭戎金的欲望是最强大的动力"
+  },
+  {
+    "id": 6,
+    "title": "How to Get New Ideas",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/getideas.html",
+    "tags": [
+      "innovation",
+      "ideas",
+      "anomalies",
+      "frontier",
+      "knowledge"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article discusses a personal view on generating new ideas by emphasizing the importance of noticing anomalies or gaps in knowledge, particularly in frontier areas. This can lead to the discovery of whole new trends or concepts.",
+    "summary_zh": "文章提出了个人对新思想生成的看法，强调要注意异常或知识空白，尤其是在前沿领域。这有可能导致发现新的分支走法。",
+    "best_quote_en": "The best place to look for anomalies is at the frontiers of knowledge.",
+    "best_quote_zh": "最好的异常发现地点是知识的前沿。"
+  },
+  {
+    "id": 7,
+    "title": "The Need to Read",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "reading",
+      "writing",
+      "thinking",
+      "discovery",
+      "ideas"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article argues that reading and writing are closely interconnected and essential for discovery and understanding. Reading not only teaches you about a topic, but also how to write, and vice versa. Writing helps in exploring new ideas and solving complex, ill-defined problems. Therefore, being good at reading and writing is crucial.",
+    "summary_zh": "文章在讨论阅读和写作之间的密切关联和重要性方面，表示阅读不仅教导您学习某一主题，还带有如何写作的教导功能，并相反。写作帮助人们探索新想法并解决复杂、不明确的问题。因此，计划良好的阅读和写作是必备的。",
+    "best_quote_en": "You can't think well without writing well, and you can't write well without reading well.",
+    "best_quote_zh": "你不能合理地思考而不会写好，也不能写好而不会读好。"
+  },
+  {
+    "id": 8,
+    "title": "What You (Want to)* Want",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "free will",
+      "desires",
+      "choice",
+      "control",
+      "self-awareness",
+      "paradox"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article discusses the paradox between predictable physical behavior and the feeling of free will, using a series of modified statements to approach the answer. It's suggested that while individuals can control their actions, their desires or higher-order desires may not always be controllable.",
+    "summary_zh": "文章提供了解决物质行为统atively的感觉自由象异常的解题方法，通过修订一系列的断言逐渐接近答案。答案建议是，虽然人们可以控制行动，但他们的愿望或更高阶的愿望可能是不可控的。",
+    "best_quote_en": "You can do what you want, but there's some statement of the form 'you can't (want to)* want what you want' that's true.",
+    "best_quote_zh": "你可以做自己想要做的事，但有些形式为‘你无法(想要)*想要自己想要的事’的陈述是正确的。"
+  }]
