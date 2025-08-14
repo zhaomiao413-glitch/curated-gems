@@ -13,7 +13,7 @@ jobs:
 
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      OPENROUTER_MODEL:  ${{ secrets.OPENROUTER_MODEL }} || "mistralai/mistral-7b-instruct:free"
+      OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL || 'openai/gpt-3.5-turbo-0613' }}
 
     steps:
       - name: Checkout repository
