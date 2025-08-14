@@ -2,10 +2,10 @@ let raw = [], view = [], activeSources = new Set(['all']), activeTags = new Set(
 let searchEl, sortEl; const $ = sel => document.querySelector(sel);
 // 由于脚本是动态加载的，DOM 可能已经准备好了
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', init);
 } else {
-  // DOM 已经加载完成，直接执行
-  init();
+    // DOM 已经加载完成，直接执行
+    init();
 }
 
 async function init() {
@@ -63,5 +63,17 @@ function render(items) {
     const listEl = $('#list'), emptyEl = $('#empty'); if (!items.length) { listEl.innerHTML = ''; emptyEl.textContent = '没有匹配的结果'; emptyEl.classList.remove('hidden'); return; }
     emptyEl.classList.add('hidden'); listEl.innerHTML = items.map(card).join('');
 }
-function card(i) { const tags = (i.tags || []).join(', '); return `<article class="card"><h3><a href="${i.link}" target="_blank" rel="noopener">${esc(i.title)}</a></h3><p>${esc(i.desc || '')}</p><div class="meta">${esc(i.source)} · ${esc(tags)} · ${esc(i.date || '')}</div></article>`; }
+function card(item) {
+    const tags = (item.tags || []).join(', ');
+    const desc = item.summary_zh || item.desc || '';
+    const quote = item.best_quote_zh || '';
+    return `
+    <article class="card">
+      <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
+      <p>${esc(desc)}</p>
+      ${quote ? `<blockquote>「${esc(quote)}」</blockquote>` : ''}
+      <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date || '')}</div>
+    </article>
+  `;
+}
 function esc(s) { return String(s || '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m])); }

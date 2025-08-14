@@ -5,17 +5,31 @@
     "source": "Hidden Brain",
     "desc": "How regret shapes choices and helps us learn.",
     "link": "https://hiddenbrain.org/podcast/the-power-of-regret/",
-    "tags": ["psychology", "behavioral"],
-    "date": "2022-02-14"
+    "tags": [
+      "psychology",
+      "behavioral"
+    ],
+    "date": "2022-02-14",
+    "summary_en": "The episode explores research showing regret is a universal emotion that can be instructive. Rather than aiming to live with 'no regrets,' reflecting on mistakes improves future choices. Uncertainty about the road not taken often intensifies regret; confronting our feelings, practicing self-compassion, and extracting lessons turns regret into a tool for growth.",
+    "summary_zh": "本期讨论“后悔”并非应被回避，而是可被善用的普遍情绪。与其追求“无悔”，不如直面错误、总结经验，用自我同情与反思把后悔转化为更好的决定。对未选择选项的不确定感常让后悔更强。",
+    "best_quote_en": "Our regrets might be more about the uncertainty of our decisions than the decisions themselves.",
+    "best_quote_zh": "我们的后悔，往往源自对决定的不确定，而非决定本身。"
   },
   {
     "id": 2,
     "title": "You 2.0: When Things Click",
     "source": "Hidden Brain",
     "desc": "On 'aha' moments and cognitive insight.",
-    "link": "https://hiddenbrain.org/podcast/you-2-0-when-things-click/",
-    "tags": ["psychology", "learning"],
-    "date": "2024-08-05"
+    "link": "https://hiddenbrain.org/podcast/when-things-click/",
+    "tags": [
+      "psychology",
+      "learning"
+    ],
+    "date": "2024-08-05",
+    "summary_en": "This episode examines the conditions that produce 'aha' moments: low-judgment learning environments, opportunities to test ideas quickly, and feedback loops that reward exploration. Reducing fear of failure and cultivating playful practice make insights more likely and stickier.",
+    "summary_zh": "本期讨论“灵光乍现”如何发生：在少评判的学习环境中，通过快速试错与正向反馈鼓励探索；降低对失败的恐惧、以游戏化方式练习，更容易产生并固化洞见。",
+    "best_quote_en": null,
+    "best_quote_zh": null
   },
   {
     "id": 3,
@@ -23,8 +37,15 @@
     "source": "Paul Graham",
     "desc": "Early-stage startup advice: hand-holding your first users.",
     "link": "http://www.paulgraham.com/ds.html",
-    "tags": ["startups", "growth"],
-    "date": "2013-07-01"
+    "tags": [
+      "startups",
+      "growth"
+    ],
+    "date": "2013-07-01",
+    "summary_en": "Paul Graham argues early-stage startups should manually recruit and delight users, even through unscalable efforts like hand-holding, concierge onboarding, and writing custom code. Doing unscalable things sparks growth, reveals product truths, and creates word of mouth that later scales.",
+    "summary_zh": "保罗·格雷厄姆主张，早期创业应主动“做不规模化的事”：亲自拉首批用户、手把手服务、必要时写定制代码。此举能启动增长、厘清产品真实需求，并带来口碑与后续可规模化的路径。",
+    "best_quote_en": "A lot of would-be founders believe that startups either take off or don't.",
+    "best_quote_zh": "许多准创业者以为，创业要么起飞要么失败。"
   },
   {
     "id": 4,
@@ -32,17 +53,15 @@
     "source": "Paul Graham",
     "desc": "Why meeting cadence disrupts deep work.",
     "link": "http://www.paulgraham.com/makersschedule.html",
-    "tags": ["productivity", "work"],
-    "date": "2009-07-01"
-  },
-  {
-    "id": 5,
-    "title": "The Double-Edged Sword of Compliments",
-    "source": "Hidden Brain",
-    "desc": "How praise motivates—and sometimes backfires.",
-    "link": "https://hiddenbrain.org/podcast/the-double-edged-sword-of-compliments/",
-    "tags": ["behavioral", "communication"],
-    "date": "2023-03-13"
+    "tags": [
+      "productivity",
+      "work"
+    ],
+    "date": "2009-07-01",
+    "summary_en": "Graham contrasts two time patterns: managers slice days into hour blocks for meetings, while makers need long uninterrupted stretches for deep work. Mixing the two schedules causes costly context switches; protect large blocks for making, cluster meetings together.",
+    "summary_zh": "文章对比两种时间节奏：管理者的小时切片与创作者所需的长时段专注。二者混用会造成昂贵的上下文切换；应成块保护创作时间，并把会议集中安排。",
+    "best_quote_en": "The manager's schedule is for bosses.",
+    "best_quote_zh": "管理者的时间表是给“老板”的。"
   },
   {
     "id": 6,
@@ -50,8 +69,15 @@
     "source": "Paul Graham",
     "desc": "A simple way to see if your startup is on track.",
     "link": "http://www.paulgraham.com/aord.html",
-    "tags": ["startups", "metrics"],
-    "date": "2015-10-01"
+    "tags": [
+      "startups",
+      "metrics"
+    ],
+    "date": "2015-10-01",
+    "summary_en": "Graham defines a startup as 'default alive' if, on its current trajectory, it reaches profitability before money runs out; otherwise it's 'default dead.' Founders must know which they are, then adjust burn, growth, or fundraising accordingly.",
+    "summary_zh": "若按当前轨迹在耗尽资金前能盈利，初创公司即为“默认存活”；反之为“默认死亡”。创始人需先判断所处状态，再据此调整开支、增长策略或融资计划。",
+    "best_quote_en": "If the company is default alive, we can talk about ambitious new things they could do.",
+    "best_quote_zh": "如果公司是默认存活，我们就可以讨论更有雄心的新尝试。"
   },
   {
     "id": 7,
@@ -59,8 +85,15 @@
     "source": "Hidden Brain",
     "desc": "Why slowing down can make us more effective.",
     "link": "https://hiddenbrain.org/podcast/you-2-0-slow-down/",
-    "tags": ["psychology", "productivity"],
-    "date": "2022-08-22"
+    "tags": [
+      "psychology",
+      "productivity"
+    ],
+    "date": "2022-08-22",
+    "summary_en": "The episode highlights 'savoring'—deliberately noticing and prolonging positive experiences—as an antidote to hedonic adaptation and rumination. Simple practices like naming good moments and reducing speed help us feel more joy in daily life.",
+    "summary_zh": "本期强调“品味”（savoring）：有意识地察觉并延长积极体验，以对抗习以为常与反刍。通过命名美好片刻、刻意放慢节奏等练习，能提升日常幸福感。",
+    "best_quote_en": "But our first thoughts aren’t always our best thoughts.",
+    "best_quote_zh": "最先冒出的念头并不总是最好的想法。"
   },
   {
     "id": 8,
@@ -68,8 +101,15 @@
     "source": "Paul Graham",
     "desc": "Finding ambitious projects and sustaining momentum.",
     "link": "http://www.paulgraham.com/greatwork.html",
-    "tags": ["career", "creativity"],
-    "date": "2023-05-01"
+    "tags": [
+      "career",
+      "creativity"
+    ],
+    "date": "2023-05-01",
+    "summary_en": "Graham advises to find work at the intersection of what you love and what matters, cultivate taste by studying great work, keep your identity small, and iterate quickly. Great projects emerge from exploration and relentless improvement, not grand plans.",
+    "summary_zh": "选择“既热爱又重要”的方向；通过研究杰作培养品味；保持身份边界小；快速迭代。伟大作品源于长期探索与反复打磨，而非一次成型的宏图。",
+    "best_quote_en": null,
+    "best_quote_zh": null
   },
   {
     "id": 9,
@@ -77,8 +117,15 @@
     "source": "Hidden Brain",
     "desc": "Situations shape behavior more than we think.",
     "link": "https://hiddenbrain.org/podcast/the-power-of-the-situation/",
-    "tags": ["behavioral", "psychology"],
-    "date": "2021-11-29"
+    "tags": [
+      "behavioral",
+      "psychology"
+    ],
+    "date": "2021-11-29",
+    "summary_en": "Situational forces—norms, authority, group pressure—can shape behavior as much as or more than personality. Classic social psychology demonstrates how context drives actions, reminding us to design environments that nudge better choices.",
+    "summary_zh": "处境的力量常与个体特质同等甚至更强：规范、权威与群体压力会塑造行为。社会心理学的经典研究提醒我们，用环境设计来促进更好的决策与行动。",
+    "best_quote_en": null,
+    "best_quote_zh": null
   },
   {
     "id": 10,
@@ -86,8 +133,15 @@
     "source": "Paul Graham",
     "desc": "Clarity and simplicity in writing.",
     "link": "http://www.paulgraham.com/simp.html",
-    "tags": ["writing", "communication"],
-    "date": "2009-10-01"
+    "tags": [
+      "writing",
+      "communication"
+    ],
+    "date": "2009-10-01",
+    "summary_en": "Graham urges writers to favor clarity over ornament. Use short words, concrete nouns and active verbs; say what you mean, then revise to remove needless words. Simple writing reveals clear thinking.",
+    "summary_zh": "文章主张写作应以清晰为先：多用短词、具体名词与主动动词；直说其意，再反复删改冗余。写得简单，思考才清楚。",
+    "best_quote_en": null,
+    "best_quote_zh": null
   },
   {
     "id": 11,
@@ -95,8 +149,15 @@
     "source": "Hidden Brain",
     "desc": "Frameworks for deciding when options are incomparable.",
     "link": "https://hiddenbrain.org/podcast/how-to-make-hard-choices/",
-    "tags": ["decision", "psychology"],
-    "date": "2020-09-14"
+    "tags": [
+      "decision",
+      "psychology"
+    ],
+    "date": "2020-09-14",
+    "summary_en": "The episode reframes tough decisions from rigid either/or to value discovery. When options are 'on a par,' asking what kind of person you want to become can reveal reasons that tip the balance.",
+    "summary_zh": "把艰难抉择从“二选一”改为“价值探寻”：当选项不可比时，追问“我想成为什么样的人”，能生成新的理由，帮助你做决定。",
+    "best_quote_en": "There’s another way to think about difficult choices, one that opens up unexpected possibilities.",
+    "best_quote_zh": "还有另一种看待艰难选择的方法，它能打开意想不到的可能性。"
   },
   {
     "id": 12,
@@ -104,7 +165,14 @@
     "source": "Paul Graham",
     "desc": "On taboo ideas and independent thinking.",
     "link": "http://www.paulgraham.com/say.html",
-    "tags": ["thinking", "culture"],
-    "date": "2004-01-01"
+    "tags": [
+      "thinking",
+      "culture"
+    ],
+    "date": "2004-01-01",
+    "summary_en": "Graham discusses forbidden ideas and how fashions in opinion shift. To find truths, notice what you can't say, look for heresies that may later become orthodox, and think independently from status incentives.",
+    "summary_zh": "文章探讨“不可说”的观点与意见时尚的变迁。要发现真相，留意被禁忌的话题，寻找可能成真理的“异端”，并尽量摆脱声望激励的影响，独立思考。",
+    "best_quote_en": null,
+    "best_quote_zh": null
   }
 ]

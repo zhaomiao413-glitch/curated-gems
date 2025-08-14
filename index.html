@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Curated Gems</title>
+    <title>我在关注什么信息</title>
     <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="container">
-      <h1>Curated Gems</h1>
-      <div id="version-bar" class="controls">
-        <label for="ver">版本：</label>
-        <select id="ver">
-          <option value="1" selected>v1</option>
-          <option value="2">v2</option>
-          <option value="3">v3</option>
-          <option value="4">v4</option>
-        </select>
-        <small id="hint"></small>
-      </div>
+        <h1>Curated Gems</h1>
+        <div id="version-bar" class="controls">
+            <label for="ver">版本：</label>
+            <select id="ver">
+                <option value="1" selected>v1</option>
+                <option value="2">v2</option>
+                <option value="3">v3</option>
+                <option value="4">v4</option>
+            </select>
+            <small id="hint"></small>
+        </div>
     </header>
     <main class="container">
-      <div id="controls"></div>
-      <div id="list" class="grid"></div>
-      <p id="empty" class="hidden">加载中…</p>
+        <div id="controls"></div>
+        <div id="list" class="grid"></div>
+        <p id="empty" class="hidden">加载中…</p>
     </main>
     <script>
-      const params = new URLSearchParams(location.search);
-      const ver = params.get("v") || "1";
-      document.getElementById("ver").value = ver;
-      document.getElementById(
-        "hint"
-      ).textContent = `当前：v${ver}（地址可加 ?v=1/2/3/4 切换）`;
-      document.getElementById("ver").addEventListener("change", (e) => {
-        const u = new URL(location.href);
-        u.searchParams.set("v", e.target.value);
-        location.href = u.toString();
-      });
-      const s = document.createElement("script");
-      s.src = `./v${ver}/app.js`;
-      s.defer = true;
-      document.body.appendChild(s);
+        const params = new URLSearchParams(location.search);
+        const ver = params.get("v") || "1";
+        document.getElementById("ver").value = ver;
+        document.getElementById(
+            "hint"
+        ).textContent = `当前：v${ver}（地址可加 ?v=1/2/3/4 切换）`;
+        document.getElementById("ver").addEventListener("change", (e) => {
+            const u = new URL(location.href);
+            u.searchParams.set("v", e.target.value);
+            location.href = u.toString();
+        });
+        const s = document.createElement("script");
+        s.src = `./v${ver}/app.js`;
+        s.defer = true;
+        document.body.appendChild(s);
     </script>
-  </body>
+</body>
+
 </html>

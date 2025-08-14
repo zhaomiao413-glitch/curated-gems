@@ -17,13 +17,18 @@ function render(items) {
   emptyEl.classList.add('hidden');
   listEl.innerHTML = items.map(card).join('');
 }
-function card(item) {
-  const tags = (item.tags || []).join(', ');
+function card(item){
+  const tags = (item.tags||[]).join(', ');
+  const desc = item.summary_zh || item.desc || '';
+  const quote = item.best_quote_zh || '';
   return `
-  <article class="card">
-    <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
-    <p>${esc(item.desc || '')}</p>
-    <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date || '')}</div>
-  </article>`;
+    <article class="card">
+      <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
+      <p>${esc(desc)}</p>
+      ${quote ? `<blockquote>「${esc(quote)}」</blockquote>` : ''}
+      <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date||'')}</div>
+    </article>
+  `;
 }
+
 function esc(s) { return String(s || '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m])); }
