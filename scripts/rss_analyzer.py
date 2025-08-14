@@ -174,27 +174,32 @@ for source in sources:
                 api_response = response.json()
                 model_output_json_str = api_response['choices'][0]['message']['content']
                 
-                analysis_data = json.loads(model_output_json_str)
-
-                final_item = {
-                    "id": counter,
-                    "title": title,
-                    "source": source_name,
-                    "desc": latest_entry.get('summary', ''),
-                    "link": link,
-                    "tags": analysis_data.get('tags', []),
-                    "date": date_str,
-                    "summary_en": analysis_data.get('summary_en', ''),
-                    "summary_zh": analysis_data.get('summary_zh', ''),
-                    "best_quote_en": analysis_data.get('best_quote_en', ''),
-                    "best_quote_zh": analysis_data.get('best_quote_zh', '')
-                }
-                
-                newly_processed_items.append(final_item)
-                processed_links.add(link)
-                counter += 1
-                new_items_count += 1
-                print("  内容分析成功，已添加到结果列表。")
+                try:
+                    analysis_data = json.loads(model_output_json_str)
+                    final_item = {
+                        "id": counter,
+                        "title": title,
+                        "source": source_name,
+                        "desc": latest_entry.get('summary', ''),
+                        "link": link,
+                        "tags": analysis_data.get('tags', []),
+                        "date": date_str,
+                        "summary_en": analysis_data.get('summary_en', ''),
+                        "summary_zh": analysis_data.get('summary_zh', ''),
+                        "best_quote_en": analysis_data.get('best_quote_en', ''),
+                        "best_quote_zh": analysis_data.get('best_quote_zh', '')
+                    }
+                    
+                    newly_processed_items.append(final_item)
+                    processed_links.add(link)
+                    counter += 1
+                    new_items_count += 1
+                    print("  内容分析成功，已添加到结果列表。")
+                except json.JSONDecodeError as e:
+                    # 如果模型返回的不是有效的 JSON，我们捕获这个错误
+                    print(f"  警告：模型返回的不是有效的 JSON 格式。错误: {e}")
+                    print("  模型原始输出:")
+                    print(model_output_json_str)
             
             except Exception as e:
                 print(f"  警告：处理条目 '{title}' 时发生错误: {e}")
