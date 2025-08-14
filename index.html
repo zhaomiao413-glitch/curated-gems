@@ -1,75 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Curated Gems · PageOne Workshop</title>
-    <link rel="stylesheet" href="styles.css">
-
-</head>
-
-<body>
+    <title>Curated Gems</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <header class="container">
-        <h1>Curated Gems</h1>
-        <div id="version-bar" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-            <label for="ver">版本：</label>
-            <select id="ver" aria-label="版本">
-                <option value="1">第1期：渲染卡片</option>
-                <option value="2">第2期：搜索 + 来源筛选</option>
-                <option value="3">第3期：排序 + 随机推荐</option>
-                <option value="4">第4期：标签扩展</option>
-            </select>
-            <small id="hint"></small>
-        </div>
+      <h1>Curated Gems</h1>
+      <div id="version-bar" class="controls">
+        <label for="ver">版本：</label>
+        <select id="ver">
+          <option value="1" selected>v1</option>
+          <option value="2">v2</option>
+          <option value="3">v3</option>
+          <option value="4">v4</option>
+        </select>
+        <small id="hint"></small>
+      </div>
     </header>
-
-    <main class="container" id="app-root">
-        <!-- 各期的 app.js 会在这里渲染内容，
-         你可以让每期 app.js 约定使用同一套 DOM id：
-         #controls（可选）、#list、#empty 等 -->
-        <div id="controls"></div>
-        <div id="list" class="grid"></div>
-        <p id="empty" class="hidden">加载中…</p>
+    <main class="container">
+      <div id="controls"></div>
+      <div id="list" class="grid"></div>
+      <p id="empty" class="hidden">加载中…</p>
     </main>
-
     <script>
-        // --- 通用：基础样式，尽量简洁，避免外链 ---
-        const baseCss = `
-*{box-sizing:border-box}
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#fafafa;color:#222}
-.container{max-width:960px;margin:0 auto;padding:16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:8px}
-.hidden{display:none}
-  `.trim();
-
-        const styleBase = document.createElement('style');
-        styleBase.textContent = baseCss;
-        document.head.appendChild(styleBase);
-
-        // --- 读取 ?v= 参数，默认 1 ---
-        const params = new URLSearchParams(location.search);
-        const ver = params.get('v') || '1';
-        const select = document.getElementById('ver');
-        select.value = ver;
-
-        // 给提示：支持 ?v= 参数
-        const hint = document.getElementById('hint');
-        hint.textContent = `当前：第${ver}期（可在地址后加 ?v=1/2/3/4 直达）`;
-
-        // 切换版本时，刷新到对应 ?v=
-        select.addEventListener('change', () => {
-            const v = select.value;
-            const url = new URL(location.href);
-            url.searchParams.set('v', v);
-            location.href = url.toString();
-        });
-
-        const script = document.createElement('script');
-        script.src = `./v${ver}/app.js`;
-        script.defer = true;
-        document.body.appendChild(script);
+      const params = new URLSearchParams(location.search);
+      const ver = params.get("v") || "1";
+      document.getElementById("ver").value = ver;
+      document.getElementById(
+        "hint"
+      ).textContent = `当前：v${ver}（地址可加 ?v=1/2/3/4 切换）`;
+      document.getElementById("ver").addEventListener("change", (e) => {
+        const u = new URL(location.href);
+        u.searchParams.set("v", e.target.value);
+        location.href = u.toString();
+      });
+      const s = document.createElement("script");
+      s.src = `./v${ver}/app.js`;
+      s.defer = true;
+      document.body.appendChild(s);
     </script>
-</body>
-
+  </body>
 </html>

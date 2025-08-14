@@ -54,7 +54,6 @@ body {
     display: none
 }
 
-/* 控件区 */
 .controls {
     display: flex;
     gap: 10px;
@@ -68,7 +67,7 @@ button {
     padding: 8px 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 button {
@@ -80,7 +79,6 @@ button:hover {
     background: #ddd
 }
 
-/* 标签容器与标签样式 */
 .tags {
     display: flex;
     gap: 8px;
@@ -92,7 +90,7 @@ button:hover {
     border-radius: 999px;
     background: #eee;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 13px
 }
 
 .tag.active {

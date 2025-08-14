@@ -1,177 +1,67 @@
-// v3/app.js (with visible logs)
-let raw = [];
-let view = [];
-let activeSource = 'all';
-
-let searchEl, sortEl, randomBtn;
-
-const $ = (sel) => document.querySelector(sel);
-
-document.addEventListener('DOMContentLoaded', init);
+let raw = [], view = [], activeSources = new Set(['all']), activeTags = new Set(['all']);
+let searchEl, sortEl; const $ = sel => document.querySelector(sel);
+// 由于脚本是动态加载的，DOM 可能已经准备好了
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  // DOM 已经加载完成，直接执行
+  init();
+}
 
 async function init() {
-    console.log('[v3] init');
-    ensureBasics();     // 确保 #controls / #list / #empty 存在
-    mountControls();    // 注入搜索/来源/排序/随机控件
-
-    try {
-        const res = await fetch('./data.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        raw = await res.json();
-        console.log('[v3] loaded items:', Array.isArray(raw) ? raw.length : raw);
-    } catch (e) {
-        console.error('[v3] data load error:', e);
-        const listEl = $('#list');
-        const emptyEl = $('#empty');
-        listEl.innerHTML = '';
-        emptyEl.textContent = '数据加载失败，请稍后再试。';
-        emptyEl.classList.remove('hidden');
-        return;
-    }
-
+    mountControls();
+    const res = await fetch('/data.json', { cache: 'no-store' }); raw = await res.json();
     renderSources(['all', ...new Set(raw.map(x => x.source))]);
-    bindEvents();
+    renderTags(['all', ...new Set(raw.flatMap(x => x.tags || []))]);
+    bind(); applyAndRender();
+}
+function mountControls() {
+    $('#controls').innerHTML = `
+    <div class="controls">
+      <input id="search" placeholder="搜索标题/摘要/标签…"/>
+      <div id="sources" class="tags"></div>
+      <div id="tags" class="tags"></div>
+      <select id="sort"><option value="date-desc">按时间 ↓</option><option value="date-asc">按时间 ↑</option><option value="title-asc">标题 A→Z</option><option value="title-desc">标题 Z→A</option></select>
+    </div>`;
+    searchEl = $('#search'); sortEl = $('#sort');
+}
+function bind() {
+    searchEl.addEventListener('input', applyAndRender);
+    $('#sources').addEventListener('click', e => toggleMulti(e, 'source'));
+    $('#tags').addEventListener('click', e => toggleMulti(e, 'tag'));
+    sortEl.addEventListener('change', applyAndRender);
+}
+function toggleMulti(e, type) {
+    const t = e.target.closest('.tag'); if (!t) return;
+    const val = (type === 'source') ? t.dataset.source : t.dataset.tag;
+    const set = (type === 'source') ? activeSources : activeTags;
+    if (val === 'all') { set.clear(); set.add('all'); }
+    else { if (set.has('all')) set.delete('all'); set.has(val) ? set.delete(val) : set.add(val); if (set.size === 0) set.add('all'); }
+    // UI
+    const parent = type === 'source' ? $('#sources') : $('#tags');
+    [...parent.children].forEach(n => {
+        const v = (type === 'source') ? n.dataset.source : n.dataset.tag;
+        n.classList.toggle('active', set.has('all') ? v === 'all' : set.has(v));
+    });
     applyAndRender();
 }
-
-// -------- ensure DOMs --------
-function ensureBasics() {
-    if (!$('#controls')) {
-        const el = document.createElement('div');
-        el.id = 'controls';
-        const main = document.querySelector('main.container') || document.body;
-        main.insertBefore(el, main.firstChild);
-    }
-    if (!$('#list')) {
-        const el = document.createElement('div');
-        el.id = 'list';
-        el.className = 'grid';
-        const main = document.querySelector('main.container') || document.body;
-        main.appendChild(el);
-    }
-    if (!$('#empty')) {
-        const el = document.createElement('p');
-        el.id = 'empty';
-        el.className = 'hidden';
-        el.textContent = '加载中…';
-        const main = document.querySelector('main.container') || document.body;
-        main.appendChild(el);
-    }
-}
-
-// -------- controls --------
-function mountControls() {
-    const controlsEl = $('#controls');
-    controlsEl.innerHTML = `
-    <div class="controls">
-      <input id="search" placeholder="搜索标题/摘要/标签…" />
-      <div id="sources" class="tags"></div>
-      <select id="sort" aria-label="排序">
-        <option value="date-desc">按时间 ↓</option>
-        <option value="date-asc">按时间 ↑</option>
-        <option value="title-asc">标题 A→Z</option>
-        <option value="title-desc">标题 Z→A</option>
-      </select>
-      <button id="random" type="button" title="随机推荐一篇">今日一篇</button>
-    </div>
-  `;
-    searchEl = $('#search');
-    sortEl = $('#sort');
-    randomBtn = $('#random');
-}
-
-function bindEvents() {
-    searchEl.addEventListener('input', applyAndRender);
-
-    const sourcesEl = $('#sources');
-    sourcesEl.addEventListener('click', (e) => {
-        const t = e.target.closest('.tag');
-        if (!t) return;
-        [...sourcesEl.children].forEach(n => n.classList.remove('active'));
-        t.classList.add('active');
-        activeSource = t.dataset.source;
-        applyAndRender();
-    });
-
-    sortEl.addEventListener('change', applyAndRender);
-    randomBtn.addEventListener('click', recommendOne);
-}
-
-// -------- logic --------
 function applyAndRender() {
-    const listEl = $('#list');
-    const emptyEl = $('#empty');
-
     const q = (searchEl.value || '').trim().toLowerCase();
-
     view = raw.filter(x => {
-        const inTitle = x.title?.toLowerCase().includes(q);
-        const inDesc = x.desc?.toLowerCase().includes(q);
-        const inTags = (x.tags || []).some(t => (t || '').toLowerCase().includes(q));
-        const matchQ = !q || inTitle || inDesc || inTags;
-        const matchS = activeSource === 'all' || x.source === activeSource;
-        return matchQ && matchS;
+        const inQ = !q || x.title?.toLowerCase().includes(q) || x.desc?.toLowerCase().includes(q) || (x.tags || []).some(t => t.toLowerCase().includes(q));
+        const inS = activeSources.has('all') || activeSources.has(x.source);
+        const inT = activeTags.has('all') || (x.tags || []).some(t => activeTags.has(t));
+        return inQ && inS && inT;
     });
-
     const [key, order] = (sortEl.value || 'date-desc').split('-');
-    view.sort((a, b) => {
-        let va = a[key] ?? '';
-        let vb = b[key] ?? '';
-        if (key === 'date') { va = Date.parse(va || 0); vb = Date.parse(vb || 0); }
-        return order === 'asc' ? (va > vb ? 1 : -1) : (va < vb ? 1 : -1);
-    });
-
-    if (!view.length) {
-        listEl.innerHTML = '';
-        emptyEl.textContent = '没有匹配的结果，试试换个关键词或来源。';
-        emptyEl.classList.remove('hidden');
-        console.log('[v3] render: empty');
-        return;
-    }
-    emptyEl.classList.add('hidden');
-    listEl.innerHTML = view.map(card).join('');
-    console.log('[v3] render: items', view.length);
+    view.sort((a, b) => { let va = a[key] ?? '', vb = b[key] ?? ''; if (key === 'date') { va = Date.parse(va || 0); vb = Date.parse(vb || 0); } return order === 'asc' ? (va > vb ? 1 : -1) : (va < vb ? 1 : -1); });
+    render(view);
 }
-
-function renderSources(list) {
-    let sourcesEl = $('#sources');
-    if (!sourcesEl) {
-        // 极限兜底：再造一个
-        sourcesEl = document.createElement('div');
-        sourcesEl.id = 'sources';
-        sourcesEl.className = 'tags';
-        const wrap = $('#controls').querySelector('.controls') || $('#controls');
-        wrap.appendChild(sourcesEl);
-    }
-    sourcesEl.innerHTML = list.map(s => `
-    <span class="tag ${s === 'all' ? 'active' : ''}" data-source="${s}">${esc(s)}</span>
-  `).join('');
+function renderSources(list) { $('#sources').innerHTML = list.map(s => `<span class="tag ${s === 'all' ? 'active' : ''}" data-source="${s}">${esc(s)}</span>`).join(''); }
+function renderTags(list) { $('#tags').innerHTML = list.map(t => `<span class="tag ${t === 'all' ? 'active' : ''}" data-tag="${t}">${esc(t)}</span>`).join(''); }
+function render(items) {
+    const listEl = $('#list'), emptyEl = $('#empty'); if (!items.length) { listEl.innerHTML = ''; emptyEl.textContent = '没有匹配的结果'; emptyEl.classList.remove('hidden'); return; }
+    emptyEl.classList.add('hidden'); listEl.innerHTML = items.map(card).join('');
 }
-
-function recommendOne() {
-    if (!view.length) return;
-    const last = localStorage.getItem('lastPickId');
-    let pick = view[Math.floor(Math.random() * view.length)];
-    if (view.length > 1 && String(pick.id || pick.title) === last) {
-        pick = view[(view.indexOf(pick) + 1) % view.length];
-    }
-    localStorage.setItem('lastPickId', String(pick.id || pick.title));
-    window.open(pick.link, '_blank', 'noopener');
-}
-
-function card(item) {
-    const tags = (item.tags || []).join(', ');
-    return `
-    <article class="card">
-      <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
-      <p>${esc(item.desc || '')}</p>
-      <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date || '')}</div>
-    </article>
-  `;
-}
-
-function esc(s) {
-    return String(s || '').replace(/[&<>"']/g, m => ({
-        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'
-    }[m]));
-}
+function card(i) { const tags = (i.tags || []).join(', '); return `<article class="card"><h3><a href="${i.link}" target="_blank" rel="noopener">${esc(i.title)}</a></h3><p>${esc(i.desc || '')}</p><div class="meta">${esc(i.source)} · ${esc(tags)} · ${esc(i.date || '')}</div></article>`; }
+function esc(s) { return String(s || '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m])); }
