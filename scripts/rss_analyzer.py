@@ -13,7 +13,7 @@ if not OPENROUTER_API_KEY:
 
 # 设置 OpenRouter API 的端点和模型
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = os.getenv("OPENROUTER_MODEL", "google/gemini-pro")
+MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-3.5-turbo-0613")
 
 # 结果列表，用于存储所有处理后的 JSON 对象
 newly_processed_items = []
@@ -165,10 +165,11 @@ for source in sources:
                             "content": prompt_content
                         }
                     ]
-                    # 不再包含 "response_format" 参数
                 }
                 
                 response = requests.post(OPENROUTER_URL, headers=headers, json=data)
+                print("Status code:", response.status_code)
+                print("Response text:", response.text)
                 response.raise_for_status()
                 
                 api_response = response.json()
