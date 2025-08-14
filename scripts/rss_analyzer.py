@@ -99,7 +99,10 @@ for source in sources:
                     full_content = content_from_rss
                     print("  警告：未能提取正文内容，将使用RSS摘要。")
 
-            full_content = full_content[:8000] 
+            max_content_length = 6000
+            if len(full_content) > max_content_length:
+                print(f"  内容过长 ({len(full_content)})，已截取到 {max_content_length} 个字符。")
+                full_content = full_content[:max_content_length]
 
             prompt_content = f"""
             请分析以下文章内容，并以一个JSON对象的形式返回分析结果。
