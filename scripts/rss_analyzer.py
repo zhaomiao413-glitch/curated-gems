@@ -18,7 +18,7 @@ MODEL = os.getenv("OPENROUTER_MODEL") or "openai/gpt-3.5-turbo-0613"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 PROCESSED_LINKS_FILE = "scripts/processed_links.json"
-OUTPUT_FILE = "output.json"
+OUTPUT_FILE = "data.json"
 SOURCE_FILE = "scripts/source.json"
 
 # 产出与调用控制
@@ -45,7 +45,7 @@ except (FileNotFoundError, json.JSONDecodeError):
     processed_links = set()
 print(f"已加载 {len(processed_links)} 个已处理链接。")
 
-# 确保 output.json 存在并为合法 JSON 数组
+# 确保 data.json 存在并为合法 JSON 数组
 if not os.path.exists(OUTPUT_FILE) or os.path.getsize(OUTPUT_FILE) == 0:
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write('[]')
@@ -382,7 +382,7 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
     idx += 1
 
 # ========== 写入结果 ==========
-# 增量写入 output.json（在末尾追加新对象）
+# 增量写入 data.json（在末尾追加新对象）
 if newly_processed_items:
     print(f"\n正在以增量方式写入 {len(newly_processed_items)} 条新记录到 {OUTPUT_FILE}...")
     with open(OUTPUT_FILE, 'rb+') as f:
@@ -397,7 +397,7 @@ if newly_processed_items:
         f.seek(-1, os.SEEK_END)
         last_char = f.read(1)
         if last_char != b']':
-            print("警告：output.json 不是合法的 JSON 数组，将全量覆盖写入。")
+            print("警告：data.json 不是合法的 JSON 数组，将全量覆盖写入。")
             with open(OUTPUT_FILE, 'w', encoding='utf-8') as wf:
                 all_items = results + newly_processed_items if 'results' in locals() and isinstance(results, list) else newly_processed_items
                 json.dump(all_items, wf, indent=2, ensure_ascii=False)

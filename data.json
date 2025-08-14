@@ -1,178 +1,277 @@
-[
-  {
+[{
     "id": 1,
-    "title": "The Power of Regret",
-    "source": "Hidden Brain",
-    "desc": "How regret shapes choices and helps us learn.",
-    "link": "https://hiddenbrain.org/podcast/the-power-of-regret/",
+    "title": "Superlinear Returns",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/superlinear.html",
     "tags": [
-      "psychology",
-      "behavioral"
+      "superlinear returns",
+      "exponential growth",
+      "thresholds",
+      "success",
+      "winner-take-all"
     ],
-    "date": "2022-02-14",
-    "summary_en": "The episode explores research showing regret is a universal emotion that can be instructive. Rather than aiming to live with 'no regrets,' reflecting on mistakes improves future choices. Uncertainty about the road not taken often intensifies regret; confronting our feelings, practicing self-compassion, and extracting lessons turns regret into a tool for growth.",
-    "summary_zh": "本期讨论“后悔”并非应被回避，而是可被善用的普遍情绪。与其追求“无悔”，不如直面错误、总结经验，用自我同情与反思把后悔转化为更好的决定。对未选择选项的不确定感常让后悔更强。",
-    "best_quote_en": "Our regrets might be more about the uncertainty of our decisions than the decisions themselves.",
-    "best_quote_zh": "我们的后悔，往往源自对决定的不确定，而非决定本身。"
+    "date": "2025-08-14",
+    "summary_en": "Understanding the concept of superlinear returns is crucial for navigating success and exponential growth in various fields such as business, fame, and power. Exponential growth and thresholds are fundamental causes of superlinear returns. The phenomenon of winner-take-all emphasizes the impact of thresholds on outcomes.",
+    "summary_zh": "理解超线性回报的概念对于在各领域如商业、名望和权力中取得成功和指数增长至关重要。指数增长和门槛是超线性回报的基本原因。赢者通吃的现象强调了门槛对结果的影响。",
+    "best_quote_en": "You can't understand the world without understanding the concept of superlinear returns. And if you're ambitious you definitely should, because this will be the wave you surf on.",
+    "best_quote_zh": "如果你有雄心壮志，就一定要理解超线性回报的概念，因为这将是你乘风破浪的浪潮。"
   },
   {
     "id": 2,
-    "title": "You 2.0: When Things Click",
-    "source": "Hidden Brain",
-    "desc": "On 'aha' moments and cognitive insight.",
-    "link": "https://hiddenbrain.org/podcast/when-things-click/",
+    "title": "How to Do Great Work",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/greatwork.html",
     "tags": [
-      "psychology",
-      "learning"
+      "great work",
+      "curiosity",
+      "passion",
+      "ambition",
+      "knowledge frontier"
     ],
-    "date": "2024-08-05",
-    "summary_en": "This episode examines the conditions that produce 'aha' moments: low-judgment learning environments, opportunities to test ideas quickly, and feedback loops that reward exploration. Reducing fear of failure and cultivating playful practice make insights more likely and stickier.",
-    "summary_zh": "本期讨论“灵光乍现”如何发生：在少评判的学习环境中，通过快速试错与正向反馈鼓励探索；降低对失败的恐惧、以游戏化方式练习，更容易产生并固化洞见。",
-    "best_quote_en": null,
-    "best_quote_zh": null
+    "date": "2025-08-14",
+    "summary_en": "To do great work, choose tasks aligned with your natural aptitude and deep interest, learn at the frontier of knowledge, notice gaps, and explore outlier ideas. Working on your own projects, driven by curiosity and passion, can lead to impactful discoveries.",
+    "summary_zh": "要做出杰出的工作，选择与自己天赋和浓厚兴趣相关的任务，学习知识的前沿，发现知识中的空白，探索非主流的想法。专注于个人项目，以好奇心和激情驱动，可能会带来有影响力的发现。",
+    "best_quote_en": "Interest will drive you to work harder than mere diligence ever could.",
+    "best_quote_zh": "兴趣将比单纯的勤奋推动你更努力地工作。"
   },
   {
     "id": 3,
-    "title": "Do Things that Don't Scale",
+    "title": "How to Get New Ideas",
     "source": "Paul Graham",
-    "desc": "Early-stage startup advice: hand-holding your first users.",
-    "link": "http://www.paulgraham.com/ds.html",
+    "desc": "",
+    "link": "http://www.paulgraham.com/getideas.html",
     "tags": [
-      "startups",
-      "growth"
+      "ideas",
+      "anomalies",
+      "knowledge",
+      "creativity"
     ],
-    "date": "2013-07-01",
-    "summary_en": "Paul Graham argues early-stage startups should manually recruit and delight users, even through unscalable efforts like hand-holding, concierge onboarding, and writing custom code. Doing unscalable things sparks growth, reveals product truths, and creates word of mouth that later scales.",
-    "summary_zh": "保罗·格雷厄姆主张，早期创业应主动“做不规模化的事”：亲自拉首批用户、手把手服务、必要时写定制代码。此举能启动增长、厘清产品真实需求，并带来口碑与后续可规模化的路径。",
-    "best_quote_en": "A lot of would-be founders believe that startups either take off or don't.",
-    "best_quote_zh": "许多准创业者以为，创业要么起飞要么失败。"
+    "date": "2025-08-14",
+    "summary_en": "To get new ideas, notice anomalies at the frontiers of knowledge where gaps exist, leading to new discoveries.",
+    "summary_zh": "要获得新创意，注意知识边界上存在的异常，这些空白处能带来新的发现。",
+    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?",
+    "best_quote_zh": "获得新创意的方法是注意异常：看起来奇怪、缺失或有问题的地方？"
   },
   {
     "id": 4,
-    "title": "Maker's Schedule, Manager's Schedule",
+    "title": "The Need to Read",
     "source": "Paul Graham",
-    "desc": "Why meeting cadence disrupts deep work.",
-    "link": "http://www.paulgraham.com/makersschedule.html",
+    "desc": "",
+    "link": "http://www.paulgraham.com/read.html",
     "tags": [
-      "productivity",
-      "work"
+      "reading",
+      "writing",
+      "knowledge acquisition",
+      "critical thinking"
     ],
-    "date": "2009-07-01",
-    "summary_en": "Graham contrasts two time patterns: managers slice days into hour blocks for meetings, while makers need long uninterrupted stretches for deep work. Mixing the two schedules causes costly context switches; protect large blocks for making, cluster meetings together.",
-    "summary_zh": "文章对比两种时间节奏：管理者的小时切片与创作者所需的长时段专注。二者混用会造成昂贵的上下文切换；应成块保护创作时间，并把会议集中安排。",
-    "best_quote_en": "The manager's schedule is for bosses.",
-    "best_quote_zh": "管理者的时间表是给“老板”的。"
+    "date": "2025-08-14",
+    "summary_en": "Reading is essential not only for acquiring knowledge about specific topics but also for developing critical thinking and writing skills.",
+    "summary_zh": "阅读不仅能帮助获取特定主题知识，还能培养批判性思维和写作能力。",
+    "best_quote_en": "You can't think well without writing well, and you can't write well without reading well.",
+    "best_quote_zh": "你无法写作得好而思维不清晰，也无法阅读得好而写作不出色。"
   },
   {
-    "id": 6,
-    "title": "Default Alive or Default Dead?",
+    "id": 5,
+    "title": "What You (Want to)* Want",
     "source": "Paul Graham",
-    "desc": "A simple way to see if your startup is on track.",
-    "link": "http://www.paulgraham.com/aord.html",
+    "desc": "",
+    "link": "http://www.paulgraham.com/want.html",
     "tags": [
-      "startups",
-      "metrics"
+      "free will",
+      "determinism",
+      "choice",
+      "desires"
     ],
-    "date": "2015-10-01",
-    "summary_en": "Graham defines a startup as 'default alive' if, on its current trajectory, it reaches profitability before money runs out; otherwise it's 'default dead.' Founders must know which they are, then adjust burn, growth, or fundraising accordingly.",
-    "summary_zh": "若按当前轨迹在耗尽资金前能盈利，初创公司即为“默认存活”；反之为“默认死亡”。创始人需先判断所处状态，再据此调整开支、增长策略或融资计划。",
-    "best_quote_en": "If the company is default alive, we can talk about ambitious new things they could do.",
-    "best_quote_zh": "如果公司是默认存活，我们就可以讨论更有雄心的新尝试。"
+    "date": "2025-08-14",
+    "summary_en": "The article discusses the paradox between free will and determinism, highlighting the complexity of wanting and choosing in human behavior.",
+    "summary_zh": "本文讨论了自由意志与决定论之间的悖论，突出了人类行为中欲望和选择的复杂性。",
+    "best_quote_en": "You can do what you want, but you can't want what you want.",
+    "best_quote_zh": "你可以做你想做的事，但你不能想要你想要的事。"
+  },{
+    "id": 6,
+    "title": "Alien Truth",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/alien.html",
+    "tags": [
+      "alien truth",
+      "philosophy",
+      "universal insights",
+      "intelligent beings"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Thinking about potential common truths between intelligent beings across the universe, including principles of controlled experiments and practice, can guide philosophical exploration towards universal insights.",
+    "summary_zh": "思考宇宙中智慧生命体之间可能的共同真相，包括实验原则和练习的原理，可以引导哲学探索朝向普世洞见。",
+    "best_quote_en": "If an idea might plausibly be relevant to aliens, that's enough.",
+    "best_quote_zh": "如果一个观念可能与外星人相关，那已经足够。"
   },
   {
     "id": 7,
-    "title": "You 2.0: Slow Down!",
-    "source": "Hidden Brain",
-    "desc": "Why slowing down can make us more effective.",
-    "link": "https://hiddenbrain.org/podcast/you-2-0-slow-down/",
+    "title": "What I've Learned from Users",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/users.html",
     "tags": [
-      "psychology",
-      "productivity"
+      "users",
+      "startups",
+      "advice",
+      "challenges",
+      "founders"
     ],
-    "date": "2022-08-22",
-    "summary_en": "The episode highlights 'savoring'—deliberately noticing and prolonging positive experiences—as an antidote to hedonic adaptation and rumination. Simple practices like naming good moments and reducing speed help us feel more joy in daily life.",
-    "summary_zh": "本期强调“品味”（savoring）：有意识地察觉并延长积极体验，以对抗习以为常与反刍。通过命名美好片刻、刻意放慢节奏等练习，能提升日常幸福感。",
-    "best_quote_en": "But our first thoughts aren’t always our best thoughts.",
-    "best_quote_zh": "最先冒出的念头并不总是最好的想法。"
+    "date": "2025-08-14",
+    "summary_en": "Understanding and learning from users is key to startup success. Y Combinator's experience reveals recurring startup challenges and the importance of individualized advice. Founders often overlook critical issues and struggle with counterintuitive startup dynamics. YC's success stems from addressing these challenges and providing focused guidance.",
+    "summary_zh": "了解和从用户中学习是创业成功的关键。Y Combinator的经验揭示了不断出现的创业挑战以及个性化建议的重要性。创始人经常忽视关键问题，难以应对创业的违反直觉的动态。YC的成功源于应对这些挑战并提供专注的指导。",
+    "best_quote_en": "They come back a year later, and say 'We wish we'd listened to you.'",
+    "best_quote_zh": "他们一年后回来，说'我们希望当初听了你们的建议。'"
   },
   {
     "id": 8,
-    "title": "How to Do Great Work",
+    "title": "Heresy",
     "source": "Paul Graham",
-    "desc": "Finding ambitious projects and sustaining momentum.",
-    "link": "http://www.paulgraham.com/greatwork.html",
+    "desc": "",
+    "link": "http://www.paulgraham.com/heresy.html",
     "tags": [
-      "career",
-      "creativity"
+      "heresy",
+      "intolerance",
+      "opinions",
+      "conformity"
     ],
-    "date": "2023-05-01",
-    "summary_en": "Graham advises to find work at the intersection of what you love and what matters, cultivate taste by studying great work, keep your identity small, and iterate quickly. Great projects emerge from exploration and relentless improvement, not grand plans.",
-    "summary_zh": "选择“既热爱又重要”的方向；通过研究杰作培养品味；保持身份边界小；快速迭代。伟大作品源于长期探索与反复打磨，而非一次成型的宏图。",
-    "best_quote_en": null,
-    "best_quote_zh": null
+    "date": "2025-08-14",
+    "summary_en": "The resurgence of heresy in contemporary society is compared to medieval times, as opinions now can lead to job loss. The concept of heresy prioritizes conformity over truth and can outweigh all other actions. Expressing heretical opinions is often punished more severely than committing crimes, akin to a religious intolerance resurgence in a secular form.",
+    "summary_zh": "异端观念在当代社会的复兴被比作中世纪，因为现在的观点可能导致失去工作。异端概念将一致性置于真相之上，甚至可能权衡所有其他行为。发表异端观点往往受到比犯罪更严厉的惩罚，类似于宗教不宽容精神以世俗形式复兴。",
+    "best_quote_en": "The other distinctive thing about heresies, compared to ordinary opinions, is that the public expression of them outweighs everything else the speaker has done.",
+    "best_quote_zh": "异端观念的另一个与普通观点相比独特的地方在于，公开表达它们会使说话者已经做过的所有事情相形见绌。"
   },
   {
     "id": 9,
-    "title": "The Power of the Situation",
-    "source": "Hidden Brain",
-    "desc": "Situations shape behavior more than we think.",
-    "link": "https://hiddenbrain.org/podcast/the-power-of-the-situation/",
+    "title": "Putting Ideas into Words",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/words.html",
     "tags": [
-      "behavioral",
-      "psychology"
+      "writing",
+      "ideas",
+      "communication",
+      "reflection"
     ],
-    "date": "2021-11-29",
-    "summary_en": "Situational forces—norms, authority, group pressure—can shape behavior as much as or more than personality. Classic social psychology demonstrates how context drives actions, reminding us to design environments that nudge better choices.",
-    "summary_zh": "处境的力量常与个体特质同等甚至更强：规范、权威与群体压力会塑造行为。社会心理学的经典研究提醒我们，用环境设计来促进更好的决策与行动。",
-    "best_quote_en": null,
-    "best_quote_zh": null
+    "date": "2025-08-14",
+    "summary_en": "Putting ideas into words is a challenging and transformative process, revealing the imperfections and incompleteness of one's initial thoughts. Writing forces authors to refine and evaluate their ideas, ultimately leading to a deeper understanding and communication of complex concepts.",
+    "summary_zh": "将思想转化为文字是一个具有挑战性和转变性的过程，揭示了最初想法的不完美和不完整性。写作迫使作者完善和评估他们的想法，最终实现深入理解和传达复杂概念。",
+    "best_quote_en": "If writing down your ideas always makes them more precise and more complete, then no one who hasn't written about a topic has fully formed ideas about it.",
+    "best_quote_zh": "如果将您的想法写下总是使它们更加精确和完整，那么对一个话题没有书面记录的人在这个话题上就没有完全成熟的想法。"
   },
   {
     "id": 10,
-    "title": "Write Simply",
+    "title": "Is There Such a Thing as Good Taste?",
     "source": "Paul Graham",
-    "desc": "Clarity and simplicity in writing.",
-    "link": "http://www.paulgraham.com/simp.html",
+    "desc": "",
+    "link": "http://www.paulgraham.com/goodtaste.html",
     "tags": [
-      "writing",
-      "communication"
+      "good taste",
+      "art",
+      "aesthetic judgments",
+      "creativity",
+      "perceptions"
     ],
-    "date": "2009-10-01",
-    "summary_en": "Graham urges writers to favor clarity over ornament. Use short words, concrete nouns and active verbs; say what you mean, then revise to remove needless words. Simple writing reveals clear thinking.",
-    "summary_zh": "文章主张写作应以清晰为先：多用短词、具体名词与主动动词；直说其意，再反复删改冗余。写得简单，思考才清楚。",
-    "best_quote_en": null,
-    "best_quote_zh": null
-  },
-  {
+    "date": "2025-08-14",
+    "summary_en": "The essay discusses the concept of good taste by demonstrating that taste exists in art and influences all forms of artistry, challenging the belief that good taste is subjective.",
+    "summary_zh": "这篇文章讨论了好品味的概念，通过展示艺术中存在品味并影响所有形式的艺术创作，挑战了好品味是主观的观念。",
+    "best_quote_en": "If there's no such thing as good taste, then there's no such thing as good art.",
+    "best_quote_zh": "如果没有好品味，那么就没有好艺术。"
+  },{
     "id": 11,
-    "title": "How to Make Hard Choices",
-    "source": "Hidden Brain",
-    "desc": "Frameworks for deciding when options are incomparable.",
-    "link": "https://hiddenbrain.org/podcast/how-to-make-hard-choices/",
+    "title": "Beyond Smart",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/smart.html",
     "tags": [
-      "decision",
-      "psychology"
+      "intelligence",
+      "ideas",
+      "innovation",
+      "thinking",
+      "creativity"
     ],
-    "date": "2020-09-14",
-    "summary_en": "The episode reframes tough decisions from rigid either/or to value discovery. When options are 'on a par,' asking what kind of person you want to become can reveal reasons that tip the balance.",
-    "summary_zh": "把艰难抉择从“二选一”改为“价值探寻”：当选项不可比时，追问“我想成为什么样的人”，能生成新的理由，帮助你做决定。",
-    "best_quote_en": "There’s another way to think about difficult choices, one that opens up unexpected possibilities.",
-    "best_quote_zh": "还有另一种看待艰难选择的方法，它能打开意想不到的可能性。"
+    "date": "2025-08-14",
+    "summary_en": "The article argues that being smart is not the only, or even the most important, factor in having new ideas. Other key ingredients include an obsessive interest in a topic, independent-mindedness, writing ability, and cultivating beneficial working habits. These qualities can be cultivated, offering more control over generating innovative ideas.",
+    "summary_zh": "文章认为，聪明并不是产生新想法的唯一或最重要的因素。其他关键因素包括对某个主题的痴迷兴趣、独立思考能力、写作能力以及培养有益的工作习惯。这些品质可以培养，从而在产生创新想法方面提供更多控制。",
+    "best_quote_en": "Being very smart was a necessary precondition for having those ideas, but the two are not identical.",
+    "best_quote_zh": "非常聪明是产生那些想法的必要前提，但两者并不相同。"
   },
   {
     "id": 12,
-    "title": "What You Can't Say",
-    "source": "Paul Graham",
-    "desc": "On taboo ideas and independent thinking.",
-    "link": "http://www.paulgraham.com/say.html",
+    "title": "Why did I move to New Zealand?",
+    "source": "Derek Sivers",
+    "desc": "<p>\nI get this question a lot, so here’s my honest answer.\n</p><p>\nI was living in Singapore, feeling culturally adventurous, wanting to live everywhere, meet everyone, and get to know the whole world.\nBut then I had a baby.\n</p><p>\nAt first I thought we’d raise him in Singapore, fluent in all the cultures of Asia.\nBut after a few months, I realized how important it was to me that he have a real connection with nature.\nFeet in the river, hands in the mud, climbing trees, running in fields, at home in the forest.\nGreat foundation for the soul.\nMaybe even a competitive advantage in a world where everyone else is dependent on devices.\n</p><p>\nAlso, Singapore was a super-social place for me, where I knew too many people, and I wanted to give my boy my full attention without distraction — to live where I didn’t know anyone.\nSo the plan was to raise him in nature for the first six years, then move somewhere more culturally expansive for the next six.\n</p><p>\nNew Zealand is a nature paradise, but I also loved the safety of its location in times of global trouble.\nThey make you a citizen if you live here for six years.\nSo, perfect match for our situation.\nRaise a baby in nature, then leave with an amazing passport, and the right to return forever.\n</p><p>\nIt took nine months of paperwork to become a legal resident, but the government is friendly and helpful.\nIt’s really sweet to live in a country where the government agencies are really small, sensible, and personable.\nI like the culture here better than I expected.\n</p><p>\nHis upbringing went as planned.\nFull nature boy.\nNot into screens or phones at all.\nHe’s always outside, spends his days in forests and the rocky coast, and loves building physical things like tools and shelters for his adventures.\n</p><p>\nAfter getting New Zealand citizenship, we moved to Europe, but then Covid hit.\nSo in a way it was just as predicted: New Zealand was a great location in times of global trouble - one of the only Covid-free places on earth - and only citizens were allowed in, so our passports felt like the golden ticket, and we moved back.\nWhile his cousins across the world were locked down in isolation, staring at screens, he was playing with friends.\n</p><p>\nHis mom loves her job in the government here, so no more moving.\nHe’s in high school now, and he’s still not into screens.\nHe’s mentally healthy and wise, I think partially due to being raised outside in nature.\n</p><p>\nI’ve made a lot of mistakes in my life, but moving to New Zealand was a good choice.\n</p>",
+    "link": "https://sive.rs/nz0",
     "tags": [
-      "thinking",
-      "culture"
+      "new zealand",
+      "nature",
+      "raising children",
+      "citizenship",
+      "mental health"
     ],
-    "date": "2004-01-01",
-    "summary_en": "Graham discusses forbidden ideas and how fashions in opinion shift. To find truths, notice what you can't say, look for heresies that may later become orthodox, and think independently from status incentives.",
-    "summary_zh": "文章探讨“不可说”的观点与意见时尚的变迁。要发现真相，留意被禁忌的话题，寻找可能成真理的“异端”，并尽量摆脱声望激励的影响，独立思考。",
-    "best_quote_en": null,
-    "best_quote_zh": null
-  }
-]
+    "date": "2025-08-14",
+    "summary_en": "The author moved to New Zealand to raise her son in nature, away from distractions and screens, believing it's a great foundation for the soul. New Zealand offered safety in times of global trouble and a pathway to citizenship. After living in Europe, they returned to New Zealand during Covid, appreciating the safe environment. Raising her son in nature contributed to his mental health.",
+    "summary_zh": "作者搬到新西兰是为了在自然环境中抚养儿子，远离干扰和屏幕，她认为这能为孩子的灵魂打下良好的基础。新西兰在全球动荡时期提供了安全保障，也提供了公民身份。在欧洲生活后，他们在疫情期间返回新西兰，看重这里的安全环境。在自然环境中抚养儿子有助于他的心理健康。",
+    "best_quote_en": "Feet in the river, hands in the mud, climbing trees, running in fields, at home in the forest. Great foundation for the soul.",
+    "best_quote_zh": "赤脚踩在河里，双手沾满泥土，爬树，在田野里奔跑，以森林为家。这是灵魂的绝佳基础。"
+  },
+  {
+    "id": 13,
+    "title": "The 2024 Trump-Biden Debate",
+    "source": "Wait But Why",
+    "desc": "<p>Jeez</p>\n<p>The post <a href=\"https://waitbutwhy.com/2024/06/debate2024.html\">The 2024 Trump-Biden Debate</a> appeared first on <a href=\"https://waitbutwhy.com\">Wait But Why</a>.</p>",
+    "link": "https://waitbutwhy.com/2024/06/debate2024.html",
+    "tags": [
+      "debate",
+      "economy",
+      "immigration",
+      "taxes",
+      "roe v. wade"
+    ],
+    "date": "2024-06-28",
+    "summary_en": "The debate between Biden and Trump covered economy, taxes, Roe v. Wade, and border security. They clashed on their records, with Trump touting economic success and border control, while Biden criticized Trump's handling of the economy and immigration policies. Both candidates made strong, often exaggerated claims.",
+    "summary_zh": "拜登和特朗普的辩论涵盖了经济、税收、罗诉韦德案和边境安全。他们就彼此的执政记录展开了激烈的交锋，特朗普吹捧了他的经济成就和边境控制，而拜登则批评了特朗普对经济和移民政策的处理。两位候选人都发表了强烈的、有时是夸张的主张。",
+    "best_quote_en": "We had the greatest economy in the history of this world or any other world.",
+    "best_quote_zh": "我们拥有这个世界或任何其他世界历史上最伟大的经济。"
+  },
+  {
+    "id": 14,
+    "title": "Dr. Sue Johnson: The Science of Lasting Love",
+    "source": "Farnam Street",
+    "desc": "<p>This conversation will change how you handle your relationship starting&#160;tonight. The late Dr. Sue Johnson basically gave me a cheat code for relationships that not only last but amplify. She breaks down the real signals to look for in a partner.  Why people actually cheat (not what you think) and how to spot it coming &#8230;</p>\n<p>The post <a href=\"https://fs.blog/knowledge-project-podcast/dr-sue-johnson-2/\">Dr. Sue Johnson: The Science of Lasting Love </a> appeared first on <a href=\"https://fs.blog\">Farnam Street</a>.</p>",
+    "link": "https://fs.blog/knowledge-project-podcast/dr-sue-johnson-2/",
+    "tags": [
+      "relationships",
+      "love",
+      "communication",
+      "infidelity",
+      "connection"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Dr. Sue Johnson's insights offer a new perspective on relationships, providing tools to identify crucial signals in a partner, understand the real reasons behind infidelity, and transform conflicts into opportunities for deeper connection. It covers keeping the spark alive, surviving the empty-nest phase, and strengthening relationships.",
+    "summary_zh": "苏·约翰逊博士的见解为处理人际关系提供了新的视角，提供了识别伴侣关键信号的工具，理解不忠的真正原因，并将冲突转化为更深层次联系的机会。内容涵盖保持激情、度过空巢期以及加强人际关系。",
+    "best_quote_en": "This conversation will change how you handle your relationship starting tonight.",
+    "best_quote_zh": "今晚开始，这场对话将改变你处理人际关系的方式。"
+  },
+  {
+    "id": 15,
+    "title": "Weird Languages",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/weird.html",
+    "tags": [
+      "programming languages",
+      "lisp",
+      "macros",
+      "weird languages",
+      "software development"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The article suggests that most programming involves gluing library functions together, at which common languages excel. However, the interesting part lies in the remaining small percentage, best explored through \"weird languages.\" These languages reveal programming techniques beyond simple gluing, like using Lisp macros for domain-specific language creation. Learning weird languages expands one's understanding of programming possibilities.",
+    "summary_zh": "文章指出，大多数编程是将库函数连接在一起，常见语言对此非常擅长。然而，有趣的部分在于剩余的小部分，通过“怪异语言”可以最好地探索这一点。这些语言揭示了超越简单连接的编程技术，例如使用Lisp宏来创建特定领域的语言。学习怪异语言可以扩展人们对编程可能性的理解。",
+    "best_quote_en": "In the process of learning how to say things you couldn't previously say, you'll probably be learning how to think things you couldn't previously think.",
+    "best_quote_zh": "在学习如何表达你以前无法表达的事物的过程中，你可能会学习到如何思考你以前无法思考的事物。"
+  }]
