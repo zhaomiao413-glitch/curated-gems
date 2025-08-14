@@ -89,4 +89,95 @@
     "summary_zh": "本文讨论了自由意志与决定论之间的悖论，突出了人类行为中欲望和选择的复杂性。",
     "best_quote_en": "You can do what you want, but you can't want what you want.",
     "best_quote_zh": "你可以做你想做的事，但你不能想要你想要的事。"
+  },{
+    "id": 6,
+    "title": "Alien Truth",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/alien.html",
+    "tags": [
+      "alien truth",
+      "philosophy",
+      "universal insights",
+      "intelligent beings"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Thinking about potential common truths between intelligent beings across the universe, including principles of controlled experiments and practice, can guide philosophical exploration towards universal insights.",
+    "summary_zh": "思考宇宙中智慧生命体之间可能的共同真相，包括实验原则和练习的原理，可以引导哲学探索朝向普世洞见。",
+    "best_quote_en": "If an idea might plausibly be relevant to aliens, that's enough.",
+    "best_quote_zh": "如果一个观念可能与外星人相关，那已经足够。"
+  },
+  {
+    "id": 7,
+    "title": "What I've Learned from Users",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/users.html",
+    "tags": [
+      "users",
+      "startups",
+      "advice",
+      "challenges",
+      "founders"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Understanding and learning from users is key to startup success. Y Combinator's experience reveals recurring startup challenges and the importance of individualized advice. Founders often overlook critical issues and struggle with counterintuitive startup dynamics. YC's success stems from addressing these challenges and providing focused guidance.",
+    "summary_zh": "了解和从用户中学习是创业成功的关键。Y Combinator的经验揭示了不断出现的创业挑战以及个性化建议的重要性。创始人经常忽视关键问题，难以应对创业的违反直觉的动态。YC的成功源于应对这些挑战并提供专注的指导。",
+    "best_quote_en": "They come back a year later, and say 'We wish we'd listened to you.'",
+    "best_quote_zh": "他们一年后回来，说'我们希望当初听了你们的建议。'"
+  },
+  {
+    "id": 8,
+    "title": "Heresy",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/heresy.html",
+    "tags": [
+      "heresy",
+      "intolerance",
+      "opinions",
+      "conformity"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The resurgence of heresy in contemporary society is compared to medieval times, as opinions now can lead to job loss. The concept of heresy prioritizes conformity over truth and can outweigh all other actions. Expressing heretical opinions is often punished more severely than committing crimes, akin to a religious intolerance resurgence in a secular form.",
+    "summary_zh": "异端观念在当代社会的复兴被比作中世纪，因为现在的观点可能导致失去工作。异端概念将一致性置于真相之上，甚至可能权衡所有其他行为。发表异端观点往往受到比犯罪更严厉的惩罚，类似于宗教不宽容精神以世俗形式复兴。",
+    "best_quote_en": "The other distinctive thing about heresies, compared to ordinary opinions, is that the public expression of them outweighs everything else the speaker has done.",
+    "best_quote_zh": "异端观念的另一个与普通观点相比独特的地方在于，公开表达它们会使说话者已经做过的所有事情相形见绌。"
+  },
+  {
+    "id": 9,
+    "title": "Putting Ideas into Words",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/words.html",
+    "tags": [
+      "writing",
+      "ideas",
+      "communication",
+      "reflection"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "Putting ideas into words is a challenging and transformative process, revealing the imperfections and incompleteness of one's initial thoughts. Writing forces authors to refine and evaluate their ideas, ultimately leading to a deeper understanding and communication of complex concepts.",
+    "summary_zh": "将思想转化为文字是一个具有挑战性和转变性的过程，揭示了最初想法的不完美和不完整性。写作迫使作者完善和评估他们的想法，最终实现深入理解和传达复杂概念。",
+    "best_quote_en": "If writing down your ideas always makes them more precise and more complete, then no one who hasn't written about a topic has fully formed ideas about it.",
+    "best_quote_zh": "如果将您的想法写下总是使它们更加精确和完整，那么对一个话题没有书面记录的人在这个话题上就没有完全成熟的想法。"
+  },
+  {
+    "id": 10,
+    "title": "Is There Such a Thing as Good Taste?",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/goodtaste.html",
+    "tags": [
+      "good taste",
+      "art",
+      "aesthetic judgments",
+      "creativity",
+      "perceptions"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "The essay discusses the concept of good taste by demonstrating that taste exists in art and influences all forms of artistry, challenging the belief that good taste is subjective.",
+    "summary_zh": "这篇文章讨论了好品味的概念，通过展示艺术中存在品味并影响所有形式的艺术创作，挑战了好品味是主观的观念。",
+    "best_quote_en": "If there's no such thing as good taste, then there's no such thing as good art.",
+    "best_quote_zh": "如果没有好品味，那么就没有好艺术。"
   }]
