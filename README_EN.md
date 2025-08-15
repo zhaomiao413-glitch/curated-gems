@@ -121,12 +121,6 @@ curated-gems/
 - **Practice-Oriented**: Focus on understanding information integration thinking methods, not just technical implementation
 - **Personalized Extension**: Try adding information sources and classification systems from your areas of interest after completion
 
-### Teacher Guide
-- Each lesson includes detailed task descriptions and code examples
-- Supports both individual learning and classroom teaching
-- Provides assessment criteria and extension suggestions
-- Includes common problem solutions and debugging guides
-
 ## 🤖 RSS Automation Configuration
 
 ### Environment Variable Setup
