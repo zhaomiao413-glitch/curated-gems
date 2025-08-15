@@ -12,7 +12,16 @@ window.currentLang = urlParams.get('lang') || 'zh';
 init();
 async function init() {
   try {
-    const res = await fetch('./data.json', { cache: 'no-store' });
+    // 构建data.json的URL，确保在GitHub Pages环境下正确工作
+let dataUrl;
+if (window.location.pathname.includes('/curated-gems/')) {
+    // GitHub Pages环境
+    dataUrl = window.location.origin + '/curated-gems/data.json';
+} else {
+    // 本地开发环境
+    dataUrl = './data.json';
+}
+const res = await fetch(dataUrl + '?_=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error('load fail');
     const items = await res.json();
     window.currentData = items;
@@ -56,7 +65,8 @@ function renderWithLanguage(items, lang) {
   listEl.innerHTML = items.map(item => card(item, lang)).join('');
 }
 function card(item, lang = 'zh'){
-  const tags = (item.tags||[]).join(', ');
+  const tagsArray = lang === 'zh' ? (item.tags_zh || item.tags || []) : (item.tags || []);
+  const tags = tagsArray.join(', ');
   const title = lang === 'zh' ? (item.title_zh || item.title) : item.title;
   const desc = lang === 'zh' ? (item.summary_zh || '') : (item.summary_en || '');
   const quote = lang === 'zh' ? (item.best_quote_zh || '') : (item.best_quote_en || '');

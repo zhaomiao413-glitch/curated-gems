@@ -84,6 +84,9 @@
         document.getElementById("ver").addEventListener("change", (e) => {
             const u = new URL(location.href);
             u.searchParams.set("v", e.target.value);
+            // 保持当前语言设置
+            const currentLang = document.getElementById("lang").value;
+            u.searchParams.set("lang", currentLang);
             location.href = u.toString();
         });
         

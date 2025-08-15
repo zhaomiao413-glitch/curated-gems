@@ -7,6 +7,10 @@ const $ = sel => document.querySelector(sel);
 window.currentData = null;
 window.renderWithLanguage = renderWithLanguage;
 
+// Get current language from URL params or default to 'zh'
+const urlParams = new URLSearchParams(location.search);
+window.currentLang = urlParams.get('lang') || 'zh';
+
 // 由于脚本是动态加载的，DOM 可能已经准备好了
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', init);
@@ -56,11 +60,18 @@ async function init() {
 }
 
 async function loadData() {
-  // 基于“页面 URL” 生成 data.json 的绝对地址（不受 app.js 所在目录影响）
-  // index.html 和 data.json 都在仓库根目录时，最终会请求：
-  // https://<username>.github.io/<repo>/data.json
-  const url = new URL('data.json', window.location.href);
-  // 加入时间戳避免 CDN 旧缓存
+  // 构建data.json的URL，确保在GitHub Pages环境下正确工作
+  let dataUrl;
+  if (window.location.pathname.includes('/curated-gems/')) {
+    // GitHub Pages环境
+    dataUrl = window.location.origin + '/curated-gems/data.json';
+  } else {
+    // 本地开发环境
+    dataUrl = new URL('data.json', window.location.href).toString();
+  }
+  
+  // 添加时间戳避免缓存
+  const url = new URL(dataUrl);
   url.searchParams.set('_', Date.now());
   const urlStr = url.toString();
 
@@ -245,6 +256,9 @@ function render(items) {
 }
 
 function renderWithLanguage(items, lang) {
+  // Update current language
+  window.currentLang = lang;
+  
   // Update controls with new language
   mountControls();
   
@@ -256,7 +270,8 @@ function renderWithLanguage(items, lang) {
 }
 
 function card(item, lang = 'zh') {
-  const tags = (item.tags || []).join(', ');
+  const tagsArray = lang === 'zh' ? (item.tags_zh || item.tags || []) : (item.tags || []);
+  const tags = tagsArray.join(', ');
   const title = lang === 'zh' ? (item.title_zh || item.title) : item.title;
   const desc = lang === 'zh' ? (item.summary_zh || '') : (item.summary_en || '');
   const quote = lang === 'zh' ? (item.best_quote_zh || '') : (item.best_quote_en || '');
