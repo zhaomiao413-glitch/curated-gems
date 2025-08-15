@@ -368,4 +368,98 @@
     "summary_zh": "作者探讨了从事个人项目的重要性，将其与普通工作和学校作业进行对比。个人项目可以培养兴奋感、投入感和目标感。作者提倡优先考虑这些项目，认识到它们对未来成功和成就的预测价值，甚至高于学业成就。",
     "best_quote_en": "Working on a project of your own is as different from ordinary work as skating is from walking. It's more fun, but also much more productive.",
     "best_quote_zh": "从事你自己的项目与普通工作截然不同，就像滑冰与走路不同一样。它更有趣，但也更有效率。"
+  },{
+    "id": 21,
+    "title": "Fierce Nerds",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/fn.html",
+    "tags": [
+      "nerds",
+      "fierceness",
+      "competition",
+      "success",
+      "ambition"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "The essay discusses 'fierce nerds,' individuals who combine intelligence, independence, competitiveness, and impatience. These traits, while potentially leading to bitterness if unexercised, are highly beneficial, especially in solving difficult problems and achieving success in various fields, including business. Engaging in ambitious projects is proposed as a way to channel this fierceness productively.",
+    "summary_zh": "本文探讨了“激进的nerd”，他们集智慧、独立、竞争力和急躁于一身。这些特质若未加以利用，可能会导致痛苦，但它们也很有益处，尤其是在解决难题和在包括商业在内的各个领域取得成功方面。文章提出参与雄心勃勃的项目是引导这种激进性的有效途径。",
+    "best_quote_en": "If you're given a sharp knife, it seems to me better to use it than to blunt its edge to avoid cutting yourself.",
+    "best_quote_zh": "如果给你一把锋利的刀，在我看来，使用它比为了避免割伤而磨钝它的边缘要好。"
+  },
+  {
+    "id": 22,
+    "title": "the birth and reverb of friendship",
+    "source": "Derek Sivers",
+    "desc": "<p>\nImagine you’re a ghost.\n<br />\nYou drift through the world but nobody sees you.\n<br />\nYou’re disconnected.\n</p><p>\nThen one day, after years of being invisible, someone sees you!\n<br />\nYou get to know each other, and become friends.\n<br />\nThrough that one connection, your life begins.\n</p><p>\nI have few memories of childhood, maybe because it felt like nobody saw me.\n<br />\n<strong>\nMy life began at age 12 when I met my first best friend.\n</strong>\n<br />\nWe talked hours a day for years, sharing all of our thoughts — comparing experiences and emotions.\n</p><p>\nThe seed of who I am might have been there before.\n<br />\nBut the interaction with a friend made it sprout.\n<br />\nThat’s when this tree began.\n<br />\nConception versus birth.\n</p><p>\nIf a tree falls and no one hears it, did it make a sound?\n<br />\nWhen your thoughts are acknowledged and reflected back through another, it’s like reverb.\n<br />\nIt’s validation.\n</p><p>\nIt’s confusing to be mis-acknowledged.\n<br />\nA tree falls and the reverb comes back as a duck quack.\n<br />\nSomeone seems to hear you, but always misunderstands.\n<br />\nIt screws with your identity.\n<br />\n(Am I actually a duck?)\n</p><p>\nI recently knew someone that would listen but never respond.\n<br />\nThoughts went in but never came out.\n<br />\nI loved her but was lonely around her.\n</p><p>\nI’m so thankful for dear friends that play catch with me — tossing thoughts back and forth.\n<br />\nMutual reverb, growing our sprouts, demonstrably seen and connected.\n</p>\n<hr />\n<figure>\n<img alt=\"Sharon Danesi and Derek Sivers\" src=\"https://sive.rs/images/SharonDanesi-DerekSivers.jpg\" title=\"Sharon Danesi and Derek Sivers\" />\n<figcaption>me with Sharon Danesi, my first best friend</figcaption>\n</figure>",
+    "link": "https://sive.rs/brf",
+    "tags": [
+      "friendship",
+      "connection",
+      "reverb",
+      "validation",
+      "understanding"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "The author reflects on the importance of friendship, comparing it to being seen and heard after feeling invisible. A true friend acknowledges and reflects your thoughts, creating 'reverb' and validation. Misunderstanding can be confusing, while true connection fosters growth and mutual understanding.",
+    "summary_zh": "作者反思了友谊的重要性，将其比作在感到隐形后被看见和被听见。真正的朋友会承认并反映你的想法，产生“混响”和验证。误解会令人困惑，而真正的联系则可以促进成长和相互理解。",
+    "best_quote_en": "My life began at age 12 when I met my first best friend.",
+    "best_quote_zh": "我的生命始于12岁，那时我遇到了我第一个最好的朋友。"
+  },
+  {
+    "id": 23,
+    "title": "10 Thoughts From the Fourth Trimester",
+    "source": "Wait But Why",
+    "desc": "<p>1 baby, many thoughts</p>\n<p>The post <a href=\"https://waitbutwhy.com/2023/05/baby.html\">10 Thoughts From the Fourth Trimester</a> appeared first on <a href=\"https://waitbutwhy.com\">Wait But Why</a>.</p>",
+    "link": "https://waitbutwhy.com/2023/05/baby.html",
+    "tags": [
+      "pregnancy",
+      "childbirth",
+      "parenthood",
+      "expectations",
+      "reality"
+    ],
+    "date": "2023-05-23",
+    "summary_en": "The author recounts the unexpected and surprisingly mundane experience of his wife's labor and the birth of their first child. He contrasts his expectations of a frantic, emotional event with the reality of a calm, almost casual process punctuated by brief moments of intense activity. The actual birth was far from the dramatic scene he imagined.",
+    "summary_zh": "作者叙述了他妻子分娩和他们第一个孩子出生的出乎意料且非常平凡的经历。他将自己对一个疯狂、充满情绪的事件的期望与平静、几乎是随意的过程的现实进行了对比，这个过程穿插着短暂的剧烈活动时刻。实际的出生远非他想象的戏剧性场面。",
+    "best_quote_en": "Again, there was a major expectations-reality gap.",
+    "best_quote_zh": "再一次，期望和现实之间存在巨大的差距。"
+  },
+  {
+    "id": 24,
+    "title": "Ryan Petersen: Building Flexport",
+    "source": "Farnam Street",
+    "desc": "<p>Ryan Petersen is the founder and CEO of Flexport, the platform that coordinates global logistics from factory floor to customer door. In this conversation, he’s refreshingly transparent about the mistakes and painful lessons he’s learned building several companies.&#160; He opens up about stepping down as CEO, his struggles with self-confidence, and what happened when he &#8230;</p>\n<p>The post <a href=\"https://fs.blog/knowledge-project-podcast/ryan-petersen/\">Ryan Petersen: Building Flexport</a> appeared first on <a href=\"https://fs.blog\">Farnam Street</a>.</p>",
+    "link": "https://fs.blog/knowledge-project-podcast/ryan-petersen/",
+    "tags": [
+      "flexport",
+      "logistics",
+      "leadership",
+      "entrepreneurship",
+      "scaling"
+    ],
+    "date": "2025-07-30",
+    "summary_en": "Ryan Petersen, founder of Flexport, shares his entrepreneurial journey, discussing mistakes, leadership, and scaling the company. Key takeaways include playing against weak competition, the importance of founder involvement, obsession as an advantage, prioritizing quality, and the strategic use of micromanagement. He emphasizes controlling bottlenecks and niche domination.",
+    "summary_zh": "Flexport创始人Ryan Petersen分享了他的创业历程，讨论了他的错误、领导力以及如何扩展公司。主要经验包括在弱竞争中取胜、创始人参与的重要性、痴迷的优势、优先考虑质量以及微观管理的策略性使用。他强调控制瓶颈和利基市场的主导地位。",
+    "best_quote_en": "\"If a bottleneck appears where you didn’t choose it, you’re not running the operation, it’s running you.\"",
+    "best_quote_zh": "“如果瓶颈出现在你没有选择它的地方，那么不是你在运营，而是它在运营你。”"
+  },
+  {
+    "id": 25,
+    "title": "Crazy New Ideas",
+    "source": "Paul Graham",
+    "desc": "",
+    "link": "http://www.paulgraham.com/newideas.html",
+    "tags": [
+      "new ideas",
+      "domain expertise",
+      "innovation",
+      "paradigm shift",
+      "critical thinking"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "The article discusses the importance of considering seemingly crazy ideas proposed by domain experts, as they often hold valuable insights and potential for significant impact. Dismissing such ideas prematurely can lead to missed opportunities and a failure to challenge existing paradigms. It emphasizes asking questions instead of making statements and understanding the fear behind dismissing new ideas.",
+    "summary_zh": "本文讨论了认真考虑领域专家提出的看似疯狂的想法的重要性，因为它们通常蕴含着有价值的见解和巨大的潜力。过早地否定这些想法可能会导致错失良机，并阻碍对现有范式的挑战。文章强调要提出问题而非下定论，并理解否定新想法背后的恐惧。",
+    "best_quote_en": "When the average person proposes an implausible-sounding idea, its implausibility is evidence of their incompetence. But when a reasonable domain expert does it, the situation is reversed.",
+    "best_quote_zh": "当普通人提出一个听起来难以置信的想法时，这种难以置信证明了他们的无能。但是，当一个理性的领域专家提出这样的想法时，情况会发生逆转。"
   }]
