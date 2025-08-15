@@ -1,4 +1,6 @@
-# 🎓 精选宝库 (Curated Gems) - Coding + AI + Thinking 渐进式 Workshop
+# 精选宝库 (Curated Gems) - Coding + AI + Thinking 渐进式 Workshop
+
+**中文** | [English](README_EN.md)
 
 > 融合编程实践、AI 工具应用与思维训练的渐进式前端开发工作坊，通过四个层次递进的实战任务，培养现代开发者的核心技能。
 
@@ -38,9 +40,8 @@
 - 🔍 **智能搜索** - 支持标题、描述、标签的全文搜索
 - 🏷️ **多标签筛选** - 灵活的标签组合筛选
 - 🌐 **双语支持** - 中英文界面切换
-- 📊 **动态数据源** - 支持本地数据和 RSS 数据切换
+- 📊 **智能数据源** - 支持自动读取 RSS 数据，并通过自定义 LLM 模型进行内容分析
 - 🤖 **自动化更新** - GitHub Actions 自动处理 RSS 内容
-- 💾 **数据导出** - 支持筛选结果导出为 JSON
 
 ## 🎯 Workshop 学习目标
 
@@ -182,6 +183,23 @@ curated-gems/
 
 ## 🔧 RSS 自动化配置
 
+### 🧠 自定义 LLM 模型配置
+
+系统支持通过 [OpenRouter](https://openrouter.ai/) 使用各种 LLM 模型进行智能内容分析：
+
+**支持的模型类型**：
+- OpenAI 系列：`openai/gpt-4`, `openai/gpt-3.5-turbo`
+- Anthropic 系列：`anthropic/claude-3-sonnet`, `anthropic/claude-3-haiku`
+- Google 系列：`google/gemini-flash-1.5`, `google/gemini-pro`
+- 开源模型：`meta-llama/llama-2-70b-chat`, `mistralai/mixtral-8x7b-instruct`
+- 国产模型：`qwen/qwen-72b-chat`, `01-ai/yi-34b-chat`
+
+**智能分析功能**：
+- 📝 **内容摘要**：自动生成中英文摘要
+- 🏷️ **智能标签**：基于内容自动生成相关标签
+- 💎 **精华提取**：提取文章中最有价值的观点
+- 🌐 **多语言处理**：支持中英文内容的智能翻译和分析
+
 ### 添加 RSS 数据源
 
 编辑 `scripts/source.json` 文件：
@@ -199,7 +217,15 @@ curated-gems/
 
 在仓库设置中添加以下 Secrets：
 - `OPENROUTER_API_KEY`: OpenRouter API 密钥（用于 AI 内容分析）
-- `OPENROUTER_MODEL`: AI 模型名称
+- `OPENROUTER_MODEL`: AI 模型名称（如：`openai/gpt-4`, `anthropic/claude-3-sonnet`）
+
+### 自动化流程特性
+
+- 📅 **定时执行**：每天自动运行 RSS 分析
+- 🤖 **智能处理**：通过 LLM 模型智能分析新内容
+- 🏷️ **自动标注**：自动生成摘要、标签和精华观点
+- 📊 **数据更新**：自动更新 `data.json` 文件
+- 🔄 **去重机制**：避免重复处理相同内容
 
 ### 手动触发工作流
 
