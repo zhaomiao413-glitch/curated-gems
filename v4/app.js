@@ -17,10 +17,19 @@ async function init() {
   mountControls();
 
   try {
-    raw = await loadData();                 // ✅ 统一的安全加载
+    raw = await loadData();
     window.currentData = raw;
     renderSources(['all', ...new Set(raw.map(x => x.source))]);
-    renderTags(['all', ...new Set(raw.flatMap(x => x.tags || []))]);
+    
+    // 根据当前语言选择标签字段
+    const lang = window.currentLang || 'zh';
+    const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
+    const allTags = raw.flatMap(x => {
+      const tags = x[tagsField] || x.tags || [];
+      return tags;
+    });
+    renderTags(['all', ...new Set(allTags)]);
+    
     bind();
     applyAndRender();
   } catch (e) {
@@ -136,14 +145,16 @@ function applyAndRender() {
     const summaryField = lang === 'zh' ? 'summary_zh' : 'summary_en';
     const quoteField = lang === 'zh' ? 'best_quote_zh' : 'best_quote_en';
     const titleField = lang === 'zh' ? (x.title_zh || x.title) : x.title;
+    const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
+    const currentTags = x[tagsField] || x.tags || [];
     
     const inQ = !q
       || titleField?.toLowerCase().includes(q)
       || x[summaryField]?.toLowerCase().includes(q)
       || x[quoteField]?.toLowerCase().includes(q)
-      || (x.tags || []).some(t => (t || '').toLowerCase().includes(q));
+      || currentTags.some(t => (t || '').toLowerCase().includes(q));
     const inS = activeSources.has('all') || activeSources.has(x.source);
-    const inT = activeTags.has('all') || (x.tags || []).some(t => activeTags.has(t));
+    const inT = activeTags.has('all') || currentTags.some(t => activeTags.has(t));
     return inQ && inS && inT;
   });
 
@@ -211,7 +222,16 @@ function renderWithLanguage() {
     raw = window.currentData;
     mountControls();
     renderSources(['all', ...new Set(raw.map(x => x.source))]);
-    renderTags(['all', ...new Set(raw.flatMap(x => x.tags || []))]);
+    
+    // 根据当前语言选择标签字段
+    const lang = window.currentLang || 'zh';
+    const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
+    const allTags = raw.flatMap(x => {
+      const tags = x[tagsField] || x.tags || [];
+      return tags;
+    });
+    renderTags(['all', ...new Set(allTags)]);
+    
     applyAndRender();
   }
 }

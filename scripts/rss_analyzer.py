@@ -372,9 +372,11 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
     final_item = {
         "id": counter,
         "title": title,
+        "title_zh": analysis_data.get('title_zh', ''),
         "source": source_name,
         "link": link,
         "tags": standardized_tags,
+        "tags_zh": analysis_data.get('tags_zh', []),
         "date": date_str,
         "summary_en": analysis_data.get('summary_en', ''),
         "summary_zh": analysis_data.get('summary_zh', ''),
