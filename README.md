@@ -110,16 +110,16 @@ curated-gems/
 ├── demo.json          # 演示数据
 ├── v1/                # 第一节课文件
 │   ├── app.js         # v1 版本逻辑
-│   └── minitask.md    # 课程任务说明
+│   └── task.md    # 课程任务说明
 ├── v2/                # 第二节课文件
 │   ├── app.js         # v2 版本逻辑
-│   └── minitask.md    # 课程任务说明
+│   └── task.md    # 课程任务说明
 ├── v3/                # 第三节课文件
 │   ├── app.js         # v3 版本逻辑
-│   └── minitask.md    # 课程任务说明
+│   └── task.md    # 课程任务说明
 ├── v4/                # 第四节课文件
 │   ├── app.js         # v4 版本逻辑
-│   └── minitask.md    # 课程任务说明
+│   └── task.md    # 课程任务说明
 ├── scripts/           # 自动化脚本
 │   ├── rss_analyzer.py    # RSS 内容分析器
 │   ├── source.json        # RSS 数据源配置
