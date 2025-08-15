@@ -35,7 +35,7 @@ CONTENT_SELECTORS = [
     'div[itemprop="articleBody"]', 'article', 'main', 'div#main-content',
 ]
 
-MAX_CONTENT_CHARS = 6000  # Maximum content truncation length before sending to model (character count)
+MAX_CONTENT_CHARS = 8000  # Maximum content truncation length before sending to model (character count)
 
 # ========== Initialize File Read/Write ==========
 # Load processed links
