@@ -2,6 +2,10 @@ let raw = [], view = [], activeSources = new Set(['all']), activeTags = new Set(
 let searchEl, sortEl;
 const $ = sel => document.querySelector(sel);
 
+// Store data globally for language switching
+window.currentData = null;
+window.renderWithLanguage = renderWithLanguage;
+
 // DOM Ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', init);
@@ -14,6 +18,7 @@ async function init() {
 
   try {
     raw = await loadData();                 // ✅ 统一的安全加载
+    window.currentData = raw;
     renderSources(['all', ...new Set(raw.map(x => x.source))]);
     renderTags(['all', ...new Set(raw.flatMap(x => x.tags || []))]);
     bind();
@@ -23,7 +28,12 @@ async function init() {
     const listEl = $('#list'), emptyEl = $('#empty');
     if (listEl && emptyEl) {
       listEl.innerHTML = '';
-      emptyEl.textContent = '数据加载失败: ' + e.message;
+      const lang = window.currentLang || 'zh';
+      const errorTexts = {
+        zh: '数据加载失败: ',
+        en: 'Data loading failed: '
+      };
+      emptyEl.textContent = errorTexts[lang] + e.message;
       emptyEl.classList.remove('hidden');
     }
   }
@@ -52,16 +62,34 @@ async function loadData() {
 }
 
 function mountControls() {
+  const lang = window.currentLang || 'zh';
+  const texts = {
+    zh: {
+      placeholder: '搜索标题/摘要/标签…',
+      sortDateDesc: '按时间 ↓',
+      sortDateAsc: '按时间 ↑',
+      sortTitleAsc: '标题 A→Z',
+      sortTitleDesc: '标题 Z→A'
+    },
+    en: {
+      placeholder: 'Search title/summary/tags...',
+      sortDateDesc: 'By Date ↓',
+      sortDateAsc: 'By Date ↑',
+      sortTitleAsc: 'Title A→Z',
+      sortTitleDesc: 'Title Z→A'
+    }
+  };
+
   $('#controls').innerHTML = `
     <div class="controls">
-      <input id="search" placeholder="搜索标题/摘要/标签…"/>
+      <input id="search" placeholder="${texts[lang].placeholder}"/>
       <div id="sources" class="tags"></div>
       <div id="tags" class="tags"></div>
       <select id="sort">
-        <option value="date-desc">按时间 ↓</option>
-        <option value="date-asc">按时间 ↑</option>
-        <option value="title-asc">标题 A→Z</option>
-        <option value="title-desc">标题 Z→A</option>
+        <option value="date-desc">${texts[lang].sortDateDesc}</option>
+        <option value="date-asc">${texts[lang].sortDateAsc}</option>
+        <option value="title-asc">${texts[lang].sortTitleAsc}</option>
+        <option value="title-desc">${texts[lang].sortTitleDesc}</option>
       </select>
     </div>`;
   searchEl = $('#search'); 
@@ -102,11 +130,17 @@ function toggleMulti(e, type) {
 
 function applyAndRender() {
   const q = (searchEl.value || '').trim().toLowerCase();
+  const lang = window.currentLang || 'zh';
 
   view = raw.filter(x => {
+    const summaryField = lang === 'zh' ? 'summary_zh' : 'summary_en';
+    const quoteField = lang === 'zh' ? 'best_quote_zh' : 'best_quote_en';
+    const titleField = lang === 'zh' ? (x.title_zh || x.title) : x.title;
+    
     const inQ = !q
-      || x.title?.toLowerCase().includes(q)
-      || x.desc?.toLowerCase().includes(q)
+      || titleField?.toLowerCase().includes(q)
+      || x[summaryField]?.toLowerCase().includes(q)
+      || x[quoteField]?.toLowerCase().includes(q)
       || (x.tags || []).some(t => (t || '').toLowerCase().includes(q));
     const inS = activeSources.has('all') || activeSources.has(x.source);
     const inT = activeTags.has('all') || (x.tags || []).some(t => activeTags.has(t));
@@ -137,28 +171,49 @@ function renderTags(list) {
 
 function render(items) {
   const listEl = $('#list'), emptyEl = $('#empty');
+  const lang = window.currentLang || 'zh';
+  
   if (!items.length) {
     listEl.innerHTML = '';
-    emptyEl.textContent = '没有匹配的结果';
+    const emptyTexts = {
+      zh: '没有匹配的结果',
+      en: 'No matching results'
+    };
+    emptyEl.textContent = emptyTexts[lang];
     emptyEl.classList.remove('hidden');
     return;
   }
   emptyEl.classList.add('hidden');
-  listEl.innerHTML = items.map(card).join('');
+  listEl.innerHTML = items.map(item => card(item, lang)).join('');
 }
 
-function card(item) {
+function card(item, lang = 'zh') {
   const tags  = (item.tags || []).join(', ');
-  const desc  = item.summary_zh || item.desc || '';
-  const quote = item.best_quote_zh || '';
+  const title = lang === 'zh' ? (item.title_zh || item.title) : item.title;
+  const summaryField = lang === 'zh' ? 'summary_zh' : 'summary_en';
+  const quoteField = lang === 'zh' ? 'best_quote_zh' : 'best_quote_en';
+  const desc  = item[summaryField] || '';
+  const quote = item[quoteField] || '';
+  const quoteSymbols = lang === 'zh' ? ['「', '」'] : ['"', '"'];
+  
   return `
     <article class="card">
-      <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
+      <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(title)}</a></h3>
       <p>${esc(desc)}</p>
-      ${quote ? `<blockquote>「${esc(quote)}」</blockquote>` : ''}
+      ${quote ? `<blockquote>${quoteSymbols[0]}${esc(quote)}${quoteSymbols[1]}</blockquote>` : ''}
       <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date || '')}</div>
     </article>
   `;
+}
+
+function renderWithLanguage() {
+  if (window.currentData) {
+    raw = window.currentData;
+    mountControls();
+    renderSources(['all', ...new Set(raw.map(x => x.source))]);
+    renderTags(['all', ...new Set(raw.flatMap(x => x.tags || []))]);
+    applyAndRender();
+  }
 }
 
 function esc(s) {

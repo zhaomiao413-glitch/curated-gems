@@ -4,41 +4,97 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>我在关注什么信息</title>
+    <title>孙玲的精选内容</title>
     <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
     <header class="container">
-        <h1>Curated Gems</h1>
-        <div id="version-bar" class="controls">
-            <label for="ver">版本：</label>
-            <select id="ver">
-                <option value="1" selected>v1</option>
-                <option value="2">v2</option>
-                <option value="3">v3</option>
-                <option value="4">v4</option>
-            </select>
-            <small id="hint"></small>
+        <h1 data-zh="孙玲的精选内容收藏" data-en="Ling Sun's Curated Content">孙玲的精选内容收藏</h1>
+        <p class="subtitle" data-zh="优质文章、播客和资源分享" data-en="Quality articles, podcasts and resources">优质文章、播客和资源分享</p>
+        <div class="header-controls">
+            <div id="version-bar" class="version-selector">
+                <label for="ver" data-zh="版本：" data-en="Version:">版本：</label>
+                <select id="ver" class="version-select">
+                    <option value="1" selected data-zh="v1 - 基础版" data-en="v1 - Basic">v1 - 基础版</option>
+                    <option value="2" data-zh="v2 - 搜索版" data-en="v2 - Search">v2 - 搜索版</option>
+                    <option value="3" data-zh="v3 - 筛选版" data-en="v3 - Filter">v3 - 筛选版</option>
+                    <option value="4" data-zh="v4 - 多标签版" data-en="v4 - Multi-tag">v4 - 多标签版</option>
+                </select>
+                <small id="hint"></small>
+            </div>
+            <div class="language-selector">
+                <label for="lang" data-zh="语言：" data-en="Language:">语言：</label>
+                <select id="lang" class="language-select">
+                    <option value="zh" selected data-zh="中文" data-en="Chinese">中文</option>
+                    <option value="en" data-zh="English" data-en="English">English</option>
+                </select>
+            </div>
         </div>
     </header>
     <main class="container">
         <div id="controls"></div>
         <div id="list" class="grid"></div>
-        <p id="empty" class="hidden">加载中…</p>
+        <p id="empty" class="hidden" data-zh="加载中…" data-en="Loading...">加载中…</p>
     </main>
     <script>
+        // Language management
+        let currentLang = 'zh';
+        
+        function updateLanguage(lang) {
+            currentLang = lang;
+            document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+            
+            // Update all elements with data-zh and data-en attributes
+            document.querySelectorAll('[data-zh][data-en]').forEach(el => {
+                el.textContent = el.getAttribute(`data-${lang}`);
+            });
+            
+            // Update option texts
+            document.querySelectorAll('option[data-zh][data-en]').forEach(option => {
+                option.textContent = option.getAttribute(`data-${lang}`);
+            });
+            
+            // Update hint text
+            const ver = document.getElementById("ver").value;
+            const hintTexts = {
+                zh: `当前：v${ver}（地址可加 ?v=1/2/3/4 切换）`,
+                en: `Current: v${ver} (Add ?v=1/2/3/4 to URL to switch)`
+            };
+            document.getElementById("hint").textContent = hintTexts[lang];
+            
+            // Trigger re-render if data is already loaded
+            if (window.currentData) {
+                window.renderWithLanguage(window.currentData, lang);
+            }
+        }
+        
+        // Initialize parameters
         const params = new URLSearchParams(location.search);
         const ver = params.get("v") || "1";
+        const lang = params.get("lang") || "zh";
+        
         document.getElementById("ver").value = ver;
-        document.getElementById(
-            "hint"
-        ).textContent = `当前：v${ver}（地址可加 ?v=1/2/3/4 切换）`;
+        document.getElementById("lang").value = lang;
+        
+        // Update language on load
+        updateLanguage(lang);
+        
+        // Version change handler
         document.getElementById("ver").addEventListener("change", (e) => {
             const u = new URL(location.href);
             u.searchParams.set("v", e.target.value);
             location.href = u.toString();
         });
+        
+        // Language change handler
+        document.getElementById("lang").addEventListener("change", (e) => {
+            const u = new URL(location.href);
+            u.searchParams.set("lang", e.target.value);
+            location.href = u.toString();
+        });
+        
+        // Load version-specific script
         const s = document.createElement("script");
         s.src = `./v${ver}/app.js`;
         s.defer = true;
