@@ -1,0 +1,110 @@
+[{
+    "id": 1,
+    "title": "Superlinear Returns",
+    "title_zh": "超线性回报",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/superlinear.html",
+    "tags": [
+      "business",
+      "learning",
+      "thinking"
+    ],
+    "tags_zh": [
+      "商业",
+      "学习",
+      "思考"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "The article explains the concept of superlinear returns, where performance yields disproportionately large rewards. It highlights two main causes: exponential growth and thresholds. Exponential growth, like in startups or learning, allows for rapid scaling. Thresholds, such as winning a competition, create winner-take-all scenarios. The key is to seek work that compounds, either directly by building infrastructure or indirectly through learning. Continuous learning is essential for achieving superlinear returns and adapting to an ever-changing world.",
+    "summary_zh": "文章解释了超线性回报的概念，即表现会带来不成比例的巨大回报。它强调了两个主要原因：指数增长和阈值。指数增长，如在初创企业或学习中，可以实现快速扩张。阈值，如赢得比赛，会创造赢者通吃的局面。关键是寻找能带来复利效应的工作，可以直接通过建设基础设施，也可以通过间接学习。持续学习对于获得超线性回报和适应不断变化的世界至关重要。",
+    "best_quote_en": "You can't understand the world without understanding the concept of superlinear returns. And if you're ambitious you definitely should, because this will be the wave you surf on.",
+    "best_quote_zh": "不理解超线性回报的概念，你就无法理解这个世界。如果你有野心，你绝对应该理解它，因为这将是你乘风破浪的浪潮。"
+  },
+  {
+    "id": 2,
+    "title": "Dr. Sue Johnson: The Science of Lasting Love",
+    "title_zh": "苏·约翰逊博士：持久爱情的科学",
+    "source": "Farnam Street",
+    "link": "https://fs.blog/knowledge-project-podcast/dr-sue-johnson-2/",
+    "tags": [
+      "relationships",
+      "psychology",
+      "communication"
+    ],
+    "tags_zh": [
+      "人际关系",
+      "心理学",
+      "沟通"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "This article discusses insights from Dr. Sue Johnson on building lasting and strong relationships. It covers identifying key signals in a partner, understanding the real reasons behind infidelity, and turning conflicts into opportunities for deeper connection. Practical advice is offered on maintaining intimacy, navigating the empty-nest phase, and simple actions to strengthen relationships, making it relevant for anyone, regardless of their relationship status.",
+    "summary_zh": "这篇文章讨论了苏·约翰逊博士关于建立持久而牢固关系的见解。内容涵盖识别伴侣中的关键信号，理解不忠的真正原因，以及将冲突转化为加深联系的机会。文章提供了关于保持亲密关系、度过空巢期以及加强关系的简单行动的实用建议，使其与任何人都相关，无论他们的关系状态如何。",
+    "best_quote_en": "She breaks down the real signals to look for in a partner.  Why people actually cheat (not what you think) and how to spot it coming a mile away.",
+    "best_quote_zh": "她剖析了在伴侣身上需要寻找的真实信号，以及人们出轨的真正原因（与你想象的不同），以及如何提前发现它。"
+  },
+  {
+    "id": 3,
+    "title": "How to Do Great Work",
+    "title_zh": "如何做出伟大的工作",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/greatwork.html",
+    "tags": [
+      "productivity",
+      "creativity",
+      "thinking"
+    ],
+    "tags_zh": [
+      "生产力",
+      "创造力",
+      "思考"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "This article discusses how to identify and pursue work that leads to great achievements. It emphasizes the importance of choosing a field you have a natural aptitude for and a deep interest in, exploring the frontiers of knowledge, identifying gaps, and embracing curiosity. The author highlights the role of luck and the need to actively explore diverse interests and fields to discover one's true calling. Ultimately, great work stems from a combination of curiosity, delight, and the desire to create something impressive.",
+    "summary_zh": "本文探讨了如何识别和追求能够取得伟大成就的工作。它强调了选择自己有天赋且有浓厚兴趣的领域的重要性，探索知识的前沿，发现知识的空白，并拥抱好奇心。作者强调了运气的作用，以及积极探索不同兴趣和领域以发现自己的真正使命的必要性。最终，伟大的工作源于好奇心、快乐以及创造令人印象深刻的事物的渴望。",
+    "best_quote_en": "There's a kind of excited curiosity that's both the engine and the rudder of great work.",
+    "best_quote_zh": "有一种兴奋的好奇心，既是伟大工作的引擎，也是方向舵。"
+  },
+  {
+    "id": 4,
+    "title": "[Outliers] Sol Price: The Godfather of Costco, Walmart, and Modern Retail",
+    "title_zh": "零售业的教父：Sol Price，Costco和沃尔玛的幕后推手",
+    "source": "Farnam Street",
+    "link": "https://fs.blog/knowledge-project-podcast/outliers-sol-price/",
+    "tags": [
+      "business",
+      "entrepreneurship",
+      "productivity"
+    ],
+    "tags_zh": [
+      "商业",
+      "创业",
+      "生产力"
+    ],
+    "date": "2025-08-07",
+    "summary_en": "Sol Price, though not widely known, significantly shaped modern retail. He pioneered membership retail and founded two multi-billion-dollar companies, including Price Club, which influenced Costco and Walmart. His innovative strategies included intelligent loss of sales, honest customer relationships, and fair employee treatment. He focused on principles over procedures, teaching over managing.",
+    "summary_zh": "Sol Price虽然不广为人知，但他对现代零售业产生了重大影响。他是会员制零售的先驱，创立了两家价值数十亿美元的公司，其中包括影响Costco和沃尔玛的Price Club。他的创新策略包括智能损失销售、诚实的客户关系和公平的员工待遇。他注重原则而非程序，注重教学而非管理。",
+    "best_quote_en": "“I have a fiduciary duty to my members, like a lawyer to clients.”",
+    "best_quote_zh": "“我对我的会员负有信托责任，就像律师对客户一样。”"
+  },
+  {
+    "id": 5,
+    "title": "How to Get New Ideas",
+    "title_zh": "如何获得新想法",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/getideas.html",
+    "tags": [
+      "creativity",
+      "thinking",
+      "philosophy"
+    ],
+    "tags_zh": [
+      "创造力",
+      "思考",
+      "哲学"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "The article suggests that new ideas arise from noticing anomalies, oddities, and gaps in our understanding. While everyday life offers opportunities, the frontiers of knowledge are the most fertile ground. Knowledge grows fractally, revealing gaps at close inspection that can lead to new discoveries and insights.",
+    "summary_zh": "文章指出，新想法源于注意到异常现象，古怪之处以及我们理解中的空白。虽然日常生活提供了机会，但知识的前沿是最肥沃的土壤。知识呈分形增长，在近距离观察时会显露出空白，从而可以带来新的发现和见解。",
+    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?",
+    "best_quote_zh": "获得新想法的方法是注意到异常现象：什么是奇怪的，缺失的或损坏的？"
+  }]
