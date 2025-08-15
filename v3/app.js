@@ -1,4 +1,4 @@
-let raw = [], view = [], activeSource = 'all';
+let raw = [], view = [], activeSource = 'all', activeTags = new Set(['all']);
 let searchEl, sortEl, randomBtn;
 
 const $ = sel => document.querySelector(sel);
@@ -55,6 +55,16 @@ async function init() {
   }
 
   renderSources(['all', ...new Set(raw.map(x => x.source))]);
+  
+  // 根据当前语言选择标签字段
+  const lang = window.currentLang || 'zh';
+  const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
+  const allTags = raw.flatMap(x => {
+    const tags = x[tagsField] || x.tags || [];
+    return tags;
+  });
+  renderTags(['all', ...new Set(allTags)]);
+  
   bind();
   applyAndRender();
 }
@@ -125,6 +135,7 @@ function mountControls() {
     <div class="controls">
       <input id="search" placeholder="${texts[lang].placeholder}"/>
       <div id="sources" class="tags"></div>
+      <div id="tags" class="tags"></div>
       <select id="sort">
         <option value="date-desc">${texts[lang].sortDateDesc}</option>
         <option value="date-asc">${texts[lang].sortDateAsc}</option>
@@ -160,6 +171,11 @@ function bind() {
     });
   }
 
+  const tagsEl = $('#tags');
+  if (tagsEl) {
+    tagsEl.addEventListener('click', e => toggleMulti(e, 'tag'));
+  }
+
   if (sortEl) {
     sortEl.addEventListener('change', applyAndRender);
   }
@@ -167,6 +183,31 @@ function bind() {
   if (randomBtn) {
     randomBtn.addEventListener('click', recommendOne);
   }
+}
+
+function toggleMulti(e, type) {
+  const t = e.target.closest('.tag');
+  if (!t) return;
+
+  const val = (type === 'source') ? t.dataset.source : t.dataset.tag;
+  const set = (type === 'source') ? new Set([activeSource]) : activeTags;
+
+  if (val === 'all') {
+    set.clear(); set.add('all');
+  } else {
+    if (set.has('all')) set.delete('all');
+    set.has(val) ? set.delete(val) : set.add(val);
+    if (set.size === 0) set.add('all');
+  }
+
+  // 更新 UI
+  const parent = type === 'source' ? $('#sources') : $('#tags');
+  [...parent.children].forEach(n => {
+    const v = (type === 'source') ? n.dataset.source : n.dataset.tag;
+    n.classList.toggle('active', set.has('all') ? v === 'all' : set.has(v));
+  });
+
+  applyAndRender();
 }
 
 function applyAndRender() {
@@ -179,13 +220,17 @@ function applyAndRender() {
     const summaryField = lang === 'zh' ? x.summary_zh : x.summary_en;
     const quoteField = lang === 'zh' ? x.best_quote_zh : x.best_quote_en;
     const titleField = lang === 'zh' ? (x.title_zh || x.title) : x.title;
+    const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
+    const currentTags = x[tagsField] || x.tags || [];
+    
     const inQ = !q ||
       titleField?.toLowerCase().includes(q) ||
       summaryField?.toLowerCase().includes(q) ||
       quoteField?.toLowerCase().includes(q) ||
-      (x.tags || []).some(t => (t || '').toLowerCase().includes(q));
+      currentTags.some(t => (t || '').toLowerCase().includes(q));
     const inS = activeSource === 'all' || x.source === activeSource;
-    return inQ && inS;
+    const inT = activeTags.has('all') || currentTags.some(t => activeTags.has(t));
+    return inQ && inS && inT;
   });
 
   const [key, order] = (sortEl?.value || 'date-desc').split('-');
@@ -228,6 +273,20 @@ function renderSources(list) {
   ).join('');
 }
 
+function renderTags(list) {
+  console.log('Rendering tags:', list);
+
+  let el = $('#tags');
+  if (!el) {
+    console.error('Tags element not found');
+    return;
+  }
+
+  el.innerHTML = list.map(t =>
+    `<span class="tag ${t === 'all' ? 'active' : ''}" data-tag="${t}">${esc(t)}</span>`
+  ).join('');
+}
+
 function render(items) {
   console.log('Rendering items:', items.length);
 
@@ -261,6 +320,17 @@ function renderWithLanguage(items, lang) {
   
   // Update controls with new language
   mountControls();
+  
+  // Re-render sources and tags with new language
+  renderSources(['all', ...new Set(raw.map(x => x.source))]);
+  
+  // 根据当前语言选择标签字段
+  const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
+  const allTags = raw.flatMap(x => {
+    const tags = x[tagsField] || x.tags || [];
+    return tags;
+  });
+  renderTags(['all', ...new Set(allTags)]);
   
   // Re-bind events
   bind();

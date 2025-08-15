@@ -18,5 +18,9 @@
   {
     "name": "Seth Godin",
     "url": "http://sethgodin.typepad.com/seths_blog/atom.xml"
+  },
+  {
+    "name": "Sam Altman",
+    "url": "https://blog.samaltman.com/posts.atom"
   }
 ]
