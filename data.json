@@ -107,4 +107,113 @@
     "summary_zh": "文章指出，新想法源于注意到异常现象，古怪之处以及我们理解中的空白。虽然日常生活提供了机会，但知识的前沿是最肥沃的土壤。知识呈分形增长，在近距离观察时会显露出空白，从而可以带来新的发现和见解。",
     "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?",
     "best_quote_zh": "获得新想法的方法是注意到异常现象：什么是奇怪的，缺失的或损坏的？"
+  },{
+    "id": 6,
+    "title": "The Need to Read",
+    "title_zh": "阅读的必要性",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "learning",
+      "communication",
+      "thinking"
+    ],
+    "tags_zh": [
+      "阅读",
+      "写作",
+      "思考"
+    ],
+    "date": "2025-08-16",
+    "summary_en": "The author argues that reading is essential not only for acquiring knowledge but also for developing the ability to write well. Writing is not just a means of conveying ideas but also a way to generate them. Complex and ill-defined problems often require writing for effective solving. Therefore, reading good content is crucial for both writing well and thinking effectively.",
+    "summary_zh": "作者认为，阅读不仅是获取知识的必要途径，也是培养良好写作能力的关键。写作不仅仅是传达思想的方式，更是产生思想的方式。复杂和不明确的问题通常需要通过写作来有效解决。因此，阅读优秀的内容对于写好文章和有效思考至关重要。",
+    "best_quote_en": "Writing is not just a way to convey ideas, but also a way to have them.",
+    "best_quote_zh": "写作不仅仅是传达思想的方式，更是产生思想的方式。"
+  },
+  {
+    "id": 7,
+    "title": "The Gentle Singularity",
+    "title_zh": "温和的奇点",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/the-gentle-singularity",
+    "tags": [
+      "technology",
+      "creativity",
+      "future"
+    ],
+    "tags_zh": [
+      "科技",
+      "人工智能",
+      "未来"
+    ],
+    "date": "2025-06-10",
+    "summary_en": "The article discusses the arrival of digital superintelligence and its potential impact on humanity. While robots haven't taken over the streets, AI is already amplifying human capabilities, driving scientific progress, and increasing productivity. The author anticipates further advancements in areas like coding, scientific discovery, and robotics, leading to a world where intelligence and energy are abundant, potentially transforming society and the economy. The article acknowledges challenges such as job displacement and safety concerns but expresses optimism about humanity's ability to adapt and benefit from these technological advancements.",
+    "summary_zh": "文章探讨了数字超级智能的到来及其对人类的潜在影响。虽然机器人尚未占领街道，但人工智能已经在增强人类能力、推动科学进步和提高生产力。作者预计在编码、科学发现和机器人等领域将取得进一步的进展，从而创造一个智能和能源丰富的世界，并可能改变社会和经济。文章承认失业和安全问题等挑战，但对人类适应和受益于这些技术进步的能力表示乐观。",
+    "best_quote_en": "Already we live with incredible digital intelligence, and after some initial shock, most of us are pretty used to it. Very quickly we go from being amazed that AI can generate a beautifully-written paragraph to wondering when it can generate a beautifully-written novel; or from being amazed that it can make live-saving medical diagnoses to wondering when it can develop the cures.",
+    "best_quote_zh": "我们已经生活在令人难以置信的数字智能中，在最初的震惊之后，我们大多数人已经相当习惯了它。我们很快就从惊叹于人工智能可以生成一段优美的文字，转变为想知道它什么时候能生成一部优美的小说；或者从惊叹于它能做出拯救生命的医疗诊断，转变为想知道它什么时候能开发出治愈方法。"
+  },
+  {
+    "id": 8,
+    "title": "What You (Want to)* Want",
+    "title_zh": "你（想要）*想要什么",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "psychology"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "心理学"
+    ],
+    "date": "2025-08-16",
+    "summary_en": "The author explores the paradox between our deterministic material existence and the feeling of free will. The initial assertion that 'You can do what you want, but you can't want what you want' is refined. The core idea is that while we can change lower-order desires, there's always a fundamental desire beyond our direct control. This limitation becomes increasingly apparent as we consider higher-order desires, eventually leading to a foundational 'want' beyond manipulation or choice.",
+    "summary_zh": "作者探讨了我们确定的物质存在与自由意志感之间的悖论。最初的论断“你可以做你想做的，但你无法想要你所想要的”被进一步 refined。核心思想是，虽然我们可以改变较低层次的欲望，但总有一种基本的欲望超出了我们的直接控制。随着我们考虑更高层次的欲望，这种局限性变得越来越明显，最终导致了一种无法操纵或选择的基本“想要”。",
+    "best_quote_en": "You can do what you want, but there's some statement of the form 'you can't (want to)* want what you want' that's true. Ultimately you get back to a want that you don't control.",
+    "best_quote_zh": "你可以做你想做的，但总有一些形式的陈述是正确的，即“你不能（想要）*想要你所想要的”。最终，你会回到一个你无法控制的欲望。"
+  },
+  {
+    "id": 9,
+    "title": "Three Observations",
+    "title_zh": "三点观察",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/three-observations",
+    "tags": [
+      "technology",
+      "business",
+      "productivity"
+    ],
+    "tags_zh": [
+      "技术",
+      "商业",
+      "生产力"
+    ],
+    "date": "2025-02-09",
+    "summary_en": "This article discusses the potential of AGI (Artificial General Intelligence) to benefit humanity. It presents three observations about the economics of AI: intelligence scales with resources, the cost decreases significantly over time (10x every 12 months), and the value of intelligence grows super-exponentially. The author envisions a future where AI agents act as virtual coworkers, enhancing productivity and creativity, but emphasizes the importance of individual empowerment and equitable distribution of AI benefits to avoid potential societal imbalances.",
+    "summary_zh": "本文探讨了通用人工智能（AGI）为人类带来的潜在利益。文章提出了关于人工智能经济学的三点观察：智能随资源扩展而提升，成本随时间推移显著降低（每12个月下降10倍），以及智能的价值呈超指数增长。作者设想了一个人工智能代理如同虚拟同事的未来，提高生产力和创造力，但强调个人赋权和公平分配人工智能利益的重要性，以避免潜在的社会失衡。",
+    "best_quote_en": "AGI will be the biggest lever ever on human willfulness, and enable individual people to have more impact than ever before, not less.",
+    "best_quote_zh": "AGI将成为人类意志有史以来最大的杠杆，使个人比以往任何时候都更有影响力，而不是更少。"
+  },
+  {
+    "id": 10,
+    "title": "Alien Truth",
+    "title_zh": "外星真理",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/alien.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "creativity"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "创造力"
+    ],
+    "date": "2025-08-16",
+    "summary_en": "The article explores the concept of 'alien truth,' suggesting universal truths that intelligent beings across the universe would share beyond math and physics. It posits principles like controlled experiments validating hypotheses, the value of practice, and Occam's razor as potential candidates. The author links this search for alien truth to philosophy and suggests it's a worthwhile endeavor, even speculating that this very idea might be an alien truth itself. AI may provide a basis to test such truths.",
+    "summary_zh": "这篇文章探讨了“外星真理”的概念，提出除了数学和物理之外，宇宙中所有智慧生物都会分享的普遍真理。文章假设诸如对照实验验证假设、实践的价值和奥卡姆剃刀等原则可能是候选者。作者将对外星真理的探索与哲学联系起来，并认为这是一项值得努力的事业，甚至推测这个想法本身可能就是一个外星真理。 未来人工智能或将为此类真理的测试提供基础。",
+    "best_quote_en": "If you're trying to find the most general truths short of those of math or physics, then presumably they'll be those we'd share in common with other forms of intelligent life.",
+    "best_quote_zh": "如果你试图寻找数学或物理之外的最普遍真理，那么它们应该就是我们与其他形式的智慧生命共同拥有的真理。"
   }]
