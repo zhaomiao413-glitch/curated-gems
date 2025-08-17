@@ -216,4 +216,113 @@
     "summary_zh": "这篇文章探讨了“外星真理”的概念，提出除了数学和物理之外，宇宙中所有智慧生物都会分享的普遍真理。文章假设诸如对照实验验证假设、实践的价值和奥卡姆剃刀等原则可能是候选者。作者将对外星真理的探索与哲学联系起来，并认为这是一项值得努力的事业，甚至推测这个想法本身可能就是一个外星真理。 未来人工智能或将为此类真理的测试提供基础。",
     "best_quote_en": "If you're trying to find the most general truths short of those of math or physics, then presumably they'll be those we'd share in common with other forms of intelligent life.",
     "best_quote_zh": "如果你试图寻找数学或物理之外的最普遍真理，那么它们应该就是我们与其他形式的智慧生命共同拥有的真理。"
+  },{
+    "id": 11,
+    "title": "What I've Learned from Users",
+    "title_zh": "我从用户身上学到的东西",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/users.html",
+    "tags": [
+      "entrepreneurship",
+      "productivity",
+      "learning"
+    ],
+    "tags_zh": [
+      "创业",
+      "生产力",
+      "学习"
+    ],
+    "date": "2025-08-17",
+    "summary_en": "The author reflects on his experiences with Y Combinator startups, highlighting common problems, the importance of individualized advice, and the counterintuitive nature of startups. He emphasizes the value of focus and rapid iteration, drawing parallels to a running back navigating a field. The author also notes the surprise that founders often don't immediately heed advice, often because startup life is so different from others, but that by focusing on action and measurable results, a course can be set and corrected.",
+    "summary_zh": "作者回顾了他在Y Combinator的经验，强调了初创公司的常见问题、个性化建议的重要性以及初创公司的反直觉性。他强调专注和快速迭代的价值，并将初创公司比作在球场上奔跑的跑锋。作者还指出，创始人通常不会立即听取建议，这往往是因为创业生活与其它生活大不相同，但通过专注于行动和可衡量的结果，就可以不断调整方向。",
+    "best_quote_en": "Explain what you've learned from users.",
+    "best_quote_zh": "解释你从用户身上学到了什么。"
+  },
+  {
+    "id": 12,
+    "title": "Reflections",
+    "title_zh": "反思",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/reflections",
+    "tags": [
+      "technology",
+      "entrepreneurship",
+      "thinking"
+    ],
+    "tags_zh": [
+      "技术",
+      "创业",
+      "思考"
+    ],
+    "date": "2025-01-06",
+    "summary_en": "This article reflects on the journey of OpenAI, from its inception to the launch of ChatGPT and beyond. It discusses the challenges, rapid growth, and lessons learned, including governance failures and the importance of a diverse board. The author expresses gratitude and emphasizes the commitment to AI safety and the belief in gradual deployment. The company now feels confident in its path toward AGI, envisioning AI agents joining the workforce in 2025.",
+    "summary_zh": "本文反思了OpenAI的历程，从成立到ChatGPT的发布及之后的发展。讨论了挑战、快速增长和经验教训，包括治理失败和多元化董事会的重要性。作者表达了感激之情，并强调了对人工智能安全的承诺和对渐进式部署的信念。该公司现在对其实现AGI的道路充满信心，并设想人工智能代理将在2025年加入劳动力队伍。",
+    "best_quote_en": "We continue to believe that the best way to make an AI system safe is by iteratively and gradually releasing it into the world, giving society time to adapt and co-evolve with the technology, learning from experience, and continuing to make the technology safer.",
+    "best_quote_zh": "我们仍然相信，使人工智能系统安全的最佳方法是通过迭代并逐步将其发布到世界，让社会有时间适应并与技术共同发展，从经验中学习，并不断提高技术的安全性。"
+  },
+  {
+    "id": 13,
+    "title": "Heresy",
+    "title_zh": "异端",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/heresy.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "psychology"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "心理学"
+    ],
+    "date": "2025-08-17",
+    "summary_en": "The author discusses the resurgence of intolerance and the concept of heresy in modern society, drawing parallels to historical examples like the Cultural Revolution. Heresy, defined as an opinion punished like a crime, has seen a rise due to the combination of intolerant people and ideologies that provide strict rules for moral superiority. The author avoids mentioning specific heresies to maintain the essay's relevance, noting that the aggressively conventional-minded are always present, seeking new ideologies to enforce.",
+    "summary_zh": "作者讨论了现代社会不容忍现象的复兴以及异端的概念，并将之与文化大革命等历史例子进行了比较。异端被定义为一种像犯罪一样受到惩罚的观点，由于不容忍的人和为道德优越性提供严格规则的意识形态的结合，异端现象有所抬头。作者避免提及具体的异端，以保持文章的现实意义，并指出思想激进的传统主义者总是存在的，他们不断寻找新的意识形态来执行。",
+    "best_quote_en": "A heresy is an opinion whose expression is treated like a crime — one that makes some people feel not merely that you're mistaken, but that you should be punished.",
+    "best_quote_zh": "一种异端是这样一种观点，它的表达被视为一种犯罪——它使一些人觉得你不仅是错误的，而且应该受到惩罚。"
+  },
+  {
+    "id": 14,
+    "title": "GPT-4o",
+    "title_zh": "GPT-4o",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/gpt-4o",
+    "tags": [
+      "technology",
+      "creativity",
+      "communication"
+    ],
+    "tags_zh": [
+      "技术",
+      "人工智能",
+      "沟通"
+    ],
+    "date": "2024-05-13",
+    "summary_en": "The announcement highlights two key points: making highly capable AI tools available for free and the new voice (and video) mode which provides a more natural and human-like computer interface. OpenAI aims to empower others to create amazing things with AI, while also finding business opportunities to sustain the free service. The improved response times and expressiveness significantly enhance user experience, creating a future where computers are more helpful and accessible.",
+    "summary_zh": "公告强调了两点：一是免费提供强大的AI工具，二是新的语音（和视频）模式，它提供了更自然和人性化的计算机界面。 OpenAI的目标是授权他人使用AI创造惊人的事物，同时也寻找商业机会来维持免费服务。 改进的响应时间和表达能力显著提升了用户体验，创造了一个计算机更加有帮助和易于访问的未来。",
+    "best_quote_en": "Our initial conception when we started OpenAI was that we’d create AI and use it to create all sorts of benefits for the world. Instead, it now looks like we’ll create AI and then other people will use it to create all sorts of amazing things that we all benefit from.",
+    "best_quote_zh": "我们最初创立OpenAI时的想法是，我们将创造AI并用它为世界创造各种好处。 但现在看来，我们将创造AI，然后其他人将使用它来创造各种令我们所有人受益的惊人事物。"
+  },
+  {
+    "id": 15,
+    "title": "Putting Ideas into Words",
+    "title_zh": "将想法付诸文字",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/words.html",
+    "tags": [
+      "communication",
+      "thinking",
+      "productivity"
+    ],
+    "tags_zh": [
+      "写作",
+      "思考",
+      "效率"
+    ],
+    "date": "2025-08-17",
+    "summary_en": "The act of writing reveals gaps in one's knowledge. Putting ideas into words is a rigorous test, requiring constant revision to achieve precision and completeness. Writing forces us to confront our ideas as a neutral reader would, exposing flaws and incompleteness. Those who don't write may never fully form their ideas or realize the extent of their incompleteness. While writing doesn't guarantee correctness, it's a necessary step for developing fully formed ideas.",
+    "summary_zh": "写作行为会暴露知识中的空白。将想法付诸文字是一项严格的测试，需要不断修改以实现精确和完整。写作迫使我们像中立的读者一样面对自己的想法，从而暴露缺陷和不完整之处。不写作的人可能永远无法完全形成他们的想法，也无法意识到他们的不完整程度。虽然写作不能保证正确性，但它是发展完全形成的想法的必要步骤。",
+    "best_quote_en": "Putting ideas into words is a severe test.",
+    "best_quote_zh": "将想法付诸文字是一项严格的测试。"
   }]
