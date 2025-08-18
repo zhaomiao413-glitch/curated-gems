@@ -325,4 +325,113 @@
     "summary_zh": "写作行为会暴露知识中的空白。将想法付诸文字是一项严格的测试，需要不断修改以实现精确和完整。写作迫使我们像中立的读者一样面对自己的想法，从而暴露缺陷和不完整之处。不写作的人可能永远无法完全形成他们的想法，也无法意识到他们的不完整程度。虽然写作不能保证正确性，但它是发展完全形成的想法的必要步骤。",
     "best_quote_en": "Putting ideas into words is a severe test.",
     "best_quote_zh": "将想法付诸文字是一项严格的测试。"
+  },{
+    "id": 16,
+    "title": "Is There Such a Thing as Good Taste?",
+    "title_zh": "是否存在好品味这种东西？",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/goodtaste.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "creativity"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "创造力"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This article argues that good taste exists, contrary to the popular belief that it's purely subjective. The author uses reductio ad absurdum, demonstrating that denying good taste leads to denying good art and skilled artists. The author addresses common reasons for doubting good taste, such as disagreements and the perceived subjectivity of art, arguing that art's effectiveness lies in its ability to impact humans, who share commonalities. Therefore, good taste, while not absolute, is indeed possible through informed and clear judgment.",
+    "summary_zh": "本文作者认为，好品味是存在的，这与普遍认为它纯粹是主观的观点相反。作者使用了归谬法，证明否认好品味会导致否认好的艺术和有技巧的艺术家。作者还解决了人们怀疑好品味的常见原因，例如意见分歧和艺术的主观性，并认为艺术的有效性在于它影响人类的能力，而人类具有共同点。因此，通过知情和清晰的判断，好品味即使不是绝对的，也是可能存在的。",
+    "best_quote_en": "If there's no such thing as good taste, then there's no such thing as good art. Because if there is such a thing as good art, it's easy to tell which of two people has better taste.",
+    "best_quote_zh": "如果没有好品味这回事，那么就没有好艺术这回事。因为如果存在好艺术这回事，那么很容易辨别出两个人中谁更有品味。"
+  },
+  {
+    "id": 17,
+    "title": "What I Wish Someone Had Told Me",
+    "title_zh": "我希望有人告诉我的事",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
+    "tags": [
+      "business",
+      "productivity",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "商业",
+      "生产力",
+      "创业"
+    ],
+    "date": "2023-12-21",
+    "summary_en": "This article offers advice on startups and business. Key points include prioritizing optimism, and strong teams, focusing on important and ambitious ideas, and using incentives carefully. It emphasizes clear communication, fighting bureaucracy, valuing outcomes, investing in recruiting, and recognizing the value of fast iteration and outstanding individuals. Furthermore, it highlights the importance of long-term vision, addressing risks and understanding scale, and the value of working with great people.",
+    "summary_zh": "本文提供了关于创业和业务的建议。要点包括优先考虑乐观主义和强大的团队，专注于重要和雄心勃勃的想法，并谨慎使用激励措施。 强调清晰的沟通，与官僚主义作斗争，重视成果，投资于招聘，并认识到快速迭代和杰出个人的价值。 此外，它强调了长远眼光的重要性，解决风险，理解规模以及与优秀人才合作的价值。",
+    "best_quote_en": "It is easier for a team to do a hard thing that really matters than to do an easy thing that doesn’t really matter; audacious ideas motivate people.",
+    "best_quote_zh": "对于一个团队来说，做一件真正重要的难事比做一件不重要的容易事更容易；大胆的想法能激励人们。"
+  },
+  {
+    "id": 18,
+    "title": "Beyond Smart",
+    "title_zh": "超越聪明",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/smart.html",
+    "tags": [
+      "thinking",
+      "creativity",
+      "productivity"
+    ],
+    "tags_zh": [
+      "思考",
+      "创造力",
+      "生产力"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article argues that intelligence, while necessary, is not the sole determinant of innovative ideas. It explores the gap between intelligence and the ability to generate new ideas, suggesting that qualities like obsessive interest, independent-mindedness, writing ability, and specific techniques are also crucial. The author posits that these qualities can be cultivated, making the process of discovery more accessible and controllable than innate intelligence alone.",
+    "summary_zh": "文章认为，智力虽然是必要的，但并非创新思想的唯一决定因素。它探讨了智力与产生新想法能力之间的差距，表明痴迷的兴趣、独立思考、写作能力和特定技术等品质也至关重要。作者认为，这些品质是可以培养的，使得发现过程与仅靠先天智力相比，更易于获得和控制。",
+    "best_quote_en": "What was special about him was that he had important new ideas. Being very smart was a necessary precondition for having those ideas, but the two are not identical.",
+    "best_quote_zh": "他特别之处在于他有重要的新想法。非常聪明是产生这些想法的必要前提，但两者并不相同。"
+  },
+  {
+    "id": 19,
+    "title": "Helion Needs You",
+    "title_zh": "Helion需要你",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/helion-needs-you",
+    "tags": [
+      "technology",
+      "business",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "科技",
+      "商业",
+      "创业"
+    ],
+    "date": "2022-07-13",
+    "summary_en": "Helion is making rapid progress in fusion energy and aims to demonstrate Q > 1 fusion in 2024. The company's ambitious goals include providing clean, continuous energy at a price of 1 cent per kilowatt-hour and building enough power plants to meet global electricity demand within ten years. Helion is now seeking talented individuals, particularly electrical and mechanical engineers, to join their team and help them achieve these goals.",
+    "summary_zh": "Helion 在核融合能源方面取得了快速进展，并计划在2024年展示 Q > 1 的核融合。该公司的宏伟目标包括以每千瓦时1美分的价格提供清洁、持续的能源，并在十年内建造足够的发电厂来满足全球电力需求。Helion 现在正在寻找有才华的人，特别是电气和机械工程师，加入他们的团队，帮助他们实现这些目标。",
+    "best_quote_en": "Abundant, clean, and radically inexpensive energy will elevate the quality of life for all of us—think about how much the cost of energy factors into what we do and use.",
+    "best_quote_zh": "丰富、清洁且极其廉价的能源将提升我们所有人的生活质量——想想能源成本在我们的所作所为和使用中占了多大的比重。"
+  },
+  {
+    "id": 20,
+    "title": "Weird Languages",
+    "title_zh": "奇特的编程语言",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/weird.html",
+    "tags": [
+      "programming",
+      "learning",
+      "thinking"
+    ],
+    "tags_zh": [
+      "编程",
+      "学习",
+      "思考"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article suggests that while most programming involves gluing together library calls, the remaining small percentage is more interesting and can be explored through 'weird' languages. These languages reveal alternative programming paradigms, such as Lisp macros, which enable techniques beyond simple glue programming, like creating domain-specific languages. Learning these languages expands one's understanding of what programming can be and how to think differently about solving problems.",
+    "summary_zh": "文章指出，虽然大多数编程涉及库调用的组合，但剩余的小部分更有趣，可以通过“奇特”的语言来探索。这些语言揭示了替代的编程范式，例如 Lisp 宏，它支持超越简单组合的技巧，例如创建领域特定语言。学习这些语言可以扩展人们对编程的理解，以及如何以不同的方式思考解决问题。",
+    "best_quote_en": "If you want to expand your concept of what programming can be, one way to do it is by learning weird languages.",
+    "best_quote_zh": "如果你想拓展你对编程概念的理解，一种方法是学习奇特的语言。"
   }]
