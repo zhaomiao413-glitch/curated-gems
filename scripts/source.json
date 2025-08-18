@@ -10,5 +10,9 @@
   {
     "name": "Astral Codex Ten",
     "url": "https://www.astralcodexten.com/feed"
+  },
+  {
+    "name": "Hidden Brain",
+    "url": "//https://feeds.npr.org/510308/podcast.xml"
   }
 ]
