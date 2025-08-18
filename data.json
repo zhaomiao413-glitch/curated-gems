@@ -434,4 +434,112 @@
     "summary_zh": "文章指出，虽然大多数编程涉及库调用的组合，但剩余的小部分更有趣，可以通过“奇特”的语言来探索。这些语言揭示了替代的编程范式，例如 Lisp 宏，它支持超越简单组合的技巧，例如创建领域特定语言。学习这些语言可以扩展人们对编程的理解，以及如何以不同的方式思考解决问题。",
     "best_quote_en": "If you want to expand your concept of what programming can be, one way to do it is by learning weird languages.",
     "best_quote_zh": "如果你想拓展你对编程概念的理解，一种方法是学习奇特的语言。"
+  },{
+    "id": 21,
+    "title": "How to Work Hard",
+    "title_zh": "如何努力工作",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/hwh.html",
+    "tags": [
+      "productivity",
+      "thinking",
+      "philosophy"
+    ],
+    "tags_zh": [
+      "生产力",
+      "思考",
+      "哲学"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article discusses the importance of hard work in achieving great things, emphasizing that natural talent alone is not enough. It highlights that dedication, practice, and genuine passion are essential for success, especially in pursuing self-defined goals. The author underscores the need to differentiate between superficial and meaningful work, and also to find the optimal balance of work hours to maintain the quality of output.",
+    "summary_zh": "这篇文章探讨了努力工作在成就伟大事物中的重要性，强调仅靠天赋是不够的。文章指出，奉献精神、实践和真正的热情对于成功至关重要，尤其是在追求自我定义的目标时。作者还强调需要区分肤浅的工作和有意义的工作，并找到工作时间的最佳平衡点以保持产出质量。",
+    "best_quote_en": "There are three ingredients in great work: natural ability, practice, and effort. You can do pretty well with just two, but to do the best work you need all three.",
+    "best_quote_zh": "伟大的工作有三个要素：天赋、实践和努力。你只需要其中两个也能做得不错，但要做到最好，你需要全部三个。"
+  },
+  {
+    "id": 22,
+    "title": "DALL•E 2",
+    "title_zh": "DALL·E 2",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/dall-star-e-2",
+    "tags": [
+      "technology",
+      "creativity"
+    ],
+    "tags_zh": [
+      "技术",
+      "创造力",
+      "人工智能"
+    ],
+    "date": "2022-04-06",
+    "summary_en": "DALL·E 2 is a new AI tool that creates and edits images from natural language instructions. It represents a shift in computer interfaces where users describe their desired outcome, and the computer executes it. While enhancing creativity and potentially impacting labor markets, particularly in creative fields, DALL·E 2 also highlights the difficulty in predicting AI's trajectory. The tool's capabilities suggest a future where ideas, not specific skills, are the limiting factor. A research launch aims to mitigate potential downsides through collaboration.",
+    "summary_zh": "DALL·E 2 是一种新型人工智能工具，可以通过自然语言指令创建和编辑图像。它代表了计算机界面的一种转变，用户描述他们想要的结果，然后由计算机执行。在增强创造力并可能影响劳动力市场（尤其是在创意领域）的同时，DALL·E 2 也突显了预测人工智能发展轨迹的难度。该工具的能力表明，未来想法（而非特定技能）将成为限制因素。通过研究发布旨在通过协作来减轻潜在的缺点。",
+    "best_quote_en": "It’s an example of a world in which good ideas are the limit for what we can do, not specific skills.",
+    "best_quote_zh": "这是一个好主意是我们能做什么的限制，而不是特定技能的世界的例子。"
+  },
+  {
+    "id": 23,
+    "title": "Open Thread 395",
+    "title_zh": "开放讨论区 395",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/open-thread-395",
+    "tags": [
+      "communication",
+      "thinking",
+      "productivity"
+    ],
+    "tags_zh": [
+      "沟通",
+      "思考",
+      "效率"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This is an open thread for general discussion. It includes updates on ACX Grants, a survey request (with precautions against selection bias), and mentions of comments on recent articles about dating and the amyloid hypothesis. Prediction markets related to these articles have also been created.",
+    "summary_zh": "这是一个开放讨论区，可以随意发布任何内容和提问。内容包括ACX Grants的更新、一项调查请求（采取了预防选择偏差的措施），以及对最近关于约会和淀粉样蛋白假说的文章的评论。此外，还创建了与这些文章相关的预测市场。",
+    "best_quote_en": "But if I tell you what it is, then there will be selection bias, since people involved with the thing will be more likely to take a survey about it.",
+    "best_quote_zh": "但如果我告诉你它是什么，就会有选择偏差，因为与这件事有关的人更有可能参加关于它的调查。"
+  },
+  {
+    "id": 24,
+    "title": "A Project of One's Own",
+    "title_zh": "自主项目",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/own.html",
+    "tags": [
+      "productivity",
+      "creativity",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "生产力",
+      "创造力",
+      "创业"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "Working on a project of one's own is likened to skating, offering more fun and productivity compared to ordinary work. It fosters excitement and engagement, essential for innovation. The author contrasts this with schoolwork, advocating for nurturing this intrinsic motivation over grades. This approach is valuable in various fields, including startups and tech, where passion-driven work leads to meaningful outcomes, blurring the lines between work and life and boosting team collaboration and excitement.",
+    "summary_zh": "自主项目就像滑冰一样，相比普通工作更有趣和高效。它能激发兴奋感和参与感，这对创新至关重要。作者将此与学校作业进行对比，提倡培养这种内在动力，而不是只关注分数。这种方法在各个领域都很有价值，包括创业公司和科技行业，在那里，激情驱动的工作可以带来有意义的成果，模糊工作和生活之间的界限，并促进团队合作和兴奋感。",
+    "best_quote_en": "Working on a project of your own is as different from ordinary work as skating is from walking. It's more fun, but also much more productive.",
+    "best_quote_zh": "从事自己的项目与普通工作截然不同，就像滑冰与走路不同。它更有趣，而且效率更高。"
+  },
+  {
+    "id": 25,
+    "title": "Helion",
+    "title_zh": "Helion公司",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/helion",
+    "tags": [
+      "technology",
+      "business",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "科技",
+      "商业",
+      "创业"
+    ],
+    "date": "2021-11-05",
+    "summary_en": "This article expresses excitement about investing in Helion, a promising fusion energy company. Helion aims to achieve net electricity generation by 2024 and deliver electricity at a significantly lower cost of 1 cent per kilowatt-hour. The author believes this could provide a path out of the climate crisis and dramatically improve the quality of life through cheaper energy.",
+    "summary_zh": "这篇文章表达了对投资Helion公司的兴奋之情，这是一家极具前景的聚变能源公司。Helion的目标是到2024年实现净发电，并以极低的成本（每千瓦时1美分）提供电力。作者认为，这可能为摆脱气候危机提供一条道路，并通过更便宜的能源大幅提高生活质量。",
+    "best_quote_en": "Helion has a clear path to net electricity by 2024, and has a long-term goal of delivering electricity for 1 cent per kilowatt-hour.",
+    "best_quote_zh": "Helion公司有着在2024年实现净发电的清晰路径，并且其长期目标是以每千瓦时1美分的成本输送电力。"
   }]
