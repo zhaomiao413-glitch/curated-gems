@@ -542,4 +542,113 @@
     "summary_zh": "这篇文章表达了对投资Helion公司的兴奋之情，这是一家极具前景的聚变能源公司。Helion的目标是到2024年实现净发电，并以极低的成本（每千瓦时1美分）提供电力。作者认为，这可能为摆脱气候危机提供一条道路，并通过更便宜的能源大幅提高生活质量。",
     "best_quote_en": "Helion has a clear path to net electricity by 2024, and has a long-term goal of delivering electricity for 1 cent per kilowatt-hour.",
     "best_quote_zh": "Helion公司有着在2024年实现净发电的清晰路径，并且其长期目标是以每千瓦时1美分的成本输送电力。"
+  },{
+    "id": 26,
+    "title": "Fierce Nerds",
+    "title_zh": "强悍的极客",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/fn.html",
+    "tags": [
+      "thinking",
+      "productivity",
+      "business"
+    ],
+    "tags_zh": [
+      "思考",
+      "生产力",
+      "商业"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This article discusses the characteristics of \"fierce nerds,\" a small but interesting group of highly competitive, overconfident, intelligent, and independent-minded individuals. It suggests that while their fierceness can be a great asset in solving problems and achieving success, especially in business, it can also lead to bitterness if not properly channeled through ambitious projects. The author concludes that there has never been a better time to be a nerd, as society increasingly values competence over charisma.",
+    "summary_zh": "本文探讨了“强悍的极客”的特征，他们是一小群但非常有趣的群体，具有高度的竞争力、过度自信、聪明才智和独立思想。文章认为，他们的强悍对于解决问题和取得成功非常有帮助，尤其是在商业领域，但如果不通过雄心勃勃的项目加以引导，也可能导致痛苦。作者总结说，现在是成为极客的最佳时机，因为社会越来越重视能力而非魅力。",
+    "best_quote_en": "If you're given a sharp knife, it seems to me better to use it than to blunt its edge to avoid cutting yourself.",
+    "best_quote_zh": "如果给你一把锋利的刀，我认为最好是使用它，而不是为了避免割伤自己而使刀刃变钝。"
+  },
+  {
+    "id": 27,
+    "title": "The Strength of Being Misunderstood",
+    "title_zh": "被误解的力量",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/the-strength-of-being-misunderstood",
+    "tags": [
+      "thinking",
+      "philosophy",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "思考",
+      "哲学",
+      "创业"
+    ],
+    "date": "2020-12-01",
+    "summary_en": "It's crucial to care about others' opinions to create something useful, but not excessively. Select whose opinions matter and the timescale you prioritize. Impressive people value long-term perspectives, even at the cost of short-term disapproval. Trading short-term low-status for long-term high-status is key. Being misunderstood, while challenging, is a strength if you're ultimately right, enabling unique problem-solving.",
+    "summary_zh": "为了创造有用的东西，关注他人的意见至关重要，但不要过度。选择重视谁的意见以及优先考虑的时间尺度。 令人印象深刻的人重视长远眼光，即使以牺牲短期认可为代价。 以短期低地位换取长期高地位是关键。 如果你是正确的，被误解虽然具有挑战性，但也是一种优势，可以解决独特的难题。",
+    "best_quote_en": "as long as you are right, being misunderstood by most people is a strength not a weakness.",
+    "best_quote_zh": "只要你是对的，被大多数人误解就是一种优势，而不是弱点。"
+  },
+  {
+    "id": 28,
+    "title": "Your Review: Dating Men In The Bay Area",
+    "title_zh": "你的评论：在湾区与男人约会",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/your-review-dating-men-in-the-bay",
+    "tags": [
+      "relationships",
+      "psychology",
+      "society"
+    ],
+    "tags_zh": [
+      "人际关系",
+      "心理学",
+      "社会"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "This article reviews the experience of dating men in the Bay Area, focusing on the emotional burdens they carry due to societal neglect and the lack of clear male roles. The author, a feminist, aims to bridge the gap in understanding men's pain and its impact on relationships, arguing for increased attention to men's issues as vital for societal healing. Historically, men had clear roles, but modern society has eroded these, leaving men without a defined path.",
+    "summary_zh": "本文评论了在湾区与男人约会的经历，重点关注由于社会忽视和缺乏明确男性角色而给他们带来的情感负担。 作者是一位女权主义者，旨在弥合理解男性痛苦及其对人际关系的影响之间的差距，主张更多地关注男性问题，这对于社会治愈至关重要。 从历史上看，男性有明确的角色，但现代社会已经削弱了这些角色，使男性没有明确的道路。",
+    "best_quote_en": "I believe the opposite is true; the pain facing both men and women is evidence of a wounded society, and you cannot heal an injury by only stitching half of it.",
+    "best_quote_zh": "我认为事实恰恰相反；男人和女人所面临的痛苦都证明了我们社会已经受伤，你不能只缝合一半伤口来治愈它。"
+  },
+  {
+    "id": 29,
+    "title": "Crazy New Ideas",
+    "title_zh": "疯狂的新想法",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/newideas.html",
+    "tags": [
+      "thinking",
+      "creativity",
+      "philosophy"
+    ],
+    "tags_zh": [
+      "思考",
+      "创造力",
+      "哲学"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article discusses why it's important to consider seemingly crazy ideas, especially when proposed by domain experts. Dismissing such ideas can be a mistake, as big breakthroughs often start with implausible concepts. Envy, the desire to appear sophisticated, and vested interests often lead people to reject novel ideas. The author advises questioning instead of dismissing new ideas and encourages supporting those who propose them, as it can lead to valuable insights and advancements.",
+    "summary_zh": "文章讨论了为什么应该认真考虑那些看似疯狂的想法，特别是当这些想法是由领域专家提出时。 忽视这些想法可能会铸成大错，因为重大的突破往往始于看似不可能的概念。 嫉妒，想要显得老练以及既得利益等等因素常常导致人们拒绝新的想法。 作者建议质疑而不是否定新想法，并且鼓励那些提出新想法的人， 因为这可能带来宝贵的见解和进步。",
+    "best_quote_en": "Anyone who has studied the history of ideas, and especially the history of science, knows that's how big things start. Someone proposes an idea that sounds crazy, most people dismiss it, then it gradually takes over the world.",
+    "best_quote_zh": "任何研究过思想史，特别是科学史的人都知道伟大的事物是如何开始的。有人提出了一个听起来很疯狂的想法，大多数人都不屑一顾，然后它逐渐接管了世界。"
+  },
+  {
+    "id": 30,
+    "title": "PG and Jessica",
+    "title_zh": "PG和杰西卡",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/pg-and-jessica",
+    "tags": [
+      "entrepreneurship",
+      "business",
+      "relationships"
+    ],
+    "tags_zh": [
+      "创业",
+      "商业",
+      "人际关系"
+    ],
+    "date": "2020-09-25",
+    "summary_en": "The article discusses why it's difficult to replicate Y Combinator (YC). The key was the founders, PG and Jessica, who believed in unknown people, set strong norms, and focused on important things. They worked hard, spent time with individuals, and understood the value of community. Crucially, they built an ecosystem without being greedy, letting others benefit. Despite seeming simple, these actions have been hard to replicate, and PG and Jessica have significantly impacted careers in the startup industry.",
+    "summary_zh": "文章讨论了为什么很难复制Y Combinator（YC）。关键在于创始人PG和杰西卡，他们相信默默无闻的人，制定了严格的规范，并专注于重要的事情。他们努力工作，花时间与个人交流，并理解社区的价值。最重要的是，他们建立了一个不贪婪的生态系统，让其他人从中受益。尽管看起来很简单，但这些行动很难被复制，而且PG和杰西卡对创业行业的人的职业生涯产生了重大影响。",
+    "best_quote_en": "The entire secret to YC getting going was PG and Jessica—there was no other magic trick.",
+    "best_quote_zh": "YC成功的全部秘密在于PG和杰西卡——没有其他魔法。"
   }]
