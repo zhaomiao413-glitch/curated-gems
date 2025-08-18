@@ -651,4 +651,113 @@
     "summary_zh": "文章讨论了为什么很难复制Y Combinator（YC）。关键在于创始人PG和杰西卡，他们相信默默无闻的人，制定了严格的规范，并专注于重要的事情。他们努力工作，花时间与个人交流，并理解社区的价值。最重要的是，他们建立了一个不贪婪的生态系统，让其他人从中受益。尽管看起来很简单，但这些行动很难被复制，而且PG和杰西卡对创业行业的人的职业生涯产生了重大影响。",
     "best_quote_en": "The entire secret to YC getting going was PG and Jessica—there was no other magic trick.",
     "best_quote_zh": "YC成功的全部秘密在于PG和杰西卡——没有其他魔法。"
+  },{
+    "id": 31,
+    "title": "An NFT That Saves Lives",
+    "title_zh": "一个拯救生命的NFT",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/nft.html",
+    "tags": [
+      "technology",
+      "business",
+      "relationships"
+    ],
+    "tags_zh": [
+      "科技",
+      "商业",
+      "公益"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "Noora Health, a nonprofit, launched an NFT called \"Save Thousands of Lives.\" The proceeds will support their programs in South Asian hospitals, teaching new mothers how to care for their babies at home. Their work has shown to save 9 babies for every 1000 live births, costing approximately $1,235 per life saved. The NFT will track how the funds are spent and estimate the number of lives saved. The higher the NFT's price, the more lives will be saved.",
+    "summary_zh": "Noora Health是一家非营利组织，发行了一个名为“拯救数千生命”的NFT。所得款项将用于支持他们在南亚医院的项目，教导新手妈妈们如何在家照顾婴儿。他们的工作显示，每1000个活产婴儿中，他们可以拯救9个婴儿的生命，平均每救一人花费约1235美元。 该NFT将追踪资金的使用情况，并预估拯救的生命数量。 这个NFT的价格越高，拯救的生命就越多。",
+    "best_quote_en": "unlike an NFT representing something that has already happened, this NFT gets better as the price gets higher.",
+    "best_quote_zh": "与代表已经发生的事情的 NFT 不同，这个 NFT 会随着价格的上涨而变得更好。"
+  },
+  {
+    "id": 32,
+    "title": "Researchers and Founders",
+    "title_zh": "研究者与创始人",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/researchers-and-founders",
+    "tags": [
+      "thinking",
+      "entrepreneurship",
+      "productivity"
+    ],
+    "tags_zh": [
+      "思考",
+      "创业",
+      "效率"
+    ],
+    "date": "2020-06-19",
+    "summary_en": "This article compares the qualities of successful researchers and founders, highlighting their common traits. Both groups frequently reflect on important problems in their fields, possess laser focus combined with long-term vision,demonstrate persistence and a strong work ethic. They are action-oriented, honest in assessing results, creative in generating ideas, value autonomy, and are often driven by genuine curiosity. While there are individual differences, these shared attributes contribute to their effectiveness and success.",
+    "summary_zh": "这篇文章比较了成功的研究者和创始人的共同特点。两类人都经常思考其领域内的重要问题，具备专注和长远眼光，展现出坚持不懈和努力工作的精神。他们注重行动，诚实评估结果，具有创造力，重视自主性，并常常被真正的好奇心所驱动。虽然存在个体差异，但这些共同的品质促成了他们的效率和成功。",
+    "best_quote_en": "The best people in both groups spend a lot of time reflecting on some version of the Hamming question—'what are the most important problems in your field, and why aren’t you working on them?'",
+    "best_quote_zh": "两类人中优秀者都会花大量时间思考某种形式的汉明问题——“你所在领域最重要的研究问题是什么，你为什么不在研究它们？”"
+  },
+  {
+    "id": 33,
+    "title": "In Defense Of The Amyloid Hypothesis",
+    "title_zh": "为淀粉样蛋白假说辩护",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/in-defense-of-the-amyloid-hypothesis",
+    "tags": [
+      "psychology",
+      "learning",
+      "technology"
+    ],
+    "tags_zh": [
+      "心理学",
+      "学习",
+      "科技"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "This article defends the amyloid hypothesis of Alzheimer's disease, which posits that the accumulation of amyloid-beta peptides causes the disease. It addresses common criticisms, such as fraudulent research, weak correlation between amyloid levels and cognitive impairment, and the limited effectiveness of anti-amyloid drugs. The author supports the A -> T -> N model (amyloid causes tau causes neurodegeneration) and discusses genetic and environmental factors influencing amyloid production and clearance.",
+    "summary_zh": "本文为阿尔茨海默病的淀粉样蛋白假说辩护，该假说认为淀粉样β肽的积累导致该疾病。文章驳斥了常见的批评，如欺诈性研究、淀粉样蛋白水平与认知障碍之间微弱的相关性，以及抗淀粉样蛋白药物的有限疗效。作者支持 A -> T -> N 模型（淀粉样蛋白导致 Tau 蛋白导致神经退行性变），并讨论了影响淀粉样蛋白产生和清除的遗传和环境因素。",
+    "best_quote_en": "To my knowledge, there is no serious claim that these genes could be working through any pathway other than their shared role in the amyloid system.",
+    "best_quote_zh": "据我所知，没有确凿的证据表明这些基因可以通过除了在淀粉样蛋白系统中发挥作用之外的任何其他途径发挥作用。"
+  },
+  {
+    "id": 34,
+    "title": "The Best Years of Your Life",
+    "title_zh": "你生命中最美好的时光",
+    "source": "Hidden Brain",
+    "link": "https://www.siriusxm.com",
+    "tags": [
+      "music",
+      "technology",
+      "business"
+    ],
+    "tags_zh": [
+      "音乐",
+      "娱乐",
+      "商业"
+    ],
+    "date": "2025-08-11",
+    "summary_en": "This article promotes SiriusXM, highlighting its diverse audio entertainment options, including music, sports, news, talk shows, and podcasts. It emphasizes the flexibility for listening in cars, on phones, and at home. Special features like curated music channels, live sports coverage, and exclusive content are showcased, along with artist-specific channels and a limited-time subscription offer.",
+    "summary_zh": "本文宣传SiriusXM，强调其多样化的音频娱乐选择，包括音乐、体育、新闻、谈话节目和播客。 它强调了在汽车、手机和家庭中收听的灵活性。文章重点介绍了精选的音乐频道、直播体育赛事和独家内容等特色，以及艺术家专属频道和限时订阅优惠。",
+    "best_quote_en": "The best in audio entertainment wherever you choose to listen—in your car, on your phone, at home on your TV, speakers, and other smart devices",
+    "best_quote_zh": "无论您选择在哪里收听，都能获得最佳的音频娱乐—在您的汽车上、手机上、家中的电视上、扬声器和其他智能设备上"
+  },
+  {
+    "id": 35,
+    "title": "The Real Reason to End the Death Penalty",
+    "title_zh": "结束死刑的真正原因",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/real.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "psychology"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "心理学"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article argues against the death penalty, not on moral or deterrent grounds, but because of the high likelihood of executing innocent people. It cites numerous cases of wrongful murder convictions overturned, highlighting issues like police misconduct, prosecutorial overreach, incompetent defense attorneys, and false testimony. The author emphasizes that the focus should be on preventing the execution of innocent individuals rather than debating the theoretical justifications of capital punishment.",
+    "summary_zh": "本文反对死刑，主要不是基于道德或威慑的理由，而是因为处决无辜者的可能性非常高。文章列举了许多被推翻的错误谋杀定罪案例，突出了警察不当行为、检察官越权、辩护律师无能和虚假证词等问题。作者强调，重点应放在防止无辜者被处决，而不是争论死刑的理论依据。",
+    "best_quote_en": "Whatever it means in theory, in practice capital punishment means killing innocent people.",
+    "best_quote_zh": "无论理论上意味着什么，在实践中，死刑意味着杀死无辜的人。"
   }]
