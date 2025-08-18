@@ -43,7 +43,7 @@
 **操作步骤**：
 
 1. **编辑 source.json 文件**：在仓库中找到 `scripts/source.json` 并点击编辑
-2. **添加新的 RSS 源**：在数组中添加你感兴趣的 RSS 源
+2. **添加新的 RSS 源**：在数组中添加你感兴趣的 RSS 源，这个链接里有包括很多播客rss: https://www.reddit.com/r/podcasts/comments/16tqmh2/npr_podcasts_rssxml_feed_list/
 
 **推荐的 RSS 源**：
 ```json
