@@ -855,4 +855,113 @@
     "best_quote_en": "If the friction of reading is low enough, more keep going till the end.",
     "best_quote_zh": "如果阅读的摩擦力足够低，更多的人会坚持到最后。"
   }
-]
+,{
+    "id": 41,
+    "title": "Donate Unrestricted",
+    "title_zh": "捐赠非限定用途款项",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/donate.html",
+    "tags": [
+      "business",
+      "philosophy",
+      "productivity"
+    ],
+    "tags_zh": [
+      "商业",
+      "哲学",
+      "效率"
+    ],
+    "date": "2025-08-19",
+    "summary_en": "The article argues against restricted donations to nonprofits, stating that they are often suboptimal because the donor's intended use of funds may not align with the nonprofit's expertise. Unless the donor is a domain expert or donating to an umbrella organization, unrestricted donations are generally more effective. Donors often impose restrictions to make a mark or generate publicity, but nonprofits rarely discourage this due to financial anxieties. The article advocates for unrestricted donations, urging donors to trust the nonprofit's judgment in allocating funds.",
+    "summary_zh": "本文反对向非营利组织捐赠限定用途款项，认为这种捐赠往往不是最优选择，因为捐赠者的意图可能与非营利组织的专业知识不一致。除非捐赠者是领域专家或向伞式组织捐赠，否则非限定用途款项通常更有效。捐赠者常常为了引人注目或制造宣传而设置限制，但由于经济上的担忧，非营利组织很少阻止这种情况。本文提倡非限定用途的捐赠，呼吁捐赠者信任非营利组织在资金分配方面的判断。",
+    "best_quote_en": "If you want to donate to a nonprofit, donate unrestricted. If you trust them to spend your money, trust them to decide how.",
+    "best_quote_zh": "如果你想捐赠给非营利组织，请捐赠非限定用途款项。如果你信任他们花你的钱，就信任他们来决定如何花。"
+  },
+  {
+    "id": 42,
+    "title": "Idea Generation",
+    "title_zh": "创意产生",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/idea-generation",
+    "tags": [
+      "entrepreneurship",
+      "creativity",
+      "thinking"
+    ],
+    "tags_zh": [
+      "创业",
+      "创造力",
+      "思考"
+    ],
+    "date": "2020-05-28",
+    "summary_en": "This article discusses how to generate startup ideas. It emphasizes the importance of being in the right environment, around optimistic and creative people with a high idea flux. The best ideas are often fragile and may sound silly initially. Thinking about fundamental changes shaping the future and identifying opportunities these changes unlock is also crucial. The author stresses the founder/company fit and the ability to articulate why most people think an idea is bad.",
+    "summary_zh": "本文讨论了如何产生创业想法。它强调了处于正确的环境，与乐观和有创造力的人在一起的重要性。最好的想法通常是脆弱的，最初听起来可能很愚蠢。考虑塑造未来的根本性变化并识别这些变化所释放的机会也至关重要。作者强调了创始人/公司契合度以及阐明为什么大多数人认为一个想法很糟糕的能力。",
+    "best_quote_en": "The best ideas are fragile; most people don’t even start talking about them at all because they sound silly.",
+    "best_quote_zh": "最好的想法是脆弱的；大多数人甚至根本不开始谈论它们，因为它们听起来很傻。"
+  },
+  {
+    "id": 43,
+    "title": "Dictator Book Club: Mussolini On Fascism",
+    "title_zh": "独裁者读书会：墨索里尼论法西斯主义",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/dictator-book-club-mussolini-on-fascism",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "learning"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "学习"
+    ],
+    "date": "2025-08-13",
+    "summary_en": "This is a post titled \"Dictator Book Club: Mussolini On Fascism\". It appears to be available to paid subscribers of Astral Codex Ten, based on the provided content. The summary is limited due to the very brief article content.",
+    "summary_zh": "这是一篇名为“独裁者读书会：墨索里尼论法西斯主义”的文章。根据提供的内容，它似乎仅供 Astral Codex Ten 的付费订阅者阅读。由于文章内容非常简短，因此摘要受到限制。",
+    "best_quote_en": "Unavailable due to the very brief article content.",
+    "best_quote_zh": "由于文章内容非常简短，所以没有可提取的引言。"
+  },
+  {
+    "id": 44,
+    "title": "Did I Really Do That?",
+    "title_zh": "我真的做了吗？",
+    "source": "Hidden Brain",
+    "link": "https://hiddenbrain.org/podcast/did-i-really-do-that/",
+    "tags": [
+      "psychology",
+      "thinking",
+      "learning"
+    ],
+    "tags_zh": [
+      "心理学",
+      "思考",
+      "学习"
+    ],
+    "date": "2025-03-17",
+    "summary_en": "This article discusses the phenomenon of false confessions and why people sometimes act against their own self-interest, even when falsely accused. It explores how people freeze and fail to defend themselves, the different types of false confessions, and the mental processes involved when pressured to confess to something they didn't do. It also examines how police interrogation tactics are being used in workplaces and potential solutions to the problem of false confessions.",
+    "summary_zh": "本文探讨了虚假供述的现象，以及为什么人们有时会做出违背自身利益的行为，即使在被错误指控时也是如此。文章探讨了人们如何冻结和未能为自己辩护、虚假供述的类型，以及在被压力下承认自己没有做过的事情时所涉及的心理过程。它还研究了警察审讯策略如何在工作场所中使用，以及解决虚假供述问题的潜在方案。",
+    "best_quote_en": "Many of us think there’s only one way we’d act in such a situation: we’d defend ourselves. We’d do whatever it takes to clear our name — and above all else, we’d never, ever confess to something we didn’t do.",
+    "best_quote_zh": "我们中的许多人认为，在这种情况下，我们只会有一种行为方式：我们会为自己辩护。我们会竭尽所能来洗清我们的罪名——最重要的是，我们永远、永远不会承认我们没有做过的事情。"
+  },
+  {
+    "id": 45,
+    "title": "What I Worked On",
+    "title_zh": "我的工作经历",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/worked.html",
+    "tags": [
+      "programming",
+      "learning",
+      "thinking"
+    ],
+    "tags_zh": [
+      "编程",
+      "学习",
+      "思考"
+    ],
+    "date": "2025-08-19",
+    "summary_en": "This article recounts the author's early experiences with writing and programming before and during college. It covers his initial struggles with programming using Fortran on an IBM 1401, his excitement with early microcomputers, his switch from philosophy to AI, and his disillusionment with the field's then-current approach. Ultimately, he found solace and direction in Lisp, leading him to write the book \"On Lisp.\"",
+    "summary_zh": "这篇文章讲述了作者在大学之前和大学期间写作和编程的早期经历。文章涵盖了他最初使用Fortran在IBM 1401上进行编程的挣扎，他对早期微型计算机的兴奋，他从哲学转向人工智能，以及他对当时人工智能领域方法的失望。最终，他在Lisp中找到了慰藉和方向，这促使他写了《On Lisp》这本书。",
+    "best_quote_en": "Learning Lisp expanded my concept of a program so fast that it was years before I started to have a sense of where the new limits were.",
+    "best_quote_zh": "学习Lisp极大地扩展了我对程序的理解，以至于过了很多年我才开始意识到新的极限在哪里。"
+  }]
