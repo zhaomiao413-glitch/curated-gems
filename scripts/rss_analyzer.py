@@ -35,7 +35,8 @@ CONTENT_SELECTORS = [
     'div[itemprop="articleBody"]', 'article', 'main', 'div#main-content',
 ]
 
-MAX_CONTENT_CHARS = 8000  # Maximum content truncation length before sending to model (character count)
+MAX_CONTENT_CHARS = 15000  # Maximum content truncation length before sending to model (character count)
+                            # Increased to handle long-form content like LessWrong articles for deeper analysis
 
 # ========== Initialize File Read/Write ==========
 # Load processed links
@@ -168,20 +169,42 @@ def call_openrouter(model, title, full_content):
     tags_instruction = update_prompt_with_predefined_tags()
     
     prompt_content = f"""
-Please analyze the following article content and return the analysis results in the form of a JSON object.
+你是一位资深的内容分析师和思想家，擅长深度阅读和洞察分析。请仔细阅读以下文章内容，进行深度思考和分析，然后以 JSON 格式返回分析结果。
 
-The JSON object should contain the following keys:
-- "title_zh": Chinese translation of the article title.
-- "summary_en": English summary, no more than 100 words.
-- "summary_zh": Chinese summary, no more than 100 words.
-- "best_quote_en": Extract the most insightful English quote from the article.
-- "best_quote_zh": Extract the most insightful Chinese quote from the article.
+**深度分析要求：**
+1. **深度理解**：不仅要理解文章表面内容，更要挖掘其深层含义、背景逻辑和潜在影响
+2. **批判思维**：分析文章的论点是否合理，证据是否充分，逻辑是否严密
+3. **联系思考**：将文章内容与当前时代背景、行业趋势、社会现象进行关联思考
+4. **价值提炼**：提取文章中最有价值的观点、方法论或启发性思考
+5. **情感共鸣**：理解文章想要传达的情感和态度，并在总结中体现出来
+
+**JSON 对象应包含以下字段：**
+- "title_zh": 文章标题的中文翻译（如果原文是中文则保持原样）
+- "summary_en": 英文深度总结，300-500词。要求：
+  * 不仅概括内容，更要体现深度思考
+  * 包含对文章核心观点的分析和评价
+  * 体现文章的现实意义和启发价值
+  * 语言要有感染力，体现真实的思考感悟
+- "summary_zh": 中文深度总结，300-500字。要求：
+  * 像写一篇有感而发的读后感，有个人思考和感悟
+  * 不是简单的内容概括，而是深度的分析和思辨
+  * 要有情感温度，体现真实的阅读体验
+  * 可以适当加入对现实的思考和对未来的展望
+- "best_quote_en": 提取文章中最具洞察力的英文金句（如果原文是中文，请翻译成英文）
+- "best_quote_zh": 提取文章中最具洞察力的中文金句（如果原文是英文，请翻译成中文）
 - {tags_instruction}
-- "tags_zh": 3 Chinese keyword tags related to the article content, returned as a list (array).
+- "tags_zh": 3个与文章内容相关的中文关键词标签，以数组形式返回
 
-Strict requirement: Only return a valid JSON object, **do not** include any code block fences (like ```json), leading/trailing prompts, or extra text.
-Article title: {title}
-Article content:
+**写作风格要求：**
+- 总结要有个人色彩，像是一个有思想的人在分享自己的真实感悟
+- 语言要生动有力，避免官方化、模板化的表达
+- 要体现出对内容的深度思考和情感投入
+- 可以适当使用比喻、类比等修辞手法增强表达力
+
+**严格要求：** 只返回有效的 JSON 对象，**不要**包含任何代码块标记（如 ```json）、前导/尾随提示或额外文本。
+
+文章标题：{title}
+文章内容：
 {full_content}
 """.strip()
 
@@ -195,7 +218,7 @@ Article content:
         "messages": [
             {
                 "role": "system",
-                "content": "You are a professional AI assistant skilled in content analysis and summarization. Please only return a valid JSON object, without ```, explanatory text, or extra characters."
+                "content": "你是一位具有深度思考能力的内容分析专家，擅长从多个维度深入理解和分析文章内容。你不仅能准确概括信息，更能进行批判性思考，提供有洞察力的分析和富有感染力的表达。请严格按照要求只返回有效的 JSON 对象，不包含代码块标记、解释文本或额外字符。"
             },
             {"role": "user", "content": prompt_content}
         ],

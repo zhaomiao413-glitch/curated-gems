@@ -8,11 +8,15 @@
     "url": "https://blog.samaltman.com/posts.atom"
   },
   {
-    "name": "Astral Codex Ten",
-    "url": "https://www.astralcodexten.com/feed"
+    "name": "LessWrong",
+    "url": "http://lesserwrong.com/feed.xml"
   },
   {
     "name": "Hidden Brain",
     "url": "https://feeds.simplecast.com/kwWc0lhf"
+  },
+  {
+    "name": "Geoffrey Hinton",
+    "url": "https://rsshub.app/twitter/user/geoffreyhinton"
   }
 ]
