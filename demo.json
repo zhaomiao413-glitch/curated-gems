@@ -1,446 +1,1185 @@
+
 [
   {
     "id": 1,
     "title": "Superlinear Returns",
+    "title_zh": "超线性回报",
     "source": "Paul Graham",
     "link": "http://www.paulgraham.com/superlinear.html",
     "tags": [
-      "superlinear returns",
-      "exponential growth",
-      "thresholds",
-      "success",
-      "winner-take-all"
+      "business",
+      "learning",
+      "thinking"
     ],
-    "date": "2025-08-14",
-    "summary_en": "Understanding the concept of superlinear returns is crucial for navigating success and exponential growth in various fields such as business, fame, and power. Exponential growth and thresholds are fundamental causes of superlinear returns. The phenomenon of winner-take-all emphasizes the impact of thresholds on outcomes.",
-    "summary_zh": "理解超线性回报的概念对于在各领域如商业、名望和权力中取得成功和指数增长至关重要。指数增长和门槛是超线性回报的基本原因。赢者通吃的现象强调了门槛对结果的影响。",
+    "tags_zh": [
+      "商业",
+      "学习",
+      "思考"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "The article explains the concept of superlinear returns, where performance yields disproportionately large rewards. It highlights two main causes: exponential growth and thresholds. Exponential growth, like in startups or learning, allows for rapid scaling. Thresholds, such as winning a competition, create winner-take-all scenarios. The key is to seek work that compounds, either directly by building infrastructure or indirectly through learning. Continuous learning is essential for achieving superlinear returns and adapting to an ever-changing world.",
+    "summary_zh": "文章解释了超线性回报的概念，即表现会带来不成比例的巨大回报。它强调了两个主要原因：指数增长和阈值。指数增长，如在初创企业或学习中，可以实现快速扩张。阈值，如赢得比赛，会创造赢者通吃的局面。关键是寻找能带来复利效应的工作，可以直接通过建设基础设施，也可以通过间接学习。持续学习对于获得超线性回报和适应不断变化的世界至关重要。",
     "best_quote_en": "You can't understand the world without understanding the concept of superlinear returns. And if you're ambitious you definitely should, because this will be the wave you surf on.",
-    "best_quote_zh": "如果你有雄心壮志，就一定要理解超线性回报的概念，因为这将是你乘风破浪的浪潮。"
+    "best_quote_zh": "不理解超线性回报的概念，你就无法理解这个世界。如果你有野心，你绝对应该理解它，因为这将是你乘风破浪的浪潮。"
   },
   {
     "id": 2,
-    "title": "How to Do Great Work",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/greatwork.html",
-    "tags": [
-      "great work",
-      "curiosity",
-      "passion",
-      "ambition",
-      "knowledge frontier"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "To do great work, choose tasks aligned with your natural aptitude and deep interest, learn at the frontier of knowledge, notice gaps, and explore outlier ideas. Working on your own projects, driven by curiosity and passion, can lead to impactful discoveries.",
-    "summary_zh": "要做出杰出的工作，选择与自己天赋和浓厚兴趣相关的任务，学习知识的前沿，发现知识中的空白，探索非主流的想法。专注于个人项目，以好奇和激情驱动，可能会带来有影响力的发现。",
-    "best_quote_en": "Interest will drive you to work harder than mere diligence ever could.",
-    "best_quote_zh": "兴趣将比单纯的勤奋推动你更努力地工作。"
-  },
-  {
-    "id": 3,
-    "title": "How to Get New Ideas",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/getideas.html",
-    "tags": [
-      "ideas",
-      "anomalies",
-      "knowledge",
-      "creativity"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "To get new ideas, notice anomalies at the frontiers of knowledge where gaps exist, leading to new discoveries.",
-    "summary_zh": "要获得新创意，注意知识边界上存在的异常，这些空白处能带来新的发现。",
-    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?",
-    "best_quote_zh": "获得新创意的方法是注意异常：看起来奇怪、缺失或有问题的地方？"
-  },
-  {
-    "id": 4,
-    "title": "The Need to Read",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/read.html",
-    "tags": [
-      "reading",
-      "writing",
-      "knowledge acquisition",
-      "critical thinking"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "Reading is essential not only for acquiring knowledge about specific topics but also for developing critical thinking and writing skills.",
-    "summary_zh": "阅读不仅能帮助获取特定主题知识，还能培养批判性思维和写作能力。",
-    "best_quote_en": "You can't think well without writing well, and you can't write well without reading well.",
-    "best_quote_zh": "你无法写作得好而思维不清晰，也无法阅读得好而写作不出色。"
-  },
-  {
-    "id": 5,
-    "title": "What You (Want to)* Want",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/want.html",
-    "tags": [
-      "free will",
-      "determinism",
-      "choice",
-      "desires"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "The article discusses the paradox between free will and determinism, highlighting the complexity of wanting and choosing in human behavior.",
-    "summary_zh": "本文讨论了自由意志与决定论之间的悖论，突出了人类行为中欲望和选择的复杂性。",
-    "best_quote_en": "You can do what you want, but you can't want what you want.",
-    "best_quote_zh": "你可以做你想做的事，但你不能想要你想要的事。"
-  },
-  {
-    "id": 6,
-    "title": "Alien Truth",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/alien.html",
-    "tags": [
-      "alien truth",
-      "philosophy",
-      "universal insights",
-      "intelligent beings"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "Thinking about potential common truths between intelligent beings across the universe, including principles of controlled experiments and practice, can guide philosophical exploration towards universal insights.",
-    "summary_zh": "思考宇宙中智慧生命体之间可能的共同真相，包括实验原则和练习的原理，可以引导哲学探索朝向普世洞见。",
-    "best_quote_en": "If an idea might plausibly be relevant to aliens, that's enough.",
-    "best_quote_zh": "如果一个观念可能与外星人相关，那已经足够。"
-  },
-  {
-    "id": 7,
-    "title": "What I've Learned from Users",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/users.html",
-    "tags": [
-      "users",
-      "startups",
-      "advice",
-      "challenges",
-      "founders"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "Understanding and learning from users is key to startup success. Y Combinator's experience reveals recurring startup challenges and the importance of individualized advice. Founders often overlook critical issues and struggle with counterintuitive startup dynamics. YC's success stems from addressing these challenges and providing focused guidance.",
-    "summary_zh": "了解和从用户中学习是创业成功的关键。Y Combinator的经验揭示了不断出现的创业挑战以及个性化建议的重要性。创始人经常忽视关键问题，难以应对创业的违反直觉的动态。YC的成功源于应对这些挑战并提供专注的指导。",
-    "best_quote_en": "They come back a year later, and say 'We wish we'd listened to you.'",
-    "best_quote_zh": "他们一年后回来，说'我们希望当初听了你们的建议。'"
-  },
-  {
-    "id": 8,
-    "title": "Heresy",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/heresy.html",
-    "tags": [
-      "heresy",
-      "intolerance",
-      "opinions",
-      "conformity"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "The resurgence of heresy in contemporary society is compared to medieval times, as opinions now can lead to job loss. The concept of heresy prioritizes conformity over truth and can outweigh all other actions. Expressing heretical opinions is often punished more severely than committing crimes, akin to a religious intolerance resurgence in a secular form.",
-    "summary_zh": "异端观念在当代社会的复兴被比作中世纪，因为现在的观点可能导致失去工作。异端概念将一致性置于真相之上，甚至可能权衡所有其他行为。发表异端观点往往受到比犯罪更严厉的惩罚，类似于宗教不宽容精神以世俗形式复兴。",
-    "best_quote_en": "The other distinctive thing about heresies, compared to ordinary opinions, is that the public expression of them outweighs everything else the speaker has done.",
-    "best_quote_zh": "异端观念的另一个与普通观点相比独特的地方在于，公开表达它们会使说话者已经做过的所有事情相形见绌。"
-  },
-  {
-    "id": 9,
-    "title": "Putting Ideas into Words",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/words.html",
-    "tags": [
-      "writing",
-      "ideas",
-      "communication",
-      "reflection"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "Putting ideas into words is a challenging and transformative process, revealing the imperfections and incompleteness of one's initial thoughts. Writing forces authors to refine and evaluate their ideas, ultimately leading to a deeper understanding and communication of complex concepts.",
-    "summary_zh": "将思想转化为文字是一个具有挑战性和转变性的过程，揭示了最初想法的不完美和不完整性。写作迫使作者完善和评估他们的想法，最终实现深入理解和传达复杂概念。",
-    "best_quote_en": "If writing down your ideas always makes them more precise and more complete, then no one who hasn't written about a topic has fully formed ideas about it.",
-    "best_quote_zh": "如果将您的想法写下总是使它们更加精确和完整，那么对一个话题没有书面记录的人在这个话题上就没有完全成熟的想法。"
-  },
-  {
-    "id": 10,
-    "title": "Is There Such a Thing as Good Taste?",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/goodtaste.html",
-    "tags": [
-      "good taste",
-      "art",
-      "aesthetic judgments",
-      "creativity",
-      "perceptions"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "The essay discusses the concept of good taste by demonstrating that taste exists in art and influences all forms of artistry, challenging the belief that good taste is subjective.",
-    "summary_zh": "这篇文章讨论了好品味的概念，通过展示艺术中存在品味并影响所有形式的艺术创作，挑战了好品味是主观的观念。",
-    "best_quote_en": "If there's no such thing as good taste, then there's no such thing as good art.",
-    "best_quote_zh": "如果没有好品味，那么就没有好艺术。"
-  },
-  {
-    "id": 11,
-    "title": "Beyond Smart",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/smart.html",
-    "tags": [
-      "intelligence",
-      "ideas",
-      "innovation",
-      "thinking",
-      "creativity"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "The article argues that being smart is not the only, or even the most important, factor in having new ideas. Other key ingredients include an obsessive interest in a topic, independent-mindedness, writing ability, and cultivating beneficial working habits. These qualities can be cultivated, offering more control over generating innovative ideas.",
-    "summary_zh": "文章认为，聪明并不是产生新想法的唯一或最重要的因素。其他关键因素包括对某个主题的痴迷兴趣、独立思考能力、写作能力以及培养有益的工作习惯。这些品质可以培养，从而在产生创新想法方面提供更多控制。",
-    "best_quote_en": "Being very smart was a necessary precondition for having those ideas, but the two are not identical.",
-    "best_quote_zh": "非常聪明是产生那些想法的必要前提，但两者并不相同。"
-  },
-  {
-    "id": 12,
-    "title": "Why did I move to New Zealand?",
-    "source": "Derek Sivers",
-    "link": "https://sive.rs/nz0",
-    "tags": [
-      "new zealand",
-      "nature",
-      "raising children",
-      "citizenship",
-      "mental health"
-    ],
-    "date": "2025-08-14",
-    "summary_en": "The author moved to New Zealand to raise her son in nature, away from distractions and screens, believing it's a great foundation for the soul. New Zealand offered safety in times of global trouble and a pathway to citizenship. After living in Europe, they returned to New Zealand during Covid, appreciating the safe environment. Raising her son in nature contributed to his mental health.",
-    "summary_zh": "作者搬到新西兰是为了在自然环境中抚养儿子，远离干扰和屏幕，他认为这能为孩子的灵魂打下良好的基础。新西兰在全球动荡时期提供了安全保障，也提供了公民身份。在欧洲生活后，他们在疫情期间返回新西兰，看重这里的安全环境。在自然环境中抚养儿子有助于他的心理健康。",
-    "best_quote_en": "Feet in the river, hands in the mud, climbing trees, running in fields, at home in the forest. Great foundation for the soul.",
-    "best_quote_zh": "赤脚踩在河里，双手沾满泥土，爬树，在田野里奔跑，以森林为家。这是灵魂的绝佳基础。"
-  },
-  {
-    "id": 13,
-    "title": "The 2024 Trump-Biden Debate",
-    "source": "Wait But Why",
-    "link": "https://waitbutwhy.com/2024/06/debate2024.html",
-    "tags": [
-      "debate",
-      "economy",
-      "immigration",
-      "taxes",
-      "roe v. wade"
-    ],
-    "date": "2024-06-28",
-    "summary_en": "The debate between Biden and Trump covered economy, taxes, Roe v. Wade, and border security. They clashed on their records, with Trump touting economic success and border control, while Biden criticized Trump's handling of the economy and immigration policies. Both candidates made strong, often exaggerated claims.",
-    "summary_zh": "拜登和特朗普的辩论涵盖了经济、税收、罗诉韦德案和边境安全。他们就彼此的执政记录展开了激烈的交锋，特朗普吹捧了他的经济成就和边境控制，而拜登则批评了特朗普对经济和移民政策的处理。两位候选人都发表了强烈的、有时是夸张的主张。",
-    "best_quote_en": "We had the greatest economy in the history of this world or any other world.",
-    "best_quote_zh": "我们拥有这个世界或任何其他世界历史上最伟大的经济。"
-  },
-  {
-    "id": 14,
     "title": "Dr. Sue Johnson: The Science of Lasting Love",
+    "title_zh": "苏·约翰逊博士：持久爱情的科学",
     "source": "Farnam Street",
     "link": "https://fs.blog/knowledge-project-podcast/dr-sue-johnson-2/",
     "tags": [
       "relationships",
-      "love",
-      "communication",
-      "infidelity",
-      "connection"
+      "psychology",
+      "communication"
+    ],
+    "tags_zh": [
+      "人际关系",
+      "心理学",
+      "沟通"
     ],
     "date": "2025-08-14",
-    "summary_en": "Dr. Sue Johnson's insights offer a new perspective on relationships, providing tools to identify crucial signals in a partner, understand the real reasons behind infidelity, and transform conflicts into opportunities for deeper connection. It covers keeping the spark alive, surviving the empty-nest phase, and strengthening relationships.",
-    "summary_zh": "苏·约翰逊博士的见解为处理人际关系提供了新的视角，提供了识别伴侣关键信号的工具，理解不忠的真正原因，并将冲突转化为更深层次联系的机会。内容涵盖保持激情、度过空巢期以及加强人际关系。",
-    "best_quote_en": "This conversation will change how you handle your relationship starting tonight.",
-    "best_quote_zh": "今晚开始，这场对话将改变你处理人际关系的方式。"
+    "summary_en": "This article discusses insights from Dr. Sue Johnson on building lasting and strong relationships. It covers identifying key signals in a partner, understanding the real reasons behind infidelity, and turning conflicts into opportunities for deeper connection. Practical advice is offered on maintaining intimacy, navigating the empty-nest phase, and simple actions to strengthen relationships, making it relevant for anyone, regardless of their relationship status.",
+    "summary_zh": "这篇文章讨论了苏·约翰逊博士关于建立持久而牢固关系的见解。内容涵盖识别伴侣中的关键信号，理解不忠的真正原因，以及将冲突转化为加深联系的机会。文章提供了关于保持亲密关系、度过空巢期以及加强关系的简单行动的实用建议，使其与任何人都相关，无论他们的关系状态如何。",
+    "best_quote_en": "She breaks down the real signals to look for in a partner.  Why people actually cheat (not what you think) and how to spot it coming a mile away.",
+    "best_quote_zh": "她剖析了在伴侣身上需要寻找的真实信号，以及人们出轨的真正原因（与你想象的不同），以及如何提前发现它。"
   },
   {
-    "id": 15,
-    "title": "Weird Languages",
+    "id": 3,
+    "title": "How to Do Great Work",
+    "title_zh": "如何做出伟大的工作",
     "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/weird.html",
+    "link": "http://www.paulgraham.com/greatwork.html",
     "tags": [
-      "programming languages",
-      "lisp",
-      "macros",
-      "weird languages",
-      "software development"
+      "productivity",
+      "creativity",
+      "thinking"
     ],
-    "date": "2025-08-14",
-    "summary_en": "The article suggests that most programming involves gluing library functions together, at which common languages excel. However, the interesting part lies in the remaining small percentage, best explored through \"weird languages.\" These languages reveal programming techniques beyond simple gluing, like using Lisp macros for domain-specific language creation. Learning weird languages expands one's understanding of programming possibilities.",
-    "summary_zh": "文章指出，大多数编程是将库函数连接在一起，常见语言对此非常擅长。然而，有趣的部分在于剩余的小部分，通过“怪异语言”可以最好地探索这一点。这些语言揭示了超越简单连接的编程技术，例如使用Lisp宏来创建特定领域的语言。学习怪异语言可以扩展人们对编程可能性的理解。",
-    "best_quote_en": "In the process of learning how to say things you couldn't previously say, you'll probably be learning how to think things you couldn't previously think.",
-    "best_quote_zh": "在学习如何表达你以前无法表达的事物的过程中，你可能会学习到如何思考你以前无法思考的事物。"
-  },
-  {
-    "id": 16,
-    "title": "How to Work Hard",
-    "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/hwh.html",
-    "tags": [
-      "hard work",
-      "talent",
-      "dedication",
-      "practice",
-      "effort"
+    "tags_zh": [
+      "生产力",
+      "创造力",
+      "思考"
     ],
     "date": "2025-08-15",
-    "summary_en": "The article emphasizes the importance of hard work alongside natural talent and practice for achieving great things. It challenges the notion that brilliance alone can evade hard work, using examples like Bill Gates, Lionel Messi, and P. G. Wodehouse to illustrate the necessity of dedication and effort. It also discusses the shift from externally imposed goals to self-driven work and finding genuine passion in one's endeavors.",
-    "summary_zh": "文章强调了努力工作与天赋和实践对于取得伟大成就的重要性。它挑战了仅靠才华就能规避努力工作的观点，并以比尔·盖茨、莱昂内尔·梅西和P.G.伍德豪斯为例，说明了奉献和努力的必要性。文章还讨论了从外部目标转向自我驱动的工作，并在事业中找到真正的激情。",
-    "best_quote_en": "You can do pretty well with just two, but to do the best work you need all three: you need great natural ability and to have practiced a lot and to be trying very hard.",
-    "best_quote_zh": "如果你只有其中两样也能做得不错，但要做到最好，你需要三者兼备：你需要出色的天赋、大量的练习以及非常努力。"
+    "summary_en": "This article discusses how to identify and pursue work that leads to great achievements. It emphasizes the importance of choosing a field you have a natural aptitude for and a deep interest in, exploring the frontiers of knowledge, identifying gaps, and embracing curiosity. The author highlights the role of luck and the need to actively explore diverse interests and fields to discover one's true calling. Ultimately, great work stems from a combination of curiosity, delight, and the desire to create something impressive.",
+    "summary_zh": "本文探讨了如何识别和追求能够取得伟大成就的工作。它强调了选择自己有天赋且有浓厚兴趣的领域的重要性，探索知识的前沿，发现知识的空白，并拥抱好奇心。作者强调了运气的作用，以及积极探索不同兴趣和领域以发现自己的真正使命的必要性。最终，伟大的工作源于好奇心、快乐以及创造令人印象深刻的事物的渴望。",
+    "best_quote_en": "There's a kind of excited curiosity that's both the engine and the rudder of great work.",
+    "best_quote_zh": "有一种兴奋的好奇心，既是伟大工作的引擎，也是方向舵。"
   },
   {
-    "id": 17,
-    "title": "How to listen to Ulysses",
-    "source": "Derek Sivers",
-    "link": "https://sive.rs/ulysses",
-    "tags": [
-      "ulysses",
-      "audiobook",
-      "travel",
-      "kolkata",
-      "istanbul"
-    ],
-    "date": "2025-08-15",
-    "summary_en": "The article describes a unique method of listening to James Joyce's 'Ulysses' by immersing oneself in different cultural settings like Kolkata and Istanbul. The suggested method involves dedicating significant time, exploring the cities while listening to the audiobook, taking notes, and seeking expert advice to gain a deeper appreciation of the novel.",
-    "summary_zh": "文章描述了一种独特的聆听詹姆斯·乔伊斯作品《尤利西斯》的方法：将自己沉浸在加尔各答和伊斯坦布尔等不同的文化环境中。该方法建议投入大量时间，在城市中漫步时听有声读物，做笔记，并寻求专家意见，以更深入地理解这部小说。",
-    "best_quote_en": "This time you’ll have a deeper appreciation of the book.",
-    "best_quote_zh": "这一次你将对这本书有更深的理解。"
-  },
-  {
-    "id": 18,
-    "title": "All My Thoughts After 40 Hours in the Vision Pro",
-    "source": "Wait But Why",
-    "link": "https://waitbutwhy.com/2024/02/vision-pro.html",
-    "tags": [
-      "virtual-reality",
-      "vr",
-      "apple",
-      "vision-pro",
-      "oculus"
-    ],
-    "date": "2024-02-09",
-    "summary_en": "The author recounts their journey with VR, from early experiences to the Oculus Quest 2. While impressed, they and others haven't been 'hooked' long-term.  The piece questions VR's mass adoption potential and introduces Apple's entry into the market, recalling significant tech moments.",
-    "summary_zh": "作者回顾了自己与VR的渊源，从早期的体验到Oculus Quest 2。虽然印象深刻，但他们和其他人都未能长期“沉迷”。文章质疑了VR的大规模普及潜力，并介绍了苹果公司进军该市场，回忆起重要的科技时刻。",
-    "best_quote_en": "VR blows everyone away when they try it, but it seems to have a hard time hooking people for the long run.",
-    "best_quote_zh": "VR会让每一个体验它的人感到震撼，但它似乎很难让人们长期沉迷其中。"
-  },
-  {
-    "id": 19,
+    "id": 4,
     "title": "[Outliers] Sol Price: The Godfather of Costco, Walmart, and Modern Retail",
+    "title_zh": "零售业的教父：Sol Price，Costco和沃尔玛的幕后推手",
     "source": "Farnam Street",
     "link": "https://fs.blog/knowledge-project-podcast/outliers-sol-price/",
     "tags": [
-      "retail",
-      "sol price",
-      "costco",
-      "walmart",
-      "leadership"
+      "business",
+      "entrepreneurship",
+      "productivity"
+    ],
+    "tags_zh": [
+      "商业",
+      "创业",
+      "生产力"
     ],
     "date": "2025-08-07",
-    "summary_en": "Sol Price, the unsung hero of retail, influenced Costco, Walmart, and modern retail. He pioneered warehouse clubs and membership retail, emphasizing customer promises over profits. Lessons include embracing ignorance, intelligently choosing sales to lose, and prioritizing customer trust. He believed in empowering employees and serving a niche completely. His principles shaped retail giants like Home Depot and Sam's Club.",
-    "summary_zh": "Sol Price是一位不为人知的零售英雄，影响了Costco、沃尔玛和现代零售业。他开创了仓储式俱乐部和会员制零售，强调对顾客的承诺高于利润。其经验包括拥抱无知、明智地选择放弃部分销售，以及优先考虑顾客信任。他坚信赋能员工，并彻底服务于某个细分市场。他的原则塑造了家得宝和山姆会员店等零售巨头。",
-    "best_quote_en": "When you treat customers like clients, not targets, trust becomes your greatest asset.",
-    "best_quote_zh": "当你像对待客户一样对待顾客，而不是把他们当作目标时，信任就会成为你最大的资产。"
+    "summary_en": "Sol Price, though not widely known, significantly shaped modern retail. He pioneered membership retail and founded two multi-billion-dollar companies, including Price Club, which influenced Costco and Walmart. His innovative strategies included intelligent loss of sales, honest customer relationships, and fair employee treatment. He focused on principles over procedures, teaching over managing.",
+    "summary_zh": "Sol Price虽然不广为人知，但他对现代零售业产生了重大影响。他是会员制零售的先驱，创立了两家价值数十亿美元的公司，其中包括影响Costco和沃尔玛的Price Club。他的创新策略包括智能损失销售、诚实的客户关系和公平的员工待遇。他注重原则而非程序，注重教学而非管理。",
+    "best_quote_en": "“I have a fiduciary duty to my members, like a lawyer to clients.”",
+    "best_quote_zh": "“我对我的会员负有信托责任，就像律师对客户一样。”"
+  },
+  {
+    "id": 5,
+    "title": "How to Get New Ideas",
+    "title_zh": "如何获得新想法",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/getideas.html",
+    "tags": [
+      "creativity",
+      "thinking",
+      "philosophy"
+    ],
+    "tags_zh": [
+      "创造力",
+      "思考",
+      "哲学"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "The article suggests that new ideas arise from noticing anomalies, oddities, and gaps in our understanding. While everyday life offers opportunities, the frontiers of knowledge are the most fertile ground. Knowledge grows fractally, revealing gaps at close inspection that can lead to new discoveries and insights.",
+    "summary_zh": "文章指出，新想法源于注意到异常现象，古怪之处以及我们理解中的空白。虽然日常生活提供了机会，但知识的前沿是最肥沃的土壤。知识呈分形增长，在近距离观察时会显露出空白，从而可以带来新的发现和见解。",
+    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?",
+    "best_quote_zh": "获得新想法的方法是注意到异常现象：什么是奇怪的，缺失的或损坏的？"
+  },
+  {
+    "id": 6,
+    "title": "The Need to Read",
+    "title_zh": "阅读的必要性",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "learning",
+      "communication",
+      "thinking"
+    ],
+    "tags_zh": [
+      "阅读",
+      "写作",
+      "思考"
+    ],
+    "date": "2025-08-16",
+    "summary_en": "The author argues that reading is essential not only for acquiring knowledge but also for developing the ability to write well. Writing is not just a means of conveying ideas but also a way to generate them. Complex and ill-defined problems often require writing for effective solving. Therefore, reading good content is crucial for both writing well and thinking effectively.",
+    "summary_zh": "作者认为，阅读不仅是获取知识的必要途径，也是培养良好写作能力的关键。写作不仅仅是传达思想的方式，更是产生思想的方式。复杂和不明确的问题通常需要通过写作来有效解决。因此，阅读优秀的内容对于写好文章和有效思考至关重要。",
+    "best_quote_en": "Writing is not just a way to convey ideas, but also a way to have them.",
+    "best_quote_zh": "写作不仅仅是传达思想的方式，更是产生思想的方式。"
+  },
+  {
+    "id": 7,
+    "title": "The Gentle Singularity",
+    "title_zh": "温和的奇点",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/the-gentle-singularity",
+    "tags": [
+      "technology",
+      "creativity",
+      "future"
+    ],
+    "tags_zh": [
+      "科技",
+      "人工智能",
+      "未来"
+    ],
+    "date": "2025-06-10",
+    "summary_en": "The article discusses the arrival of digital superintelligence and its potential impact on humanity. While robots haven't taken over the streets, AI is already amplifying human capabilities, driving scientific progress, and increasing productivity. The author anticipates further advancements in areas like coding, scientific discovery, and robotics, leading to a world where intelligence and energy are abundant, potentially transforming society and the economy. The article acknowledges challenges such as job displacement and safety concerns but expresses optimism about humanity's ability to adapt and benefit from these technological advancements.",
+    "summary_zh": "文章探讨了数字超级智能的到来及其对人类的潜在影响。虽然机器人尚未占领街道，但人工智能已经在增强人类能力、推动科学进步和提高生产力。作者预计在编码、科学发现和机器人等领域将取得进一步的进展，从而创造一个智能和能源丰富的世界，并可能改变社会和经济。文章承认失业和安全问题等挑战，但对人类适应和受益于这些技术进步的能力表示乐观。",
+    "best_quote_en": "Already we live with incredible digital intelligence, and after some initial shock, most of us are pretty used to it. Very quickly we go from being amazed that AI can generate a beautifully-written paragraph to wondering when it can generate a beautifully-written novel; or from being amazed that it can make live-saving medical diagnoses to wondering when it can develop the cures.",
+    "best_quote_zh": "我们已经生活在令人难以置信的数字智能中，在最初的震惊之后，我们大多数人已经相当习惯了它。我们很快就从惊叹于人工智能可以生成一段优美的文字，转变为想知道它什么时候能生成一部优美的小说；或者从惊叹于它能做出拯救生命的医疗诊断，转变为想知道它什么时候能开发出治愈方法。"
+  },
+  {
+    "id": 8,
+    "title": "What You (Want to)* Want",
+    "title_zh": "你（想要）*想要什么",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "psychology"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "心理学"
+    ],
+    "date": "2025-08-16",
+    "summary_en": "The author explores the paradox between our deterministic material existence and the feeling of free will. The initial assertion that 'You can do what you want, but you can't want what you want' is refined. The core idea is that while we can change lower-order desires, there's always a fundamental desire beyond our direct control. This limitation becomes increasingly apparent as we consider higher-order desires, eventually leading to a foundational 'want' beyond manipulation or choice.",
+    "summary_zh": "作者探讨了我们确定的物质存在与自由意志感之间的悖论。最初的论断“你可以做你想做的，但你无法想要你所想要的”被进一步 refined。核心思想是，虽然我们可以改变较低层次的欲望，但总有一种基本的欲望超出了我们的直接控制。随着我们考虑更高层次的欲望，这种局限性变得越来越明显，最终导致了一种无法操纵或选择的基本“想要”。",
+    "best_quote_en": "You can do what you want, but there's some statement of the form 'you can't (want to)* want what you want' that's true. Ultimately you get back to a want that you don't control.",
+    "best_quote_zh": "你可以做你想做的，但总有一些形式的陈述是正确的，即“你不能（想要）*想要你所想要的”。最终，你会回到一个你无法控制的欲望。"
+  },
+  {
+    "id": 9,
+    "title": "Three Observations",
+    "title_zh": "三点观察",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/three-observations",
+    "tags": [
+      "technology",
+      "business",
+      "productivity"
+    ],
+    "tags_zh": [
+      "技术",
+      "商业",
+      "生产力"
+    ],
+    "date": "2025-02-09",
+    "summary_en": "This article discusses the potential of AGI (Artificial General Intelligence) to benefit humanity. It presents three observations about the economics of AI: intelligence scales with resources, the cost decreases significantly over time (10x every 12 months), and the value of intelligence grows super-exponentially. The author envisions a future where AI agents act as virtual coworkers, enhancing productivity and creativity, but emphasizes the importance of individual empowerment and equitable distribution of AI benefits to avoid potential societal imbalances.",
+    "summary_zh": "本文探讨了通用人工智能（AGI）为人类带来的潜在利益。文章提出了关于人工智能经济学的三点观察：智能随资源扩展而提升，成本随时间推移显著降低（每12个月下降10倍），以及智能的价值呈超指数增长。作者设想了一个人工智能代理如同虚拟同事的未来，提高生产力和创造力，但强调个人赋权和公平分配人工智能利益的重要性，以避免潜在的社会失衡。",
+    "best_quote_en": "AGI will be the biggest lever ever on human willfulness, and enable individual people to have more impact than ever before, not less.",
+    "best_quote_zh": "AGI将成为人类意志有史以来最大的杠杆，使个人比以往任何时候都更有影响力，而不是更少。"
+  },
+  {
+    "id": 10,
+    "title": "Alien Truth",
+    "title_zh": "外星真理",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/alien.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "creativity"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "创造力"
+    ],
+    "date": "2025-08-16",
+    "summary_en": "The article explores the concept of 'alien truth,' suggesting universal truths that intelligent beings across the universe would share beyond math and physics. It posits principles like controlled experiments validating hypotheses, the value of practice, and Occam's razor as potential candidates. The author links this search for alien truth to philosophy and suggests it's a worthwhile endeavor, even speculating that this very idea might be an alien truth itself. AI may provide a basis to test such truths.",
+    "summary_zh": "这篇文章探讨了“外星真理”的概念，提出除了数学和物理之外，宇宙中所有智慧生物都会分享的普遍真理。文章假设诸如对照实验验证假设、实践的价值和奥卡姆剃刀等原则可能是候选者。作者将对外星真理的探索与哲学联系起来，并认为这是一项值得努力的事业，甚至推测这个想法本身可能就是一个外星真理。 未来人工智能或将为此类真理的测试提供基础。",
+    "best_quote_en": "If you're trying to find the most general truths short of those of math or physics, then presumably they'll be those we'd share in common with other forms of intelligent life.",
+    "best_quote_zh": "如果你试图寻找数学或物理之外的最普遍真理，那么它们应该就是我们与其他形式的智慧生命共同拥有的真理。"
+  },
+  {
+    "id": 11,
+    "title": "What I've Learned from Users",
+    "title_zh": "我从用户身上学到的东西",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/users.html",
+    "tags": [
+      "entrepreneurship",
+      "productivity",
+      "learning"
+    ],
+    "tags_zh": [
+      "创业",
+      "生产力",
+      "学习"
+    ],
+    "date": "2025-08-17",
+    "summary_en": "The author reflects on his experiences with Y Combinator startups, highlighting common problems, the importance of individualized advice, and the counterintuitive nature of startups. He emphasizes the value of focus and rapid iteration, drawing parallels to a running back navigating a field. The author also notes the surprise that founders often don't immediately heed advice, often because startup life is so different from others, but that by focusing on action and measurable results, a course can be set and corrected.",
+    "summary_zh": "作者回顾了他在Y Combinator的经验，强调了初创公司的常见问题、个性化建议的重要性以及初创公司的反直觉性。他强调专注和快速迭代的价值，并将初创公司比作在球场上奔跑的跑锋。作者还指出，创始人通常不会立即听取建议，这往往是因为创业生活与其它生活大不相同，但通过专注于行动和可衡量的结果，就可以不断调整方向。",
+    "best_quote_en": "Explain what you've learned from users.",
+    "best_quote_zh": "解释你从用户身上学到了什么。"
+  },
+  {
+    "id": 12,
+    "title": "Reflections",
+    "title_zh": "反思",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/reflections",
+    "tags": [
+      "technology",
+      "entrepreneurship",
+      "thinking"
+    ],
+    "tags_zh": [
+      "技术",
+      "创业",
+      "思考"
+    ],
+    "date": "2025-01-06",
+    "summary_en": "This article reflects on the journey of OpenAI, from its inception to the launch of ChatGPT and beyond. It discusses the challenges, rapid growth, and lessons learned, including governance failures and the importance of a diverse board. The author expresses gratitude and emphasizes the commitment to AI safety and the belief in gradual deployment. The company now feels confident in its path toward AGI, envisioning AI agents joining the workforce in 2025.",
+    "summary_zh": "本文反思了OpenAI的历程，从成立到ChatGPT的发布及之后的发展。讨论了挑战、快速增长和经验教训，包括治理失败和多元化董事会的重要性。作者表达了感激之情，并强调了对人工智能安全的承诺和对渐进式部署的信念。该公司现在对其实现AGI的道路充满信心，并设想人工智能代理将在2025年加入劳动力队伍。",
+    "best_quote_en": "We continue to believe that the best way to make an AI system safe is by iteratively and gradually releasing it into the world, giving society time to adapt and co-evolve with the technology, learning from experience, and continuing to make the technology safer.",
+    "best_quote_zh": "我们仍然相信，使人工智能系统安全的最佳方法是通过迭代并逐步将其发布到世界，让社会有时间适应并与技术共同发展，从经验中学习，并不断提高技术的安全性。"
+  },
+  {
+    "id": 13,
+    "title": "Heresy",
+    "title_zh": "异端",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/heresy.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "psychology"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "心理学"
+    ],
+    "date": "2025-08-17",
+    "summary_en": "The author discusses the resurgence of intolerance and the concept of heresy in modern society, drawing parallels to historical examples like the Cultural Revolution. Heresy, defined as an opinion punished like a crime, has seen a rise due to the combination of intolerant people and ideologies that provide strict rules for moral superiority. The author avoids mentioning specific heresies to maintain the essay's relevance, noting that the aggressively conventional-minded are always present, seeking new ideologies to enforce.",
+    "summary_zh": "作者讨论了现代社会不容忍现象的复兴以及异端的概念，并将之与文化大革命等历史例子进行了比较。异端被定义为一种像犯罪一样受到惩罚的观点，由于不容忍的人和为道德优越性提供严格规则的意识形态的结合，异端现象有所抬头。作者避免提及具体的异端，以保持文章的现实意义，并指出思想激进的传统主义者总是存在的，他们不断寻找新的意识形态来执行。",
+    "best_quote_en": "A heresy is an opinion whose expression is treated like a crime — one that makes some people feel not merely that you're mistaken, but that you should be punished.",
+    "best_quote_zh": "一种异端是这样一种观点，它的表达被视为一种犯罪——它使一些人觉得你不仅是错误的，而且应该受到惩罚。"
+  },
+  {
+    "id": 14,
+    "title": "GPT-4o",
+    "title_zh": "GPT-4o",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/gpt-4o",
+    "tags": [
+      "technology",
+      "creativity",
+      "communication"
+    ],
+    "tags_zh": [
+      "技术",
+      "人工智能",
+      "沟通"
+    ],
+    "date": "2024-05-13",
+    "summary_en": "The announcement highlights two key points: making highly capable AI tools available for free and the new voice (and video) mode which provides a more natural and human-like computer interface. OpenAI aims to empower others to create amazing things with AI, while also finding business opportunities to sustain the free service. The improved response times and expressiveness significantly enhance user experience, creating a future where computers are more helpful and accessible.",
+    "summary_zh": "公告强调了两点：一是免费提供强大的AI工具，二是新的语音（和视频）模式，它提供了更自然和人性化的计算机界面。 OpenAI的目标是授权他人使用AI创造惊人的事物，同时也寻找商业机会来维持免费服务。 改进的响应时间和表达能力显著提升了用户体验，创造了一个计算机更加有帮助和易于访问的未来。",
+    "best_quote_en": "Our initial conception when we started OpenAI was that we’d create AI and use it to create all sorts of benefits for the world. Instead, it now looks like we’ll create AI and then other people will use it to create all sorts of amazing things that we all benefit from.",
+    "best_quote_zh": "我们最初创立OpenAI时的想法是，我们将创造AI并用它为世界创造各种好处。 但现在看来，我们将创造AI，然后其他人将使用它来创造各种令我们所有人受益的惊人事物。"
+  },
+  {
+    "id": 15,
+    "title": "Putting Ideas into Words",
+    "title_zh": "将想法付诸文字",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/words.html",
+    "tags": [
+      "communication",
+      "thinking",
+      "productivity"
+    ],
+    "tags_zh": [
+      "写作",
+      "思考",
+      "效率"
+    ],
+    "date": "2025-08-17",
+    "summary_en": "The act of writing reveals gaps in one's knowledge. Putting ideas into words is a rigorous test, requiring constant revision to achieve precision and completeness. Writing forces us to confront our ideas as a neutral reader would, exposing flaws and incompleteness. Those who don't write may never fully form their ideas or realize the extent of their incompleteness. While writing doesn't guarantee correctness, it's a necessary step for developing fully formed ideas.",
+    "summary_zh": "写作行为会暴露知识中的空白。将想法付诸文字是一项严格的测试，需要不断修改以实现精确和完整。写作迫使我们像中立的读者一样面对自己的想法，从而暴露缺陷和不完整之处。不写作的人可能永远无法完全形成他们的想法，也无法意识到他们的不完整程度。虽然写作不能保证正确性，但它是发展完全形成的想法的必要步骤。",
+    "best_quote_en": "Putting ideas into words is a severe test.",
+    "best_quote_zh": "将想法付诸文字是一项严格的测试。"
+  },
+  {
+    "id": 16,
+    "title": "Is There Such a Thing as Good Taste?",
+    "title_zh": "是否存在好品味这种东西？",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/goodtaste.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "creativity"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "创造力"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This article argues that good taste exists, contrary to the popular belief that it's purely subjective. The author uses reductio ad absurdum, demonstrating that denying good taste leads to denying good art and skilled artists. The author addresses common reasons for doubting good taste, such as disagreements and the perceived subjectivity of art, arguing that art's effectiveness lies in its ability to impact humans, who share commonalities. Therefore, good taste, while not absolute, is indeed possible through informed and clear judgment.",
+    "summary_zh": "本文作者认为，好品味是存在的，这与普遍认为它纯粹是主观的观点相反。作者使用了归谬法，证明否认好品味会导致否认好的艺术和有技巧的艺术家。作者还解决了人们怀疑好品味的常见原因，例如意见分歧和艺术的主观性，并认为艺术的有效性在于它影响人类的能力，而人类具有共同点。因此，通过知情和清晰的判断，好品味即使不是绝对的，也是可能存在的。",
+    "best_quote_en": "If there's no such thing as good taste, then there's no such thing as good art. Because if there is such a thing as good art, it's easy to tell which of two people has better taste.",
+    "best_quote_zh": "如果没有好品味这回事，那么就没有好艺术这回事。因为如果存在好艺术这回事，那么很容易辨别出两个人中谁更有品味。"
+  },
+  {
+    "id": 17,
+    "title": "What I Wish Someone Had Told Me",
+    "title_zh": "我希望有人告诉我的事",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
+    "tags": [
+      "business",
+      "productivity",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "商业",
+      "生产力",
+      "创业"
+    ],
+    "date": "2023-12-21",
+    "summary_en": "This article offers advice on startups and business. Key points include prioritizing optimism, and strong teams, focusing on important and ambitious ideas, and using incentives carefully. It emphasizes clear communication, fighting bureaucracy, valuing outcomes, investing in recruiting, and recognizing the value of fast iteration and outstanding individuals. Furthermore, it highlights the importance of long-term vision, addressing risks and understanding scale, and the value of working with great people.",
+    "summary_zh": "本文提供了关于创业和业务的建议。要点包括优先考虑乐观主义和强大的团队，专注于重要和雄心勃勃的想法，并谨慎使用激励措施。 强调清晰的沟通，与官僚主义作斗争，重视成果，投资于招聘，并认识到快速迭代和杰出个人的价值。 此外，它强调了长远眼光的重要性，解决风险，理解规模以及与优秀人才合作的价值。",
+    "best_quote_en": "It is easier for a team to do a hard thing that really matters than to do an easy thing that doesn’t really matter; audacious ideas motivate people.",
+    "best_quote_zh": "对于一个团队来说，做一件真正重要的难事比做一件不重要的容易事更容易；大胆的想法能激励人们。"
+  },
+  {
+    "id": 18,
+    "title": "Beyond Smart",
+    "title_zh": "超越聪明",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/smart.html",
+    "tags": [
+      "thinking",
+      "creativity",
+      "productivity"
+    ],
+    "tags_zh": [
+      "思考",
+      "创造力",
+      "生产力"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article argues that intelligence, while necessary, is not the sole determinant of innovative ideas. It explores the gap between intelligence and the ability to generate new ideas, suggesting that qualities like obsessive interest, independent-mindedness, writing ability, and specific techniques are also crucial. The author posits that these qualities can be cultivated, making the process of discovery more accessible and controllable than innate intelligence alone.",
+    "summary_zh": "文章认为，智力虽然是必要的，但并非创新思想的唯一决定因素。它探讨了智力与产生新想法能力之间的差距，表明痴迷的兴趣、独立思考、写作能力和特定技术等品质也至关重要。作者认为，这些品质是可以培养的，使得发现过程与仅靠先天智力相比，更易于获得和控制。",
+    "best_quote_en": "What was special about him was that he had important new ideas. Being very smart was a necessary precondition for having those ideas, but the two are not identical.",
+    "best_quote_zh": "他特别之处在于他有重要的新想法。非常聪明是产生这些想法的必要前提，但两者并不相同。"
+  },
+  {
+    "id": 19,
+    "title": "Helion Needs You",
+    "title_zh": "Helion需要你",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/helion-needs-you",
+    "tags": [
+      "technology",
+      "business",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "科技",
+      "商业",
+      "创业"
+    ],
+    "date": "2022-07-13",
+    "summary_en": "Helion is making rapid progress in fusion energy and aims to demonstrate Q > 1 fusion in 2024. The company's ambitious goals include providing clean, continuous energy at a price of 1 cent per kilowatt-hour and building enough power plants to meet global electricity demand within ten years. Helion is now seeking talented individuals, particularly electrical and mechanical engineers, to join their team and help them achieve these goals.",
+    "summary_zh": "Helion 在核融合能源方面取得了快速进展，并计划在2024年展示 Q > 1 的核融合。该公司的宏伟目标包括以每千瓦时1美分的价格提供清洁、持续的能源，并在十年内建造足够的发电厂来满足全球电力需求。Helion 现在正在寻找有才华的人，特别是电气和机械工程师，加入他们的团队，帮助他们实现这些目标。",
+    "best_quote_en": "Abundant, clean, and radically inexpensive energy will elevate the quality of life for all of us—think about how much the cost of energy factors into what we do and use.",
+    "best_quote_zh": "丰富、清洁且极其廉价的能源将提升我们所有人的生活质量——想想能源成本在我们的所作所为和使用中占了多大的比重。"
   },
   {
     "id": 20,
-    "title": "A Project of One's Own",
+    "title": "Weird Languages",
+    "title_zh": "奇特的编程语言",
     "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/own.html",
+    "link": "http://www.paulgraham.com/weird.html",
     "tags": [
-      "personal projects",
-      "motivation",
-      "productivity",
-      "education",
-      "self-direction"
+      "programming",
+      "learning",
+      "thinking"
     ],
-    "date": "2025-08-15",
-    "summary_en": "The author discusses the importance of working on personal projects, contrasting it with ordinary work and school assignments. Personal projects foster excitement, engagement, and a sense of purpose. The author advocates for prioritizing these projects, recognizing their predictive value for future success and fulfillment, even above academic achievements.",
-    "summary_zh": "作者探讨了从事个人项目的重要性，将其与普通工作和学校作业进行对比。个人项目可以培养兴奋感、投入感和目标感。作者提倡优先考虑这些项目， recognizes their predictive value for future success and fulfillment, even above academic achievements.",
-    "best_quote_en": "Working on a project of your own is as different from ordinary work as skating is from walking. It's more fun, but also much more productive.",
-    "best_quote_zh": "从事你自己的项目与普通工作截然不同，就像滑冰与走路不同一样。它更有趣，但也更有效率。"
+    "tags_zh": [
+      "编程",
+      "学习",
+      "思考"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article suggests that while most programming involves gluing together library calls, the remaining small percentage is more interesting and can be explored through 'weird' languages. These languages reveal alternative programming paradigms, such as Lisp macros, which enable techniques beyond simple glue programming, like creating domain-specific languages. Learning these languages expands one's understanding of what programming can be and how to think differently about solving problems.",
+    "summary_zh": "文章指出，虽然大多数编程涉及库调用的组合，但剩余的小部分更有趣，可以通过“奇特”的语言来探索。这些语言揭示了替代的编程范式，例如 Lisp 宏，它支持超越简单组合的技巧，例如创建领域特定语言。学习这些语言可以扩展人们对编程的理解，以及如何以不同的方式思考解决问题。",
+    "best_quote_en": "If you want to expand your concept of what programming can be, one way to do it is by learning weird languages.",
+    "best_quote_zh": "如果你想拓展你对编程概念的理解，一种方法是学习奇特的语言。"
   },
   {
     "id": 21,
-    "title": "Fierce Nerds",
+    "title": "How to Work Hard",
+    "title_zh": "如何努力工作",
     "source": "Paul Graham",
-    "link": "http://www.paulgraham.com/fn.html",
+    "link": "http://www.paulgraham.com/hwh.html",
     "tags": [
-      "nerds",
-      "fierceness",
-      "competition",
-      "success",
-      "ambition"
+      "productivity",
+      "thinking",
+      "philosophy"
     ],
-    "date": "2025-08-15",
-    "summary_en": "The essay discusses 'fierce nerds,' individuals who combine intelligence, independence, competitiveness, and impatience. These traits, while potentially leading to bitterness if unexercised, are highly beneficial, especially in solving difficult problems and achieving success in various fields, including business. Engaging in ambitious projects is proposed as a way to channel this fierceness productively.",
-    "summary_zh": "本文探讨了“激进的nerd”，他们集智慧、独立、竞争力和急躁于一身。这些特质若未加以利用，可能会导致痛苦，但它们也很有益处，尤其是在解决难题和在包括商业在内的各个领域取得成功方面。文章提出参与雄心勃勃的项目是引导这种激进性的有效途径。",
-    "best_quote_en": "If you're given a sharp knife, it seems to me better to use it than to blunt its edge to avoid cutting yourself.",
-    "best_quote_zh": "如果给你一把锋利的刀，在我看来，使用它比为了避免割伤而磨钝它的边缘要好。"
+    "tags_zh": [
+      "生产力",
+      "思考",
+      "哲学"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article discusses the importance of hard work in achieving great things, emphasizing that natural talent alone is not enough. It highlights that dedication, practice, and genuine passion are essential for success, especially in pursuing self-defined goals. The author underscores the need to differentiate between superficial and meaningful work, and also to find the optimal balance of work hours to maintain the quality of output.",
+    "summary_zh": "这篇文章探讨了努力工作在成就伟大事物中的重要性，强调仅靠天赋是不够的。文章指出，奉献精神、实践和真正的热情对于成功至关重要，尤其是在追求自我定义的目标时。作者还强调需要区分肤浅的工作和有意义的工作，并找到工作时间的最佳平衡点以保持产出质量。",
+    "best_quote_en": "There are three ingredients in great work: natural ability, practice, and effort. You can do pretty well with just two, but to do the best work you need all three.",
+    "best_quote_zh": "伟大的工作有三个要素：天赋、实践和努力。你只需要其中两个也能做得不错，但要做到最好，你需要全部三个。"
   },
   {
     "id": 22,
-    "title": "the birth and reverb of friendship",
-    "source": "Derek Sivers",
-    "link": "https://sive.rs/brf",
+    "title": "DALL•E 2",
+    "title_zh": "DALL·E 2",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/dall-star-e-2",
     "tags": [
-      "friendship",
-      "connection",
-      "reverb",
-      "validation",
-      "understanding"
+      "technology",
+      "creativity"
     ],
-    "date": "2025-08-15",
-    "summary_en": "The author reflects on the importance of friendship, comparing it to being seen and heard after feeling invisible. A true friend acknowledges and reflects your thoughts, creating 'reverb' and validation. Misunderstanding can be confusing, while true connection fosters growth and mutual understanding.",
-    "summary_zh": "作者反思了友谊的重要性，将其比作在感到隐形后被看见和被听见。真正的朋友会承认并反映你的想法，产生“混响”和验证。误解会令人困惑，而真正的联系则可以促进成长和相互理解。",
-    "best_quote_en": "My life began at age 12 when I met my first best friend.",
-    "best_quote_zh": "我的生命始于12岁，那时我遇到了我第一个最好的朋友。"
+    "tags_zh": [
+      "技术",
+      "创造力",
+      "人工智能"
+    ],
+    "date": "2022-04-06",
+    "summary_en": "DALL·E 2 is a new AI tool that creates and edits images from natural language instructions. It represents a shift in computer interfaces where users describe their desired outcome, and the computer executes it. While enhancing creativity and potentially impacting labor markets, particularly in creative fields, DALL·E 2 also highlights the difficulty in predicting AI's trajectory. The tool's capabilities suggest a future where ideas, not specific skills, are the limiting factor. A research launch aims to mitigate potential downsides through collaboration.",
+    "summary_zh": "DALL·E 2 是一种新型人工智能工具，可以通过自然语言指令创建和编辑图像。它代表了计算机界面的一种转变，用户描述他们想要的结果，然后由计算机执行。在增强创造力并可能影响劳动力市场（尤其是在创意领域）的同时，DALL·E 2 也突显了预测人工智能发展轨迹的难度。该工具的能力表明，未来想法（而非特定技能）将成为限制因素。通过研究发布旨在通过协作来减轻潜在的缺点。",
+    "best_quote_en": "It’s an example of a world in which good ideas are the limit for what we can do, not specific skills.",
+    "best_quote_zh": "这是一个好主意是我们能做什么的限制，而不是特定技能的世界的例子。"
   },
   {
     "id": 23,
-    "title": "10 Thoughts From the Fourth Trimester",
-    "source": "Wait But Why",
-    "link": "https://waitbutwhy.com/2023/05/baby.html",
+    "title": "Open Thread 395",
+    "title_zh": "开放讨论区 395",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/open-thread-395",
     "tags": [
-      "pregnancy",
-      "childbirth",
-      "parenthood",
-      "expectations",
-      "reality"
+      "communication",
+      "thinking",
+      "productivity"
     ],
-    "date": "2023-05-23",
-    "summary_en": "The author recounts the unexpected and surprisingly mundane experience of his wife's labor and the birth of their first child. He contrasts his expectations of a frantic, emotional event with the reality of a calm, almost casual process punctuated by brief moments of intense activity. The actual birth was far from the dramatic scene he imagined.",
-    "summary_zh": "作者叙述了他妻子分娩和他们第一个孩子出生的出乎意料且非常平凡的经历。他将自己对一个疯狂、充满情绪的事件的期望与平静、几乎是随意的过程的现实进行了对比，这个过程穿插着短暂的剧烈活动时刻。实际的出生远非他想象的戏剧性场面。",
-    "best_quote_en": "Again, there was a major expectations-reality gap.",
-    "best_quote_zh": "再一次，期望和现实之间存在巨大的差距。"
+    "tags_zh": [
+      "沟通",
+      "思考",
+      "效率"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This is an open thread for general discussion. It includes updates on ACX Grants, a survey request (with precautions against selection bias), and mentions of comments on recent articles about dating and the amyloid hypothesis. Prediction markets related to these articles have also been created.",
+    "summary_zh": "这是一个开放讨论区，可以随意发布任何内容和提问。内容包括ACX Grants的更新、一项调查请求（采取了预防选择偏差的措施），以及对最近关于约会和淀粉样蛋白假说的文章的评论。此外，还创建了与这些文章相关的预测市场。",
+    "best_quote_en": "But if I tell you what it is, then there will be selection bias, since people involved with the thing will be more likely to take a survey about it.",
+    "best_quote_zh": "但如果我告诉你它是什么，就会有选择偏差，因为与这件事有关的人更有可能参加关于它的调查。"
   },
   {
     "id": 24,
-    "title": "Ryan Petersen: Building Flexport",
-    "source": "Farnam Street",
-    "link": "https://fs.blog/knowledge-project-podcast/ryan-petersen/",
+    "title": "A Project of One's Own",
+    "title_zh": "自主项目",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/own.html",
     "tags": [
-      "flexport",
-      "logistics",
-      "leadership",
-      "entrepreneurship",
-      "scaling"
+      "productivity",
+      "creativity",
+      "entrepreneurship"
     ],
-    "date": "2025-07-30",
-    "summary_en": "Ryan Petersen, founder of Flexport, shares his entrepreneurial journey, discussing mistakes, leadership, and scaling the company. Key takeaways include playing against weak competition, the importance of founder involvement, obsession as an advantage, prioritizing quality, and the strategic use of micromanagement. He emphasizes controlling bottlenecks and niche domination.",
-    "summary_zh": "Flexport创始人Ryan Petersen分享了他的创业历程，讨论了他的错误、领导力以及如何扩展公司。主要经验包括在弱竞争中取胜、创始人参与的重要性、痴迷的优势、优先考虑质量以及微观管理的策略性使用。他强调控制瓶颈和利基市场的主导地位。",
-    "best_quote_en": "\"If a bottleneck appears where you didn’t choose it, you’re not running the operation, it’s running you.\"",
-    "best_quote_zh": "“如果瓶颈出现在你没有选择它的地方，那么不是你在运营，而是它在运营你。”"
+    "tags_zh": [
+      "生产力",
+      "创造力",
+      "创业"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "Working on a project of one's own is likened to skating, offering more fun and productivity compared to ordinary work. It fosters excitement and engagement, essential for innovation. The author contrasts this with schoolwork, advocating for nurturing this intrinsic motivation over grades. This approach is valuable in various fields, including startups and tech, where passion-driven work leads to meaningful outcomes, blurring the lines between work and life and boosting team collaboration and excitement.",
+    "summary_zh": "自主项目就像滑冰一样，相比普通工作更有趣和高效。它能激发兴奋感和参与感，这对创新至关重要。作者将此与学校作业进行对比，提倡培养这种内在动力，而不是只关注分数。这种方法在各个领域都很有价值，包括创业公司和科技行业，在那里，激情驱动的工作可以带来有意义的成果，模糊工作和生活之间的界限，并促进团队合作和兴奋感。",
+    "best_quote_en": "Working on a project of your own is as different from ordinary work as skating is from walking. It's more fun, but also much more productive.",
+    "best_quote_zh": "从事自己的项目与普通工作截然不同，就像滑冰与走路不同。它更有趣，而且效率更高。"
   },
   {
     "id": 25,
+    "title": "Helion",
+    "title_zh": "Helion公司",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/helion",
+    "tags": [
+      "technology",
+      "business",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "科技",
+      "商业",
+      "创业"
+    ],
+    "date": "2021-11-05",
+    "summary_en": "This article expresses excitement about investing in Helion, a promising fusion energy company. Helion aims to achieve net electricity generation by 2024 and deliver electricity at a significantly lower cost of 1 cent per kilowatt-hour. The author believes this could provide a path out of the climate crisis and dramatically improve the quality of life through cheaper energy.",
+    "summary_zh": "这篇文章表达了对投资Helion公司的兴奋之情，这是一家极具前景的聚变能源公司。Helion的目标是到2024年实现净发电，并以极低的成本（每千瓦时1美分）提供电力。作者认为，这可能为摆脱气候危机提供一条道路，并通过更便宜的能源大幅提高生活质量。",
+    "best_quote_en": "Helion has a clear path to net electricity by 2024, and has a long-term goal of delivering electricity for 1 cent per kilowatt-hour.",
+    "best_quote_zh": "Helion公司有着在2024年实现净发电的清晰路径，并且其长期目标是以每千瓦时1美分的成本输送电力。"
+  },
+  {
+    "id": 26,
+    "title": "Fierce Nerds",
+    "title_zh": "强悍的极客",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/fn.html",
+    "tags": [
+      "thinking",
+      "productivity",
+      "business"
+    ],
+    "tags_zh": [
+      "思考",
+      "生产力",
+      "商业"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This article discusses the characteristics of \"fierce nerds,\" a small but interesting group of highly competitive, overconfident, intelligent, and independent-minded individuals. It suggests that while their fierceness can be a great asset in solving problems and achieving success, especially in business, it can also lead to bitterness if not properly channeled through ambitious projects. The author concludes that there has never been a better time to be a nerd, as society increasingly values competence over charisma.",
+    "summary_zh": "本文探讨了“强悍的极客”的特征，他们是一小群但非常有趣的群体，具有高度的竞争力、过度自信、聪明才智和独立思想。文章认为，他们的强悍对于解决问题和取得成功非常有帮助，尤其是在商业领域，但如果不通过雄心勃勃的项目加以引导，也可能导致痛苦。作者总结说，现在是成为极客的最佳时机，因为社会越来越重视能力而非魅力。",
+    "best_quote_en": "If you're given a sharp knife, it seems to me better to use it than to blunt its edge to avoid cutting yourself.",
+    "best_quote_zh": "如果给你一把锋利的刀，我认为最好是使用它，而不是为了避免割伤自己而使刀刃变钝。"
+  },
+  {
+    "id": 27,
+    "title": "The Strength of Being Misunderstood",
+    "title_zh": "被误解的力量",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/the-strength-of-being-misunderstood",
+    "tags": [
+      "thinking",
+      "philosophy",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "思考",
+      "哲学",
+      "创业"
+    ],
+    "date": "2020-12-01",
+    "summary_en": "It's crucial to care about others' opinions to create something useful, but not excessively. Select whose opinions matter and the timescale you prioritize. Impressive people value long-term perspectives, even at the cost of short-term disapproval. Trading short-term low-status for long-term high-status is key. Being misunderstood, while challenging, is a strength if you're ultimately right, enabling unique problem-solving.",
+    "summary_zh": "为了创造有用的东西，关注他人的意见至关重要，但不要过度。选择重视谁的意见以及优先考虑的时间尺度。 令人印象深刻的人重视长远眼光，即使以牺牲短期认可为代价。 以短期低地位换取长期高地位是关键。 如果你是正确的，被误解虽然具有挑战性，但也是一种优势，可以解决独特的难题。",
+    "best_quote_en": "as long as you are right, being misunderstood by most people is a strength not a weakness.",
+    "best_quote_zh": "只要你是对的，被大多数人误解就是一种优势，而不是弱点。"
+  },
+  {
+    "id": 28,
+    "title": "Your Review: Dating Men In The Bay Area",
+    "title_zh": "你的评论：在湾区与男人约会",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/your-review-dating-men-in-the-bay",
+    "tags": [
+      "relationships",
+      "psychology",
+      "society"
+    ],
+    "tags_zh": [
+      "人际关系",
+      "心理学",
+      "社会"
+    ],
+    "date": "2025-08-15",
+    "summary_en": "This article reviews the experience of dating men in the Bay Area, focusing on the emotional burdens they carry due to societal neglect and the lack of clear male roles. The author, a feminist, aims to bridge the gap in understanding men's pain and its impact on relationships, arguing for increased attention to men's issues as vital for societal healing. Historically, men had clear roles, but modern society has eroded these, leaving men without a defined path.",
+    "summary_zh": "本文评论了在湾区与男人约会的经历，重点关注由于社会忽视和缺乏明确男性角色而给他们带来的情感负担。 作者是一位女权主义者，旨在弥合理解男性痛苦及其对人际关系的影响之间的差距，主张更多地关注男性问题，这对于社会治愈至关重要。 从历史上看，男性有明确的角色，但现代社会已经削弱了这些角色，使男性没有明确的道路。",
+    "best_quote_en": "I believe the opposite is true; the pain facing both men and women is evidence of a wounded society, and you cannot heal an injury by only stitching half of it.",
+    "best_quote_zh": "我认为事实恰恰相反；男人和女人所面临的痛苦都证明了我们社会已经受伤，你不能只缝合一半伤口来治愈它。"
+  },
+  {
+    "id": 29,
     "title": "Crazy New Ideas",
+    "title_zh": "疯狂的新想法",
     "source": "Paul Graham",
     "link": "http://www.paulgraham.com/newideas.html",
     "tags": [
-      "new ideas",
-      "domain expertise",
-      "innovation",
-      "paradigm shift",
-      "critical thinking"
+      "thinking",
+      "creativity",
+      "philosophy"
     ],
-    "date": "2025-08-15",
-    "summary_en": "The article discusses the importance of considering seemingly crazy ideas proposed by domain experts, as they often hold valuable insights and potential for significant impact. Dismissing such ideas prematurely can lead to missed opportunities and a failure to challenge existing paradigms. It emphasizes asking questions instead of making statements and understanding the fear behind dismissing new ideas.",
-    "summary_zh": "本文讨论了认真考虑领域专家提出的看似疯狂的想法的重要性，因为它们通常蕴含着有价值的见解和巨大的潜力。过早地否定这些想法可能会导致错失良机，并阻碍对现有范式的挑战。文章强调要提出问题而非下定论，并理解否定新想法背后的恐惧。",
-    "best_quote_en": "When the average person proposes an implausible-sounding idea, its implausibility is evidence of their incompetence. But when a reasonable domain expert does it, the situation is reversed.",
-    "best_quote_zh": "当普通人提出一个听起来难以置信的想法时，这种难以置信证明了他们的无能。但是，当一个理性的领域专家提出这样的想法时，情况会发生逆转。"
+    "tags_zh": [
+      "思考",
+      "创造力",
+      "哲学"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article discusses why it's important to consider seemingly crazy ideas, especially when proposed by domain experts. Dismissing such ideas can be a mistake, as big breakthroughs often start with implausible concepts. Envy, the desire to appear sophisticated, and vested interests often lead people to reject novel ideas. The author advises questioning instead of dismissing new ideas and encourages supporting those who propose them, as it can lead to valuable insights and advancements.",
+    "summary_zh": "文章讨论了为什么应该认真考虑那些看似疯狂的想法，特别是当这些想法是由领域专家提出时。 忽视这些想法可能会铸成大错，因为重大的突破往往始于看似不可能的概念。 嫉妒，想要显得老练以及既得利益等等因素常常导致人们拒绝新的想法。 作者建议质疑而不是否定新想法，并且鼓励那些提出新想法的人， 因为这可能带来宝贵的见解和进步。",
+    "best_quote_en": "Anyone who has studied the history of ideas, and especially the history of science, knows that's how big things start. Someone proposes an idea that sounds crazy, most people dismiss it, then it gradually takes over the world.",
+    "best_quote_zh": "任何研究过思想史，特别是科学史的人都知道伟大的事物是如何开始的。有人提出了一个听起来很疯狂的想法，大多数人都不屑一顾，然后它逐渐接管了世界。"
+  },
+  {
+    "id": 30,
+    "title": "PG and Jessica",
+    "title_zh": "PG和杰西卡",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/pg-and-jessica",
+    "tags": [
+      "entrepreneurship",
+      "business",
+      "relationships"
+    ],
+    "tags_zh": [
+      "创业",
+      "商业",
+      "人际关系"
+    ],
+    "date": "2020-09-25",
+    "summary_en": "The article discusses why it's difficult to replicate Y Combinator (YC). The key was the founders, PG and Jessica, who believed in unknown people, set strong norms, and focused on important things. They worked hard, spent time with individuals, and understood the value of community. Crucially, they built an ecosystem without being greedy, letting others benefit. Despite seeming simple, these actions have been hard to replicate, and PG and Jessica have significantly impacted careers in the startup industry.",
+    "summary_zh": "文章讨论了为什么很难复制Y Combinator（YC）。关键在于创始人PG和杰西卡，他们相信默默无闻的人，制定了严格的规范，并专注于重要的事情。他们努力工作，花时间与个人交流，并理解社区的价值。最重要的是，他们建立了一个不贪婪的生态系统，让其他人从中受益。尽管看起来很简单，但这些行动很难被复制，而且PG和杰西卡对创业行业的人的职业生涯产生了重大影响。",
+    "best_quote_en": "The entire secret to YC getting going was PG and Jessica—there was no other magic trick.",
+    "best_quote_zh": "YC成功的全部秘密在于PG和杰西卡——没有其他魔法。"
+  },
+  {
+    "id": 31,
+    "title": "An NFT That Saves Lives",
+    "title_zh": "一个拯救生命的NFT",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/nft.html",
+    "tags": [
+      "technology",
+      "business",
+      "relationships"
+    ],
+    "tags_zh": [
+      "科技",
+      "商业",
+      "公益"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "Noora Health, a nonprofit, launched an NFT called \"Save Thousands of Lives.\" The proceeds will support their programs in South Asian hospitals, teaching new mothers how to care for their babies at home. Their work has shown to save 9 babies for every 1000 live births, costing approximately $1,235 per life saved. The NFT will track how the funds are spent and estimate the number of lives saved. The higher the NFT's price, the more lives will be saved.",
+    "summary_zh": "Noora Health是一家非营利组织，发行了一个名为“拯救数千生命”的NFT。所得款项将用于支持他们在南亚医院的项目，教导新手妈妈们如何在家照顾婴儿。他们的工作显示，每1000个活产婴儿中，他们可以拯救9个婴儿的生命，平均每救一人花费约1235美元。 该NFT将追踪资金的使用情况，并预估拯救的生命数量。 这个NFT的价格越高，拯救的生命就越多。",
+    "best_quote_en": "unlike an NFT representing something that has already happened, this NFT gets better as the price gets higher.",
+    "best_quote_zh": "与代表已经发生的事情的 NFT 不同，这个 NFT 会随着价格的上涨而变得更好。"
+  },
+  {
+    "id": 32,
+    "title": "Researchers and Founders",
+    "title_zh": "研究者与创始人",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/researchers-and-founders",
+    "tags": [
+      "thinking",
+      "entrepreneurship",
+      "productivity"
+    ],
+    "tags_zh": [
+      "思考",
+      "创业",
+      "效率"
+    ],
+    "date": "2020-06-19",
+    "summary_en": "This article compares the qualities of successful researchers and founders, highlighting their common traits. Both groups frequently reflect on important problems in their fields, possess laser focus combined with long-term vision,demonstrate persistence and a strong work ethic. They are action-oriented, honest in assessing results, creative in generating ideas, value autonomy, and are often driven by genuine curiosity. While there are individual differences, these shared attributes contribute to their effectiveness and success.",
+    "summary_zh": "这篇文章比较了成功的研究者和创始人的共同特点。两类人都经常思考其领域内的重要问题，具备专注和长远眼光，展现出坚持不懈和努力工作的精神。他们注重行动，诚实评估结果，具有创造力，重视自主性，并常常被真正的好奇心所驱动。虽然存在个体差异，但这些共同的品质促成了他们的效率和成功。",
+    "best_quote_en": "The best people in both groups spend a lot of time reflecting on some version of the Hamming question—'what are the most important problems in your field, and why aren’t you working on them?'",
+    "best_quote_zh": "两类人中优秀者都会花大量时间思考某种形式的汉明问题——“你所在领域最重要的研究问题是什么，你为什么不在研究它们？”"
+  },
+  {
+    "id": 33,
+    "title": "In Defense Of The Amyloid Hypothesis",
+    "title_zh": "为淀粉样蛋白假说辩护",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/in-defense-of-the-amyloid-hypothesis",
+    "tags": [
+      "psychology",
+      "learning",
+      "technology"
+    ],
+    "tags_zh": [
+      "心理学",
+      "学习",
+      "科技"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "This article defends the amyloid hypothesis of Alzheimer's disease, which posits that the accumulation of amyloid-beta peptides causes the disease. It addresses common criticisms, such as fraudulent research, weak correlation between amyloid levels and cognitive impairment, and the limited effectiveness of anti-amyloid drugs. The author supports the A -> T -> N model (amyloid causes tau causes neurodegeneration) and discusses genetic and environmental factors influencing amyloid production and clearance.",
+    "summary_zh": "本文为阿尔茨海默病的淀粉样蛋白假说辩护，该假说认为淀粉样β肽的积累导致该疾病。文章驳斥了常见的批评，如欺诈性研究、淀粉样蛋白水平与认知障碍之间微弱的相关性，以及抗淀粉样蛋白药物的有限疗效。作者支持 A -> T -> N 模型（淀粉样蛋白导致 Tau 蛋白导致神经退行性变），并讨论了影响淀粉样蛋白产生和清除的遗传和环境因素。",
+    "best_quote_en": "To my knowledge, there is no serious claim that these genes could be working through any pathway other than their shared role in the amyloid system.",
+    "best_quote_zh": "据我所知，没有确凿的证据表明这些基因可以通过除了在淀粉样蛋白系统中发挥作用之外的任何其他途径发挥作用。"
+  },
+  {
+    "id": 35,
+    "title": "The Real Reason to End the Death Penalty",
+    "title_zh": "结束死刑的真正原因",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/real.html",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "psychology"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "心理学"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article argues against the death penalty, not on moral or deterrent grounds, but because of the high likelihood of executing innocent people. It cites numerous cases of wrongful murder convictions overturned, highlighting issues like police misconduct, prosecutorial overreach, incompetent defense attorneys, and false testimony. The author emphasizes that the focus should be on preventing the execution of innocent individuals rather than debating the theoretical justifications of capital punishment.",
+    "summary_zh": "本文反对死刑，主要不是基于道德或威慑的理由，而是因为处决无辜者的可能性非常高。文章列举了许多被推翻的错误谋杀定罪案例，突出了警察不当行为、检察官越权、辩护律师无能和虚假证词等问题。作者强调，重点应放在防止无辜者被处决，而不是争论死刑的理论依据。",
+    "best_quote_en": "Whatever it means in theory, in practice capital punishment means killing innocent people.",
+    "best_quote_zh": "无论理论上意味着什么，在实践中，死刑意味着杀死无辜的人。"
+  },
+  {
+    "id": 36,
+    "title": "How People Get Rich Now",
+    "title_zh": "现在人们如何致富",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/richnow.html",
+    "tags": [
+      "business",
+      "entrepreneurship",
+      "technology"
+    ],
+    "tags_zh": [
+      "商业",
+      "创业",
+      "科技"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The article analyzes how people get rich, comparing the Forbes lists of wealthiest Americans in 1982 and 2020. It highlights a shift from inherited wealth to wealth generated by starting companies, particularly in the tech sector. The author argues that the mid-20th century, with its oligopolies, was an anomaly, and the current trend of entrepreneurs creating wealth is a return to a historical norm. Technological advancements and deregulation have enabled startups to thrive, making it easier than ever to get rich by founding a company.",
+    "summary_zh": "本文分析了人们致富的方式，比较了1982年和2020年《福布斯》美国富豪榜。文章强调了从继承财富到通过创办公司（尤其是在科技领域）创造财富的转变。作者认为，20世纪中叶的寡头垄断是一种异常现象，而当前企业家创造财富的趋势是回归历史常态。技术进步和放松管制已经使初创企业蓬勃发展，使得通过创办公司致富比以往任何时候都更容易。",
+    "best_quote_en": "The main source of new fortunes now is starting companies, and when you look at the data, you see big changes there too. People get richer from starting companies now than they did in 1982, because the companies do different things.",
+    "best_quote_zh": "现在新财富的主要来源是创办公司，当你查看数据时，你会发现那里也发生了巨大的变化。现在人们通过创办公司致富比1982年更容易，因为公司所做的事情不同了。"
+  },
+  {
+    "id": 37,
+    "title": "Project Covalence",
+    "title_zh": "Covalence项目",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/project-covalence",
+    "tags": [
+      "business",
+      "technology",
+      "productivity"
+    ],
+    "tags_zh": [
+      "商业",
+      "科技",
+      "效率"
+    ],
+    "date": "2020-06-16",
+    "summary_en": "Project Covalence aims to improve clinical trial support for COVID-19 projects. In collaboration with TrialSpark and Dr. Mark Fishman, the project provides a platform optimized for trials in community settings or at home. It supports trial execution, remote data collection, telemedicine, biostatistics, sample kits, and protocol writing, enabling researchers to rapidly launch trials and facilitating coordination between studies.",
+    "summary_zh": "Covalence项目旨在提升对COVID-19项目的临床试验支持。通过与TrialSpark和Mark Fishman博士合作，该项目提供了一个优化的平台，适用于社区或家庭环境中的试验。它支持试验执行、远程数据收集、远程医疗、生物统计、样本试剂盒和方案编写，使研究人员能够快速启动试验，并促进研究间的协调。",
+    "best_quote_en": "Dramatically improving clinical trials, which are usually time-consuming and cost tens to hundreds of millions of dollars, is one of the highest-leverage ways to get out of it faster.",
+    "best_quote_zh": "大幅改进通常耗时且花费数千万至数亿美元的临床试验，是更快摆脱困境的最佳杠杆之一。"
+  },
+  {
+    "id": 38,
+    "title": "Hidden Open Thread 394.5",
+    "title_zh": "隐藏的开放讨论区 394.5",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/hidden-open-thread-3945",
+    "tags": [
+      "communication",
+      "thinking",
+      "productivity"
+    ],
+    "tags_zh": [
+      "沟通",
+      "思考",
+      "效率"
+    ],
+    "date": "2025-08-14",
+    "summary_en": "This is an open thread on Astral Codex Ten for paid subscribers. It seems to be a space for discussion and sharing, labeled as Hidden Open Thread 394.5.",
+    "summary_zh": "这是一个Astral Codex Ten上的付费订阅者开放讨论帖。 似乎是一个用于讨论和分享的空间，标题为隐藏的开放讨论区 394.5。",
+    "best_quote_en": "Hidden Open Thread 394.5",
+    "best_quote_zh": "隐藏的开放讨论区 394.5"
+  },
+  {
+    "id": 39,
+    "title": "Relationships 2.0: Why Did You Do That? + Your Questions Answered: Fred Luskin on Grudges",
+    "title_zh": "关系2.0：你为什么那样做？+解答你的问题：弗雷德·卢斯金谈怨恨",
+    "source": "Hidden Brain",
+    "link": "https://hiddenbrain.org/podcast/mind-reading-why-did-you-do-that/",
+    "tags": [
+      "psychology",
+      "relationships",
+      "thinking"
+    ],
+    "tags_zh": [
+      "心理学",
+      "人际关系",
+      "思考"
+    ],
+    "date": "2025-04-21",
+    "summary_en": "This article explores the human ability to understand others' thoughts and feelings, a concept known as \"theory of mind.\" It discusses how this ability develops in children, affects moral judgments, and can lead to misunderstandings. The article also features researcher Fred Luskin answering listener questions about holding grudges.",
+    "summary_zh": "本文探讨了人类理解他人思想和情感的能力，即“心理理论”。讨论了这种能力如何在儿童时期发展，如何影响道德判断，以及如何导致误解。文章还邀请了研究员弗雷德·卢斯金回答听众关于怀恨在心的问题。",
+    "best_quote_en": "As we go through life, we’re constantly trying to figure out what other people are thinking and feeling.",
+    "best_quote_zh": "在我们的人生旅程中，我们不断地试图弄清楚其他人在想什么和感受什么。"
+  },
+  {
+    "id": 40,
+    "title": "Write Simply",
+    "title_zh": "写作要简洁",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/simply.html",
+    "tags": [
+      "communication",
+      "productivity"
+    ],
+    "tags_zh": [
+      "写作",
+      "效率",
+      "沟通"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "The author advocates for simple writing using ordinary words and short sentences, emphasizing that readability enhances reader engagement. Simple writing allows readers to focus on ideas rather than deciphering complex language. It's also more considerate, especially for non-native English speakers. Simple writing promotes honesty and endures better over time, reflecting quality craftsmanship. The author writes simply because complicated writing feels clumsy and inelegant.",
+    "summary_zh": "作者提倡使用常用的词语和简短的句子进行简单的写作，强调可读性提高读者的参与度。简单的写作使读者能够专注于想法，而不是解读复杂的语言。这对非英语母语者也更体贴。简单的写作促进诚实，并且随着时间的推移更好地持久，反映出高质量的工艺。作者写得简单是因为复杂的写作感觉笨拙而不雅。",
+    "best_quote_en": "If the friction of reading is low enough, more keep going till the end.",
+    "best_quote_zh": "如果阅读的摩擦力足够低，更多的人会坚持到最后。"
   }
-]
+,{
+    "id": 41,
+    "title": "Donate Unrestricted",
+    "title_zh": "捐赠非限定用途款项",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/donate.html",
+    "tags": [
+      "business",
+      "philosophy",
+      "productivity"
+    ],
+    "tags_zh": [
+      "商业",
+      "哲学",
+      "效率"
+    ],
+    "date": "2025-08-19",
+    "summary_en": "The article argues against restricted donations to nonprofits, stating that they are often suboptimal because the donor's intended use of funds may not align with the nonprofit's expertise. Unless the donor is a domain expert or donating to an umbrella organization, unrestricted donations are generally more effective. Donors often impose restrictions to make a mark or generate publicity, but nonprofits rarely discourage this due to financial anxieties. The article advocates for unrestricted donations, urging donors to trust the nonprofit's judgment in allocating funds.",
+    "summary_zh": "本文反对向非营利组织捐赠限定用途款项，认为这种捐赠往往不是最优选择，因为捐赠者的意图可能与非营利组织的专业知识不一致。除非捐赠者是领域专家或向伞式组织捐赠，否则非限定用途款项通常更有效。捐赠者常常为了引人注目或制造宣传而设置限制，但由于经济上的担忧，非营利组织很少阻止这种情况。本文提倡非限定用途的捐赠，呼吁捐赠者信任非营利组织在资金分配方面的判断。",
+    "best_quote_en": "If you want to donate to a nonprofit, donate unrestricted. If you trust them to spend your money, trust them to decide how.",
+    "best_quote_zh": "如果你想捐赠给非营利组织，请捐赠非限定用途款项。如果你信任他们花你的钱，就信任他们来决定如何花。"
+  },
+  {
+    "id": 42,
+    "title": "Idea Generation",
+    "title_zh": "创意产生",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/idea-generation",
+    "tags": [
+      "entrepreneurship",
+      "creativity",
+      "thinking"
+    ],
+    "tags_zh": [
+      "创业",
+      "创造力",
+      "思考"
+    ],
+    "date": "2020-05-28",
+    "summary_en": "This article discusses how to generate startup ideas. It emphasizes the importance of being in the right environment, around optimistic and creative people with a high idea flux. The best ideas are often fragile and may sound silly initially. Thinking about fundamental changes shaping the future and identifying opportunities these changes unlock is also crucial. The author stresses the founder/company fit and the ability to articulate why most people think an idea is bad.",
+    "summary_zh": "本文讨论了如何产生创业想法。它强调了处于正确的环境，与乐观和有创造力的人在一起的重要性。最好的想法通常是脆弱的，最初听起来可能很愚蠢。考虑塑造未来的根本性变化并识别这些变化所释放的机会也至关重要。作者强调了创始人/公司契合度以及阐明为什么大多数人认为一个想法很糟糕的能力。",
+    "best_quote_en": "The best ideas are fragile; most people don’t even start talking about them at all because they sound silly.",
+    "best_quote_zh": "最好的想法是脆弱的；大多数人甚至根本不开始谈论它们，因为它们听起来很傻。"
+  },
+  {
+    "id": 43,
+    "title": "Dictator Book Club: Mussolini On Fascism",
+    "title_zh": "独裁者读书会：墨索里尼论法西斯主义",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/dictator-book-club-mussolini-on-fascism",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "learning"
+    ],
+    "tags_zh": [
+      "哲学",
+      "思考",
+      "学习"
+    ],
+    "date": "2025-08-13",
+    "summary_en": "This is a post titled \"Dictator Book Club: Mussolini On Fascism\". It appears to be available to paid subscribers of Astral Codex Ten, based on the provided content. The summary is limited due to the very brief article content.",
+    "summary_zh": "这是一篇名为“独裁者读书会：墨索里尼论法西斯主义”的文章。根据提供的内容，它似乎仅供 Astral Codex Ten 的付费订阅者阅读。由于文章内容非常简短，因此摘要受到限制。",
+    "best_quote_en": "Unavailable due to the very brief article content.",
+    "best_quote_zh": "由于文章内容非常简短，所以没有可提取的引言。"
+  },
+  {
+    "id": 44,
+    "title": "Did I Really Do That?",
+    "title_zh": "我真的做了吗？",
+    "source": "Hidden Brain",
+    "link": "https://hiddenbrain.org/podcast/did-i-really-do-that/",
+    "tags": [
+      "psychology",
+      "thinking",
+      "learning"
+    ],
+    "tags_zh": [
+      "心理学",
+      "思考",
+      "学习"
+    ],
+    "date": "2025-03-17",
+    "summary_en": "This article discusses the phenomenon of false confessions and why people sometimes act against their own self-interest, even when falsely accused. It explores how people freeze and fail to defend themselves, the different types of false confessions, and the mental processes involved when pressured to confess to something they didn't do. It also examines how police interrogation tactics are being used in workplaces and potential solutions to the problem of false confessions.",
+    "summary_zh": "本文探讨了虚假供述的现象，以及为什么人们有时会做出违背自身利益的行为，即使在被错误指控时也是如此。文章探讨了人们如何冻结和未能为自己辩护、虚假供述的类型，以及在被压力下承认自己没有做过的事情时所涉及的心理过程。它还研究了警察审讯策略如何在工作场所中使用，以及解决虚假供述问题的潜在方案。",
+    "best_quote_en": "Many of us think there’s only one way we’d act in such a situation: we’d defend ourselves. We’d do whatever it takes to clear our name — and above all else, we’d never, ever confess to something we didn’t do.",
+    "best_quote_zh": "我们中的许多人认为，在这种情况下，我们只会有一种行为方式：我们会为自己辩护。我们会竭尽所能来洗清我们的罪名——最重要的是，我们永远、永远不会承认我们没有做过的事情。"
+  },
+  {
+    "id": 45,
+    "title": "What I Worked On",
+    "title_zh": "我的工作经历",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/worked.html",
+    "tags": [
+      "programming",
+      "learning",
+      "thinking"
+    ],
+    "tags_zh": [
+      "编程",
+      "学习",
+      "思考"
+    ],
+    "date": "2025-08-19",
+    "summary_en": "This article recounts the author's early experiences with writing and programming before and during college. It covers his initial struggles with programming using Fortran on an IBM 1401, his excitement with early microcomputers, his switch from philosophy to AI, and his disillusionment with the field's then-current approach. Ultimately, he found solace and direction in Lisp, leading him to write the book \"On Lisp.\"",
+    "summary_zh": "这篇文章讲述了作者在大学之前和大学期间写作和编程的早期经历。文章涵盖了他最初使用Fortran在IBM 1401上进行编程的挣扎，他对早期微型计算机的兴奋，他从哲学转向人工智能，以及他对当时人工智能领域方法的失望。最终，他在Lisp中找到了慰藉和方向，这促使他写了《On Lisp》这本书。",
+    "best_quote_en": "Learning Lisp expanded my concept of a program so fast that it was years before I started to have a sense of where the new limits were.",
+    "best_quote_zh": "学习Lisp极大地扩展了我对程序的理解，以至于过了很多年我才开始意识到新的极限在哪里。"
+  },{
+    "id": 46,
+    "title": "Earnestness",
+    "title_zh": "真诚",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/earnest.html",
+    "tags": [
+      "entrepreneurship",
+      "philosophy",
+      "thinking"
+    ],
+    "tags_zh": [
+      "创业",
+      "哲学",
+      "思考"
+    ],
+    "date": "2025-08-20",
+    "summary_en": "The author discusses the importance of \"earnestness\" in founders within Silicon Valley. Earnestness, characterized by genuine interest in the problem and dedicated effort, is a key motivator and advantage. While often associated with naivete, it allows founders to tackle challenges with optimism, unburdened by cynicism or superficiality. This trait is crucial for innovation and long-term success, distinguishing true innovators from those driven solely by money or fame. The alignment of intellectual curiosity and financial success is a significant trend.",
+    "summary_zh": "作者探讨了“真诚”对于硅谷创业者的重要性。“真诚”的特点是对问题有真正的兴趣和专注的努力，这是一个关键的动力和优势。虽然通常与天真相关联，但它使创始人能够以乐观的态度应对挑战，不受玩世不恭或肤浅的影响。 这一特质对于创新和长期成功至关重要，可以将真正的创新者与那些仅受金钱或名誉驱动的人区分开来。 智力好奇心和经济上的成功相一致是一个重要的趋势。",
+    "best_quote_en": "When the problems get harder than the fake ones you're given in high school, caring about them starts to matter.",
+    "best_quote_zh": "当问题比你在高中遇到的那些虚假问题更难时，关心它们就开始变得重要起来。"
+  },
+  {
+    "id": 47,
+    "title": "Please Fund More Science",
+    "title_zh": "请资助更多科学研究",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/please-fund-more-science",
+    "tags": [
+      "science",
+      "business",
+      "creativity"
+    ],
+    "tags_zh": [
+      "科学",
+      "商业",
+      "创新"
+    ],
+    "date": "2020-03-30",
+    "summary_en": "The article argues for increased funding of scientific research, particularly in response to the COVID-19 pandemic. It highlights three possible solutions: a highly effective vaccine, a successful treatment, or a robust system of testing, tracing, and isolation. While acknowledging concerns about private sector involvement, the author urges investors and donors to allocate capital to scientific endeavors addressing current and future pandemics, emphasizing the rapid innovation and potential for positive impact within the scientific community.",
+    "summary_zh": "文章呼吁增加对科学研究的资助，特别是针对COVID-19疫情。它强调了三种可能的解决方案：高效疫苗、有效治疗或健全的检测、追踪和隔离系统。虽然承认对私营部门参与的担忧，但作者敦促投资者和捐助者将资金分配给解决当前和未来疫情的科学研究，强调科学界快速创新和产生积极影响的潜力。",
+    "best_quote_en": "Scientists can get us out of this. What they need are money and connections.",
+    "best_quote_zh": "科学家可以帮助我们摆脱困境。他们需要的是资金和人脉。"
+  },
+  {
+    "id": 48,
+    "title": "Highlights From The Comments On Liberalism And Communities",
+    "title_zh": "自由主义与社群评论集锦",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/highlights-from-the-comments-on-liberalism",
+    "tags": [
+      "philosophy",
+      "communities",
+      "lifestyle"
+    ],
+    "tags_zh": [
+      "哲学",
+      "社群",
+      "生活方式"
+    ],
+    "date": "2025-08-12",
+    "summary_en": "This article summarizes comments on a previous article about liberalism and communities. It highlights discussions about different types of communities, including nontraditional, intentional, and rationalist groups. Commenters discuss the prevalence of these communities and the strategies they employ to maintain cohesion, such as high barriers to exit, shared ideologies, and strong social bonds. The piece also touches on the challenges and downsides of tight-knit communities, and the tension between individual freedom and communal belonging.",
+    "summary_zh": "本文总结了对之前一篇关于自由主义与社群的文章的评论。重点讨论了不同类型的社群，包括非传统社群、有意识社群和理性主义社群。评论者讨论了这些社群的普遍性以及它们维持凝聚力所采用的策略，例如高退出壁垒、共同的意识形态和强大的社会关系。文章还涉及紧密社群的挑战和缺点，以及个人自由与社群归属感之间的张力。",
+    "best_quote_en": "I think the problem with the material abundance version of tight-knit community is that most people don't really want tight-knit community. They want the benefits but not the downsides.",
+    "best_quote_zh": "我认为物质丰富的紧密社群版本的问题在于，大多数人并不真正想要紧密社群。他们想要好处，但不想要坏处。"
+  },
+  {
+    "id": 49,
+    "title": "The Conversations that Bring Us Closer",
+    "title_zh": "让我们更亲近的对话",
+    "source": "Hidden Brain",
+    "link": "https://hiddenbrain.org/podcast/the-conversations-that-bring-us-closer/",
+    "tags": [
+      "communication",
+      "relationships",
+      "psychology"
+    ],
+    "tags_zh": [
+      "沟通",
+      "人际关系",
+      "心理学"
+    ],
+    "date": "2025-02-17",
+    "summary_en": "This article discusses difficult conversations and offers psychological techniques to help navigate them. It references a previous discussion on the science of conversation and explores challenging discussions such as addressing poor treatment, demanding a raise, and taking away car keys. Alison Wood Brooks provides insights into why such conversations are difficult and offers strategies for managing them.",
+    "summary_zh": "本文讨论了困难的对话，并提供了心理学技巧来帮助驾驭它们。它提到了之前关于对话科学的讨论，并探讨了诸如处理不良待遇、要求加薪和拿走汽车钥匙等具有挑战性的讨论。Alison Wood Brooks 提供了关于为什么这些对话很困难的见解，并提供了管理它们的策略。",
+    "best_quote_en": "We explore the discussions we all dread: the tough ones. Telling someone they treated us poorly. Demanding a raise. Taking away an elderly relative's car keys.",
+    "best_quote_zh": "我们探讨了我们都害怕的讨论：艰难的讨论。告诉别人他们对我们不好。要求加薪。拿走年迈亲戚的车钥匙。"
+  },
+  {
+    "id": 50,
+    "title": "Billionaires Build",
+    "title_zh": "亿万富翁的炼成",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/ace.html",
+    "tags": [
+      "entrepreneurship",
+      "business",
+      "productivity"
+    ],
+    "tags_zh": [
+      "创业",
+      "商业",
+      "生产力"
+    ],
+    "date": "2025-08-20",
+    "summary_en": "This article discusses the qualities Y Combinator looks for in founders, particularly the ability to understand and satisfy user needs. It emphasizes the importance of building something people genuinely want and identifying \"larval markets\" – small but growable markets. The article advises founders to focus on deeply understanding their users and building prototypes that address their needs, highlighting that successful startups often arise from founders creating solutions for problems they themselves face.",
+    "summary_zh": "本文讨论了Y Combinator在创始人身上寻找的品质，特别是理解和满足用户需求的能力。它强调了创造人们真正想要的东西以及识别“幼生市场”（小而可增长的市场）的重要性。文章建议创始人专注于深入了解他们的用户，并构建解决他们需求的MVP（最小可行产品），并强调成功的初创公司通常源于创始人为自己面临的问题创建解决方案。",
+    "best_quote_en": "What YC looks for, above all, is founders who understand some group of users and can make what they want. This is so important that it's YC's motto: \"Make something people want.\"",
+    "best_quote_zh": "YC最看重的是创始人是否了解一群用户，并能创造他们想要的东西。这一点非常重要，以至于成为了YC的座右铭：“创造人们想要的东西。”"
+  },{
+    "id": 51,
+    "title": "The Airbnbs",
+    "title_zh": "Airbnb的故事",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/airbnbs.html",
+    "tags": [
+      "entrepreneurship",
+      "business",
+      "productivity"
+    ],
+    "tags_zh": [
+      "创业",
+      "商业",
+      "生产力"
+    ],
+    "date": "2025-08-20",
+    "summary_en": "This article reflects on the early days of Airbnb, emphasizing the founders' unwavering dedication and earnestness. It wasn't just a business venture for them; it was a mission born from a genuine desire to create a better way for people to travel and earn income. The author vividly portrays the Airbnb founders as incredibly hardworking individuals who consistently went above and beyond, impressing even experienced Y Combinator mentors. Their resilience in the face of near-failure, fueled by the positive experiences of their initial hosts and guests, is truly inspiring. The turning point came when they focused intensely on the New York City market, personally assisting hosts and understanding their needs. This hands-on approach not only improved the listings but also deepened their sense of purpose. The author shows the critical importance of finding 'ramen profitability' – a state where the company generates enough revenue to cover the founders' basic living expenses – as a pivotal moment that allowed Airbnb to become self-sustaining. The most striking aspect of the Airbnb story is the unwavering belief of the founders in their vision, even when faced with skepticism and financial hardship, something that aspiring entrepreneurs can learn from and be inspired by.",
+    "summary_zh": "这篇文章回顾了Airbnb的早期岁月，核心在于创始团队的真诚和坚定。对他们而言，这不仅仅是一个商业项目，更是一项使命，源于他们真心希望创造一种更好的旅行和创收方式。作者生动地描绘了Airbnb创始人极其勤奋的形象，他们始终超越预期，甚至给经验丰富的Y Combinator导师留下了深刻印象。在濒临失败的边缘，他们凭借最初房东和客人的积极体验而坚持不懈，这种韧性令人叹服。转折点在于他们专注于纽约市场，亲自帮助房东并了解他们的需求。这种亲力亲为的方式不仅改善了房源质量，还加深了他们的使命感。“拉面盈利”——公司赚取的收入足以支付创始人的基本生活费用——被认为是关键时刻，使得Airbnb能够自给自足。Airbnb的故事最引人注目的地方在于创始人对其愿景的坚定信念，即使面对怀疑和经济困难，这一点值得所有有抱负的创业者学习和受到启发，他们不仅仅是为了赚钱，他们更是看到了未来旅行方式的可能性，并且义无反顾地去实现它。",
+    "best_quote_en": "People, like matter, reveal their nature under extreme conditions.",
+    "best_quote_zh": "人就像物质一样，在极端条件下才会显露出真正的本性。"
+  },
+  {
+    "id": 52,
+    "title": "Funding for COVID-19 Projects",
+    "title_zh": "资助新冠项目",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/funding-for-covid-19-projects",
+    "tags": [
+      "entrepreneurship",
+      "business",
+      "technology"
+    ],
+    "tags_zh": [
+      "创业",
+      "商业",
+      "科技"
+    ],
+    "date": "2020-03-15",
+    "summary_en": "This brief yet potent appeal resonates deeply with the urgency and immediacy of the COVID-19 crisis. It's not a detached, clinical announcement; it's a personal call to action, driven by a sincere desire to contribute meaningfully. The author, recognizing their strength in funding ventures, steps forward to channel resources into areas where they believe the most significant impact can be made. The shift in focus from testing capacity to ventilator/mask production, drug screening, and vaccine/therapeutic innovation reflects an evolving understanding of the pandemic's challenges. \n\nWhat truly strikes me is the emphasis on *novel* approaches. It's a bold statement, acknowledging the limitations of conventional methods and urging for unconventional thinking. This highlights the importance of agility and creativity in the face of unprecedented challenges. The call for a contract research company capable of running a viral challenge underscores the practical, hands-on approach being taken. \n\nBeyond the immediate call for funding, there's an underlying message of empowerment. It's a reminder that even amidst global crises, individuals and small teams can play a pivotal role in finding solutions. The simple yet powerful closing statement – encouraging people to stay home – is a grounding moment of clarity, reinforcing the importance of fundamental preventive measures. This call is not just for funding, but for a collective effort driven by innovation, resourcefulness, and a commitment to the common good during a critical time.",
+    "summary_zh": "这篇简短却有力的呼吁，深深地触动了我，它与新冠疫情的紧迫性和直接性产生了共鸣。它不是一个冷冰冰的公告，而是一个个人的行动号召，源于真诚的奉献之心。作者意识到自己在风险投资方面的优势，挺身而出，将资源投入到他认为能够产生最大影响的领域。从检测能力到呼吸机/口罩生产、药物筛选、疫苗/治疗创新，这种转变反映了我们对疫情挑战的不断演变的理解。\n\n真正打动我的是对“新型”方法的强调。这是一个大胆的声明，承认传统方法的局限性，并敦促进行非传统思维。这突出了在面对前所未有的挑战时，敏捷性和创造力的重要性。寻找一家能够对人源化ACE2动物模型进行病毒攻击的合同研究公司的呼吁，强调了所采取的实际、动手的方法。\n\n除了立即呼吁资金外，还有一个潜在的授权信息。它提醒我们，即使在全球危机中，个人和小团队也可以在寻找解决方案方面发挥关键作用。简单而有力的闭幕词——鼓励人们呆在家里——是一个清晰的时刻，强调了基本预防措施的重要性。这次呼吁不仅仅是为了资金，而是为了在关键时刻，由创新、足智多谋和对共同利益的承诺驱动的集体努力。",
+    "best_quote_en": "I’m trying to fund startups/projects helping with COVID-19, because it’s basically the one thing I know how to do that can help.",
+    "best_quote_zh": "我正尝试资助那些帮助解决新冠疫情的初创公司/项目，因为这基本上是我唯一能做且有帮助的事情。"
+  },
+  {
+    "id": 53,
+    "title": "come work on dangerous capability mitigations at Anthropic",
+    "title_zh": "来Anthropic参与危险能力缓解工作",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/qBbnXtt9zFWXMrP4M/come-work-on-dangerous-capability-mitigations-at-anthropic",
+    "tags": [
+      "technology",
+      "safety"
+    ],
+    "tags_zh": [
+      "人工智能",
+      "科技",
+      "安全"
+    ],
+    "date": "2025-08-20",
+    "summary_en": "Dave Orr's announcement about the Safeguards team at Anthropic hiring ML experts is more than just a job posting; it's a call to action for those deeply concerned about the potential harms of advanced AI. Orr's personal journey, from GDM to Anthropic, driven by a profound worry about AI's increasing power, resonates with anyone who feels the weight of this responsibility. He highlights the intensity of the mission at Anthropic, the astounding level of transparency, and the genuine belief that the Safeguards team can make a real difference in the world's safety. The team's focus on mitigating present and near-future harms, especially since activating the ASL 3 safety standard for Claude 4 Opus, underscores the urgency and importance of their work. They're tackling incredibly complex modeling tasks, distinguishing between beneficial and risky content in domains like cybersecurity and biology, where the line is often blurred. This requires a deep understanding of prompts, responses, and various signals to prevent disastrous outcomes while preserving the immense value that AI can bring. Orr’s message is clear: as AI's power grows, so do the risks, and talented individuals are needed to help navigate this new, riskier regime. This isn't just about a job; it's about contributing to a safer future in an age of rapidly advancing technology. The emotional weight of this challenge, combined with the excitement of working at the forefront of AI safety, makes this announcement both compelling and deeply inspiring. It's an invitation to be part of something bigger than oneself, to actively shape the trajectory of AI development and ensure its benefits are not overshadowed by its potential harms. This is a call for dedication, expertise, and a genuine desire to make the world a safer place through responsible AI development.",
+    "summary_zh": "Dave Orr在Anthropic招聘安全防护团队机器学习专家的公告，不仅仅是一则招聘启事，更像是一封写给所有对高级人工智能潜在危害深感忧虑的人们的邀请函。他从GDM到Anthropic的个人经历，源于对AI日益增长的力量的深刻担忧，引起了每一个感受到这份责任重担的人的共鸣。他强调了Anthropic使命的紧迫性、公司内部令人震惊的透明度，以及安全防护团队能够真正改变世界安全的真诚信念。该团队致力于减轻当前和近期危害，尤其是在激活Claude 4 Opus的ASL 3安全标准之后，更突显了其工作的紧迫性和重要性。他们正在处理极其复杂的建模任务，区分网络安全和生物学等领域中有益和危险的内容，在这些领域中，界限往往模糊不清。这需要深刻理解提示、响应和各种信号，以防止灾难性结果，同时保留AI可以带来的巨大价值。Orr的信息很明确：随着AI力量的增长，风险也在增加，我们需要有才华的人来帮助应对这种新的、风险更高的局面。这不仅仅是一份工作，更是为了在一个快速发展的技术时代，为建设更安全的未来做出贡献。这种挑战的情感分量，加上在人工智能安全前沿工作的兴奋感，使这则公告既引人注目又令人深受鼓舞。这是一个参与比自己更伟大的事业的邀请，可以积极塑造AI发展轨迹，并确保其利益不会被其潜在危害所掩盖。这是对奉献精神、专业知识和真正渴望通过负责任的AI发展使世界更安全的一次呼吁。",
+    "best_quote_en": "I'm really worried about the world as AI continues to get more powerful, and I couldn't pass up the chance to help if I could.",
+    "best_quote_zh": "我真的很担心人工智能持续发展壮大后的世界，如果我能帮上忙，我不能错过这个机会。"
+  },
+  {
+    "id": 54,
+    "title": "How Our Brains Learn",
+    "title_zh": "我们的大脑如何学习",
+    "source": "Hidden Brain",
+    "link": "https://www.siriusxm.com",
+    "tags": [
+      "learning",
+      "psychology",
+      "thinking"
+    ],
+    "tags_zh": [
+      "学习",
+      "心理学",
+      "思考"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This piece delves into the crucial element of 'engagement' in the learning process, highlighting its absence in many educational and professional settings. It points out that passive reception of information, devoid of relevance or emotional connection, leads to apathy. Psychologist Mary Helen Immordino-Yang explores the magic of engagement, emphasizing that effective learning involves being absorbed, alert, and eager. The article implicitly critiques traditional educational models that often prioritize rote memorization over genuine understanding and emotional resonance. It suggests that fostering curiosity, making learning relevant to personal experiences, and creating an environment where individuals feel emotionally invested are key to unlocking the true potential of learning. This challenges us to rethink how we design learning environments, both in schools and workplaces, moving away from monotonous lectures to interactive and emotionally engaging experiences. The call to action is clear: cultivate engagement by igniting curiosity and fostering emotional connections to make learning not just informative, but transformative.",
+    "summary_zh": "这篇文章深入探讨了学习过程中至关重要的“投入感”，并指出许多教育和工作场所都缺乏这种投入感。它强调，被动地接受信息，缺乏关联或情感连接，会导致冷漠。心理学家 Mary Helen Immordino-Yang 探索了投入感的魔力，强调有效的学习需要全身心投入、保持警觉和渴望学习。这篇文章含蓄地批评了传统的教育模式，这些模式通常优先考虑死记硬背，而不是真正的理解和情感共鸣。它建议，培养好奇心，使学习与个人经历相关，并创造一个让个体感到情感投入的环境，是释放学习真正潜力的关键。这挑战我们重新思考如何在学校和工作场所设计学习环境，从单调的讲座转向互动和情感参与的体验。行动的号召很明确：通过激发好奇心和培养情感联系来培养投入感，使学习不仅具有信息性，而且具有变革性。",
+    "best_quote_en": "What's missing from these classrooms and conference rooms is engagement: A state of being absorbed, alert, and eager to learn.",
+    "best_quote_zh": "这些教室和会议室里缺少的是投入感：一种全身心投入、保持警觉和渴望学习的状态。"
+  },
+  {
+    "id": 55,
+    "title": "How to Think for Yourself",
+    "title_zh": "如何独立思考",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/think.html",
+    "tags": [
+      "thinking",
+      "creativity",
+      "philosophy"
+    ],
+    "tags_zh": [
+      "思考",
+      "创造力",
+      "哲学"
+    ],
+    "date": "2025-08-20",
+    "summary_en": "This essay delves into the critical importance of independent thinking, particularly in fields like science, investment, entrepreneurship, and writing, where novelty is essential for success. It contrasts these fields with others where conformity and adherence to established norms are sufficient. The author argues that independent-mindedness is largely innate but can be cultivated by minimizing exposure to conventional beliefs, surrounding oneself with like-minded individuals, and reading broadly to understand diverse perspectives. The core components of independent thinking are identified as fastidiousness about truth, resistance to being told what to think, and curiosity. The essay emphasizes the need for critical evaluation of information, skepticism towards prevailing opinions, and a delight in counterintuitive ideas. It offers practical advice on fostering these qualities, advocating for intellectual curiosity, and finding environments that encourage independent thought. The author speaks to the isolating aspects of independent thought, especially in environments like high school, and encourages the cultivation of a network of independent thinkers. The essay resonates by reminding us to actively question and explore, rather than passively accept. It is a powerful call for intellectual courage and the pursuit of original thought in a world that often values conformity.",
+    "summary_zh": "这篇文章深刻探讨了独立思考的重要性，尤其是在科学、投资、创业和写作等领域，在这些领域中，创新是成功的关键。文章将这些领域与那些遵循既定规范就足够的行业进行了对比。作者认为，独立思考在很大程度上是天生的，但可以通过减少对传统观念的接触，与志同道合的人交往，以及广泛阅读以理解不同的观点来培养。独立思考的核心要素被确定为对真理的严谨、对被告知该怎么想的抵制和好奇心。文章强调需要批判性地评估信息，对流行的观点持怀疑态度，并乐于接受违反直觉的想法。它提出了培养这些品质的实用建议，倡导智力上的好奇心，并寻找鼓励独立思考的环境。作者提到了独立思考的孤立性，尤其是在高中这样的环境中，并鼓励建立一个独立思考者的网络。这篇文章引起了我们的共鸣，它提醒我们主动质疑和探索，而不是被动接受。在当今这个常常重视一致性的世界里，这是一篇对智力勇气和追求原创思想的有力呼吁。读完之后，我深感共鸣的是作者对于“求真”的极致追求，以及对于“人云亦云”的深刻警惕，这不仅仅是一种思考方式，更是一种生活态度。我们应该时刻保持好奇心，敢于挑战权威，才能在人生的道路上不断前行，发现属于自己的独特价值。",
+    "best_quote_en": "The best place to find undiscovered ideas is where no one else is looking.",
+    "best_quote_zh": "发现未被发现的观点的最佳场所，是无人问津之处。"
+  }]
