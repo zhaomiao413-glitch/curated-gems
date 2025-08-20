@@ -964,4 +964,113 @@
     "summary_zh": "这篇文章讲述了作者在大学之前和大学期间写作和编程的早期经历。文章涵盖了他最初使用Fortran在IBM 1401上进行编程的挣扎，他对早期微型计算机的兴奋，他从哲学转向人工智能，以及他对当时人工智能领域方法的失望。最终，他在Lisp中找到了慰藉和方向，这促使他写了《On Lisp》这本书。",
     "best_quote_en": "Learning Lisp expanded my concept of a program so fast that it was years before I started to have a sense of where the new limits were.",
     "best_quote_zh": "学习Lisp极大地扩展了我对程序的理解，以至于过了很多年我才开始意识到新的极限在哪里。"
+  },{
+    "id": 46,
+    "title": "Earnestness",
+    "title_zh": "真诚",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/earnest.html",
+    "tags": [
+      "entrepreneurship",
+      "philosophy",
+      "thinking"
+    ],
+    "tags_zh": [
+      "创业",
+      "哲学",
+      "思考"
+    ],
+    "date": "2025-08-20",
+    "summary_en": "The author discusses the importance of \"earnestness\" in founders within Silicon Valley. Earnestness, characterized by genuine interest in the problem and dedicated effort, is a key motivator and advantage. While often associated with naivete, it allows founders to tackle challenges with optimism, unburdened by cynicism or superficiality. This trait is crucial for innovation and long-term success, distinguishing true innovators from those driven solely by money or fame. The alignment of intellectual curiosity and financial success is a significant trend.",
+    "summary_zh": "作者探讨了“真诚”对于硅谷创业者的重要性。“真诚”的特点是对问题有真正的兴趣和专注的努力，这是一个关键的动力和优势。虽然通常与天真相关联，但它使创始人能够以乐观的态度应对挑战，不受玩世不恭或肤浅的影响。 这一特质对于创新和长期成功至关重要，可以将真正的创新者与那些仅受金钱或名誉驱动的人区分开来。 智力好奇心和经济上的成功相一致是一个重要的趋势。",
+    "best_quote_en": "When the problems get harder than the fake ones you're given in high school, caring about them starts to matter.",
+    "best_quote_zh": "当问题比你在高中遇到的那些虚假问题更难时，关心它们就开始变得重要起来。"
+  },
+  {
+    "id": 47,
+    "title": "Please Fund More Science",
+    "title_zh": "请资助更多科学研究",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/please-fund-more-science",
+    "tags": [
+      "science",
+      "business",
+      "creativity"
+    ],
+    "tags_zh": [
+      "科学",
+      "商业",
+      "创新"
+    ],
+    "date": "2020-03-30",
+    "summary_en": "The article argues for increased funding of scientific research, particularly in response to the COVID-19 pandemic. It highlights three possible solutions: a highly effective vaccine, a successful treatment, or a robust system of testing, tracing, and isolation. While acknowledging concerns about private sector involvement, the author urges investors and donors to allocate capital to scientific endeavors addressing current and future pandemics, emphasizing the rapid innovation and potential for positive impact within the scientific community.",
+    "summary_zh": "文章呼吁增加对科学研究的资助，特别是针对COVID-19疫情。它强调了三种可能的解决方案：高效疫苗、有效治疗或健全的检测、追踪和隔离系统。虽然承认对私营部门参与的担忧，但作者敦促投资者和捐助者将资金分配给解决当前和未来疫情的科学研究，强调科学界快速创新和产生积极影响的潜力。",
+    "best_quote_en": "Scientists can get us out of this. What they need are money and connections.",
+    "best_quote_zh": "科学家可以帮助我们摆脱困境。他们需要的是资金和人脉。"
+  },
+  {
+    "id": 48,
+    "title": "Highlights From The Comments On Liberalism And Communities",
+    "title_zh": "自由主义与社群评论集锦",
+    "source": "Astral Codex Ten",
+    "link": "https://www.astralcodexten.com/p/highlights-from-the-comments-on-liberalism",
+    "tags": [
+      "philosophy",
+      "communities",
+      "lifestyle"
+    ],
+    "tags_zh": [
+      "哲学",
+      "社群",
+      "生活方式"
+    ],
+    "date": "2025-08-12",
+    "summary_en": "This article summarizes comments on a previous article about liberalism and communities. It highlights discussions about different types of communities, including nontraditional, intentional, and rationalist groups. Commenters discuss the prevalence of these communities and the strategies they employ to maintain cohesion, such as high barriers to exit, shared ideologies, and strong social bonds. The piece also touches on the challenges and downsides of tight-knit communities, and the tension between individual freedom and communal belonging.",
+    "summary_zh": "本文总结了对之前一篇关于自由主义与社群的文章的评论。重点讨论了不同类型的社群，包括非传统社群、有意识社群和理性主义社群。评论者讨论了这些社群的普遍性以及它们维持凝聚力所采用的策略，例如高退出壁垒、共同的意识形态和强大的社会关系。文章还涉及紧密社群的挑战和缺点，以及个人自由与社群归属感之间的张力。",
+    "best_quote_en": "I think the problem with the material abundance version of tight-knit community is that most people don't really want tight-knit community. They want the benefits but not the downsides.",
+    "best_quote_zh": "我认为物质丰富的紧密社群版本的问题在于，大多数人并不真正想要紧密社群。他们想要好处，但不想要坏处。"
+  },
+  {
+    "id": 49,
+    "title": "The Conversations that Bring Us Closer",
+    "title_zh": "让我们更亲近的对话",
+    "source": "Hidden Brain",
+    "link": "https://hiddenbrain.org/podcast/the-conversations-that-bring-us-closer/",
+    "tags": [
+      "communication",
+      "relationships",
+      "psychology"
+    ],
+    "tags_zh": [
+      "沟通",
+      "人际关系",
+      "心理学"
+    ],
+    "date": "2025-02-17",
+    "summary_en": "This article discusses difficult conversations and offers psychological techniques to help navigate them. It references a previous discussion on the science of conversation and explores challenging discussions such as addressing poor treatment, demanding a raise, and taking away car keys. Alison Wood Brooks provides insights into why such conversations are difficult and offers strategies for managing them.",
+    "summary_zh": "本文讨论了困难的对话，并提供了心理学技巧来帮助驾驭它们。它提到了之前关于对话科学的讨论，并探讨了诸如处理不良待遇、要求加薪和拿走汽车钥匙等具有挑战性的讨论。Alison Wood Brooks 提供了关于为什么这些对话很困难的见解，并提供了管理它们的策略。",
+    "best_quote_en": "We explore the discussions we all dread: the tough ones. Telling someone they treated us poorly. Demanding a raise. Taking away an elderly relative's car keys.",
+    "best_quote_zh": "我们探讨了我们都害怕的讨论：艰难的讨论。告诉别人他们对我们不好。要求加薪。拿走年迈亲戚的车钥匙。"
+  },
+  {
+    "id": 50,
+    "title": "Billionaires Build",
+    "title_zh": "亿万富翁的炼成",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/ace.html",
+    "tags": [
+      "entrepreneurship",
+      "business",
+      "productivity"
+    ],
+    "tags_zh": [
+      "创业",
+      "商业",
+      "生产力"
+    ],
+    "date": "2025-08-20",
+    "summary_en": "This article discusses the qualities Y Combinator looks for in founders, particularly the ability to understand and satisfy user needs. It emphasizes the importance of building something people genuinely want and identifying \"larval markets\" – small but growable markets. The article advises founders to focus on deeply understanding their users and building prototypes that address their needs, highlighting that successful startups often arise from founders creating solutions for problems they themselves face.",
+    "summary_zh": "本文讨论了Y Combinator在创始人身上寻找的品质，特别是理解和满足用户需求的能力。它强调了创造人们真正想要的东西以及识别“幼生市场”（小而可增长的市场）的重要性。文章建议创始人专注于深入了解他们的用户，并构建解决他们需求的MVP（最小可行产品），并强调成功的初创公司通常源于创始人为自己面临的问题创建解决方案。",
+    "best_quote_en": "What YC looks for, above all, is founders who understand some group of users and can make what they want. This is so important that it's YC's motto: \"Make something people want.\"",
+    "best_quote_zh": "YC最看重的是创始人是否了解一群用户，并能创造他们想要的东西。这一点非常重要，以至于成为了YC的座右铭：“创造人们想要的东西。”"
   }]
