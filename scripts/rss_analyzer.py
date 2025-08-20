@@ -246,14 +246,36 @@ def call_openrouter(model, title, full_content):
                 resp.raise_for_status()
             # Parse response
             api_response = resp.json()
-            if isinstance(api_response, dict) and api_response.get("error"):
+            
+            # Check if response is valid format
+            if not isinstance(api_response, dict):
+                if attempt == 1:
+                    print(f"[OpenRouter] Invalid response format (not dict), will retry without response_format. Type: {type(api_response)}")
+                    continue
+                return None, f"Invalid response format: expected dict, got {type(api_response)}"
+            
+            if api_response.get("error"):
                 # If it's a clear API error and attempt 1, do fallback retry
                 if attempt == 1:
                     print(f"[OpenRouter] API Error on attempt 1, will retry without response_format: {api_response['error']}")
                     continue
                 return None, f"API Error: {api_response['error']}"
 
-            content = api_response['choices'][0]['message']['content']
+            # Check if choices exist and have expected structure
+            if not api_response.get('choices') or not isinstance(api_response['choices'], list) or len(api_response['choices']) == 0:
+                if attempt == 1:
+                    print(f"[OpenRouter] Missing or invalid choices in response, will retry without response_format")
+                    continue
+                return None, f"Invalid response structure: missing or empty choices"
+            
+            choice = api_response['choices'][0]
+            if not isinstance(choice, dict) or not choice.get('message') or not choice['message'].get('content'):
+                if attempt == 1:
+                    print(f"[OpenRouter] Invalid choice structure, will retry without response_format")
+                    continue
+                return None, f"Invalid choice structure: missing message or content"
+            
+            content = choice['message']['content']
             try:
                 analysis_data = parse_json_safely(content)
                 return analysis_data, content
