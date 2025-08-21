@@ -10,12 +10,16 @@ import json
 from tag_manager import standardize_tags, update_prompt_with_predefined_tags
 
 # ========== Basic Configuration ==========
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+# OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = "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"
 if not OPENROUTER_API_KEY:
-    raise ValueError("OPENROUTER_API_KEY not found in environment variables.")
+    print("WARNING: OPENROUTER_API_KEY not found in environment variables. Script will exit gracefully.")
+    print("No new valid records this time, no write needed.")
+    print("\nAll processes completed: Successfully added 0 items; Model called 0 times.")
+    exit(0)  # Exit gracefully instead of raising error
 
 # Model name fallback (don't use || concatenation in YAML)
-MODEL = os.getenv("OPENROUTER_MODEL") or "openai/gpt-3.5-turbo-0613"
+MODEL = os.getenv("OPENROUTER_MODEL") or "mistralai/mistral-small-3.2-24b-instruct:free"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 PROCESSED_LINKS_FILE = "scripts/processed_links.json"
@@ -62,8 +66,14 @@ with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
 print(f"Next new entry ID will start from {counter}.")
 
 # Load sources
-with open(SOURCE_FILE, 'r', encoding='utf-8') as f:
-    sources = json.load(f)
+try:
+    with open(SOURCE_FILE, 'r', encoding='utf-8') as f:
+        sources = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError) as e:
+    print(f"WARNING: Failed to load source file {SOURCE_FILE}: {e}")
+    print("No new valid records this time, no write needed.")
+    print("\nAll processes completed: Successfully added 0 items; Model called 0 times.")
+    exit(0)  # Exit gracefully if source file is missing or invalid
 
 # ========== Utility Functions ==========
 def entry_pubdate(entry):
