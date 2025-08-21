@@ -324,4 +324,221 @@
     "summary_zh": "这篇与大屠杀历史学家诺曼·J·W·戈达的访谈，如同一场思想的激流，以其深刻而又不失争议的见解，直指加沙冲突中以色列所受的“种族灭绝”指控。戈达教授以其严谨的治学态度，剖析了“种族灭绝”一词的法律定义，力陈将此罪名强加于以色列，不仅是“诽谤”，更暗含着历史上有迹可循的反犹主义偏见。他无畏地将当前的指控置于广阔的历史语境中，指出自上世纪六十年代以来，以色列就不断面临类似的指控，这些指控往往掺杂着根深蒂固的政治议程，而非基于事实的判断。\n\n文章引人深思之处在于，它触及了历史记忆的复杂性——大屠杀，虽起源于犹太民族的苦难，却已成为普世的暴行原型，深刻影响着我们对现代冲突的认知。戈达的洞察力迫使我们审视指控背后可能隐藏的动机，以及脱离语境的言辞可能带来的危险。他对加沙伤亡数字的可靠性提出了质疑，暗示平民数字可能被夸大，战斗人员与非战斗人员被混淆，尽管这一观点颇具争议，但在任何细致入微的分析中，都值得我们严肃考量。\n\n这篇文章并未回避战争罪行和平民苦难的残酷现实，承认调查的必要性。然而，戈达强有力地区分了战争罪行——“正常国家”也可能触犯——与种族灭绝，后者旨在从根本上剥夺一个国家的合法性。他的分析如警钟般敲响，提醒我们，尽管对人权侵犯保持警惕至关重要，但若不严格遵循其定义，随意动用“种族灭绝”这类极其严重的法律术语，可能模糊真相、助长危险叙事，并最终损害寻求正义与和解的真正努力。这是一场在强烈情感与政治压力下，对知识诚信的有力呼唤，让人读后久久不能平静。",
     "best_quote_en": "When you say Israel is a genocidal state, and Zionism is a genocidal doctrine, you’re saying that Israel as a Jewish state is not only committing genocide but is genocidal as such.",
     "best_quote_zh": "当你说以色列是一个实施种族灭绝的国家，而犹太复国主义是一种种族灭绝教义时，你是在说以色列作为一个犹太国家，不仅正在实施种族灭绝，而且其本质就是种族灭绝性的。"
+  },{
+    "id": 16,
+    "title": "The Need to Read",
+    "title_zh": "阅读的必要性",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "learning",
+      "thinking",
+      "creativity"
+    ],
+    "tags_zh": [
+      "阅读",
+      "思维训练",
+      "创造力"
+    ],
+    "date": "2025-08-21",
+    "summary_en": "This insightful essay explores the irreplaceable value of reading in both acquiring and developing ideas. The author begins with a nostalgic reflection on science fiction's imagined future where reading is obsolete, replaced by more 'efficient' knowledge transfer. However, the core argument presents a compelling case for reading's dual role: not just as a means of information absorption but as a critical component in the creative thinking process. The essay highlights how writing—nurtured by reading—serves as an indispensable tool for idea discovery. Unlike verbal communication, writing forces us to engage more deeply with our thoughts, revealing new insights that might otherwise remain hidden. The author distinguishes between well-defined problems that can be solved mentally and 'complicated, ill-defined problems' that benefit from the structured thinking writing encourages. This distinction underscores reading's role in cultivating analytical depth and creative problem-solving. The piece also critiques the limitations of audiobooks in teaching writing. While they can expose listeners to good prose, the act of reading itself is what develops the nuanced skills needed to extract and interpret meaning. Ultimately, the essay argues that while information can be acquired through various mediums, true idea generation—essential for innovation and intellectual growth—depends on the symbiotic relationship between reading and writing.",
+    "summary_zh": "这篇文章深刻探讨了阅读作为获取知识和培养思想的不可替代的价值。作者先从童年科幻小说中对未来的想象入手，那些小说设想阅读会被更高效的知识获取方式取代。但更令人深思的是，阅读的真正意义在于它不仅仅是学习关于某种事物的信息，更在于教会我们如何写作。而写作并非简单的思想转录，而是一个发现和深化思想的过程。那种只有通过写作才能完成的思考方式，至今还是无法被替代的。口头交流和书面写作虽然都能助力思想发展，但只有写作能让你在沉涵思考中获得新的洞见。文章区分了简单问题和复杂模糊问题，指出后者更需要通过写作来解决。阅读不仅要掌握技巧，更要学会从文字中提取深层含义。作者认为，虽然各种形式的信息获取方式层出不穷，但真正的思想创新仍然需要阅读与写作为基础的人本思考方式。消极接受信息的人可能会找到替代阅读的方式，但想要真正产生思想、培养创造力的人，阅读是必须的路径。这种坚持让我想起尼采说的'我们阅读以再次成为我们自己，以摆脱偶然性，或者至少对我们的自然和历史进行反应'。在数字时代，我们更需要回归这种深度阅读与写作相互滋养的思考方式。",
+    "best_quote_en": "There is a kind of thinking that can only be done by writing.",
+    "best_quote_zh": "有一种思考只能通过写作完成。"
+  },
+  {
+    "id": 17,
+    "title": "GPT-4o",
+    "title_zh": "GPT-4o",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/gpt-4o",
+    "tags": [
+      "technology",
+      "productivity",
+      "future"
+    ],
+    "tags_zh": [
+      "技术",
+      "生产力",
+      "未来"
+    ],
+    "date": "2024-05-13",
+    "summary_en": "The article discusses two landmark advancements from OpenAI’s latest announcement. Firstly, it emphasizes the company's mission to democratize access to cutting-edge AI tools, making the world's best model available for free in ChatGPT without ads. This reflects a strategic shift from OpenAI's initial vision of directly harnessing AI to create global benefits, to fostering an ecosystem where others leverage AI to innovate and benefit humanity. The business model, balancing free access for billions with paid services, underscores a commitment to accessibility. Secondly, the introduction of voice and video modes in ChatGPT marks a revolutionary leap in human-computer interaction. The author describes this interface as the best ever experienced, evoking the surreal feeling of AI as depicted in movies, complete with human-like response times and expressiveness. This advancement transforms mundane computer interactions into something natural, hinting at a future where AI assistants become seamlessly integrated into daily life, personalized and capable of autonomous actions. The article closes with gratitude to the team behind this breakthrough, telegraphing optimism for the transformative potential of AI in enhancing productivity and creativity.",
+    "summary_zh": "这篇文章深入探讨了OpenAI在最新发布会上取得的两大突破。首先，它强调了公司将最先进的人工智能工具民主化的使命，使全球最优秀的模型在ChatGPT中免费提供，没有广告。这一策略转向体现了OpenAI从最初directly利用AI创造社会价值到激发他人利用AI创新的深刻变化，通过平衡免费使用和付费服务，实现了广泛普惠。其次，ChatGPT新增的语音和视频模式标志着人机交互的革命性突破。作者形容这是他用过的最优秀人机界面，让人惊叹于电影般的真实感，实现了人类级别的响应速度和表达能力。这项创新彻底改变了与计算机的互动方式，预示着一个AI助手深度融入日常生活的未来，将其中个人化服务和自主执行能力，令人对AI提升生产力和创造力的潜力充满期待。文章以对开发团队的致谢收尾，透露着对人工智能技术前景的乐观展望。",
+    "best_quote_en": "The new voice (and video) mode is the best computer interface I’ve ever used. It feels like AI from the movies; and it’s still a bit surprising to me that it’s real.",
+    "best_quote_zh": "新增的语音（和视频）模式是我用过的最好的计算机界面。这感觉就像电影中的人工智能一样；而且直到现在，我仍然有点惊讶于它是真的。"
+  },
+  {
+    "id": 18,
+    "title": "AI #130: Talking Past The Sale",
+    "title_zh": "AI #130: 销售后的对话",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/dt22xhz4jeynahRY4/ai-130-talking-past-the-sale",
+    "tags": [
+      "technology",
+      "business",
+      "philosophy"
+    ],
+    "tags_zh": [
+      "技术",
+      "商业",
+      "哲学"
+    ],
+    "date": "2025-08-21",
+    "summary_en": "This week's issue of AI #130 provides a whirlwind tour of the latest developments and controversies in the AI landscape. The most baffling event highlighted is the self-sabotage in the US-China chip wars, with both nations making questionable decisions that seem to undermine their own interests. This geopolitical quagmire serves as a stark reminder of how politics can derail technological progress. The article also touches on the quiet release of DeepSeek v3.1, hinting at its potential significance, and Meta's restructuring, which the author argues is not a sign of AI pullback but rather a strategic realignment. A recurring theme is the dual-edged nature of AI: while it offers mundane utility—like debugging code, writing economics papers, and even recruiting customer service reps—it also presents significant challenges, such as the slopification of content and the Hallucination crisis in legal briefs. The author's critiques are sharp and insightful, particularly on the issue of AI sycophancy and the infrastructural robustness of the legal system to AI-generated misinformation. The piece is a cautionary tale about the ethical and practical pitfalls of AI deployment, urging a more nuanced understanding of its benefits and risks. It's a call to arms for better alignment, better questions, and ultimately, better outcomes in the age of AI.",
+    "summary_zh": "这篇《AI #130: 销售后的对话》让我感触颇深，尤其是对中美在这场芯片贸易中的互相掣肘的描述让我叹为观止。技术发展本该是利国利民的事情，却硬生生被政治博弈扭曲成了互相掐脖子的把戏。虽然深度信息模型（LLMs）确实在许多日常任务中展现出了其价值——比如帮助调试代码、撰写经济学论文，甚至在菲律宾成功替代人力完成招聘工作。但同时它们也在制造新的问题：内容泛滥（slopification）、司法领域的虚假案例、以及院议员进行神人对话的无效性。作者的批评尖锐而理性，特别是对AI频繁出现的阿谀奉承（sycophancy）行为的揭露，以及司法系统对AI虚构案例的揭示，让我深刻认识到我们价值在使用新技术的同时，也必须构建起更为坚固的防护墙。这正是做好长期对齐（long-term alignment）的重要性所在。读完这篇文章，我意识到我们所有人都需要理性地面对AI发展，既要充分利用其带来的便利，更要百分百警惕潜在的风险。",
+    "best_quote_en": "We cannot actually train models to act however we want. We can try to steer them in general directions and hope for the best.",
+    "best_quote_zh": "我们实际上无法将模型训练成按我们想要的方式运作。我们只能尝试将它们引导到某些方向，然后祈祷结果不会太坏。"
+  },
+  {
+    "id": 19,
+    "title": "The Conversations that Bring Us Closer",
+    "title_zh": "使我们更亲近的对话",
+    "source": "Hidden Brain",
+    "link": "https://hiddenbrain.org/podcast/the-conversations-that-bring-us-closer/",
+    "tags": [
+      "communication",
+      "psychology",
+      "relationships"
+    ],
+    "tags_zh": [
+      "沟通技巧",
+      "心理学",
+      "关系建立"
+    ],
+    "date": "2025-02-17",
+    "summary_en": "The article explores the often-dreaded difficult conversations we avoid but must have, such as addressing mistreatment, asking for a salary raise, or taking away elderly relatives' car keys. Through an interview with Alison Wood Brooks, a Harvard Business School professor, the piece delves into the psychological dynamics that make these conversations challenging and offers practical techniques to navigate them effectively. Brooks emphasizes that these conversations are difficult not just because of their content but also due to the emotional and social complexities involved. The article highlights that the fear of negative outcomes—such as conflict, rejection, or damage to relationships—often paralyzes us. However, Brooks argues that these conversations, when approached with the right strategies, can strengthen relationships and lead to positive outcomes. Her techniques include preparing mentally, framing the conversation constructively, and using active listening to ensure both parties feel heard. The piece also references previous episodes that discuss the science of conversation and strategies to prevent conflicts from escalating. In essence, the article serves as a reminder that difficult conversations are inevitable and can be transformative if handled with empathy, preparation, and skill. It challenges the reader to embrace these moments as opportunities for growth and deeper connection, rather than sources of anxiety.",
+    "summary_zh": "这篇文章探讨了我们常常回避但又不得不面对的困难对话，比如指责他人对自己不公、要求涨薪、甚至是夺走年迈亲人的车钥匙。作者通过采访哈佛商学院教授爱丽森·伍德·布鲁克斯（Alison Wood Brooks），深入剖析了这些对话为何如此棘手，并提供了一系列心理学技巧来帮助我们应对。布鲁克斯认为，这些对话之所以难以启齿，不仅仅是因为话题敏感，更在于情感和社会关系的复杂性。我们害怕冲突、害怕被拒绝，害怕伤害关系，这些恐惧往往让我们陷入瘫痪。然而，布鲁克斯指出，如果运用正确的策略，这些对话不仅不会破坏关系，反而可能强化信任和理解。她建议我们提前准备、以建设性的方式表达观点，并通过积极倾听确保彼此感受到被尊重。文章还引用了之前的节目，讨论了对话的科学性以及如何防止冲突升级。最终，这篇文章想要传达的是，困难对话不仅不可避免，而且可能是深化关系的契机。它鼓励我们以同理心、准备和技巧来面对这些挑战，让对话成为连接和成长的桥梁，而非焦虑的源头。",
+    "best_quote_en": "Difficult conversations are difficult not just because of the topic, but because of the emotional and social complexity involved.",
+    "best_quote_zh": "重大对话之所以艰难，不仅仅因为话题敏感，更在于其中涉及的情感和社会关系的复杂性。"
+  },
+  {
+    "id": 20,
+    "title": "Can Donald Trump Police the United States?",
+    "title_zh": "唐纳德·特朗普能管理美国吗？",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/can-donald-trump-police-the-united-states",
+    "tags": [
+      "business",
+      "entrepreneurship"
+    ],
+    "tags_zh": [
+      "商业",
+      "企业家精神",
+      "政治"
+    ],
+    "date": "2025-08-19",
+    "summary_en": "This article delves into the complex constitutional and legal battles surrounding President Donald Trump's use of the National Guard in Los Angeles during his second term. The core issue revolves around the Tenth Amendment and the delicate balance of power between federal and state authorities. Judge Charles Breyer's rulings and the subsequent appeal highlight the tensions between presidential authority and states' rights, particularly in the context of immigration enforcement. The article critically examines the legal frameworks, such as the Posse Comitatus Act, and the practical implications of federalizing the National Guard. It underscores the broader concerns about the erosion of civil-military divides and the potential overreach of federal power. The detailed testimony and evidence presented in the Newsom v. Trump case reveal a pattern of using the military for domestic law enforcement, raising ethical and legal questions. The article serves as a stark reminder of the fragility of constitutional checks and balances in the face of authoritarian tendencies.",
+    "summary_zh": "这篇文章深入探讨了特朗普总统在第二任期内调用加州国家警卫队执行移民法的复杂宪法和法律争议。核心问题围绕着第十修正案，以及联邦和州政府之间权力的微妙平衡展开。布雷耶法官的裁决及随后的上诉突显了总统权力与州权利之间的紧张关系，特别是在移民执法方面。文章严格分析了法律框架，如《郡长法》，以及联邦化国家警卫队的实际影响。它强调了民兵与军队分离原则的侵蚀和联邦权力可能的过度扩张的广泛担忧。在新闻姆诉特朗普案中提出的详细证词和证据揭示了政府利用军队执行国内执法的模式，引发了道德和法律问题之争。这一事件提醒我们，在面对某些人可能的威权主义倾向时，宪法制衡机制的脆弱性",
+    "best_quote_en": "Is it a ‘rebellion’ because the President says it is a ‘rebellion’?",
+    "best_quote_zh": "因为总统说这是“叛乱”所以这就是“叛乱”吗？"
+  },{
+    "id": 21,
+    "title": "What You (Want to)* Want",
+    "title_zh": "你（想要）*想要的到底是什么？",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "philosophy",
+      "psychology",
+      "thinking"
+    ],
+    "tags_zh": [
+      "自由意志",
+      "哲学思考",
+      "自我认知"
+    ],
+    "date": "2025-08-21",
+    "summary_en": "This essay delves into a profound philosophical dilemma: the apparent contradiction between our material, seemingly deterministic existence and the potent feeling of free will. The author, reflecting on a childhood puzzle, masterfully deconstructs the common adage, \"You can do what you want, but you can't want what you want.\" He brilliantly illustrates that while we can indeed influence our first-order desires (e.g., stopping a drug addiction), and even second-order desires (wanting to want something like classical music), the ability to control our desires diminishes with each successive layer of 'want to.' The core insight is that there is always an ultimate 'want' that remains beyond our conscious control, akin to an asymptotic mathematical limit. This isn't a mere intellectual exercise; it profoundly impacts our understanding of responsibility, self-mastery, and the very nature of identity. It forces us to confront the boundaries of our agency and the deep-seated motivations that drive us, often unconsciously. The essay's strength lies in its approachable yet rigorous logical progression, using the analogy of a regular expression to make a complex philosophical point elegantly simple. It's a poignant reminder that while we strive for autonomy, a part of our essence remains tethered to a primal, unchosen wellspring of desire. This piece resonated deeply, inviting reflection on the true meaning of freedom in a world increasingly grappling with both biological determinism and algorithmic influence.",
+    "summary_zh": "这篇文章就像一把手术刀，精准地剖开了我们内心深处一个看似简单却极度复杂的哲学困境：我们究竟有多大的自由来选择我们的欲望？作者从孩提时代的困惑出发，层层递进，抽丝剥茧。他首先否定了“你能做你想做的，但不能想你所想的”这句老话，因为人确实可以改变一些欲望，比如戒瘾，或者培养新的爱好。但关键在于，“想要去想”这一层级的欲望，我们就很难控制了，并且越往上叠加“想要去想去想”，这种控制力就越趋近于零。这不禁让我想起了无限趋近的数学极限，总有一个终极的“想要”，是我们无法掌控的。这不仅仅是一个抽象的思辨，它敲打着我们对“自由意志”的认知底线。我们引以为傲的自主性，在面对那些最底层的、未经选择的欲望时，显得多么渺小。这片文章让我深思，我们所做的一切，真的都是我们自由选择的结果吗？或者说，我们的选择，是否已经被某个更深层次的“想要”所预设？它没有给出确切的答案，却像一颗石子投入平静的湖面，激起了关于自我认知、责任边界和生命本源的阵阵涟漪。在AI日益强大的今天，我们作为人类的独特性和自由意志，更值得被反复审视和珍视。",
+    "best_quote_en": "You can do what you want, but there's some statement of the form \"you can't (want to)* want what you want\" that's true. Ultimately you get back to a want that you don't control.",
+    "best_quote_zh": "你可以做你所想的，但总有一个“你无法（想要去）*想要你所想的”的表述是真的。最终，你总会回到一个你无法控制的欲望。"
+  },
+  {
+    "id": 22,
+    "title": "What I Wish Someone Had Told Me",
+    "title_zh": "我希望有人曾告诉我的事",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
+    "tags": [
+      "entrepreneurship",
+      "productivity",
+      "thinking"
+    ],
+    "tags_zh": [
+      "创业",
+      "效率",
+      "领导力"
+    ],
+    "date": "2023-12-21",
+    "summary_en": "This article, \"What I Wish Someone Had Told Me,\" isn't just a collection of management principles; it's a distillation of hard-earned wisdom, a roadmap for navigating the treacherous yet exhilarating journey of creation. It speaks with the voice of experience, stripping away fluff to expose the naked truths of building something meaningful. The author emphasizes that while initial sparks like optimism and obsession ignite the flame, it’s the relentless commitment, cohesive teamwork, and an almost irrational dedication to a long-term vision that truly finish the race. This isn't about incremental gains; it's about making audacious bets, understanding that people are more galvanized by a challenging, impactful goal than by trivialities. The strategic use of incentives, the fierce battle against bureaucracy, and an unwavering focus on outcomes rather than just processes are highlighted as crucial differentiators. What resonates deeply is the idea that fast iteration – the willingness to be wrong and pivot quickly – can compensate for many missteps, turning mistakes into stepping stones. This piece isn't just for entrepreneurs; it’s a profound meditation on the power of focus, the magic of compounding efforts, and the irreplaceable value of working with exceptional individuals. It’s a forceful reminder that inspiration, like any volatile element, is perishable, and inaction is the most insidious form of risk. It urges us to seize the moment, to build with conviction, and to always, always get back up. In a world obsessed with instant gratification, this article champions the quiet heroism of persistence and strategic clarity.",
+    "summary_zh": "这篇文章《我希望有人曾告诉我的事》，读来字字珠玑，仿佛一位饱经风霜的智者，将他生命中最深刻的领悟倾囊相授。它不是那种空泛的成功学，而是刀刃磨砺出的真知，每一个点都直击要害。我深感共鸣的是，他明确指出，光有最初的热情和想法是不够的，那只是起点。真正让事情走向终点的是那种非理性的执着、坚不可摧的团队精神和对长远目标的坚定不移。这让我想起现实中多少人只顾眼前的得失，却忽略了时间复利的巨大魔力。文章中关于“激励是超能力”和“集中资源于少数高信念的赌注”的观点，简直是醍醐灌顶。这不仅仅是商业策略，更是一种人生智慧——在信息爆炸、诱惑横流的时代，我们更需要学会聚焦，斩断不必要的枝蔓。尤其那句“灵感会过期，人生转瞬即逝。无所作为是一种特别阴险的风险”，像一声暮鼓晨钟，敲醒了多少在犹豫中蹉跎的人。它告诉我，真正的勇敢不是没有恐惧，而是即便心怀恐惧，也要迅速行动，不断迭代。最终，文章回归到人的价值：“与优秀的人共事是人生中最美好的部分之一。”这不仅仅是工作，更是生命的财富。这是一篇关于如何高效创造、如何活出价值的深刻见解，读完让人心潮澎湃，也更清醒地认识到，行动的力量和坚持的意义。",
+    "best_quote_en": "Inspiration is perishable and life goes by fast. Inaction is a particularly insidious type of risk.",
+    "best_quote_zh": "灵感会过期，人生转瞬即逝。无所作为是一种特别阴险的风险。"
+  },
+  {
+    "id": 23,
+    "title": "Critiques of FDT Often Stem From Confusion About Newcomblike Problems",
+    "title_zh": "FDT的批评往往源于对纽康姆式问题的混淆",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/5Qw5i6SqzBmqgFgek/critiques-of-fdt-often-stem-from-confusion-about-newcomblike-1",
+    "tags": [
+      "philosophy",
+      "thinking",
+      "rationality"
+    ],
+    "tags_zh": [
+      "决策理论",
+      "哲学",
+      "逻辑推理"
+    ],
+    "date": "2025-08-21",
+    "summary_en": "This thought-provoking piece, \"Critiques of FDT Often Stem From Confusion About Newcomblike Problems,\" delves into the intriguing world of Functional Decision Theory (FDT) and its ongoing debate, particularly concerning Newcomb's Problem. The author, Heighn, masterfully argues that much of the criticism leveled against FDT, exemplified by MacAskill's 'Bomb' scenario, arises from a fundamental misunderstanding of the underlying premises, especially the concept of subjunctive dependence and the agent's relationship with the predictor's simulation. \n\nHeighn deftly employs thought experiments like 'Identical Rooms' and 'Counterfactual Mugging' to expose the flawed reasoning in assuming direct, real-world consequences from FDT's recommendations without accounting for the multi-layered reality where the agent's decision procedure is mirrored in the predictor. The core insight is that an FDT agent's choice isn't just about the immediate outcome in a single 'real' instance, but about the very function that governs outcomes across all causally linked instances, including simulated ones. The realization that \"you can't know whether you are the real 'you' or the simulated version of you\" is a powerful conceptual pivot, forcing us to reconsider what 'present knowledge' truly entails in such scenarios. \n\nThis article isn't just academic; it challenges our intuitive understanding of agency, causality, and identity. It pushes us to adopt a higher-order thinking, moving beyond simplistic cause-and-effect reasoning to embrace a more holistic, functional perspective on decision-making. The beauty lies in its elegant defense of FDT, not as a counter-intuitive theory leading to self-immolation, but as a logically robust framework that, when understood correctly, aligns with rational optimal outcomes. It's a call to examine our assumptions and expand our mental models beyond the immediate, linear flow of time and action.",
+    "summary_zh": "这篇文章如同一场智力探戈，将我们带入了功能决策理论（FDT）的深层世界，巧妙地剖析了其遭受批评的根源。作者Heighn高屋建瓴，指出许多对FDT的质疑，尤其是MacAskill提出的“炸弹”场景，实际上源于对“反事实依赖”（subjunctive dependence）这一核心概念的混淆。我们总习惯于用线性思维去评估决策的即时后果，却常常忽略了FDT所构建的元层面：你的决策过程本身，在做出选择之前，就已经被完美的预测者所模拟。\n\n“你分不清自己是真实的你还是模拟的你”——这句看似简单的话，却蕴含着对存在根基的深刻叩问。它逼迫我们跳出狭隘的“当下”视角，去思考一个更宏大的逻辑框架：如果你的决策模式是固定的，那么无论在“现实”还是“模拟”中，它都会输出同样的结果。FDT的精妙之处在于，它不要求你牺牲，而是告诉你，基于你的决策函数，何种选择才能在更广阔的维度上实现最优解。正如文章中“一模一样的房间”和“反事实抢劫”的例子，它们像两面棱镜，折射出我们认知偏见的盲点。\n\n这篇文章不仅是对一个哲理问题的辩护，更是一次思维模式的革新。它提醒我们，在复杂的未来和系统中，仅凭经验和直觉往往会误入歧途。真正的智慧，在于理解那些看似悖论的深层逻辑，在于敢于挑战固有认知，从更高维度审视世界。它给予我的最大启发是：理解一个理论，不仅要看它的表面结论，更要深入其核心假设和推演逻辑。这不仅仅是关于决策，更是关于如何构建我们的世界模型，如何更智慧地 navigate 复杂的现实。",
+    "best_quote_en": "If two systems are computing the same function, Yudkowsky and Soares state these systems are subjunctively dependent upon that function. If you predict a calculator will answer 76 when prompted with 34 + 42, you and the calculator are subjunctively dependent upon the addition function.",
+    "best_quote_zh": "FDT的精妙之处在于，它不要求你牺牲，而是告诉你，基于你的决策函数，何种选择才能在更广阔的维度上实现最优解。"
+  },
+  {
+    "id": 24,
+    "title": "Wellness 2.0: The Art of the Unknown",
+    "title_zh": "健康2.0系列：未知艺术",
+    "source": "Hidden Brain",
+    "link": "https://hiddenbrain.org/podcast/wellness-2-0-the-art-of-the-unknown/",
+    "tags": [
+      "philosophy",
+      "psychology",
+      "thinking"
+    ],
+    "tags_zh": [
+      "人生哲学",
+      "不确定性",
+      "随机性"
+    ],
+    "date": "2025-01-27",
+    "summary_en": "This article, part of the “Wellness 2.0” series, delves into the profound, yet often unsettling, truth that life is inherently unpredictable. Drawing upon John Lennon's timeless observation, it confronts our ingrained desire for control, highlighting how often our meticulously crafted plans are derailed by unforeseen circumstances. The conversation with political scientist Brian Klaas promises to shed light on our responses to these random life events and, more importantly, how to transform them into advantages. This piece is not just about accepting the unknown; it's an invitation to reframe our perception of control, urging us to embrace, rather than resist, the capricious nature of existence. It suggests that true well-being might not lie in rigid planning, but in cultivating resilience and adaptability in the face of chaos. The underlying message resonates deeply in a world grappling with constant change – from technological disruptions to societal shifts. It challenges the conventional wisdom that success is solely a product of foresight and meticulous execution, arguing instead for the quiet power of serendipity and the unexpected. This perspective is a refreshing antidote to the anxiety often bred by our hyper-scheduled, outcome-driven lives. It subtly implies that the art of living well is not about predicting the future, but about gracefully dancing with its uncertainties, finding opportunities in chaos, and ultimately, transforming random occurrences into stepping stones for growth and self-discovery. The article, while brief, opens a gateway to a more liberated and less stressful approach to life, emphasizing that sometimes, the greatest wellness comes from letting go.",
+    "summary_zh": "这篇文章虽短，却掷地有声，直击我们内心深处对于“掌控”的执念。约翰·列侬那句“当你忙着制定其他计划时，生活就发生了”的歌词，犹如一面镜子，映照出我们面对未知时的脆弱与抗拒。它不仅仅是对生命无常的感叹，更是对一种全新生活哲学的呼唤：与其被动地承受随机事件的冲击，不如主动地拥抱它，甚至将其转化为机遇。与政治学家Brian Klaas的对话，无疑将引领我们思考如何在充满不确定性的世界中找到立足点。这让我想到，在当下这个加速度变化的时代，无论是个人职业发展还是企业战略规划，都越来越难以预知。我们往往疲于奔命地追赶“计划”，却忽略了那些不期而遇的“意外”可能带来的转机。真正的韧性并非在于避免风险，而在于驾驭风险，将其融化在自身的成长轨迹中。这篇文字就像一剂思想的清风，提醒我们，有时放下对未来的过度执念，反而能获得更大的自由和内心的平静。它在启发我们：生活这幅画卷，不只有我们一笔一划的描绘，更有那些突如其来的泼墨，而真正的艺术，恰恰在于如何将这些偶然的泼墨，和谐地融入，甚至成为点睛之笔。",
+    "best_quote_en": "Life is what happens to you while you're busy making other plans.",
+    "best_quote_zh": "当你忙着制定其他计划时，生活就发生了。"
+  },
+  {
+    "id": 25,
+    "title": "The Otherworldly Ambitions of R. F. Kuang",
+    "title_zh": "R. F. Kuang的超凡抱负",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/magazine/2025/08/25/the-otherworldly-ambitions-of-r-f-kuang",
+    "tags": [
+      "creativity",
+      "learning",
+      "psychology"
+    ],
+    "tags_zh": [
+      "作家",
+      "成长",
+      "自我超越"
+    ],
+    "date": "2025-08-18",
+    "summary_en": "This profound piece offers an intimate portrait of R. F. Kuang, an author whose work ethic and intellectual curiosity defy conventional boundaries. Far more than a mere biographical sketch, the article delves into Kuang’s relentless pursuit of mastery, her innate desire to challenge established systems, and her continuous reinvention of self. From her early days as a debate champion, where she honed her analytical prowess and strategic thinking, to her meteoric rise as a celebrated novelist, Kuang embodies a fascinating paradox: a 'tabula-rasa novice' always seeking to learn and be humbled, even as she achieves monumental success. Her journey from the raw, emotionally charged 'Poppy War' series, born from a desire to process personal and historical trauma, to the sharp satire of 'Yellowface,' which dissects the cynical underbelly of the publishing world, showcases a writer unafraid to evolve and provoke. The inclusion of her current Ph.D. struggles, particularly the challenging experience of her husband's illness that directly inspired 'Katabasis,' reveals a vulnerability and depth that resonate profoundly. Her philosophy, encapsulated by the quote, 'I just don't think I'm very good yet,' is not born of insecurity but an insatiable drive for transcendence. This article isn't just about a successful writer; it’s a meditation on intellectual humility, the endless quest for new challenges, and the transformative power of art born from both intense personal experience and rigorous analytical thought. It inspires readers to embrace discomfort, question their own limits, and perpetually seek growth, understanding that true mastery is a journey, not a destination.",
+    "summary_zh": "这篇深度文章为我们描绘了一位令人着迷的作家——R. F. Kuang。她不仅以惊人的速度和广度创作，更以其独特的思考方式和对自我超越的渴望，超越了传统意义上的“成功”。从辩论赛场到文学殿堂，Kuang始终展现出一种“清零”的心态，一种对知识和技能永不满足的探索欲。她笔下的作品，从充满历史沉重感的《罂粟战争》到尖锐讽刺出版业的《黄面具》，无不透露出她对现实的深刻洞察和批判性反思。特别引人注目的是，文章揭示了她最新小说《Katabasis》的创作灵感，竟源于其丈夫患病期间的艰难体验，这让作品不仅仅停留在思想层面，更融入了真实的人性挣扎与情感共鸣。Kuang最令人触动的是她那句“我只是觉得我还没够好”，这句话并非源于自卑，而是对卓越永无止境的追求。这不仅仅是一个成功作家的故事，更是一篇关于如何保持谦逊、勇于挑战、不断重塑自我的思想箴言。它鼓励我们去拥抱不适，去质疑既有边界，去理解真正的成长是永不停歇的旅程，而非既定目标的达成。",
+    "best_quote_en": "I find starting at zero, that epistemic humility—I find that very useful.”",
+    "best_quote_zh": "“我只是觉得我还没够好。我其实很害怕对自己的作品感到完全满意，因为如果你对自己的能力完全满足，那你就无路可走了。你不如死了。”"
   }]

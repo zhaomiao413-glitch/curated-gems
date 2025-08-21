@@ -222,11 +222,12 @@ function card(item, lang = 'zh') {
   const desc  = item[summaryField] || '';
   const quote = item[quoteField] || '';
   const quoteSymbols = lang === 'zh' ? ['「', '」'] : ['"', '"'];
+  const aiSummaryLabel = lang === 'zh' ? 'AI总结：' : 'AI Summary: ';
   
   return `
     <article class="card">
       <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(title)}</a></h3>
-      <p>${esc(desc)}</p>
+      ${desc ? `<p><span class="ai-label">${aiSummaryLabel}</span>${esc(desc)}</p>` : ''}
       ${quote ? `<blockquote>${quoteSymbols[0]}${esc(quote)}${quoteSymbols[1]}</blockquote>` : ''}
       <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date || '')}</div>
     </article>

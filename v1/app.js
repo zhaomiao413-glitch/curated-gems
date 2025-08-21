@@ -71,11 +71,12 @@ function card(item, lang = 'zh'){
   const desc = lang === 'zh' ? (item.summary_zh || '') : (item.summary_en || '');
   const quote = lang === 'zh' ? (item.best_quote_zh || '') : (item.best_quote_en || '');
   const quoteWrapper = lang === 'zh' ? '「」' : '""';
+  const aiSummaryLabel = lang === 'zh' ? 'AI总结：' : 'AI Summary: ';
   
   return `
     <article class="card">
       <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(title)}</a></h3>
-      <p>${esc(desc)}</p>
+      ${desc ? `<p><span class="ai-label">${aiSummaryLabel}</span>${esc(desc)}</p>` : ''}
       ${quote ? `<blockquote>${quoteWrapper[0]}${esc(quote)}${quoteWrapper[1]}</blockquote>` : ''}
       <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date||'')}</div>
     </article>

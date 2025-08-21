@@ -9,11 +9,21 @@ import re
 import json
 from tag_manager import standardize_tags, update_prompt_with_predefined_tags
 
+# Load .env file for local development
+try:
+    from dotenv import load_dotenv
+    load_dotenv()  # Load .env file if it exists
+except ImportError:
+    # python-dotenv not installed, skip .env loading
+    # This is fine for GitHub Actions which uses environment variables directly
+    pass
+
 # ========== Basic Configuration ==========
-# OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
     print("WARNING: OPENROUTER_API_KEY not found in environment variables. Script will exit gracefully.")
+    print("For local development: Create a .env file with OPENROUTER_API_KEY=your_key")
+    print("For GitHub Actions: Set OPENROUTER_API_KEY in repository secrets")
     print("No new valid records this time, no write needed.")
     print("\nAll processes completed: Successfully added 0 items; Model called 0 times.")
     exit(0)  # Exit gracefully instead of raising error
@@ -39,8 +49,56 @@ CONTENT_SELECTORS = [
     'div[itemprop="articleBody"]', 'article', 'main', 'div#main-content',
 ]
 
-MAX_CONTENT_CHARS = 15000  # Maximum content truncation length before sending to model (character count)
-                            # Increased to handle long-form content like LessWrong articles for deeper analysis
+# Dynamic MAX_CONTENT_CHARS based on model capabilities
+def get_max_content_chars(model_name):
+    """Get maximum content characters based on model specifications"""
+    model_configs = {
+        # Mistral models
+        "mistralai/mistral-small-3.2-24b-instruct:free": 50000,  # 128k tokens
+        "mistralai/mistral-small": 50000,
+        "mistralai/mistral-medium": 50000,
+        "mistralai/mistral-large": 50000,
+        
+        # Google Gemini models
+        "google/gemini-2.5-flash": 200000,  # 1M tokens
+        "google/gemini-2.5-pro": 200000,    # 1M tokens
+        "google/gemini-2.5-flash-lite": 200000,  # 1M tokens
+        "google/gemini-2.0-flash": 200000,  # 1M tokens
+        "google/gemini-1.5-pro": 100000,    # 2M tokens but conservative
+        "google/gemini-1.5-flash": 100000,  # 1M tokens
+        
+        # OpenAI models
+        "openai/gpt-4o": 80000,     # 128k tokens
+        "openai/gpt-4o-mini": 80000, # 128k tokens
+        "openai/gpt-4-turbo": 80000, # 128k tokens
+        "openai/gpt-3.5-turbo": 10000, # 16k tokens
+        
+        # Anthropic models
+        "anthropic/claude-3.5-sonnet": 150000,  # 200k tokens
+        "anthropic/claude-3-opus": 150000,      # 200k tokens
+        "anthropic/claude-3-haiku": 150000,     # 200k tokens
+        
+        # Default fallback
+        "default": 15000  # Conservative default
+    }
+    
+    # Try exact match first
+    if model_name in model_configs:
+        return model_configs[model_name]
+    
+    # Try partial matches for model families
+    for model_key, chars in model_configs.items():
+        if model_key != "default" and any(part in model_name.lower() for part in model_key.lower().split("/")[-1].split("-")[:2]):
+            return chars
+    
+    # Return default if no match found
+    return model_configs["default"]
+
+MAX_CONTENT_CHARS = get_max_content_chars(MODEL)
+
+# Debug output for model configuration
+print(f"Using model: {MODEL}")
+print(f"MAX_CONTENT_CHARS: {MAX_CONTENT_CHARS:,}")
 
 # ========== Initialize File Read/Write ==========
 # Load processed links

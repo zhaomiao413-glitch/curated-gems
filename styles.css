@@ -175,3 +175,10 @@ button:hover {
     background: #222;
     color: #fff
 }
+
+.ai-label {
+    font-weight: 600;
+    color: #0066cc;
+    margin-right: 4px;
+    font-size: 13px;
+}
