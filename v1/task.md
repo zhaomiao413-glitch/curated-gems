@@ -14,7 +14,7 @@
 
 **操作步骤**：
 
-1. **访问原仓库**：打开 `https://github.com/原作者/curated-gems`
+1. **访问原仓库**：打开 `https://github.com/sunling/curated-gems`
 2. **点击 Fork 按钮**：在页面右上角找到 "Fork" 按钮并点击
 3. **选择目标账号**：选择你的 GitHub 账号作为 fork 目标
 4. **等待 fork 完成**：GitHub 会自动复制仓库到你的账号下
