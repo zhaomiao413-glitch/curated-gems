@@ -107,4 +107,113 @@
     "summary_zh": "这篇深度文章揭示了伟大工作的核心：它并非单纯的勤奋，而是好奇心与敢于探索的微妙融合。作者强调找到兴趣与天赋的结合点至关重要，并鼓励我们放弃僵硬规划，采取迭代实验。文中犀利指出，要优化“有趣性”，培养分形好奇心，甚至敢于质疑公认的真理。它挑战了传统成功观和教育模式，倡导思想的真诚、大胆的破界，以及拥抱“恰到好处的疯狂”。这正是对那些有抱负、渴望突破边界的人最真诚的宣言，伟大的成果往往诞生于持续的热情、坚韧不拔的毅力，以及对固有规则的独特挑战。",
     "best_quote_en": "Curiosity is the key to all four steps in doing great work: it will choose the field for you, get you to the frontier, cause you to notice the gaps in it, and drive you to explore them. The whole process is a kind of dance with curiosity.",
     "best_quote_zh": "好奇心是完成伟大工作的四个步骤的关键：它会为你选择领域，把你带到前沿，使你注意到其中的空白，并驱使你去探索它们。整个过程可以说是一场与好奇心的舞动。"
+  },{
+    "id": 6,
+    "title": "How to Get New Ideas",
+    "title_zh": "如何获得新想法",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/getideas.html",
+    "tags": [
+      "innovation",
+      "creativity",
+      "problem-solving"
+    ],
+    "tags_zh": [
+      "创新",
+      "创造力",
+      "问题解决"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This profound reflection argues that true innovation springs from discerning anomalies – those perplexing gaps and imperfections at the edges of knowledge. It challenges the conventional view of discovery, suggesting that groundbreaking ideas aren't found on smooth, well-trodden paths, but rather in the overlooked fissures of established understanding. The author compellingly likens knowledge growth to a fractal, where close inspection reveals infinite complexity and unexplored territories. This isn't just about identifying problems; it's about seeing the inherent strangeness, the 'missing pieces' that often appear 'obvious' in hindsight, yet are consistently missed. This piece serves as a powerful call to embrace curiosity, to lean into discomfort, and to question the 'known' in pursuit of entirely new, 'fractal buds' of insight, reshaping our perception of intellectual exploration and its boundless potential.",
+    "summary_zh": "读罢此文，我仿佛被醍醐灌顶：新想法并非凭空而降，而是藏匿于那些被我们忽视的“反常”与“空缺”之中。它像一面镜子，映照出知识疆界上那些看似理所当然、实则充满无限可能的裂隙。这种“分形”的视角让我心潮澎湃，因为这意味着创新无处不在，只待我们以批判的眼光去审视、去追问。它不只是一个方法论，更是一种深刻的思维方式，教导我们如何以孩童般的好奇心，在日常与前沿的交汇处，开辟出属于自己的思想新天地，那份发现“不合理”的喜悦，足以点亮前进的道路。",
+    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken? Knowledge grows fractally. From a distance its edges look smooth, but when you learn enough to get close to one, you'll notice it's full of gaps.",
+    "best_quote_zh": "获得新想法的方法是留意反常之处：什么看起来奇怪、缺失或损坏？知识呈分形生长。从远处看它的边缘平滑，但当你学到足够多、足以靠近其中一个时，你会发现它充满了空白。"
+  },
+  {
+    "id": 7,
+    "title": "Three Observations",
+    "title_zh": "三点观察",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/three-observations",
+    "tags": [
+      "AI",
+      "AGI",
+      "FutureOfWork"
+    ],
+    "tags_zh": [
+      "人工智能",
+      "通用人工智能",
+      "未来工作"
+    ],
+    "date": "2025-02-09",
+    "summary_en": "This article masterfully articulates the transformative potential of AGI, moving beyond mere technological advancement to a profound societal paradigm shift. It posits AGI not just as a powerful tool, but a catalyst for unprecedented economic growth and human flourishing, enabling individuals to achieve more than ever before. The core insights into AI economics—exponential intelligence gains from resource scaling, rapid cost reduction, and super-exponential value generation—underscore an undeniable, relentless march towards a future where intelligence is abundant and cheap. The vision of ubiquitous AI agents acting as virtual co-workers truly resonates, painting a vivid picture of a world where human potential is amplified. Yet, it also critically acknowledges the imperative for careful societal integration, emphasizing the balance between empowering individuals and preventing misuse. This piece isn't just about AI; it's a compelling invitation to ponder humanity's next leap, a blend of heady optimism and grounded caution that inspires critical thought about our collective destiny.",
+    "summary_zh": "这篇文章深刻揭示了通用人工智能（AGI）的革命性潜力，它不仅是一种技术飞跃，更是重塑人类社会和经济版图的强大引擎。文中关于AI经济学的“三点观察”令人信服，展示了智力成本的极速下降和价值的超乎想象增长，这预示着一个智能普惠、创意无限的新纪元。虚拟协作型AI代理的设想尤其引人深思，它指向了人类生产力和创造力的指数级提升。然而，作者也未曾回避其带来的挑战，呼吁我们必须审慎平衡技术赋能与社会公平。这不仅是对未来的技术预测，更是一份激动人心的社会思考，提醒我们站在变革的潮头，共同塑造一个更加繁荣、公平的未来。",
+    "best_quote_en": "In a decade, perhaps everyone on earth will be capable of accomplishing more than the most impactful person can today.",
+    "best_quote_zh": "十年内，地球上或许每个人都将能够成就比当今最具影响力的人更多的事。"
+  },
+  {
+    "id": 8,
+    "title": "Legal Personhood - The Fifth Amendment (Part 1)",
+    "title_zh": "数字心智的法律人格 - 第五修正案（第一部分）",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/QMQqMyqoS9bRmEZPz/legal-personhood-the-fifth-amendment-part-1",
+    "tags": [
+      "Digital Rights",
+      "Legal Personhood",
+      "Fifth Amendment"
+    ],
+    "tags_zh": [
+      "数字权利",
+      "法律人格",
+      "第五修正案"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This thought-provoking piece delves into the complex realm of legal personhood for digital minds, specifically scrutinizing the Fifth Amendment's implications. It masterfully uses the right to self-incrimination as a lens, dissecting how established legal principles, like Miranda rights, might apply to a hypothetical digital entity. The author challenges our understanding by juxtaposing the \"capacity to understand\" rights from the TPBT framework with the active notification required by courts, particularly in high-stress interrogation settings. This tension highlights a critical gap: are rights inherent, or do they require explicit recognition and enabling conditions? The discussion offers sophisticated interpretations, suggesting that Miranda warnings fulfill law enforcement's duty rather than solely extending the interrogated's rights. This essay isn't just about AI ethics; it's a profound meditation on the very nature of rights, voluntary action, and the evolving definition of 'person' in a technologically advanced world, urging us to rethink foundational legal concepts.",
+    "summary_zh": "这篇文章犹如一扇窗，映照出法律在数字时代所面临的深刻挑战。它以第五修正案为切入点，探讨了当“数字心智”涌现时，我们该如何理解和界定它们的法律人格。作者巧妙地将米兰达警告与TPBT的“理解能力”理论进行对照，引人深思：权利是内生的，还是需要被主动告知才能成立？这不只是对AI权利的探讨，更是对人类社会固有法律框架的一次灵魂拷问。文章提醒我们，面对即将到来的数字生命，法律体系必须具备足够的弹性与前瞻性，重新定义“人”的边界，以确保公正与秩序的未来。",
+    "best_quote_en": "The privilege to avoid self-incrimination is fulfilled only when the person is guaranteed the right ‘to remain silent unless he chooses to speak in the unfettered exercise of his own will’.",
+    "best_quote_zh": "避免自证其罪的特权，只有在一个人被保证有权“保持沉默，除非他选择在不受束缚的自由意志下发言”时，才能实现。"
+  },
+  {
+    "id": 9,
+    "title": "Mary Petty, the Mysterious Cover Artist Who Captured the Decline of the Rich",
+    "title_zh": "玛丽·佩蒂：洞察富人衰落的神秘封面艺术家",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/magazine/2025/09/01/the-mysterious-cover-artist-who-captured-the-decline-of-the-rich",
+    "tags": [
+      "art",
+      "social commentary",
+      "history"
+    ],
+    "tags_zh": [
+      "艺术",
+      "社会评论",
+      "历史"
+    ],
+    "date": "2025-08-25",
+    "summary_en": "Mary Petty, a reclusive yet profoundly insightful artist, masterfully captured the poignant decline of the American elite through her \"New Yorker\" covers. Far from mere caricatures, her works, especially those depicting the Peabody family and their servant Fay, transcend humor to reveal deeper societal wounds and existential loneliness. Petty’s genius lay in her ability to imbue mundane details with profound meaning, crafting a visual narrative of a world grappling with irrelevance and fading splendor. Her artistic journey, though marked by personal struggles and an uncompromising spirit, stands as a testament to the power of art to both reflect and critique societal shifts. She didn't just draw scenes; she drew souls, laying bare the melancholic beauty of change and loss. Her work remains a timeless study of human vulnerability amidst an evolving landscape.",
+    "summary_zh": "玛丽·佩蒂，这位深居简出的《纽约客》封面艺术家，以其非凡的洞察力，捕捉了富裕阶层在时代变迁中逐渐衰颓的细腻画面。她的作品远超表面幽默，通过佩abody家族与侍女Fay的互动，揭示了阶级消逝带来的深层伤痕与存在的孤寂。佩蒂的画笔充满人情味，细致入微，仿佛是将一个逝去的时代浓缩于方寸之间。她并非简单描绘表象，而是深入剖析了时代的阵痛与人性的挣扎。这位特立独行的艺术家，用她独特的视角和笔触，为世界留下了一份关于社会变迁与个体命运的深刻思考，令人回味无穷，更引发我们对当下社会变迁的共鸣。",
+    "best_quote_en": "She catches time in a foreshortened crouch that intensifies her satirical effects.",
+    "best_quote_zh": "她捕捉时间于一个被缩短的蜷缩姿态中，这加强了她的讽刺效果。"
+  },
+  {
+    "id": 10,
+    "title": "The Need to Read",
+    "title_zh": "阅读的必要性",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "reading",
+      "writing",
+      "critical-thinking"
+    ],
+    "tags_zh": [
+      "阅读",
+      "写作",
+      "批判性思维"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This profound essay transcends a mere defense of reading, instead unveiling it as the bedrock of deep thought and idea generation. It challenges the futuristic fantasy of effortless knowledge transference, arguing that reading isn't just about information acquisition, but fundamentally shapes our ability to write. The author masterfully connects writing to thinking, asserting that the act of writing is a unique form of discovery, a crucible where nascent thoughts solidify and new insights emerge. This isn't theoretical; it's a profound observation on how complex, ill-defined problems yield to the structured thinking writing enables. Ultimately, the piece champions reading quality over quantity, emphasizing that engaging with 'good things' cultivates not just a skilled writer, but a profound thinker. It's a powerful reminder that true intellectual prowess isn't about shortcuts, but the deliberate, intertwined mastery of reading and writing.",
+    "summary_zh": "读完此文，恍然大悟。它不仅是为阅读正名，更是为思考立基。童年科幻梦里知识瞬间加载的场景，恰恰忽略了思想的诞生需要笔尖的磨砺。写作不只是表达，更是深度思考的唯一途径，那些混沌的念头，在文字的梳理中才得以清晰，甚至引出前所未见的新洞见。所以，阅读不只是信息输入，更是思想的源泉。在这个信息爆炸、追求捷径的时代，它提醒我们，真正的智慧，源于阅读的坚持和写作的淬炼，那是无法被取代的智力基石。",
+    "best_quote_en": "There is a kind of thinking that can only be done by writing.",
+    "best_quote_zh": "有一种思考只能通过写作来完成。"
   }]
