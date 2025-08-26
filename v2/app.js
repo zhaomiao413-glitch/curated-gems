@@ -1,18 +1,59 @@
-let raw = [], view = [], activeSource = 'all'; let searchEl, sourcesEl;
-const $ = sel => document.querySelector(sel), listEl = $('#list'), emptyEl = $('#empty'), controlsEl = $('#controls');
+// 第2课优化版 app.js - 搜索体验优化
+// 主要改进：更友好的用户提示、更好的错误处理、代码注释
 
-// Store data globally for language switching
+let raw = [], view = [], activeSource = 'all';
+let searchEl, sourcesEl;
+
+// 常用DOM选择器函数
+const $ = sel => document.querySelector(sel);
+
+// 获取主要DOM元素
+const listEl = $('#list');
+const emptyEl = $('#empty');
+const controlsEl = $('#controls');
+
+// 全局数据存储，用于语言切换
 window.currentData = null;
 window.renderWithLanguage = renderWithLanguage;
 
-// Get current language from URL params or default to 'zh'
+// 从URL参数获取当前语言，默认为中文
 const urlParams = new URLSearchParams(location.search);
 window.currentLang = urlParams.get('lang') || 'zh';
 
+// 初始化应用
 init();
+
 async function init() {
-    mountControls();
-    // 构建data.json的URL，确保在GitHub Pages环境下正确工作
+    try {
+        // 挂载控制组件
+        mountControls();
+
+        // 加载数据
+        raw = await loadData();
+        window.currentData = raw;
+
+        // 渲染数据源选择器
+        renderSources(['all', ...new Set(raw.map(x => x.source))]);
+
+        // 绑定事件监听器
+        bind();
+
+        // 应用筛选并渲染
+        applyAndRender();
+
+        console.log('✅ 应用初始化成功，加载了', raw.length, '篇文章');
+    } catch (error) {
+        console.error('❌ 应用初始化失败:', error);
+        showError('应用加载失败，请刷新页面重试');
+    }
+}
+
+/**
+ * 加载数据文件
+ * 支持GitHub Pages和本地开发环境
+ */
+async function loadData() {
+    // 构建data.json的URL，确保在不同环境下正确工作
     let dataUrl;
     if (window.location.pathname.includes('/curated-gems/')) {
         // GitHub Pages环境
@@ -21,93 +62,232 @@ async function init() {
         // 本地开发环境
         dataUrl = './data.json';
     }
-    const res = await fetch(dataUrl + '?_=' + Date.now(), { cache: 'no-store' }); raw = await res.json();
-    window.currentData = raw;
-    renderSources(['all', ...new Set(raw.map(x => x.source))]);
-    bind(); applyAndRender();
+
+    // 添加时间戳防止缓存
+    const response = await fetch(dataUrl + '?_=' + Date.now(), {
+        cache: 'no-store'
+    });
+
+    if (!response.ok) {
+        throw new Error(`数据加载失败: ${response.status}`);
+    }
+
+    return await response.json();
 }
+
+/**
+ * 挂载控制组件（搜索框和筛选器）
+ */
 function mountControls() {
     const lang = window.currentLang || 'zh';
-    const placeholder = lang === 'zh' ? '搜索标题/摘要/标签…' : 'Search title/summary/tags...';
+
+    // 🔍 优化后的搜索框提示文字 - 更友好、更直观
+    const placeholder = lang === 'zh'
+        ? '🔍 输入关键词搜索精彩内容...'
+        : '🔍 Enter keywords to search amazing content...';
+
     controlsEl.innerHTML = `
-    <div class="controls">
-      <input id="search" placeholder="${placeholder}"/>
-      <div id="sources" class="tags"></div>
-    </div>`;
-    searchEl = $('#search'); sourcesEl = $('#sources');
+        <div class="controls">
+            <input id="search" placeholder="${placeholder}" autocomplete="off"/>
+            <div id="sources" class="tags"></div>
+        </div>
+    `;
+
+    // 获取新创建的元素引用
+    searchEl = $('#search');
+    sourcesEl = $('#sources');
 }
+
+/**
+ * 绑定事件监听器
+ */
 function bind() {
+    // 搜索输入事件
     searchEl.addEventListener('input', applyAndRender);
+
+    // 数据源筛选点击事件
     sourcesEl.addEventListener('click', e => {
-        const t = e.target.closest('.tag'); if (!t) return;
-        [...sourcesEl.children].forEach(n => n.classList.remove('active'));
-        t.classList.add('active'); activeSource = t.dataset.source; applyAndRender();
+        const target = e.target.closest('.tag');
+        if (!target) return;
+
+        // 更新激活状态
+        [...sourcesEl.children].forEach(node => node.classList.remove('active'));
+        target.classList.add('active');
+
+        // 更新激活的数据源
+        activeSource = target.dataset.source;
+
+        // 重新筛选和渲染
+        applyAndRender();
     });
 }
+
+/**
+ * 应用筛选条件并渲染结果
+ */
 function applyAndRender() {
-    const q = (searchEl.value || '').trim().toLowerCase();
+    const query = (searchEl.value || '').trim().toLowerCase();
     const lang = window.currentLang || 'zh';
-    view = raw.filter(x => {
-        const summaryField = lang === 'zh' ? x.summary_zh : x.summary_en;
-        const quoteField = lang === 'zh' ? x.best_quote_zh : x.best_quote_en;
-        const titleField = lang === 'zh' ? (x.title_zh || x.title) : x.title;
-        const inQ = !q || titleField?.toLowerCase().includes(q) || 
-                    summaryField?.toLowerCase().includes(q) || 
-                    quoteField?.toLowerCase().includes(q) ||
-                    (x.tags || []).some(t => t.toLowerCase().includes(q));
-        const inS = activeSource === 'all' || x.source === activeSource;
-        return inQ && inS;
+
+    // 筛选数据
+    view = raw.filter(item => {
+        // 根据语言选择对应字段
+        const summaryField = lang === 'zh' ? item.summary_zh : item.summary_en;
+        const quoteField = lang === 'zh' ? item.best_quote_zh : item.best_quote_en;
+        const titleField = lang === 'zh' ? (item.title_zh || item.title) : item.title;
+
+        // 搜索匹配检查
+        const matchesQuery = !query ||
+            titleField?.toLowerCase().includes(query) ||
+            summaryField?.toLowerCase().includes(query) ||
+            quoteField?.toLowerCase().includes(query) ||
+            (item.tags || []).some(tag => tag.toLowerCase().includes(query));
+
+        // 数据源匹配检查
+        const matchesSource = activeSource === 'all' || item.source === activeSource;
+
+        return matchesQuery && matchesSource;
     });
+
+    // 渲染结果
     render(view);
 }
+
+/**
+ * 渲染数据源选择器
+ */
 function renderSources(list) {
-    sourcesEl.innerHTML = list.map(s => `<span class="tag ${s === 'all' ? 'active' : ''}" data-source="${s}">${esc(s)}</span>`).join('');
+    const lang = window.currentLang || 'zh';
+
+    sourcesEl.innerHTML = list.map(source => {
+        // 🌟 优化数据源显示文字
+        const displayText = source === 'all'
+            ? (lang === 'zh' ? '📚 全部精选' : '📚 All Sources')
+            : `✨ ${source}`;
+
+        const isActive = source === activeSource ? 'active' : '';
+
+        return `<span class="tag ${isActive}" data-source="${source}">${esc(displayText)}</span>`;
+    }).join('');
 }
+
+/**
+ * 渲染文章列表
+ */
 function render(items) {
     const lang = window.currentLang || 'zh';
-    if (!items.length) { 
-        listEl.innerHTML = ''; 
+
+    // 处理空结果情况
+    if (!items.length) {
+        listEl.innerHTML = '';
+
+        // 😅 优化后的空结果提示 - 更友好、提供建议
         const emptyTexts = {
-            zh: '未找到匹配的内容',
-            en: 'No matching content found'
+            zh: '😅 没有找到相关内容，换个关键词试试吧',
+            en: '😅 No relevant content found, try different keywords'
         };
+
         emptyEl.textContent = emptyTexts[lang];
-        emptyEl.classList.remove('hidden'); 
-        return; 
+        emptyEl.classList.remove('hidden');
+        return;
     }
-    emptyEl.classList.add('hidden'); 
+
+    // 隐藏空结果提示，显示文章列表
+    emptyEl.classList.add('hidden');
     listEl.innerHTML = items.map(item => card(item, lang)).join('');
 }
 
+/**
+ * 语言切换时重新渲染
+ */
 function renderWithLanguage(items, lang) {
-    // Update current language
+    // 更新当前语言
     window.currentLang = lang;
-    
-    // Update search placeholder
-    const placeholder = lang === 'zh' ? '搜索标题/摘要/标签…' : 'Search title/summary/tags...';
-    if (searchEl) searchEl.placeholder = placeholder;
-    
-    // Re-apply current filters with new language
+
+    // 更新搜索框提示文字
+    const placeholder = lang === 'zh'
+        ? '🔍 输入关键词搜索精彩内容...'
+        : '🔍 Enter keywords to search amazing content...';
+
+    if (searchEl) {
+        searchEl.placeholder = placeholder;
+    }
+
+    // 重新应用当前筛选条件
     applyAndRender();
 }
 
+/**
+ * 生成文章卡片HTML
+ */
 function card(item, lang = 'zh') {
+    // 根据语言选择对应字段
     const tagsArray = lang === 'zh' ? (item.tags_zh || item.tags || []) : (item.tags || []);
     const tags = tagsArray.join(', ');
     const title = lang === 'zh' ? (item.title_zh || item.title) : item.title;
     const desc = lang === 'zh' ? (item.summary_zh || '') : (item.summary_en || '');
     const quote = lang === 'zh' ? (item.best_quote_zh || '') : (item.best_quote_en || '');
+
+    // 引号样式
     const quoteWrapper = lang === 'zh' ? '「」' : '""';
     const aiSummaryLabel = lang === 'zh' ? 'AI总结：' : 'AI Summary: ';
-    
+
     return `
-    <article class="card">
-      <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(title)}</a></h3>
-      ${desc ? `<p><span class="ai-label">${aiSummaryLabel}</span>${esc(desc)}</p>` : ''}
-      ${quote ? `<blockquote>${quoteWrapper[0]}${esc(quote)}${quoteWrapper[1]}</blockquote>` : ''}
-      <div class="meta">${esc(item.source)} · ${esc(tags)} · ${esc(item.date || '')}</div>
-    </article>
-  `;
+        <article class="card">
+            <h3>
+                <a href="${item.link}" target="_blank" rel="noopener">
+                    ${esc(title)}
+                </a>
+            </h3>
+            ${desc ? `
+                <p>
+                    <span class="ai-label">${aiSummaryLabel}</span>
+                    ${esc(desc)}
+                </p>
+            ` : ''}
+            ${quote ? `
+                <blockquote>
+                    ${quoteWrapper[0]}${esc(quote)}${quoteWrapper[1]}
+                </blockquote>
+            ` : ''}
+            <div class="meta">
+                ${esc(item.source)} · ${esc(tags)} · ${esc(item.date || '')}
+            </div>
+        </article>
+    `;
 }
 
-function esc(s) { return String(s || '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m])); }
+/**
+ * 显示错误信息
+ */
+function showError(message) {
+    const lang = window.currentLang || 'zh';
+    const errorPrefix = lang === 'zh' ? '❌ 错误：' : '❌ Error: ';
+
+    if (listEl && emptyEl) {
+        listEl.innerHTML = '';
+        emptyEl.textContent = errorPrefix + message;
+        emptyEl.classList.remove('hidden');
+    }
+}
+
+/**
+ * HTML转义函数，防止XSS攻击
+ */
+function esc(str) {
+    return String(str || '').replace(/[&<>"']/g, match => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+    }[match]));
+}
+
+// 调试信息
+console.log('🚀 第2课优化版 app.js 已加载');
+console.log('📝 主要改进：');
+console.log('   - 🔍 更友好的搜索提示文字');
+console.log('   - 😅 更温馨的空结果提示');
+console.log('   - ✨ 优化的数据源显示');
+console.log('   - 📚 更好的代码注释和错误处理');

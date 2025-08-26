@@ -7,7 +7,6 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import re
 import json
-from tag_manager import standardize_tags, update_prompt_with_predefined_tags
 
 # Load .env file for local development
 try:
@@ -27,6 +26,14 @@ if not OPENROUTER_API_KEY:
     print("No new valid records this time, no write needed.")
     print("\nAll processes completed: Successfully added 0 items; Model called 0 times.")
     exit(0)  # Exit gracefully instead of raising error
+
+# Validate API key format
+if OPENROUTER_API_KEY and not OPENROUTER_API_KEY.startswith('sk-or-v1-'):
+    print("WARNING: OPENROUTER_API_KEY format appears incorrect. Should start with 'sk-or-v1-'")
+    print("Please check your API key at https://openrouter.ai/keys")
+    print("No new valid records this time, no write needed.")
+    print("\nAll processes completed: Successfully added 0 items; Model called 0 times.")
+    exit(0)
 
 # Model name fallback (don't use || concatenation in YAML)
 MODEL = os.getenv("OPENROUTER_MODEL") or "mistralai/mistral-small-3.2-24b-instruct:free"
@@ -141,6 +148,25 @@ def entry_pubdate(entry):
         return datetime.fromtimestamp(time.mktime(pp))
     return datetime.min
 
+def is_valid_content_link(link):
+    """Check if the link points to actual content rather than platform homepages."""
+    if not link:
+        return False
+    
+    # Filter out generic platform links that don't point to specific content
+    invalid_patterns = [
+        r'^https?://www\.siriusxm\.com/?$',  # SiriusXM homepage
+        r'^https?://[^/]+/?$',  # Any domain homepage without path
+        r'^https?://[^/]+/?(#.*)?$',  # Domain with only fragment
+        r'^https?://[^/]+/?(\?.*)?$',  # Domain with only query params
+    ]
+    
+    for pattern in invalid_patterns:
+        if re.match(pattern, link):
+            return False
+    
+    return True
+
 def extract_full_content(link, rss_content_html):
     """Extract webpage content; if RSS already contains long content, use it directly; otherwise scrape webpage and extract content."""
     # First try RSS content (some sources have complete content)
@@ -233,9 +259,6 @@ def parse_json_safely(text):
 
 
 def call_openrouter(model, title, full_content):
-    # Get updated prompt with predefined tags
-    tags_instruction = update_prompt_with_predefined_tags()
-    
     prompt_content = f"""
 你是一位资深的内容分析师和思想家，擅长深度阅读和洞察分析。请仔细阅读以下文章内容，进行深度思考和分析，然后以 JSON 格式返回分析结果。
 
@@ -248,26 +271,35 @@ def call_openrouter(model, title, full_content):
 
 **JSON 对象应包含以下字段：**
 - "title_zh": 文章标题的中文翻译（如果原文是中文则保持原样）
-- "summary_en": 英文深度总结，300-400词。要求：
+- "summary_en": 英文深度总结，150-200词。要求：
   * 不仅概括内容，更要体现深度思考
   * 包含对文章核心观点的分析和评价
   * 体现文章的现实意义和启发价值
   * 语言要有感染力，体现真实的思考感悟
-- "summary_zh": 中文深度总结，300-400字。要求：
+  * 保持简洁精炼，避免冗余表达
+- "summary_zh": 中文深度总结，100-150字。要求：
   * 像写一篇有感而发的读后感，有个人思考和感悟
   * 不是简单的内容概括，而是深度的分析和思辨
   * 要有情感温度，体现真实的阅读体验
   * 可以适当加入对现实的思考和对未来的展望
+  * 言简意赅，突出核心洞察
 - "best_quote_en": 提取文章中最具洞察力的英文金句（如果原文是中文，请翻译成英文）
 - "best_quote_zh": 提取文章中最具洞察力的中文金句（如果原文是英文，请翻译成中文）
-- {tags_instruction}
-- "tags_zh": 3个与文章内容相关的中文关键词标签，以数组形式返回
+- "tags": 最多3个与文章内容相关的英文关键词标签，以数组形式返回（如 ["ai", "technology", "innovation"]）
+- "tags_zh": 最多3个与文章内容相关的中文关键词标签，以数组形式返回（如 ["人工智能", "技术", "创新"]）
+
+**重要提醒：**
+- "tags" 字段：只能是英文标签，最多3个（如 ["ai", "technology", "innovation"]）
+- "tags_zh" 字段：只能是中文标签，最多3个（如 ["人工智能", "技术", "创新"]）
+- 严格按语言分离，不能混用
 
 **写作风格要求：**
 - 总结要有个人色彩，像是一个有思想的人在分享自己的真实感悟
 - 语言要生动有力，避免官方化、模板化的表达
 - 要体现出对内容的深度思考和情感投入
 - 可以适当使用比喻、类比等修辞手法增强表达力
+- **重要：严格控制字数，删除冗余词汇，每句话都要有价值**
+- **优先表达核心洞察，避免过度展开细节描述**
 
 **严格要求：** 只返回有效的 JSON 对象，**不要**包含任何代码块标记（如 ```json）、前导/尾随提示或额外文本。
 
@@ -286,7 +318,7 @@ def call_openrouter(model, title, full_content):
         "messages": [
             {
                 "role": "system",
-                "content": "你是一位具有深度思考能力的内容分析专家，擅长从多个维度深入理解和分析文章内容。你不仅能准确概括信息，更能进行批判性思考，提供有洞察力的分析和富有感染力的表达。请严格按照要求只返回有效的 JSON 对象，不包含代码块标记、解释文本或额外字符。"
+                "content": "你是一位具有深度思考能力的内容分析专家，擅长从多个维度深入理解和分析文章内容。请严格按照要求只返回有效的 JSON 对象，不包含代码块标记、解释文本或额外字符。"
             },
             {"role": "user", "content": prompt_content}
         ],
@@ -431,8 +463,8 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
 
     title = latest_entry.get('title', 'No Title')
     link = latest_entry.get('link', '')
-    if not link or link in processed_links:
-        # Skip and continue to next source in round-robin
+    if not link or link in processed_links or not is_valid_content_link(link):
+        # Skip invalid links, already processed links, or generic platform links
         idx += 1
         continue
 
@@ -477,9 +509,9 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
         idx += 1
         continue
 
-    # Standardize tags before assembling result
-    raw_tags = analysis_data.get('tags', [])
-    standardized_tags = standardize_tags(raw_tags, max_tags=3)
+    # Use tags directly from AI analysis
+    tags_en = analysis_data.get('tags', [])
+    tags_zh = analysis_data.get('tags_zh', [])
     
     # Assemble result
     final_item = {
@@ -488,8 +520,8 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
         "title_zh": analysis_data.get('title_zh', ''),
         "source": source_name,
         "link": link,
-        "tags": standardized_tags,
-        "tags_zh": analysis_data.get('tags_zh', []),
+        "tags": tags_en,
+        "tags_zh": tags_zh,
         "date": date_str,
         "summary_en": analysis_data.get('summary_en', ''),
         "summary_zh": analysis_data.get('summary_zh', ''),
