@@ -1,0 +1,110 @@
+[{
+    "id": 1,
+    "title": "Superlinear Returns",
+    "title_zh": "超线性回报",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/superlinear.html",
+    "tags": [
+      "superlinear returns",
+      "personal growth",
+      "ambition"
+    ],
+    "tags_zh": [
+      "超线性回报",
+      "个人成长",
+      "雄心"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This profound essay by Paul Graham reshapes our understanding of success by introducing the concept of 'superlinear returns.' It boldly challenges the common misconception of linear 'effort-reward' relationships, asserting that in life's crucial domains, disproportionately large rewards accrue to exceptional performance. The author meticulously dissects two primary drivers: exponential growth and critical thresholds. He argues that the modern landscape, increasingly free from organizational constraints, amplifies these superlinear effects, offering unprecedented opportunities for 'independent-minded' individuals. This piece is a compelling prompt for anyone aspiring to impactful work, urging us to embrace curiosity, learn relentlessly, and courageously pursue areas where true mastery yields exponential impact, even if it means navigating initial discomfort and accepting inherent inequality.",
+    "summary_zh": "这篇文章深刻剖析了成功的本质，颠覆了我们对“投入产出比”的线性认知。它揭示了“超线性回报”这一底层逻辑：在某些关键领域，极少数的卓越表现能带来远超预期的巨额回报。作者指出，指数级增长和临界点是其两大核心驱动力。在一个“去组织化”的时代，这种超线性效应被进一步放大，为那些勇于探索、持续学习，以及敢于“独立思考”的人提供了史无前例的机遇。这不仅是对个人发展路径的重新审视，更是对社会结构和未来趋势的深刻洞察。它提醒我们，真正的成长和价值创造往往发生在舒适区之外，且必然伴随着成果的不均等分配。",
+    "best_quote_en": "The prospect of superlinear returns for performance is an exciting one for the ambitious. And there's good news in this department: this territory is expanding in both directions.",
+    "best_quote_zh": "超线性回报的前景对有抱负的人来说是令人兴奋的。而在这方面也有好消息：这个领域正在向两个方向扩展。"
+  },
+  {
+    "id": 2,
+    "title": "The Gentle Singularity",
+    "title_zh": "温和的奇点降临",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/the-gentle-singularity",
+    "tags": [
+      "AI",
+      "Singularity",
+      "FutureOfWork"
+    ],
+    "tags_zh": [
+      "人工智能",
+      "奇点",
+      "未来工作"
+    ],
+    "date": "2025-06-10",
+    "summary_en": "This article masterfully paints a picture of a \"gentle singularity\" where humanity is already navigating the cusp of digital superintelligence. Far from apocalyptic visions, it posits a future where AI, like GPT-4, exponentially amplifies human capabilities and scientific progress, making intelligence and energy abundantly accessible. The author argues that despite initial shocks and potential job dislocations, humanity's innate adaptability and interconnectedness will allow us to assimilate these pervasive changes seamlessly. The real breakthrough lies in AI's recursive self-improvement and its ability to automate foundational processes, driving costs of intelligence down to near-electricity levels. However, the piece thoughtfully highlights the critical need for solving AI alignment and ensuring equitable distribution of superintelligence to maximize societal upside and minimize risks. It's a pragmatic yet optimistic vision, suggesting that while the 2030s will be profoundly different, they will also be remarkably manageable, leading to an unprecedented era of human flourishing powered by increasingly accessible wisdom.",
+    "summary_zh": "这篇文章描绘了一幅“温和奇点”的未来图景，人工智能正悄然引导我们进入一个智能和能源皆充裕的时代。它颠覆了对AI末日的传统恐惧，指出技术进步将以惊人速度提升人类生产力和科学深度。字里行间流露出对人类适应力的坚定信念，即便面对职业结构调整，我们也能通过智慧和集体协作，将挑战转化为前所未有的机遇。文章的核心洞察是AI的自我迭代能力将解锁无限可能，但同时也敲响警钟：确保AI与人类价值观对齐，并实现智能的普惠化，是开启黄金时代的基石。这不仅仅是技术预测，更是一封写给未来的情书，充满理性与温柔的期许。",
+    "best_quote_en": "Intelligence too cheap to meter is well within grasp.",
+    "best_quote_zh": "廉价到无需计量的智能，已近在咫尺。"
+  },
+  {
+    "id": 3,
+    "title": "The \"Sparsity vs Reconstruction Tradeoff\" Illusion",
+    "title_zh": "“稀疏性与重建”权衡的假象",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/RwWrkGnncSCqryrSZ/the-sparsity-vs-reconstruction-tradeoff-illusion",
+    "tags": [
+      "AI",
+      "Interpretability",
+      "Sparse Autoencoders"
+    ],
+    "tags_zh": [
+      "人工智能",
+      "可解释性",
+      "稀疏自编码器"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This article critically dismantles the widely accepted 'sparsity vs reconstruction tradeoff' in Sparse Autoencoders (SAEs), revealing it as a misleading illusion. Through a compelling toy model, the authors demonstrate that prioritizing reconstruction quality by allowing a lower L0 hyperparameter often leads to polysemantic SAEs that inaccurately represent underlying features. Conversely, a monosemantic SAE, which truly captures distinct features, might exhibit 'worse' reconstruction scores by this flawed metric if its L0 is constrained below the true underlying L0. The profound insight here is that there's no inherent tradeoff; rather, an optimal L0 exists that unlocks accurate, monosemantic feature learning. Setting L0 incorrectly, whether too low or too high, compels the SAE to 'cheat' by exploiting feature correlations, sacrificing interpretability for seemingly better reconstruction. This challenges conventional wisdom, urging a paradigm shift in evaluating SAEs – moving beyond mere reconstruction metrics towards assessing true feature representation and interpretability, thereby paving the way for more robust and trustworthy AI systems.",
+    "summary_zh": "这篇文章如同一记警钟，敲醒了我们对稀疏自编码器（SAE）中所谓“稀疏性与重建平衡”的固有认知。它犀利地指出，这并非真正的权衡，而是一场误导性的假象。通过巧妙的玩具模型，论文揭示出一个令人不安的事实：盲目追求低L0下的“优秀”重建效果，往往换来的是模糊不清、彼此纠缠的特征表征。真正的洞察在于，存在一个“正确”的L0，它能让SAE习得清晰、单一语意的特征，即便这在传统重建指标上可能显得“更差”。如果L0设置不当，SAE会“投机取巧”，利用特征间的相关性来欺骗模型，牺牲了可解释性。这提醒我们，在AI的征途中，表面数据的美丽可能掩盖深层逻辑的扭曲，真正的价值往往蕴藏在对本质的深刻理解与坚守之中。我们需要重新审视评估标准，回归事物的本源，追求真正的洞察力而非片面指标的优化。",
+    "best_quote_en": "Fundamentally, there is no \"sparsity vs reconstruction tradeoff\" - if the L0 of the SAE is not chosen correctly, the resulting SAE will be incorrect and polysemantic.",
+    "best_quote_zh": "从根本上说，没有所谓的“稀疏性与重建权衡”——如果SAE的L0没有正确选择，那么结果SAE将是错误的且多义性的。"
+  },
+  {
+    "id": 4,
+    "title": "The Endless August Recess",
+    "title_zh": "永无止境的八月休会",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/the-endless-august-recess",
+    "tags": [
+      "political polarization",
+      "governance",
+      "public trust"
+    ],
+    "tags_zh": [
+      "政治极化",
+      "治理",
+      "公众信任"
+    ],
+    "date": "2025-08-25",
+    "summary_en": "This article masterfully exposes the profound dysfunction permeating American political discourse, vividly illustrating how even a legislative recess becomes a theater of absurdity. Lawmakers, tasked with 'selling' unpopular bills like the 'One Big Beautiful Bill Act,' face a deeply polarized electorate. The stark contrast between Rep. Hageman's defensive, often dismissive responses to constituents' critical inquiries and Rep. Subramanyam's earnest, yet equally embattled attempts to appease his base, highlights a systemic crisis of representation. What truly resonates is the chilling revelation that 'facts' are no longer universally accepted truths but malleable narratives shaped by partisan lenses. This piece isn't just about political theater; it's a poignant reflection on the erosion of civil dialogue and the fragmentation of reality itself, underscoring the formidable challenge of governing in an era where loyalty to 'brand' often trumps truth.",
+    "summary_zh": "这篇文章深刻剖析了美国政治的深层困境。它不仅仅是对国会议员休会期间经历的白描，更揭示出在极度撕裂的社会背景下，公民与代表之间信任的崩塌。无论是共和党议员的强硬推销，还是民主党议员的疲惫应对，都映照出政治表演化、真相相对化的悲哀现实。最令人触动的是，文章中对“数据可以谎报”的描绘，这不只是简单的信息不对称，而是信念体系的瓦解。它让我深思，当事实被解读成“不同国家”的叙事时，我们如何抵达共识，如何构建一个真正有效的民主？这篇文字充满洞察，亦带着一丝无奈的哀叹，唤起我们对理性回归的渴望。",
+    "best_quote_en": "You can take the data and make it lie! ... It’s all about how you interpret the data. It’s a different country out here.",
+    "best_quote_zh": "你可以操纵数据让它撒谎！……这全取决于你如何解读数据。在这里，这简直是另一个国家。"
+  },
+  {
+    "id": 5,
+    "title": "How to Do Great Work",
+    "title_zh": "如何做出伟大的工作",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/greatwork.html",
+    "tags": [
+      "Curiosity",
+      "Innovation",
+      "Productivity"
+    ],
+    "tags_zh": [
+      "好奇心",
+      "创新",
+      "生产力"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This profound essay dissects the essence of truly great work, revealing that it's less about sheer effort and more about a delicate dance between intrinsic curiosity and audacious exploration. The author emphasizes that identifying one's deep-seated interest and natural aptitude is paramount, urging us to embrace an iterative, experimental approach rather than rigid planning. Critical insights include optimizing for 'interestingness,' nurturing a fractal curiosity, and daring to question seemingly obvious truths. The piece challenges conventional notions of success and education, advocating for intellectual honesty, bold rule-breaking, and a willingness to embrace the 'right kind of crazy' ideas. Ultimately, it’s a powerful call to action for ambitious individuals to consciously pursue work that aligns with their deepest inclinations, reminding us that true breakthroughs often stem from a unique blend of passion, persistence, and playful defiance of the norm.",
+    "summary_zh": "这篇深度文章揭示了伟大工作的核心：它并非单纯的勤奋，而是好奇心与敢于探索的微妙融合。作者强调找到兴趣与天赋的结合点至关重要，并鼓励我们放弃僵硬规划，采取迭代实验。文中犀利指出，要优化“有趣性”，培养分形好奇心，甚至敢于质疑公认的真理。它挑战了传统成功观和教育模式，倡导思想的真诚、大胆的破界，以及拥抱“恰到好处的疯狂”。这正是对那些有抱负、渴望突破边界的人最真诚的宣言，伟大的成果往往诞生于持续的热情、坚韧不拔的毅力，以及对固有规则的独特挑战。",
+    "best_quote_en": "Curiosity is the key to all four steps in doing great work: it will choose the field for you, get you to the frontier, cause you to notice the gaps in it, and drive you to explore them. The whole process is a kind of dance with curiosity.",
+    "best_quote_zh": "好奇心是完成伟大工作的四个步骤的关键：它会为你选择领域，把你带到前沿，使你注意到其中的空白，并驱使你去探索它们。整个过程可以说是一场与好奇心的舞动。"
+  }]
