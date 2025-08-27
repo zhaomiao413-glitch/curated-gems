@@ -172,39 +172,41 @@
 
 ---
 
-### 任务3：启用GitHub Pages部署网站
+好的，我已经根据你的要求，在课程的第三个任务中增加了启用工作流（Actions）的步骤。这是一个非常重要的细节，因为 Fork 后的项目默认会禁用工作流，需要手动开启才能自动部署网站。
 
-**🎯 目标**：让你的项目变成一个可以访问的网站
+这是更新后的 **任务3** 指导：
+
+---
+
+### 任务3：启用工作流并部署网站
+
+**🎯 目标**：激活自动化工作流，并将你的项目变成一个可以访问的网站。
 
 **📋 操作步骤**：
 
-1. **进入项目设置**
-   - 在你的curated-gems项目页面
-   - 点击页面上方的"Settings"（设置）标签
-   - ⚠️ **注意**：确保你在自己账号下的项目，不是原项目
+1.  **进入Actions页面启用工作流**
+    *   在你 Fork 后的 `curated-gems` 项目页面，点击顶部的 "Actions" 标签。
+    *   你会看到一个黄色的提示条，说明工作流未在本仓库运行。
+    *   点击 "I understand my workflows, go ahead and enable them" 按钮来启用。
 
-2. **找到Pages设置**
-   - 在左侧菜单中向下滚动
-   - 找到并点击"Pages"选项
-   - 这里是配置网站部署的地方
+2.  **进入项目设置**
+    *   返回到你的项目主页，点击页面上方的 "Settings"（设置）标签。
+    *   ⚠️ **注意**：确保你在自己账号下的项目，而不是原项目。
 
-3. **配置部署源**
-   - 在"Source"（源）部分：
-     - 选择"Deploy from a branch"（从分支部署）
-   - 在"Branch"（分支）部分：
-     - 选择"main"分支
-     - 文件夹选择"/ (root)"（根目录）
-   - 点击"Save"（保存）按钮
+3.  **找到Pages设置**
+    *   在左侧菜单中向下滚动，找到并点击 "Pages" 选项。
 
-4. **等待部署完成**
-   - GitHub会开始构建你的网站
-   - 这个过程通常需要1-5分钟
-   - 页面会显示部署状态
+4.  **配置部署源**
+    *   在 "Source"（源）部分，选择 "Deploy from a branch"（从分支部署）。
+    *   在 "Branch"（分支）部分，选择 "main" 分支，文件夹选择 "/ (root)"（根目录），然后点击 "Save"（保存)。
 
-5. **获取网站地址**
-   - 部署成功后，页面顶部会显示绿色提示
-   - 你的网站地址是：`https://你的用户名.github.io/curated-gems`
-   - 💡 **小贴士**：这个地址就是你的网站，可以分享给任何人
+5.  **等待部署完成**
+    *   GitHub 会开始构建你的网站，这通常需要1-5分钟。
+    *   你可以在 "Actions" 标签页查看部署进度。
+
+6.  **获取网站地址**
+    *   部署成功后，在 Pages 设置页面顶部会显示绿色的提示，告诉你网站已经上线。
+    *   你的网站地址是：`https://你的用户名.github.io/curated-gems`
 
 **✅ 完成标志**：
 - [ ] Pages设置页面显示绿色的"Your site is live at..."消息
@@ -331,24 +333,38 @@
    - 现在你可以直接在浏览器中编辑文件
 
 3. **添加新内容**
+   - 可以自己寻找值得推荐的网站、文章、视频等资源，也可以让 AI 帮你根据链接自动生成摘要和标签。
    - 在文件开头的`[`后面添加你的内容
-   - 复制下面的模板，修改成你自己的信息：
-
+   - 或者复制下面的数据，可以选择修改成你自己的信息：
 ```json
 {
-  "id": 999,
-  "title": "我的第一篇收藏",
-  "title_zh": "我的第一篇收藏",
-  "source": "我自己",
-  "link": "https://example.com",
-  "tags": ["学习", "编程", "成长"],
-  "tags_zh": ["学习", "编程", "成长"],
-  "date": "2024-01-15",
-  "summary_en": "This is my first curated content in the workshop.",
-  "summary_zh": "这是我在workshop中添加的第一条内容，标志着我编程学习的开始。",
-  "best_quote_en": "Every expert was once a beginner.",
-  "best_quote_zh": "每个专家都曾经是初学者。"
-},
+    "id": 6,
+    "title": "Atomic Habits",
+    "title_zh": "原子习惯",
+    "source": "James Clear",
+    "link": "https://jamesclear.com/atomic-habits",
+    "tags": ["habits", "self-improvement"],
+    "tags_zh": ["习惯", "自我提升"],
+    "date": "2025-08-26",
+    "summary_en": "A practical guide to building good habits and breaking bad ones, with actionable strategies.",
+    "summary_zh": "一本关于养成好习惯和打破坏习惯的实用指南，提供可操作的方法。",
+    "best_quote_en": "You do not rise to the level of your goals. You fall to the level of your systems.",
+    "best_quote_zh": "你不会达到目标的高度，而是会跌落到系统的水平。"
+  },
+  {
+    "id": 7,
+    "title": "TED: The Power of Vulnerability",
+    "title_zh": "TED：脆弱的力量",
+    "source": "Brené Brown",
+    "link": "https://www.ted.com/talks/brene_brown_the_power_of_vulnerability",
+    "tags": ["psychology", "TED"],
+    "tags_zh": ["心理学", "TED"],
+    "date": "2025-08-26",
+    "summary_en": "A TED talk exploring how embracing vulnerability can lead to deeper connections and personal growth.",
+    "summary_zh": "一场TED演讲，探讨拥抱脆弱如何带来更深的连接和个人成长。",
+    "best_quote_en": "Vulnerability is the birthplace of innovation, creativity and change.",
+    "best_quote_zh": "脆弱是创新、创造力和改变的源头。"
+  }
 ```
 
 4. **保存修改**
@@ -386,7 +402,7 @@
 <summary>问题2：网站没有显示新内容怎么办？</summary>
 
 **解决方案**：
-1. 等待5-10分钟，GitHub需要时间更新网站
+1. 等待2-5分钟，GitHub需要时间更新网站
 2. 强制刷新浏览器
 3. 检查data.json文件是否保存成功
 4. 查看浏览器控制台是否有错误信息
@@ -446,18 +462,8 @@
    - 回顾一下这节课学到的概念
    - 尝试再添加几条内容到你的网站
 
-3. **准备下一课** 🚀
-   - 休息10分钟，让大脑消化一下
+3. **预习下一课** 🚀
    - 👉 [开始第2课：让网站更好用](v2/task.md)
-
-## 🆘 需要帮助？
-
-如果在学习过程中遇到问题：
-
-- 💬 **GitHub讨论区**：在项目的Discussions中提问
-- 🐛 **问题反馈**：在Issues中报告具体问题
-- 📧 **邮件咨询**：发送邮件详细描述问题
-- 👥 **同学互助**：和其他学员交流经验
 
 ---
 
