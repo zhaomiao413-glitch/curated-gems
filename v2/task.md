@@ -142,21 +142,74 @@ const emptyTexts = {
 - 提供了解决建议（换个关键词试试）
 - 语气更加鼓励而不是冷冰冰的通知
 
-#### 步骤4：个性化来源标签（可选）
+好的，我们可以在第2课的任务中增加一个可选的进阶任务，用于优化信息来源的显示效果，给每个来源标签加上内容数量统计。
 
-如果你想进一步个性化，可以修改来源显示的文字：
+这不仅能让界面信息更丰富，也能锻炼学员处理数据和动态更新UI的能力。
 
-**寻找类似这样的代码**：
-```javascript
-// 在renderSources函数中
-const sourceText = source === 'all' ? '全部来源' : source;
-```
+我已经将这个可选任务更新到了 `v2/task.md` 的学习任务中。以下是更新后的内容，我将其添加为 **步骤5**，并把原来的“保存并测试”顺延为 **步骤6**。
 
-**可以改成**：
-```javascript
-const sourceText = source === 'all' ? '📚 全部精选' : `✨ ${source}`;
-```
+---
 
+#### **步骤4：为来源添加计数统计**
+
+**🎯 目标**：在每个来源标签旁边显示该来源包含的内容数量，例如 "全部来源 (30)"，让用户对内容分布一目了然。
+
+**🤔 为什么这么做？**
+这是一种简单但有效的用户体验优化。数量统计能给用户清晰的预期，帮助他们更快地决定是否要点击某个来源进行筛选。
+
+**📋 操作步骤**：
+
+1.  **准备工作**
+    *   确保你还在GitHub上编辑 `v2/app.js` 文件。
+
+2.  **计算各来源内容数量**
+    *   在 `app.js` 文件中找到 `render` 函数（大约在第55-65行之间）。
+    *   在函数的最开始，添加以下代码来统计数量：
+        ```javascript
+        // 在 render 函数内部的开头添加
+        const sourceCounts = data.reduce((acc, item) => {
+          acc[item.source] = (acc[item.source] || 0) + 1;
+          return acc;
+        }, {});
+        sourceCounts['all'] = data.length;
+        ```
+    *   **代码解读**：这段代码会遍历所有数据，统计每个 `source` 出现的次数，并把结果存放在 `sourceCounts` 对象中。同时，它还统计了所有内容的总数，并存为 `all` 的数量。
+
+3.  **更新来源显示逻辑**
+    *   我们需要修改 `renderSources` 这个函数，让它利用刚刚计算出的数量。
+    *   **寻找并替换**整个 `renderSources` 函数（大约在100行以后）：
+        
+        **修改前**：
+        ```javascript
+        function renderSources(source, currentSource) {
+          const isActive = source === currentSource;
+          const sourceText = source === 'all' ? '全部来源' : source;
+          return `<button class="source-tag ${isActive ? 'active' : ''}" data-source="${source}">${sourceText}</button>`;
+        }
+        ```
+        **修改后**：
+        ```javascript
+        function renderSources(source, currentSource, counts) { // 1. 增加一个参数
+          const isActive = source === currentSource;
+          const count = counts[source] || 0; // 2. 获取数量
+          const displayName = source === 'all' ? (lang === 'zh' ? '全部来源' : 'All Sources') : source;
+          const sourceText = `${displayName} (${count})`; // 3. 组合成新的文本
+          return `<button class="source-tag ${isActive ? 'active' : ''}" data-source="${source}">${sourceText}</button>`;
+        }
+        ```
+
+4.  **传递数量统计**
+    *   最后一步，我们需要在调用 `renderSources` 的地方把 `sourceCounts` 传进去。
+    *   在 `render` 函数中，**找到这行代码** (大约在80行附近):
+        ```javascript
+        sourcesContainer.innerHTML = uniqueSources.map(source => renderSources(source, currentSource)).join('');
+        ```
+    *   **修改成这样**，把 `sourceCounts` 作为第三个参数传进去：
+        ```javascript
+        sourcesContainer.innerHTML = uniqueSources.map(source => renderSources(source, currentSource, sourceCounts)).join('');
+        ```
+
+---
 #### 步骤5：保存并测试
 
 1. **保存修改**
@@ -207,29 +260,6 @@ A: 可以：
 - 或者重新fork原始仓库
 
 ---
-
-## ✅ 课程验收
-
-### 自检清单
-
-**功能检查**：
-- [ ] 网站能正常打开
-- [ ] 搜索功能正常工作
-- [ ] 搜索框提示文字已更新
-- [ ] 空搜索结果提示更友好
-- [ ] 没有JavaScript错误（按F12查看控制台）
-
-**体验检查**：
-- [ ] 搜索框提示让人一看就懂
-- [ ] 空结果提示不会让人沮丧
-- [ ] 整体界面感觉更友好
-
-**技能检查**：
-- [ ] 理解了什么是用户体验
-- [ ] 学会了修改JavaScript代码
-- [ ] 知道如何安全地测试修改
-- [ ] 掌握了GitHub编辑和提交流程
-
 ### 成果展示
 
 **截图记录**：
@@ -292,6 +322,7 @@ A: 可以：
 - **预习内容**：了解什么是信息分类和标签系统
 - **思考问题**：如果你有100篇文章，你会如何分类？
 - **观察习惯**：注意自己平时是如何整理信息的
+- 👉 [开始第3课：信息筛选与分类管理](v3/task.md)
 
 ---
 
