@@ -216,4 +216,113 @@
     "summary_zh": "读完此文，恍然大悟。它不仅是为阅读正名，更是为思考立基。童年科幻梦里知识瞬间加载的场景，恰恰忽略了思想的诞生需要笔尖的磨砺。写作不只是表达，更是深度思考的唯一途径，那些混沌的念头，在文字的梳理中才得以清晰，甚至引出前所未见的新洞见。所以，阅读不只是信息输入，更是思想的源泉。在这个信息爆炸、追求捷径的时代，它提醒我们，真正的智慧，源于阅读的坚持和写作的淬炼，那是无法被取代的智力基石。",
     "best_quote_en": "There is a kind of thinking that can only be done by writing.",
     "best_quote_zh": "有一种思考只能通过写作来完成。"
+  },{
+    "id": 11,
+    "title": "What You (Want to)* Want",
+    "title_zh": "你（想要）*想要什么",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "philosophy",
+      "free will",
+      "determinism"
+    ],
+    "tags_zh": [
+      "哲学",
+      "自由意志",
+      "决定论"
+    ],
+    "date": "2025-08-27",
+    "summary_en": "This article masterfully dissects the age-old philosophical conundrum of free will vs. determinism, not through dense academic prose, but with elegant simplicity. It starts from a child's intuitive grasp of the conflict between predictable matter and felt agency, evolving into a nuanced exploration of 'wanting to want.' The brilliant use of layers of 'want to' reveals a profound insight: while we may control our actions and even some desires, there's always an ultimate desire, an irreducible core of 'want' that remains beyond our conscious manipulation. This resonates deeply in an age obsessed with self-optimization; it reminds us of the inherent limits of control, pushing us to ponder where true agency lies. It's a humbling, yet liberating, perspective, urging empathy for those struggling with entrenched desires and reminding us to embrace the mysterious depths of our own motivations.",
+    "summary_zh": "这篇文章以一种出乎意料的巧妙方式，探讨了自由意志与决定论的哲学难题。它剥洋葱般层层深入“想要去想要”这个概念，最终揭示了一个深刻洞察：我们的欲望深处，总有一个我们无法完全控制的“本初之欲”。这让我不禁思考，在追求极致“自由”和“掌控”的时代，是不是也该接受这种深层的“不自由”？这不仅是对个人限制的谦卑认知，更是对人之所以为人的复杂性的深刻理解。它提醒我们，真正的自由或许在于认清并接纳那些我们无法选定的深层渴望，从而找到与自我更和谐的共存方式。",
+    "best_quote_en": "Ultimately you get back to a want that you don't control.",
+    "best_quote_zh": "最终你会回到一个你无法控制的欲望。"
+  },
+  {
+    "id": 12,
+    "title": "Reflections",
+    "title_zh": "反思与展望",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/reflections",
+    "tags": [
+      "AI",
+      "Innovation",
+      "Leadership"
+    ],
+    "tags_zh": [
+      "人工智能",
+      "创新",
+      "领导力"
+    ],
+    "date": "2025-01-06",
+    "summary_en": "This reflection provides a profound insight into OpenAI's arduous journey, marking two years since ChatGPT's launch. It transcends a mere corporate timeline, becoming a meditation on the relentless pursuit of AGI, peppered with raw confessions of leadership's burdens and triumphs. The author candidly shares the chaotic exhilaration of pioneering uncharted technological territory and the stark reality of unforeseen crises, like the sudden public firing. This narrative isn't just about technological breakthroughs; it's a testament to resilience, adaptive strategy, and the unwavering belief in AI's transformative power—from current products to the audacious dream of superintelligence for humanity's benefit. It’s a compelling peek into the soul of a company not just building the future, but actively grappling with its immense responsibility.",
+    "summary_zh": "这篇文章不仅仅是OpenAI的里程碑回顾，更是一场深刻的灵魂拷问与真诚分享。它揭示了AGI之路的坎坷与辉煌，字里行间充满了创业的激情、对未知领域的探索，以及面对重压的自我反思。尤其是对“被解雇”事件的坦诚，让我看到了领导者的脆弱与成长。这不是一份宏大叙事，而是内省与展望的交织，充满对梦想的执着与对未来的信念。它告诉我，真正的创新，是在混沌中磨砺，在挑战中升华。",
+    "best_quote_en": "Moving at speed in uncharted waters is an incredible experience, but it is also immensely stressful for all the players. Conflicts and misunderstanding abound.",
+    "best_quote_zh": "在未知水域高速航行是一种不可思议的经历，但对所有参与者来说，这也带来了巨大的压力。冲突和误解比比皆是。"
+  },
+  {
+    "id": 13,
+    "title": "Contra Yudkowsky's Ideal Bayesian",
+    "title_zh": "反驳尤德科夫斯基的理想贝叶斯理论",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/RHYjjxsjyLng4Bk44/contra-yudkowsky-s-ideal-bayesian",
+    "tags": [
+      "Bayesianism",
+      "Epistemology",
+      "Statistical-Reasoning"
+    ],
+    "tags_zh": [
+      "贝叶斯主义",
+      "认识论",
+      "统计推理"
+    ],
+    "date": "2025-08-27",
+    "summary_en": "This article challenges Yudkowsky's assertion of an 'ideal Bayesian' as the ultimate standard for epistemic algorithms, arguing that real-world complexity often defies strict Bayesian principles. The author critically evaluates foundational arguments for Bayesianism, such as Cox's Theorem and the Complete Class theorems, revealing their limitations and instances where non-Bayesian methods—or Bayesian approaches with 'good frequentist properties'—prove more effective. It highlights how rigid adherence to subjective priors can lead to pathologies, particularly in nonparametric settings, and questions the relevance of coherence over practical attributes like consistency and calibration. The piece advocates for prioritizing 'winning' results and practical utility over purely theoretical bayesian 'Bayes-structure', suggesting that many successful statistical methods inherently operate on principles beyond strict Bayesianism. It's a compelling call to ground theoretical ideals in empirical efficacy, urging a pragmatic evaluation of what truly constitutes 'good' reasoning in the face of complex, messy reality.",
+    "summary_zh": "这篇文章对尤德科夫斯基“理想贝叶斯”的至高地位提出深刻质疑。作者指出，现实世界的复杂性往往超出严格贝叶斯理论的范畴，实践中许多卓越的统计方法并非纯粹基于贝叶斯原理，或仅在融合了频率派特性后才更显优越。文章呼唤我们不要盲目追求理论上的“贝叶斯结构”，而应关注那些真正“奏效”的方法。与其在理论象牙塔中自洽，不如回归实效，探寻解决问题的智慧。这不仅是对贝叶斯主义的反思，更是对科学探究范式的一次深刻叩问：真理与效用，何者为先？",
+    "best_quote_en": "Instead, look for winning.",
+    "best_quote_zh": "相反，去寻找胜利之道。"
+  },
+  {
+    "id": 14,
+    "title": "The Enormous Stakes of Trump’s Effort to Fire the Fed Governor Lisa Cook",
+    "title_zh": "特朗普解雇美联储理事丽莎·库克的巨大风险",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-financial-page/the-enormous-stakes-of-trumps-effort-to-fire-the-fed-governor-lisa-cook",
+    "tags": [
+      "economic stability",
+      "institutional integrity",
+      "political authoritarianism"
+    ],
+    "tags_zh": [
+      "经济稳定",
+      "制度完整性",
+      "政治权威主义"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This article vividly dissects the alarming implications of Donald Trump's relentless push to dismantle institutional checks and balances, specifically targeting Federal Reserve Governor Lisa Cook. It paints a chilling picture of an economic system teetering on the brink, where independent bodies, once pillars of stability, risk becoming mere extensions of political will. The piece critically highlights the disconcerting silence from corporate and political elites, revealing a paralysis born of fear and self-interest. It forces us to confront a fundamental question: what happens when the guardians of economic integrity are intimidated into submission? The narrative masterfully connects Trump’s authoritarian tendencies with potential economic instability, drawing parallels to nations where political interference has wreaked havoc. It's a stark warning, not just about a specific political figure, but about the fragile nature of democratic institutions and the catastrophic consequences of their erosion, reminding us that trust, once lost, vanishes with terrifying speed.",
+    "summary_zh": "这篇文章深刻揭示了特朗普试图干预美联储的深层危机，不仅是权力寻租，更是对美国经济基石的动摇。当独立机构被政治化，市场信心便如沙滩城堡般脆弱。华尔街的沉默令人警醒，它折射出一种普遍的恐惧：当私利优先于公共责任，国家未来何去何从？这不仅仅是政治斗争，更是对制度韧性的终极考验。它提醒我们，经济的稳定不仅仅依赖于数据，更在于制度的公正与可预测性。失去市场信任，后果将难以估量，它让我们不得不思考，面对潜在的失序，我们能做些什么来捍卫那些被我们视为理所当然的基石。",
+    "best_quote_en": "History shows that losing market confidence follows the pattern of personal bankruptcy that one of Hemingway’s characters described in “The Sun Also Rises”: “Gradually, then suddenly.”",
+    "best_quote_zh": "历史表明，丧失市场信心的模式，正如海明威《太阳照常升起》中人物所描述的个人破产：“逐渐地，然后突然地。”"
+  },
+  {
+    "id": 15,
+    "title": "Alien Truth",
+    "title_zh": "外星真理",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/alien.html",
+    "tags": [
+      "philosophy",
+      "intelligence",
+      "universality"
+    ],
+    "tags_zh": [
+      "哲学",
+      "智能",
+      "普适性"
+    ],
+    "date": "2025-08-27",
+    "summary_en": "This thought-provoking essay skillfully navigates the abstract concept of \"alien truth,\" positing that intelligent entities across the cosmos would inevitably share certain fundamental principles beyond just mathematics and physics. The author elegantly argues that logical frameworks like controlled experimentation, the efficacy of practice, and Occam's razor transcend species, hinting at a universal blueprint for intelligence. What resonates deeply is how this lens reframes philosophy: not merely as an intellectual pursuit, but as a quest for these universal, discoverable truths – much like Erdős’s \"God's book\" for proofs. The piece cleverly extends this idea to Artificial Intelligence, suggesting that future AI might validate these \"alien truths,\" providing a tangible pathway to understanding universal intelligence. It’s a compelling call to look beyond our temporal, human-centric understanding of reality, reminding us that the most profound insights might lie in what is universally true, regardless of who or what holds them.",
+    "summary_zh": "这篇文章如同一场思想的星际穿越，它以“外星真理”为引，启发我们思考宇宙智慧的共通性。作者巧妙地提出，除了基础的数理逻辑，诸如实验求证、刻意练习、奥卡姆剃刀等思维模式，或许是智慧生命普适的基因。这不仅是对哲学的一次大胆重塑，将其定义为探寻宇宙深层真理的旅程，更将人工智能的未来融入其中，暗示AI可能成为验证这些“外星真理”的催化剂。这让我不禁反思，我们人类的智慧边界究竟在哪里？当我们仰望星空，追寻的或许正是映照我们自身最深层本质的宇宙共鸣。这种跨越时空和物种的思考，赋予了真理更为深邃的维度。",
+    "best_quote_en": "If you're trying to find the most general truths short of those of math or physics, then presumably they'll be those we'd share in common with other forms of intelligent life.",
+    "best_quote_zh": "如果你试图寻找除数学或物理之外最普遍的真理，那么大概率它们将是我们会与其他形式的智能生命所共有的。"
   }]
