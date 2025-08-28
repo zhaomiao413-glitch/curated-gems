@@ -7,6 +7,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import re
 import json
+from tag_optimizer import TagOptimizer
 
 # Load .env file for local development
 try:
@@ -50,11 +51,17 @@ MAX_PER_SOURCE = 5        # Maximum candidate items sampled per source (candidat
 HTTP_TIMEOUT = 20         # Timeout seconds for web scraping/model calls
 REQUEST_SLEEP = 0.2       # Light sleep to reduce rate limiting probability
 
-# CSS selector list for extracting main content (can be expanded/adjusted as needed)
+# CSS selector list for extracting main content (优先尝试的内容选择器)
 CONTENT_SELECTORS = [
-    'div.post-content', 'div.entry-content', 'div.article-content',
-    'div[itemprop="articleBody"]', 'article', 'main', 'div#main-content',
+    'article', 'div.article-content', 'div#article-content', 'div.post-content',
+    'div.entry-content', 'section.article-body', 'div.content__article-body',
+    'div.prose', 'div.rich-text', 'div#content', 'main', 'section#content',
+    'div[itemprop="articleBody"]', 'div#main-content',
 ]
+
+# 噪音过滤关键词
+NOISE_KEYWORDS = ['subscribe', 'newsletter', 'related', 'advert', 'recommend', 'copyright']
+MIN_LINE_LENGTH = 30  # 最小行长度阈值
 
 # Dynamic MAX_CONTENT_CHARS based on model capabilities
 def get_max_content_chars(model_name):
@@ -167,6 +174,96 @@ def is_valid_content_link(link):
     
     return True
 
+def clean_text_lines(text):
+    """清洗文本行，移除噪音内容"""
+    if not text:
+        return ""
+    
+    lines = text.split('\n')
+    cleaned_lines = []
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # 检查是否包含噪音关键词且长度过短
+        line_lower = line.lower()
+        has_noise = any(keyword in line_lower for keyword in NOISE_KEYWORDS)
+        is_short = len(line) < MIN_LINE_LENGTH
+        
+        # 丢弃含有噪音关键词且长度过短的行
+        if has_noise and is_short:
+            continue
+            
+        cleaned_lines.append(line)
+    
+    return '\n'.join(cleaned_lines)
+
+def optimize_content_length(text):
+    """内容长度优化：文本过长时采用头75%+尾25%拼接策略"""
+    if not text:
+        return text
+    
+    # 如果文本长度在限制范围内，直接返回
+    if len(text) <= MAX_CONTENT_CHARS:
+        return text
+    
+    # 文本过长，采用头75%+尾25%的切片策略
+    # 先按段落分割，保持段落完整性
+    paragraphs = [p.strip() for p in text.split('\n\n') if p.strip()]
+    
+    if not paragraphs:
+        # 如果没有段落分割，按行分割
+        lines = [line.strip() for line in text.split('\n') if line.strip()]
+        if not lines:
+            return text[:MAX_CONTENT_CHARS]
+        
+        total_lines = len(lines)
+        head_lines = int(total_lines * 0.75)
+        tail_lines = total_lines - head_lines
+        
+        head_content = '\n'.join(lines[:head_lines])
+        tail_content = '\n'.join(lines[-tail_lines:]) if tail_lines > 0 else ''
+        
+        combined = head_content
+        if tail_content:
+            combined += '\n\n[... 中间内容已省略 ...]\n\n' + tail_content
+        
+        # 如果合并后仍然过长，进行字符级截断
+        if len(combined) > MAX_CONTENT_CHARS:
+            head_chars = int(MAX_CONTENT_CHARS * 0.75)
+            tail_chars = MAX_CONTENT_CHARS - head_chars - 50  # 预留省略标记空间
+            if tail_chars > 0:
+                combined = text[:head_chars] + '\n\n[... 内容已截断 ...]\n\n' + text[-tail_chars:]
+            else:
+                combined = text[:MAX_CONTENT_CHARS]
+        
+        return combined
+    
+    # 按段落处理
+    total_paragraphs = len(paragraphs)
+    head_paragraphs = int(total_paragraphs * 0.75)
+    tail_paragraphs = total_paragraphs - head_paragraphs
+    
+    head_content = '\n\n'.join(paragraphs[:head_paragraphs])
+    tail_content = '\n\n'.join(paragraphs[-tail_paragraphs:]) if tail_paragraphs > 0 else ''
+    
+    combined = head_content
+    if tail_content:
+        combined += '\n\n[... 中间段落已省略 ...]\n\n' + tail_content
+    
+    # 如果合并后仍然过长，进行字符级截断
+    if len(combined) > MAX_CONTENT_CHARS:
+        head_chars = int(MAX_CONTENT_CHARS * 0.75)
+        tail_chars = MAX_CONTENT_CHARS - head_chars - 50  # 预留省略标记空间
+        if tail_chars > 0:
+            combined = text[:head_chars] + '\n\n[... 内容已截断 ...]\n\n' + text[-tail_chars:]
+        else:
+            combined = text[:MAX_CONTENT_CHARS]
+    
+    return combined
+
 def extract_full_content(link, rss_content_html):
     """Extract webpage content; if RSS already contains long content, use it directly; otherwise scrape webpage and extract content."""
     # First try RSS content (some sources have complete content)
@@ -177,7 +274,9 @@ def extract_full_content(link, rss_content_html):
         content_from_rss = rss_content_html
 
     if len(content_from_rss) > 1000:
-        return content_from_rss, "Content fully retrieved from RSS Feed."
+        cleaned_rss = clean_text_lines(content_from_rss)
+        optimized_rss = optimize_content_length(cleaned_rss)
+        return optimized_rss, "Content fully retrieved from RSS Feed."
 
     # RSS content is short, try to scrape webpage
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -185,11 +284,13 @@ def extract_full_content(link, rss_content_html):
         resp = requests.get(link, headers=headers, timeout=HTTP_TIMEOUT)
         resp.raise_for_status()
     except Exception as e:
-        return content_from_rss, f"RSS content is summary, webpage scraping failed: {e}, fallback to RSS summary."
+        cleaned_rss = clean_text_lines(content_from_rss)
+        optimized_rss = optimize_content_length(cleaned_rss)
+        return optimized_rss, f"RSS content is summary, webpage scraping failed: {e}, fallback to RSS summary."
 
     soup = BeautifulSoup(resp.text, 'html.parser')
 
-    # Prioritize common content containers
+    # 优先尝试内容选择器
     article_body = None
     for selector in CONTENT_SELECTORS:
         node = soup.select_one(selector)
@@ -197,19 +298,42 @@ def extract_full_content(link, rss_content_html):
             article_body = node
             break
 
-    # Fallback: remove navigation/footer/sidebar from body
+    # 兜底策略：从 article/div/section/main 中选文本最长的容器
+    if not article_body:
+        fallback_candidates = []
+        for tag_name in ['article', 'div', 'section', 'main']:
+            elements = soup.find_all(tag_name)
+            for element in elements:
+                # 移除导航、页脚、侧边栏等噪音元素
+                temp_element = element.__copy__()
+                for noise_tag in temp_element.find_all(['nav', 'footer', 'header', 'aside', 'script', 'style']):
+                    noise_tag.decompose()
+                
+                text_content = temp_element.get_text(separator='\n', strip=True)
+                if text_content:
+                    fallback_candidates.append((element, len(text_content)))
+        
+        # 选择文本最长的容器
+        if fallback_candidates:
+            article_body = max(fallback_candidates, key=lambda x: x[1])[0]
+
+    # 最后的兜底：清理后的body
     if not article_body:
         body = soup.find('body')
         if body:
-            for tag in body.find_all(['nav', 'footer', 'header', 'aside']):
+            for tag in body.find_all(['nav', 'footer', 'header', 'aside', 'script', 'style']):
                 tag.decompose()
             article_body = body
 
     if article_body:
         text = article_body.get_text(separator='\n', strip=True)
-        return text, "Content extraction successful!"
+        cleaned_text = clean_text_lines(text)
+        optimized_text = optimize_content_length(cleaned_text)
+        return optimized_text, "Content extraction successful!"
     else:
-        return content_from_rss, "Warning: Failed to extract main content, will use RSS summary."
+        cleaned_rss = clean_text_lines(content_from_rss)
+        optimized_rss = optimize_content_length(cleaned_rss)
+        return optimized_rss, "Warning: Failed to extract main content, will use RSS summary."
 
 
 def parse_json_safely(text):
@@ -277,7 +401,7 @@ def call_openrouter(model, title, full_content):
   * 体现文章的现实意义和启发价值
   * 语言要有感染力，体现真实的思考感悟
   * 保持简洁精炼，避免冗余表达
-- "summary_zh": 中文深度总结，100-150字。要求：
+- "summary_zh": 中文深度总结，150-200字。要求：
   * 像写一篇有感而发的读后感，有个人思考和感悟
   * 不是简单的内容概括，而是深度的分析和思辨
   * 要有情感温度，体现真实的阅读体验
@@ -285,12 +409,12 @@ def call_openrouter(model, title, full_content):
   * 言简意赅，突出核心洞察
 - "best_quote_en": 提取文章中最具洞察力的英文金句（如果原文是中文，请翻译成英文）
 - "best_quote_zh": 提取文章中最具洞察力的中文金句（如果原文是英文，请翻译成中文）
-- "tags": 最多3个与文章内容相关的英文关键词标签，以数组形式返回（如 ["ai", "technology", "innovation"]）
-- "tags_zh": 最多3个与文章内容相关的中文关键词标签，以数组形式返回（如 ["人工智能", "技术", "创新"]）
+- "tags": 最多2个与文章内容相关的英文关键词标签，以数组形式返回（如 ["AI", "OpenAI"]）
+- "tags_zh": 最多2个与文章内容相关的中文关键词标签，以数组形式返回（如 ["人工智能", "OpenAI"]）
 
 **重要提醒：**
-- "tags" 字段：只能是英文标签，最多3个（如 ["ai", "technology", "innovation"]）
-- "tags_zh" 字段：只能是中文标签，最多3个（如 ["人工智能", "技术", "创新"]）
+- "tags" 字段：只能是英文标签，最多2个（如 ["Google", "innovation"]）
+- "tags_zh" 字段：只能是中文标签，最多2个（如 ["谷歌", "创新"]）
 - 严格按语言分离，不能混用
 
 **写作风格要求：**
@@ -509,9 +633,33 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
         idx += 1
         continue
 
-    # Use tags directly from AI analysis
-    tags_en = analysis_data.get('tags', [])
-    tags_zh = analysis_data.get('tags_zh', [])
+    # Use TagOptimizer to optimize tags from AI analysis
+    try:
+        if 'tag_optimizer' not in globals():
+            global tag_optimizer
+            tag_optimizer = TagOptimizer()
+        
+        # Get LLM tags as candidates
+        llm_tags_en = analysis_data.get('tags', [])
+        llm_tags_zh = analysis_data.get('tags_zh', [])
+        
+        # Optimize tags using multi-stage process
+        tags_en, tags_zh = tag_optimizer.optimize_tags(
+            llm_tags_en=llm_tags_en,
+            llm_tags_zh=llm_tags_zh,
+            title=title,
+            content=full_content,
+            url=link,
+            source_name=source_name
+        )
+        
+        print(f"Tag optimization: {len(llm_tags_en + llm_tags_zh)} candidates -> {len(tags_en + tags_zh)} final tags")
+        
+    except Exception as e:
+        print(f"Tag optimization failed, using LLM tags directly: {e}")
+        # Fallback to original LLM tags
+        tags_en = analysis_data.get('tags', [])
+        tags_zh = analysis_data.get('tags_zh', [])
     
     # Assemble result
     final_item = {
