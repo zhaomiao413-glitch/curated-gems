@@ -592,42 +592,44 @@
     "link": "http://www.paulgraham.com/goodtaste.html",
     "tags": [
       "startups",
-      "philosophy"
+      "business"
     ],
     "tags_zh": [
       "创业公司",
-      "哲学"
+      "商业"
     ],
     "date": "2025-08-28",
-    "summary_en": "This essay compellingly dismantles the widely held relativist notion that “there’s no such thing as good taste,” presenting a powerful argument for its existence, particularly in art. Author begins by recalling a childhood belief, instilled by his father, that taste is purely subjective. However, through a clever reductio ad absurdum, he demonstrates that denying good taste inexorably leads to the absurd conclusion that good art and capable artists cannot exist. His personal experience in painting reinforces this, highlighting an undeniable gap between novice efforts and the mastery of Bellini or Leonardo. The author astutely attributes the widespread skepticism towards good taste to two main factors: the pervasive influence of extraneous factors on public perception and the philosophical quandary of locating 'goodness' within an object. He resolves this by asserting art's purpose to be the elicitation of human response, arguing that shared human commonalities create a 'partial order' of aesthetic judgment, much like vaccine efficacy. Ultimately, the piece champions the idea that while perfect taste might be elusive, good taste is undeniably real and attainable, fundamentally shifting our perspective on artistic merit and human perception.",
-    "summary_zh": "这篇文章以精妙的逻辑，戳破了“没有好品味这种东西”的相对主义迷思。作者通过证明如果否定好品味，就会导致“不存在好艺术、没有优秀艺术家”的荒谬结论，从而有力地回击了这种观点。他以自己绘画的亲身经历为例，直观地感受到与艺术大师间的巨大差距，这差距并非虚构，而是能力的真实体现，从而证明了品味高下之分。文章还深刻剖析了人们为何质疑品味的两个根本原因：艺术评判中混杂的外部因素，以及对“艺术好坏”客观性的困惑。作者巧妙地将艺术比作疫苗，指出艺术的本质在于引发人类共同的反应，基于这种共性，品味并非纯粹主观。虽然完美品味也许遥不可及，但“好品味”却真实存在，并且可以通过努力培养，这让我对艺术的理解和对美的追求有了更深的维度和坚定的信念。",
-    "best_quote_en": "If there's no such thing as good taste, then there's no such thing as good art. Because if there is such a thing as good art, it's easy to tell which of two people has better taste.",
-    "best_quote_zh": "如果没有好品味这回事，那也就没有好艺术这回事。因为如果好艺术确实存在，那么判断两个人谁更有品味就很容易了。"
+    "summary_en": "This essay brilliantly deconstructs the common misconception that 'taste' is purely subjective, arguing compellingly for the existence of 'good taste' through a reductio ad absurdum. The author challenges the notion that denying good taste doesn't implicitly negate 'good art' and by extension, the very concept of artistic skill and mastery. By drawing parallels between the objective properties of a particle and art's effect on its human audience, the essay posits that art's 'goodness' lies in its designed efficacy to evoke shared human responses, much like a vaccine's effectiveness. This isn't about rigid objectivity, but a nuanced 'partial order' where profound knowledge and clear-mindedness enable discerning superior artistic endeavors. It’s a profound call to reconsider our perception of artistic merit, acknowledging both its challenging nature and its undeniable reality.",
+    "summary_zh": "这篇文章如同一场思想的交锋，精妙地驳斥了“品味纯属个人主观”的观点，并通过“反证法”力证“好品味”的存在。作者犀利地指出，如果否认好品味，就如同推翻了“好艺术”乃至艺术家卓越技艺的根基。这种洞察力令人深思。文章巧妙地将艺术对人类观众的影响，比作疫苗对免疫系统的作用，揭示艺术的“好”在于其能引发人类共通的深层回应。这并非盲目追求绝对客观，而是一种带着知识和清醒的“部分排序”。它启发我们重新审视艺术的价值与判断标准，既承认其复杂性，也坚定其真实性，让我们看见那超越世俗喧嚣的艺术之光。",
+    "best_quote_en": "If everything a particle interacts with behaves as if the particle had a mass of m, then it has a mass of m. So the distinction between 'objective' and 'subjective' is not binary, but a matter of degree, depending on how much the subjects have in common.",
+    "best_quote_zh": "如果一个粒子与它互动的所有事物都表现得好像它有一个质量m，那么它确实有一个质量m。因此，“客观”和“主观”之间的区别不是二元的，而是一个程度问题，取决于主体有多少共同点。"
   },
   {
     "id": 32,
-    "title": "Von Neumann's Fallacy and You",
-    "title_zh": "冯·诺依曼谬误与你",
+    "title": "Open Global Investment as a Governance Model for AGI",
+    "title_zh": "开放全球投资作为通用人工智能（AGI）的治理模式",
     "source": "LessWrong",
-    "link": "https://www.lesswrong.com/posts/yNhJKBdtucBL2uXb5/von-neumann-s-fallacy-and-you",
+    "link": "https://www.lesswrong.com/posts/LtT24cCAazQp4NYc5/open-global-investment-as-a-governance-model-for-agi",
     "tags": [
-      "technology"
+      "investment",
+      "finance"
     ],
     "tags_zh": [
-      "科技"
+      "investment",
+      "金融"
     ],
-    "date": "2025-08-28",
-    "summary_en": "This article masterfully dissects the pervasive 'Von Neumann's Fallacy'—the notion that even the most brilliant minds can be plagued by crippling self-doubt and insecurity, never truly feeling 'smart enough.' It uses the titan of intellect, John von Neumann, as a poignant exemplar, revealing his profound insecurity despite unparalleled contributions across myriad fields. The author, a self-described high-achiever, brilliantly connects this historical anecdote to the modern knowledge worker's struggle with imposter syndrome. It’s a powerful call to self-acceptance, arguing that true fulfillment comes not from endless striving for an elusive 'enoughness,' but from appreciating one's inherent worth and capabilities. This piece resonates deeply, urging us to break free from the self-defeating comparison trap and to embrace our present capabilities with gratitude, rather than succumbing to the very fallacy that haunted even the greatest intellects.",
-    "summary_zh": "这篇文章深刻剖析了“冯·诺依曼谬误”——即便是最顶尖的智者，也可能被挥之不去的自我怀疑和不安全感所困扰，永不觉得自己“足够聪明”。作者以约翰·冯·诺依曼这位智力巨人为例，揭示了他虽在多个领域做出无与伦比的贡献，却仍深陷不安全感的悖论。作者将这种历史洞见巧妙地与当代知识工作者的普遍焦虑联系起来，呼吁我们自我接纳。它提醒我们，真正的满足并非源于无休止地追逐一个虚无缥缈的“足够”，而是懂得欣赏自身的价值和潜力。这篇文字充满共鸣，敦促我们摆脱自我贬低的比较陷阱，拥抱当下的能力，而不是重蹈连最伟大思想家都未能幸免的覆辙。",
-    "best_quote_en": "There is never a point where someone is smart enough that they will feel smart enough. You are here because you are qualified to be here and while we can all improve, you're good enough. Accept yourself as you are right now.",
-    "best_quote_zh": "从来没有哪个点会让你觉得自己足够聪明。你之所以在这里，是因为你符合条件；虽然我们都能进步，但你已经足够优秀了。接受现在的自己吧。"
+    "date": "2025-08-27",
+    "summary_en": "This paper persuasively argues for the Open Global Investment (OGI) model as a pragmatic governance framework for AGI, contrasting it with alternative centralized or nationalist approaches. The OGI model leverages existing corporate structures and global capital markets, enabling widespread international shareholding in AGI ventures. Its core strength lies in distributing ownership and influence among a broad spectrum of actors, from private individuals to sovereign wealth funds, thereby fostering incentive compatibility and reducing geopolitical friction. By allowing major powers, even rivals, to invest, it subtly aligns their interests with the AGI's success, potentially dampening the arms race dynamic. The author critically evaluates OGI's societal representation, revealing it to be more equitable than a single-nation-dominated model. This visionary yet realistic proposal acknowledges the rapid pace of AGI development, advocating for a flexible framework that can adapt while preserving established property rights norms. It’s a compelling call for an inclusive, market-driven approach that harnesses shared economic interest to navigate the existential challenges of AGI, urging us to consider achievable, imperfect solutions over idealistic, unattainable ones.",
+    "summary_zh": "这篇文章对“开放全球投资”（OGI）模式作为通用人工智能（AGI）治理框架进行了深入探讨，令人耳目一新。它跳出了传统上要么完全国家主导、要么彻底国际合作的二元思维，提出了一种根植于现有全球资本市场和公司结构的务实方案。文章最打动我的是，它精准洞察到股权的广泛分布——而非国家垄断——才是消弭地缘政治冲突、激发多方共赢的关键。让各国，甚至潜在对手，都能通过投资分享AGI的红利与话语权，这无疑为“AGI军备竞赛”提供了柔性的减速带。它并非完美，但文中对现实可行性和利益兼容性的强调，让我深刻认识到在面对AGI这一颠覆性技术时，或许“次优解”才是最可行的“最优解”。这份思考不仅关乎技术治理，更像是一面镜子，映照出人类如何在有限博弈中寻求最大公约数的智慧与无奈。",
+    "best_quote_en": "The choice will be one between imperfect options.",
+    "best_quote_zh": "选择将在不完美的选项中进行。"
   },
   {
     "id": 33,
-    "title": "What Would Free Buses Look Like, Actually?",
-    "title_zh": "免费巴士，究竟会是怎样一番景象？",
+    "title": "The History of The New Yorker’s Vaunted Fact-Checking Department",
+    "title_zh": "《纽约客》备受推崇的事实核查部门的历史",
     "source": "The New Yorker",
-    "link": "https://www.newyorker.com/news/the-lede/what-would-free-buses-look-like-actually",
+    "link": "https://www.newyorker.com/magazine/2025/09/01/the-history-of-the-new-yorkers-vaunted-fact-checking-department",
     "tags": [
       "media",
       "technology"
@@ -636,16 +638,16 @@
       "媒体",
       "科技"
     ],
-    "date": "2025-08-28",
-    "summary_en": "This article delves into the complex debate surrounding free bus services in New York City, moving beyond the superficial to expose layers of economic, social, and political ramifications. While proponents envision increased ridership, greater accessibility for low-income communities, and a potential reduction in traffic, the analysis reveals the nuanced challenges: funding shortfalls, potential over-reliance on public transport for short distances, and the paradoxical impact on bus speeds due to higher demand. The piece skillfully highlights the tension between utopian visions and logistical realities, particularly the critical question of who bears the cost and the reluctance of authorities to cede financial control. It prompts a deeper reflection on public services: Are they a right, a privilege, or a collective responsibility? Ultimately, it challenges readers to reconsider simplistic solutions for multifaceted urban problems.",
-    "summary_zh": "这篇深度分析文章，以纽约市的免费巴士提案为切入点，不仅仅是政策讨论，更像是一面镜子，映照出城市运作的复杂性与人性期待的矛盾。它抽丝剥茧地探讨了免费所带来的希望——让弱势群体出行更便捷、减少交通拥堵——同时也尖锐地指出其背后的挑战：资金来自何方？是否会带来无效率的短途乘坐？以及对运营速度的影响。文章中最令人深思的是，它揭示了理想与现实之间的巨大落差，尤其在“谁来买单”的问题上，政治博弈与财政掣肘清晰可见。它迫使我们去思考：公共交通究竟是福利还是商业产品？如何平衡社会公平与资源效率？这不仅仅是纽约的故事，更是全球大都市在寻求可持续发展道路上，不得不面对的哲学拷问与实践难题。",
-    "best_quote_en": "“The bus is sort of the invisible workhorse of the city.”",
-    "best_quote_zh": "“巴士是这座城市某种意义上的无形的主力干将。”"
+    "date": "2025-08-25",
+    "summary_en": "This deeply insightful article from The New Yorker unveils the intricate, often paradoxical, world of its fact-checking department, far more than a mere bureaucratic function. It paints a vivid picture of meticulous dedication, where every comma, every color, every seemingly trivial detail undergoes rigorous scrutiny. The piece transcends a simple historical account, becoming a profound meditation on the elusive nature of truth, the inherent human fallibility even in the pursuit of accuracy, and the delicate dance between journalistic integrity and the subjective realities of storytelling. It highlights the profound humility instilled by the checking process – the more you check, the more you realize the vastness of the unknown. Ultimately, it celebrates the unsung heroes who, driven by an almost obsessive zeal, grapple with the infinite complexities of facts, ensuring that the esteemed publication maintains its vaunted (and self-mockingly embraced) reputation for precision, even if it means confronting the bewildering paradox that the pursuit of perfect accuracy often reveals the impossibility of absolute knowledge.",
+    "summary_zh": "这篇文章带我们深入了解了《纽约客》事实核查部门的独特世界，这不只是一项工作，更是一种执念。它展现了核查员们如何将看似微不足道的细节奉为圭臬，不厌其烦地求证每一个“事实”，哪怕是蝴蝶落在Zadie Smith膝盖上的瞬间。文章深刻探讨了真相的复杂性、求索过程中的人性弱点，以及记者与核查员之间那种带着矛盾的共生关系。它揭示了核查工作带来的深刻谦卑——越是深挖，越是意识到世界知识的浩瀚与自身的局限。这份工作既是对求真精神的极致体现，也是对人类认知边界的有力探索。这群“偏执狂”们，以其近似苦行的坚守，铸就了《纽约客》的“显赫”声誉，并不断提醒我们，所谓“真理”，总在无限逼近中展现其难以完全企及的本质。",
+    "best_quote_en": "The more you know, the more you know that there is more you don’t know. The facts of the universe are infinity long. You either let this drive you crazy or you adjust your ruler size.",
+    "best_quote_zh": "你知道得越多，就越会发现自己不知道的更多。宇宙中的事实是无限长的。你要么因此而发狂，要么就调整你的度量标准。"
   },
   {
     "id": 34,
     "title": "Wisereads Vol. 102 — Hard Lessons from the Hurt Business by Ed Latimore, Arnold Schwarzenegger on protein, and more",
-    "title_zh": "Wisereads 第 102 期 — 来自埃德·拉蒂莫的《艰难的商海教训》，阿诺德·施瓦辛格谈蛋白质等等",
+    "title_zh": "Wisereads 第102期 — Ed Latimore的《疼痛生意的严酷教训》，阿诺德·施瓦辛格谈蛋白质等等",
     "source": "Weekly Wisereads",
     "link": "https://wise.readwise.io/issues/wisereads-vol-102/",
     "tags": [
@@ -657,26 +659,28 @@
       "科技"
     ],
     "date": "2025-08-03",
-    "summary_en": "This Wisereads digest, Vol. 102, is a fascinating mosaic of insights, urging us to embrace deliberate practice, question digital divides, and rethink AI's role. It powerfully spotlights Ed Latimore's raw journey from pain to purpose, reminding us that resilience isn't just surviving hardship, but actively transforming it into strength. The piece on smartphone inequality strikes a sobering chord, highlighting how technology, seemingly democratizing, can exacerbate existing class divides in literacy and cognitive function. Meanwhile, the AI discussion challenges the 'copilot' paradigm, advocating for more integrated, intuitive 'HUD'-like systems—a pivotal distinction for human-AI collaboration. This collection isn't just about absorbing information; it's an invitation to critically examine our relationship with knowledge, technology, and personal growth, reinforcing that true wisdom emerges from confronting harsh realities and purposefully shaping our intellectual and emotional landscapes.",
-    "summary_zh": "这期《Wisereads》合集带给我深刻的启发。它不仅是知识的汇编，更是一次关于深度思考和自我塑造的旅程。埃德·拉蒂莫的故事如同烈火中淬炼的钢，痛楚的过往化为坚韧的意志，这告诉我，真正的力量源于直面痛苦并将其升华为前行的动力。关于智能手机导致数字鸿沟的洞察，让我警醒：科技的双刃剑效应远超想象，看似便利实则可能加剧社会不公。而对AI的讨论，从“副驾驶”到“HUD”的哲学转变，更是对人机协作本质的深刻反思。这些碎片化的信息，最终汇聚成一个核心：在这个信息爆炸的时代，主动选择、深度实践和批判性思维，才是我们抵御浮躁、构建内心秩序的罗盘。它让我感到，阅读并不仅仅是获取信息，更是一场与自我对话，与时代碰撞的深度旅程。",
-    "best_quote_en": "Life is a comedy to those who think and a tragedy to those who feel. My sense of humor is how I cope with the residual trauma from my childhood. I figure I can either laugh a little or cry a lot. I choose to laugh.",
-    "best_quote_zh": "生命对于思考者而言是喜剧，对于感性者而言是悲剧。我的幽默感是我应对童年创伤的方式。我想我可以选择多笑一点，或者多哭一点。我选择欢笑。"
+    "summary_en": "This Wisereads digest offers a compelling mosaic of insights, moving beyond superficial summaries to touch upon the profound essence of learning, societal shifts, and personal resilience. The excerpt from Ed Latimore’s 'Hard Lessons from the Hurt Business' strikingly foregrounds the transformative power of confronting pain, not as a weakness, but as a crucible for purpose. This resonates deeply in an era demanding mental fortitude and adaptability. Furthermore, the discussion on smartphone usage creating a new class divide in literacy serves as a chilling wake-up call, highlighting digital equity as a foundational challenge for democracy. The piece implicitly urges readers to cultivate conscious consumption of information, advocating for critical engagement over passive immersion. It’s a call to arms for intellectual athleticism and a poignant reminder that true growth often sprouts from discomfort.",
+    "summary_zh": "这期Wisereads文摘如同一幅思想的拼贴画，超越了表面的信息罗列，直击学习的本质、社会分层的隐忧以及个体韧性的光辉。Ed Latimore《疼痛生意的严酷教训》的节选，有力地揭示了将痛苦转化为力量的深刻智慧，这在当下充满不确定性的时代，是何等宝贵的精神食粮。智能手机使用习惯引发的“新素养鸿沟”更是振聋发聩，它不仅是教育问题，更是关乎社会公平与民主基石的严肃拷问。这提醒着我，数字原住民时代，清醒的阅读和批判性思维从未如此重要。我们不仅要阅读文字，更要洞察其背后的深层逻辑、时代脉搏，并在内心的舞台上进行一番激烈碰撞，方能真正汲取养分，成就自己。",
+    "best_quote_en": "Life is a comedy to those who think and a tragedy to those who feel.",
+    "best_quote_zh": "生活对于思考者来说是喜剧，对于感受者来说是悲剧。"
   },
   {
     "id": 35,
-    "title": "Leaving America/Osprey Carry-on/Residency for Paying Rent",
-    "title_zh": "离开美国播客/Osprey随身箱/预付租金获居留权",
-    "source": "Kevin Kelly",
-    "link": "https://kk.org/cooltools/leaving-america-osprey-carry-on-residency-for-paying-rent/",
+    "title": "DALL•E 2",
+    "title_zh": "DALL•E 2",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/dall-star-e-2",
     "tags": [
+      "ai",
       "technology"
     ],
     "tags_zh": [
+      "人工智能",
       "科技"
     ],
-    "date": "2025-08-28",
-    "summary_en": "This article, far beyond a simple product review or news update, paints a vivid picture of modern nomadic living. It subtly champions a lifestyle of intentional exploration and geographical flexibility, appealing to those who seek more from life than the conventional. The \"Leaving America Podcast\" highlights the human desire for new beginnings, while the Osprey suitcase epitomizes practical freedom—the ability to carry one's world with ease. Most strikingly, the Croatian visa option isn't just bureaucratic detail; it symbolizes an audacious blend of financial strategy and adventurous spirit, offering a tangible path to alternative living. The new Amtrak route, amidst these global shifts, anchors the narrative back to a quieter, more scenic domestic journey, reminding us that even within familiar borders, new horizons can unfold. This collection isn't about escaping, but about actively crafting a life rich in experiences, underscoring that global mobility and thoughtful consumption are cornerstones of a truly liberated existence.",
-    "summary_zh": "这篇文章虽短，却妙手勾勒出一种令人向往的现代游牧生活图景。它不是简单的介绍，更像是一幅生活理念的拼贴画，每一笔都在诠释如何更自由、更智慧地生活。“离开美国播客”触及了我们内心深处对新奇、对改变的渴望；Osprey旅行箱则具象化了这种渴望，它不仅仅是装备，更是轻装上阵、随时出发的信念。而克罗地亚预付租金换居留权的案例，更是神来之笔，它不仅仅是签证政策，更是对传统束缚的巧妙解构，展现了生活选择可以何等大胆与灵活。甚至那条新开的Amtrak线路，都仿佛在低语：即便在熟悉的环境中，依然能发现被遗忘的美好。这篇文章，如同清风般拂过，唤醒了我们对自由人生的定义和追求，鼓励我们跳脱框架，去创造属于自己的全球化生活方式。",
-    "best_quote_en": "I’ve run across a lot of strange visa options out there, but this is a new one on me: pre-pay a year’s worth of rent in Croatia and you can get a residency visa!",
-    "best_quote_zh": "我遇到过很多奇怪的签证选择，但这种对我来说是全新的：在克罗地亚预付一年的租金，你就可以获得居留签证！"
+    "date": "2022-04-06",
+    "summary_en": "The author introduces DALL•E 2, highlighting its ability to generate and edit images from natural language, describing it as the most delightful creation yet. This piece transcends a mere product announcement; it's a profound reflection on AI's unfolding impact. The author posits DALL•E 2 as a harbinger of a new human-computer interface, where natural language becomes the primary command. More critically, it challenges conventional wisdom about AI's progression, demonstrating complex creative capabilities far sooner than anticipated, potentially upending labor markets. While acknowledging AI's job-creating potential, the author bravely confronts the uncomfortable truth of job displacement. This isn't just about a tool; it's about shifting paradigms, where 'good ideas are the limit, not specific skills,' and the imperative to proactively address ethical implications before widespread deployment.",
+    "summary_zh": "DALL•E 2的发布，远不止一个新工具，它更像一扇窗，让我窥见了未来人机交互的冰山一角。作者那种发自内心的“愉悦”感，我深有同感，因为它点燃了我们对无限创造力的渴望。最打动我的是，它颠覆了我们对AI发展路径的固有认知，证明了创造性工作可能比体力、认知劳动更早被AI触及。这无疑引发了对就业市场的深层思考，虽然AI会创造新机遇，但直面某些职业将“不再相关”的现实，是这份思考的勇气所在。它提醒我们，未来竞争的焦点，将从“技能”转向“好点子”，同时也警示我们，强大的技术必须伴随审慎的伦理考量。",
+    "best_quote_en": "It’s an example of a world in which good ideas are the limit for what we can do, not specific skills.",
+    "best_quote_zh": "这是一个例子，表明在一个世界里，我们能做什么的限制是好点子，而不是特定的技能。"
   }]
