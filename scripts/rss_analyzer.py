@@ -633,6 +633,14 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
         idx += 1
         continue
 
+    # Check if analysis_data is valid dictionary format
+    if not isinstance(analysis_data, dict):
+        print(f"[Failed] Invalid analysis_data format (expected dict, got {type(analysis_data).__name__}): {analysis_data}")
+        print(f"[Progress] Success {new_items_count}/{MAX_NEW_ITEMS}, Calls {api_calls}/{MAX_API_CALLS}")
+        # Skip this entry and continue to next
+        idx += 1
+        continue
+    
     # Use TagOptimizer to optimize tags from AI analysis
     try:
         if 'tag_optimizer' not in globals():
@@ -657,25 +665,32 @@ while source_names and new_items_count < MAX_NEW_ITEMS and api_calls < MAX_API_C
         
     except Exception as e:
         print(f"Tag optimization failed, using LLM tags directly: {e}")
-        # Fallback to original LLM tags
-        tags_en = analysis_data.get('tags', [])
-        tags_zh = analysis_data.get('tags_zh', [])
+        # Fallback to original LLM tags with safe access
+        tags_en = analysis_data.get('tags', []) if isinstance(analysis_data, dict) else []
+        tags_zh = analysis_data.get('tags_zh', []) if isinstance(analysis_data, dict) else []
     
-    # Assemble result
-    final_item = {
-        "id": counter,
-        "title": title,
-        "title_zh": analysis_data.get('title_zh', ''),
-        "source": source_name,
-        "link": link,
-        "tags": tags_en,
-        "tags_zh": tags_zh,
-        "date": date_str,
-        "summary_en": analysis_data.get('summary_en', ''),
-        "summary_zh": analysis_data.get('summary_zh', ''),
-        "best_quote_en": analysis_data.get('best_quote_en', ''),
-        "best_quote_zh": analysis_data.get('best_quote_zh', '')
-    }
+    # Assemble result with safe dictionary access
+    try:
+        final_item = {
+            "id": counter,
+            "title": title,
+            "title_zh": analysis_data.get('title_zh', '') if isinstance(analysis_data, dict) else '',
+            "source": source_name,
+            "link": link,
+            "tags": tags_en,
+            "tags_zh": tags_zh,
+            "date": date_str,
+            "summary_en": analysis_data.get('summary_en', '') if isinstance(analysis_data, dict) else '',
+            "summary_zh": analysis_data.get('summary_zh', '') if isinstance(analysis_data, dict) else '',
+            "best_quote_en": analysis_data.get('best_quote_en', '') if isinstance(analysis_data, dict) else '',
+            "best_quote_zh": analysis_data.get('best_quote_zh', '') if isinstance(analysis_data, dict) else ''
+        }
+    except Exception as e:
+        print(f"[Failed] Error assembling final item: {e}")
+        print(f"[Progress] Success {new_items_count}/{MAX_NEW_ITEMS}, Calls {api_calls}/{MAX_API_CALLS}")
+        # Skip this entry and continue to next
+        idx += 1
+        continue
 
     newly_processed_items.append(final_item)
     processed_links.add(link)
