@@ -584,4 +584,103 @@
     "summary_zh": "读完这篇文章，内心涌动着对未来世界的无限遐想。Helion所描绘的图景——只需1美分/度的清洁能源，十年内满足全球电力需求——绝非科幻，而是触手可及的宏伟蓝图。这不仅仅是能源价格的颠覆，更是人类社会生活质量的根本飞跃。想象一下，当能源不再是瓶颈，碳捕捉能大规模实现，我们将迎来一个怎样的地球？文章点醒我，科学突破固然震撼，但将理论付诸实践，工程师们的智慧和汗水才是真正的“临门一脚”。从实验室走向大规模生产，从技术验证走向全球普及，这需要克服无数工程、制造与协作的挑战。这更像是一场对人类智慧和协作能力的终极大考。加入Helion，不仅是选择一份工作，更是投身一场定义人类未来的伟大事业，内心不禁被这股力量所感召。",
     "best_quote_en": "Although Helion’s scientific progress of the past 8 years is phenomenal and necessary, it is not sufficient to rapidly get to this new energy economy. Helion now needs to figure out how to engineer machines that don’t break, how to build a factory and supply chain capable of manufacturing a machine every day, how to work with power grids and governments around the world, and more.",
     "best_quote_zh": "尽管Helion过去八年的科学进展是惊人的、必要的，但这不足以快速建立新的能源经济。Helion现在需要弄清楚如何工程化出不易损坏的机器，如何建立一个每天能生产一台机器的工厂和供应链，以及如何与全球电网和政府合作。"
+  },{
+    "id": 31,
+    "title": "Is There Such a Thing as Good Taste?",
+    "title_zh": "是否存在“好品味”这种东西？",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/goodtaste.html",
+    "tags": [
+      "startups",
+      "business"
+    ],
+    "tags_zh": [
+      "创业公司",
+      "商业"
+    ],
+    "date": "2025-08-28",
+    "summary_en": "This essay brilliantly deconstructs the common misconception that 'taste' is purely subjective, arguing compellingly for the existence of 'good taste' through a reductio ad absurdum. The author challenges the notion that denying good taste doesn't implicitly negate 'good art' and by extension, the very concept of artistic skill and mastery. By drawing parallels between the objective properties of a particle and art's effect on its human audience, the essay posits that art's 'goodness' lies in its designed efficacy to evoke shared human responses, much like a vaccine's effectiveness. This isn't about rigid objectivity, but a nuanced 'partial order' where profound knowledge and clear-mindedness enable discerning superior artistic endeavors. It’s a profound call to reconsider our perception of artistic merit, acknowledging both its challenging nature and its undeniable reality.",
+    "summary_zh": "这篇文章如同一场思想的交锋，精妙地驳斥了“品味纯属个人主观”的观点，并通过“反证法”力证“好品味”的存在。作者犀利地指出，如果否认好品味，就如同推翻了“好艺术”乃至艺术家卓越技艺的根基。这种洞察力令人深思。文章巧妙地将艺术对人类观众的影响，比作疫苗对免疫系统的作用，揭示艺术的“好”在于其能引发人类共通的深层回应。这并非盲目追求绝对客观，而是一种带着知识和清醒的“部分排序”。它启发我们重新审视艺术的价值与判断标准，既承认其复杂性，也坚定其真实性，让我们看见那超越世俗喧嚣的艺术之光。",
+    "best_quote_en": "If everything a particle interacts with behaves as if the particle had a mass of m, then it has a mass of m. So the distinction between 'objective' and 'subjective' is not binary, but a matter of degree, depending on how much the subjects have in common.",
+    "best_quote_zh": "如果一个粒子与它互动的所有事物都表现得好像它有一个质量m，那么它确实有一个质量m。因此，“客观”和“主观”之间的区别不是二元的，而是一个程度问题，取决于主体有多少共同点。"
+  },
+  {
+    "id": 32,
+    "title": "Open Global Investment as a Governance Model for AGI",
+    "title_zh": "开放全球投资作为通用人工智能（AGI）的治理模式",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/LtT24cCAazQp4NYc5/open-global-investment-as-a-governance-model-for-agi",
+    "tags": [
+      "investment",
+      "finance"
+    ],
+    "tags_zh": [
+      "investment",
+      "金融"
+    ],
+    "date": "2025-08-27",
+    "summary_en": "This paper persuasively argues for the Open Global Investment (OGI) model as a pragmatic governance framework for AGI, contrasting it with alternative centralized or nationalist approaches. The OGI model leverages existing corporate structures and global capital markets, enabling widespread international shareholding in AGI ventures. Its core strength lies in distributing ownership and influence among a broad spectrum of actors, from private individuals to sovereign wealth funds, thereby fostering incentive compatibility and reducing geopolitical friction. By allowing major powers, even rivals, to invest, it subtly aligns their interests with the AGI's success, potentially dampening the arms race dynamic. The author critically evaluates OGI's societal representation, revealing it to be more equitable than a single-nation-dominated model. This visionary yet realistic proposal acknowledges the rapid pace of AGI development, advocating for a flexible framework that can adapt while preserving established property rights norms. It’s a compelling call for an inclusive, market-driven approach that harnesses shared economic interest to navigate the existential challenges of AGI, urging us to consider achievable, imperfect solutions over idealistic, unattainable ones.",
+    "summary_zh": "这篇文章对“开放全球投资”（OGI）模式作为通用人工智能（AGI）治理框架进行了深入探讨，令人耳目一新。它跳出了传统上要么完全国家主导、要么彻底国际合作的二元思维，提出了一种根植于现有全球资本市场和公司结构的务实方案。文章最打动我的是，它精准洞察到股权的广泛分布——而非国家垄断——才是消弭地缘政治冲突、激发多方共赢的关键。让各国，甚至潜在对手，都能通过投资分享AGI的红利与话语权，这无疑为“AGI军备竞赛”提供了柔性的减速带。它并非完美，但文中对现实可行性和利益兼容性的强调，让我深刻认识到在面对AGI这一颠覆性技术时，或许“次优解”才是最可行的“最优解”。这份思考不仅关乎技术治理，更像是一面镜子，映照出人类如何在有限博弈中寻求最大公约数的智慧与无奈。",
+    "best_quote_en": "The choice will be one between imperfect options.",
+    "best_quote_zh": "选择将在不完美的选项中进行。"
+  },
+  {
+    "id": 33,
+    "title": "The History of The New Yorker’s Vaunted Fact-Checking Department",
+    "title_zh": "《纽约客》备受推崇的事实核查部门的历史",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/magazine/2025/09/01/the-history-of-the-new-yorkers-vaunted-fact-checking-department",
+    "tags": [
+      "media",
+      "technology"
+    ],
+    "tags_zh": [
+      "媒体",
+      "科技"
+    ],
+    "date": "2025-08-25",
+    "summary_en": "This deeply insightful article from The New Yorker unveils the intricate, often paradoxical, world of its fact-checking department, far more than a mere bureaucratic function. It paints a vivid picture of meticulous dedication, where every comma, every color, every seemingly trivial detail undergoes rigorous scrutiny. The piece transcends a simple historical account, becoming a profound meditation on the elusive nature of truth, the inherent human fallibility even in the pursuit of accuracy, and the delicate dance between journalistic integrity and the subjective realities of storytelling. It highlights the profound humility instilled by the checking process – the more you check, the more you realize the vastness of the unknown. Ultimately, it celebrates the unsung heroes who, driven by an almost obsessive zeal, grapple with the infinite complexities of facts, ensuring that the esteemed publication maintains its vaunted (and self-mockingly embraced) reputation for precision, even if it means confronting the bewildering paradox that the pursuit of perfect accuracy often reveals the impossibility of absolute knowledge.",
+    "summary_zh": "这篇文章带我们深入了解了《纽约客》事实核查部门的独特世界，这不只是一项工作，更是一种执念。它展现了核查员们如何将看似微不足道的细节奉为圭臬，不厌其烦地求证每一个“事实”，哪怕是蝴蝶落在Zadie Smith膝盖上的瞬间。文章深刻探讨了真相的复杂性、求索过程中的人性弱点，以及记者与核查员之间那种带着矛盾的共生关系。它揭示了核查工作带来的深刻谦卑——越是深挖，越是意识到世界知识的浩瀚与自身的局限。这份工作既是对求真精神的极致体现，也是对人类认知边界的有力探索。这群“偏执狂”们，以其近似苦行的坚守，铸就了《纽约客》的“显赫”声誉，并不断提醒我们，所谓“真理”，总在无限逼近中展现其难以完全企及的本质。",
+    "best_quote_en": "The more you know, the more you know that there is more you don’t know. The facts of the universe are infinity long. You either let this drive you crazy or you adjust your ruler size.",
+    "best_quote_zh": "你知道得越多，就越会发现自己不知道的更多。宇宙中的事实是无限长的。你要么因此而发狂，要么就调整你的度量标准。"
+  },
+  {
+    "id": 34,
+    "title": "Wisereads Vol. 102 — Hard Lessons from the Hurt Business by Ed Latimore, Arnold Schwarzenegger on protein, and more",
+    "title_zh": "Wisereads 第102期 — Ed Latimore的《疼痛生意的严酷教训》，阿诺德·施瓦辛格谈蛋白质等等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-102/",
+    "tags": [
+      "business",
+      "technology"
+    ],
+    "tags_zh": [
+      "商业",
+      "科技"
+    ],
+    "date": "2025-08-03",
+    "summary_en": "This Wisereads digest offers a compelling mosaic of insights, moving beyond superficial summaries to touch upon the profound essence of learning, societal shifts, and personal resilience. The excerpt from Ed Latimore’s 'Hard Lessons from the Hurt Business' strikingly foregrounds the transformative power of confronting pain, not as a weakness, but as a crucible for purpose. This resonates deeply in an era demanding mental fortitude and adaptability. Furthermore, the discussion on smartphone usage creating a new class divide in literacy serves as a chilling wake-up call, highlighting digital equity as a foundational challenge for democracy. The piece implicitly urges readers to cultivate conscious consumption of information, advocating for critical engagement over passive immersion. It’s a call to arms for intellectual athleticism and a poignant reminder that true growth often sprouts from discomfort.",
+    "summary_zh": "这期Wisereads文摘如同一幅思想的拼贴画，超越了表面的信息罗列，直击学习的本质、社会分层的隐忧以及个体韧性的光辉。Ed Latimore《疼痛生意的严酷教训》的节选，有力地揭示了将痛苦转化为力量的深刻智慧，这在当下充满不确定性的时代，是何等宝贵的精神食粮。智能手机使用习惯引发的“新素养鸿沟”更是振聋发聩，它不仅是教育问题，更是关乎社会公平与民主基石的严肃拷问。这提醒着我，数字原住民时代，清醒的阅读和批判性思维从未如此重要。我们不仅要阅读文字，更要洞察其背后的深层逻辑、时代脉搏，并在内心的舞台上进行一番激烈碰撞，方能真正汲取养分，成就自己。",
+    "best_quote_en": "Life is a comedy to those who think and a tragedy to those who feel.",
+    "best_quote_zh": "生活对于思考者来说是喜剧，对于感受者来说是悲剧。"
+  },
+  {
+    "id": 35,
+    "title": "DALL•E 2",
+    "title_zh": "DALL•E 2",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/dall-star-e-2",
+    "tags": [
+      "ai",
+      "technology"
+    ],
+    "tags_zh": [
+      "人工智能",
+      "科技"
+    ],
+    "date": "2022-04-06",
+    "summary_en": "The author introduces DALL•E 2, highlighting its ability to generate and edit images from natural language, describing it as the most delightful creation yet. This piece transcends a mere product announcement; it's a profound reflection on AI's unfolding impact. The author posits DALL•E 2 as a harbinger of a new human-computer interface, where natural language becomes the primary command. More critically, it challenges conventional wisdom about AI's progression, demonstrating complex creative capabilities far sooner than anticipated, potentially upending labor markets. While acknowledging AI's job-creating potential, the author bravely confronts the uncomfortable truth of job displacement. This isn't just about a tool; it's about shifting paradigms, where 'good ideas are the limit, not specific skills,' and the imperative to proactively address ethical implications before widespread deployment.",
+    "summary_zh": "DALL•E 2的发布，远不止一个新工具，它更像一扇窗，让我窥见了未来人机交互的冰山一角。作者那种发自内心的“愉悦”感，我深有同感，因为它点燃了我们对无限创造力的渴望。最打动我的是，它颠覆了我们对AI发展路径的固有认知，证明了创造性工作可能比体力、认知劳动更早被AI触及。这无疑引发了对就业市场的深层思考，虽然AI会创造新机遇，但直面某些职业将“不再相关”的现实，是这份思考的勇气所在。它提醒我们，未来竞争的焦点，将从“技能”转向“好点子”，同时也警示我们，强大的技术必须伴随审慎的伦理考量。",
+    "best_quote_en": "It’s an example of a world in which good ideas are the limit for what we can do, not specific skills.",
+    "best_quote_zh": "这是一个例子，表明在一个世界里，我们能做什么的限制是好点子，而不是特定的技能。"
   }]
