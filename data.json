@@ -683,4 +683,101 @@
     "summary_zh": "DALL•E 2的发布，远不止一个新工具，它更像一扇窗，让我窥见了未来人机交互的冰山一角。作者那种发自内心的“愉悦”感，我深有同感，因为它点燃了我们对无限创造力的渴望。最打动我的是，它颠覆了我们对AI发展路径的固有认知，证明了创造性工作可能比体力、认知劳动更早被AI触及。这无疑引发了对就业市场的深层思考，虽然AI会创造新机遇，但直面某些职业将“不再相关”的现实，是这份思考的勇气所在。它提醒我们，未来竞争的焦点，将从“技能”转向“好点子”，同时也警示我们，强大的技术必须伴随审慎的伦理考量。",
     "best_quote_en": "It’s an example of a world in which good ideas are the limit for what we can do, not specific skills.",
     "best_quote_zh": "这是一个例子，表明在一个世界里，我们能做什么的限制是好点子，而不是特定的技能。"
+  },{
+    "id": 36,
+    "title": "Beyond Smart",
+    "title_zh": "超越聪明",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/smart.html",
+    "tags": [
+      "startups",
+      "business"
+    ],
+    "tags_zh": [
+      "创业公司",
+      "商业"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This profound essay challenges the conventional wisdom that intelligence is the ultimate pursuit, arguing instead that the generation of \"new ideas\" is the true north. The author masterfully deconstructs the societal obsession with 'being smart,' revealing it as a deeply ingrained illusion fostered by childhood metrics and conversational dominance. Far from being a fatalistic, inborn trait, the creation of novel concepts is shown to be a multi-faceted endeavor requiring cultivable ingredients beyond mere IQ, such as obsessive interest, independent-mindedness, and even writing ability. This piece offers a liberating perspective, shifting the focus from inherent capacity to dynamic cultivation, empowering readers to actively pursue impactful discovery rather than passively hoping for innate brilliance. It's an invigorating call to redefine personal and societal aspirations.",
+    "summary_zh": "这篇文章如同一束光，照亮了我们对“聪明”的盲目崇拜。它剥开层层表象，直指核心：真正有价值的并非智商本身，而是能否产生“新思想”。这种洞见令人醍醐灌顶，它打破了“天赋论”的枷锁，让我们意识到，创造力并非遥不可及的馈赠，而是可以通过后天努力（如培养兴趣、独立思考、甚至写作能力）去精心培育的。这种解放性的思考，让我重新审视了成长路径和社会评价体系，它激励着我们，从被动地“变聪明”转向主动地“去发现”，这不仅是个人的蜕变，更是社会进步的真正动力。这篇文章充满了哲思和温度，引导我们去探索更深层次的自我价值和时代意义。",
+    "best_quote_en": "What was special about him was that he had important new ideas.",
+    "best_quote_zh": "他的特别之处在于他拥有重要的新想法。"
+  },
+  {
+    "id": 37,
+    "title": "Defensiveness does not equal guilt",
+    "title_zh": "防卫心不等于内疚",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/gcyurCxxPguPPdGKw/defensiveness-does-not-equal-guilt",
+    "tags": [
+      "design",
+      "psychology"
+    ],
+    "tags_zh": [
+      "设计",
+      "心理学"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This profound article challenges the ingrained societal perception that defensiveness automatically signals guilt. The author masterfully deconstructs this fallacy, presenting compelling arguments that defensiveness often stems from feeling wronged, misunderstood, or unfairly judged, rather than from a genuine sense of culpability. The piece brilliantly highlights how individuals might exhibit defensiveness when facing stereotypes, unsolicited judgment, or dismissal. Moreover, it introduces the fascinating concept of 'magical guilt' – an irrational yet deeply felt self-blame for circumstances entirely beyond one's control, further detaching defensiveness from actual wrongdoing. This reflection forces us to re-evaluate our snap judgments, urging a more empathetic and nuanced understanding of human responses. It’s a powerful reminder that defensiveness is often rooted in insecurity, calling for a shift in perspective towards compassion over immediate condemnation.",
+    "summary_zh": "这篇文章深刻地剖析了“防卫心即是内疚”这一普遍误解。作者抽丝剥茧，层层递进，揭示了防卫心背后更深层次的动机：它可能源于被误解、被冤枉、或自身价值受到威胁时的本能防御。文中提到的“魔法般的内疚”尤为引人深思，它描绘了一种荒谬却真实存在的、对与己无关之事也深感愧疚的心理状态。读完此文，我深受触动，它像一面镜子，照见我们平时在轻易评判他人时可能存在的偏狭。是的，防卫常常是内心不安的投射，它呼唤的不是指责，而是理解。这不仅是一篇心理洞察，更是一份对人性的温柔提醒，引导我们以更包容、更具同理心的目光审视自己与他人。",
+    "best_quote_en": "I think more accurate than “defensiveness is a sign of guilt” is that defensiveness is a sign of insecurity.",
+    "best_quote_zh": "我认为，与其说防卫心是内疚的标志，不如说它是不安全的标志。"
+  },
+  {
+    "id": 38,
+    "title": "The Sycophancy for Donald Trump Must Be Televised",
+    "title_zh": "特朗普的马屁精们必须上电视",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/letter-from-trumps-washington/the-sycophancy-must-be-televised",
+    "tags": [
+      "media",
+      "technology"
+    ],
+    "tags_zh": [
+      "媒体",
+      "科技"
+    ],
+    "date": "2025-08-28",
+    "summary_en": "This article masterfully dissects a Trump cabinet meeting, revealing it as a stage for unchecked performativity rather than governance. It’s a chilling expose of political theater where sycophancy reigns supreme, mirroring autocratic playbooks. The author’s critical lens exposes the disturbing lengths to which advisors will go for airtime and approval, highlighting the erosion of independent thought within the highest echelons of power. Beyond its immediate subject, the piece serves as a stark warning about the normalizing of authoritarian tendencies and the alarming trivialization of critical issues. It compels us to question the true purpose of public office and the integrity of those who seek to serve, urging vigilance against the subtle creep of power unchecked by accountability.",
+    "summary_zh": "这篇文章以一场冗长近乎荒诞的内阁会议为切入点，深刻揭示了特朗普执政下，政治舞台上弥漫的谄媚与表演。它不仅仅是对个别事件的记录，更是对一种权力运作模式的批判性剖析——当独立思考被压制，迎合成为晋升的唯一途径，再荒谬的言行也能被美化。读完此文，我不仅感受到一种对权力滥用的忧虑，更被作者直面现实的勇气所触动。它提醒我们，在信息碎片化、注意力稀缺的时代，如何保持清醒，辨识出政治闹剧背后的真正危机，是每个公民的责任。这篇文章是一面镜子，映照出当下政治生态的畸形与扭曲，引人深思。",
+    "best_quote_en": "Trump, like any narcissist who is handed a microphone before an adorning audience, can’t help but reveal. One thing this Cabinet meeting and other recent appearances have shown is a President who is openly riffing as never before about his unchecked reign.",
+    "best_quote_zh": "特朗普，就像任何一个在狂热观众面前拿到麦克风的自恋狂一样，情不自禁地暴露着自己。这次内阁会议和近期其他露面都显示，总统正在前所未有地公开炫耀他不受约束的统治。"
+  },
+  {
+    "id": 39,
+    "title": "Wisereads Vol. 101 — Smart Brevity, Seth Godin's Notes to Myself, and more",
+    "title_zh": "Wisereads Vol. 101 — 智能精炼、赛斯·高汀的自我备忘录及更多",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-101/",
+    "tags": [
+      "technology",
+      "science"
+    ],
+    "tags_zh": [
+      "科技",
+      "科学"
+    ],
+    "date": "2025-07-27",
+    "summary_en": "This curated digest, \"Wisereads Vol. 101,\" transcends mere content aggregation, offering a profound commentary on effective communication and critical thinking in our hyper-digital age. The spotlight on \"Smart Brevity\" challenges us to confront the paradox of information overload: that true impact stems from succinctness, not volume. It's a poignant reminder that in a world saturated with ephemeral data, the ability to articulate vital truths with clarity and conciseness is paramount. The reflections on AI, particularly its seductive yet potentially dehumanizing nature for creative work, resonate deeply. We're warned against outsourcing the profound, introspective act of writing to machines, asserting that true thought is forged in the struggle of articulation, not automated generation. Seth Godin's pithy aphorisms, and Ira Glass's wisdom on the creative gap, further underscore the value of intentional effort, discerning taste, and persistent practice over shortcuts. The collection ultimately urges a re-evaluation of how we consume, create, and connect, signaling that genuine understanding and influence arise from deeply considered, finely honed expression, a human endeavor AI cannot truly replicate.",
+    "summary_zh": "这期《Wisereads》不仅是信息聚合，更是一场关于时代沟通与思考的深度对话。它像一面镜子，映照出数字时代“信息过载”的困境与“智能精炼”的力量。我深以为然，在海量信息洪流中，真正有价值的往往是那些删繁就简、直抵核心的表达。尤其是对AI的讨论，让我感慨万千。当机器可以轻易生成文本时，我们更需警惕将思考的本质——那种与思想搏斗、在字里行间锤炼智慧的过程——轻易外包。写作不仅是输出，更是深层思考的催化剂。Seth Godin的警句和Ira Glass对创作初期的洞察，都提醒我们：真正的价值在于持续的精进和对品味的坚守。这篇文章促使我反思，在这个喧嚣的时代，如何守护我们独特的思想火花，用更有温度、更精准的方式去连接和影响他人，这本身就是一场与自我和时代的深度对话。",
+    "best_quote_en": "What we’re arguing is this: If you want vital information to stick in the digital world, you need to radically rethink—and repackage—how you deliver it. Start by accepting that most people will scan or skip most of what you communicate—and then make every word and sentence count.",
+    "best_quote_zh": "我们认为：如果你想让重要信息在数字世界中站稳脚跟，就需要彻底重新思考并重新包装你的传递方式。首先要接受的是，大多数人会浏览或跳过你沟通的大部分内容——然后，让每一个字、每一句话都发挥作用。"
+  },
+  {
+    "id": 40,
+    "title": "Helion",
+    "title_zh": "Helion",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/helion",
+    "tags": [
+      "technology"
+    ],
+    "tags_zh": [
+      "科技"
+    ],
+    "date": "2021-11-05",
+    "summary_en": "The author's renewed investment in Helion underscores a profound belief in its fusion technology. This isn't just another funding round; it's a testament to the extraordinary vision and execution of founders David and Chris, who, since 2014, have meticulously charted a path to scalable fusion. Helion's achievement of a grid-connected electricity-producing generator, on a fraction of competitors' budgets, is nothing short of revolutionary. The audacious goal of net electricity by 2024 and kilowatt-hour costs as low as 1 cent challenges conventional energy paradigms. This advancement isn't merely about clean energy; it promises an abundant, near-zero-cost energy future that could fundamentally reshape global economics, alleviate the climate crisis, and unlock unimagined possibilities for human flourishing. It’s a powerful reminder that audacious moonshots, fueled by brilliant minds and lean, agile execution, can indeed redefine humanity's trajectory.",
+    "summary_zh": "再次看到Sam Altman对Helion的重注，我内心激荡。这不仅是对一项技术的投资，更是对人类未来潜力的深刻押注。David和Chris两位创始人，用初创公司的精干效率，在极低的成本下实现了电力输出，这本身就是对传统巨额投入模式的颠覆。Helion设定的2024年实现净发电量，以及长远目标1美分/度电的成本，简直是石破天惊。如果这梦想成真，我们面对的将不仅是气候危机的曙光，更是超越想象的文明跃升。廉价而清洁的能源，如同打开了潘多拉魔盒，它将重塑经济，提升生活品质，甚至能让我们拥有更多能量去解决其他人类难题。这是一种愿景，一种对未来不再设限的豪迈宣言，让人充满希望。",
+    "best_quote_en": "Helion has a clear path to net electricity by 2024, and has a long-term goal of delivering electricity for 1 cent per kilowatt-hour.",
+    "best_quote_zh": "Helion有明确的路径在2024年实现净电力输出，并有长期目标，以每千瓦时1美分的价格提供电力。"
   }]
