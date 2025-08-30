@@ -40,6 +40,12 @@ if OPENROUTER_API_KEY and not OPENROUTER_API_KEY.startswith('sk-or-v1-'):
 MODEL = os.getenv("OPENROUTER_MODEL") or "mistralai/mistral-small-3.2-24b-instruct:free"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
+# Model parameters for better output quality
+TEMPERATURE = float(os.getenv("OPENROUTER_TEMPERATURE", "0.7"))  # Creativity vs consistency balance
+TOP_P = float(os.getenv("OPENROUTER_TOP_P", "0.9"))  # Nucleus sampling
+TOP_K = int(os.getenv("OPENROUTER_TOP_K", "40"))  # Top-k sampling
+MAX_TOKENS = int(os.getenv("OPENROUTER_MAX_TOKENS", "2048"))  # Response length limit
+
 PROCESSED_LINKS_FILE = "scripts/processed_links.json"
 OUTPUT_FILE = "data.json"
 SOURCE_FILE = "scripts/source.json"
@@ -113,6 +119,7 @@ MAX_CONTENT_CHARS = get_max_content_chars(MODEL)
 # Debug output for model configuration
 print(f"Using model: {MODEL}")
 print(f"MAX_CONTENT_CHARS: {MAX_CONTENT_CHARS:,}")
+print(f"Model parameters: temperature={TEMPERATURE}, top_p={TOP_P}, top_k={TOP_K}, max_tokens={MAX_TOKENS}")
 
 # ========== Initialize File Read/Write ==========
 # Load processed links
@@ -383,66 +390,117 @@ def parse_json_safely(text):
 
 
 def call_openrouter(model, title, full_content):
+    # Updated prompt for smart tagging system
     prompt_content = f"""
-你是一位资深的内容分析师和思想家，擅长深度阅读和洞察分析。请仔细阅读以下文章内容，进行深度思考和分析，然后以 JSON 格式返回分析结果。
+# TASK: Intelligent Content Analysis & Value-Based Tagging
 
-**深度分析要求：**
-1. **深度理解**：不仅要理解文章表面内容，更要挖掘其深层含义、背景逻辑和潜在影响
-2. **批判思维**：分析文章的论点是否合理，证据是否充分，逻辑是否严密
-3. **联系思考**：将文章内容与当前时代背景、行业趋势、社会现象进行关联思考
-4. **价值提炼**：提取文章中最有价值的观点、方法论或启发性思考
-5. **情感共鸣**：理解文章想要传达的情感和态度，并在总结中体现出来
+You are an expert content analyst specializing in extracting meaningful insights and generating intelligent tags based on content value and user discoverability.
 
-**JSON 对象应包含以下字段：**
-- "title_zh": 文章标题的中文翻译（如果原文是中文则保持原样）
-- "summary_en": 英文深度总结，150-200词。要求：
-  * 不仅概括内容，更要体现深度思考
-  * 包含对文章核心观点的分析和评价
-  * 体现文章的现实意义和启发价值
-  * 语言要有感染力，体现真实的思考感悟
-  * 保持简洁精炼，避免冗余表达
-- "summary_zh": 中文深度总结，150-200字。要求：
-  * 像写一篇有感而发的读后感，有个人思考和感悟
-  * 不是简单的内容概括，而是深度的分析和思辨
-  * 要有情感温度，体现真实的阅读体验
-  * 可以适当加入对现实的思考和对未来的展望
-  * 言简意赅，突出核心洞察
-- "best_quote_en": 提取文章中最具洞察力的英文金句（如果原文是中文，请翻译成英文）
-- "best_quote_zh": 提取文章中最具洞察力的中文金句（如果原文是英文，请翻译成中文）
-- "tags": 最多2个与文章内容相关的英文关键词标签，以数组形式返回（如 ["AI", "OpenAI"]）
-- "tags_zh": 最多2个与文章内容相关的中文关键词标签，以数组形式返回（如 ["人工智能", "OpenAI"]）
+## ANALYSIS FRAMEWORK:
 
-**重要提醒：**
-- "tags" 字段：只能是英文标签，最多2个（如 ["Google", "innovation"]）
-- "tags_zh" 字段：只能是中文标签，最多2个（如 ["谷歌", "创新"]）
-- 严格按语言分离，不能混用
+### 1. CONTENT VALUE IDENTIFICATION
+- Assess information novelty and uniqueness
+- Evaluate practical applicability and actionability
+- Identify thought leadership and expert insights
+- Determine educational and learning value
 
-**写作风格要求：**
-- 总结要有个人色彩，像是一个有思想的人在分享自己的真实感悟
-- 语言要生动有力，避免官方化、模板化的表达
-- 要体现出对内容的深度思考和情感投入
-- 可以适当使用比喻、类比等修辞手法增强表达力
-- **重要：严格控制字数，删除冗余词汇，每句话都要有价值**
-- **优先表达核心洞察，避免过度展开细节描述**
+### 2. USER INTENT PREDICTION
+- Consider what users would search for to find this content
+- Identify the primary problems this content solves
+- Determine the target audience and their needs
+- Predict discovery patterns and search behaviors
 
-**严格要求：** 只返回有效的 JSON 对象，**不要**包含任何代码块标记（如 ```json）、前导/尾随提示或额外文本。
+### 3. THREE-LAYER TAG GENERATION
+- Layer 1 (Value Type): Identify user reading intent (learn/solve/inspire/update/analyze/guide)
+- Layer 2 (Domain Theme): Determine content domain and thematic focus
+- Layer 3 (Feature Tags): Add 1-3 descriptive characteristics (actionable, advanced, etc.)
+- Ensure hierarchical consistency and user discoverability across all layers
 
-文章标题：{title}
-文章内容：
+## TAG STRATEGY:
+
+**Layer 1 - Value Types (用户意图):** learn, solve, inspire, update, analyze, guide
+**Layer 2 - Domain Themes (领域主题):** ai-research, ai-product, startup-strategy, startup-funding, tech-trends, programming, cybersecurity, business-model, marketing, leadership, science, medicine, psychology, politics, economics, society, lifestyle, education, design
+**Layer 3 - Feature Tags (内容特征):** actionable, beginner-friendly, advanced, controversial, data-driven, future-focused, problem-solving, case-study, tutorial, expert-insight
+
+## OUTPUT SPECIFICATION:
+
+Return a JSON object with exactly these fields:
+
+```json
+{{
+  "title_zh": "Chinese translation of title (keep original if already Chinese)",
+  "summary_en": "150-200 word English analysis focusing on core insights, implications, and critical evaluation. Write with intellectual curiosity and personal engagement.",
+  "summary_zh": "150-200 character Chinese analysis that reads like thoughtful commentary, not mere summary. Include personal reflection and broader significance.",
+  "best_quote_en": "Most insightful English quote from article (translate if originally Chinese)",
+  "best_quote_zh": "Most insightful Chinese quote from article (translate if originally English)",
+  "tags": ["value-based", "discoverable", "English", "tags"],
+  "tags_zh": ["基于价值", "可发现的", "中文", "标签"]
+}}
+```
+
+## TAGGING QUALITY STANDARDS:
+
+**DO:**
+- Apply the three-layer tag hierarchy: Value Type + Domain Theme + Feature Tags
+- Layer 1: Identify user intent (learn/solve/inspire/update/analyze/guide)
+- Layer 2: Determine domain theme based on content focus
+- Layer 3: Add 1-3 feature tags that describe content characteristics
+- Ensure tags reflect actual content value and user discoverability
+- Generate 3-6 high-quality tags per language following the hierarchy
+
+**AVOID:**
+- Mixing tags from different layers without clear hierarchy
+- Generic topic tags without value context
+- Overly specific tags that limit discoverability
+- Redundant tags within the same layer
+- More than 6 tags per language or ignoring the three-layer structure
+
+## INPUT:
+
+**Title:** {title}
+
+**Content:**
 {full_content}
-""".strip()
+
+---
+
+Provide your analysis as a clean JSON object only.""".strip()
 
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json"
     }
 
+    # APE-optimized system prompt for better instruction following
+    system_prompt = """
+You are a world-class content analyst with expertise in:
+- Deep textual analysis and critical thinking
+- Cross-cultural communication and translation
+- Insight extraction and synthesis
+- Structured data output
+
+Core competencies:
+1. ANALYTICAL PRECISION: Extract meaningful insights beyond surface content
+2. LINGUISTIC EXCELLENCE: Provide nuanced translations and culturally appropriate summaries
+3. FORMAT COMPLIANCE: Generate clean, valid JSON without extraneous text
+4. INTELLECTUAL ENGAGEMENT: Write with genuine curiosity and thoughtful perspective
+
+Output requirements:
+- Return ONLY valid JSON objects
+- No code blocks, explanations, or additional text
+- Maintain strict language separation in tag arrays
+- Focus on insight over summary""".strip()
+
     base_payload = {
         "model": model,
+        "temperature": TEMPERATURE,
+        "top_p": TOP_P,
+        "top_k": TOP_K,
+        "max_tokens": MAX_TOKENS,
         "messages": [
             {
                 "role": "system",
-                "content": "你是一位具有深度思考能力的内容分析专家，擅长从多个维度深入理解和分析文章内容。请严格按照要求只返回有效的 JSON 对象，不包含代码块标记、解释文本或额外字符。"
+                "content": system_prompt
             },
             {"role": "user", "content": prompt_content}
         ],
@@ -740,6 +798,25 @@ if newly_processed_items:
             f.write(new_data_string.encode('utf-8'))
             f.write(b']')
     print("Incremental write completed.")
+    
+    # Check if we need to limit to 100 records
+    try:
+        with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            all_data = json.load(f)
+        
+        if len(all_data) > 100:
+            print(f"\nData contains {len(all_data)} records, limiting to 100 most recent...")
+            # Keep only the last 100 records (most recent)
+            limited_data = all_data[-100:]
+            
+            with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+                json.dump(limited_data, f, indent=2, ensure_ascii=False)
+            
+            print(f"Successfully limited data to {len(limited_data)} records.")
+        else:
+            print(f"Data contains {len(all_data)} records, no limiting needed.")
+    except Exception as e:
+        print(f"Warning: Failed to check/limit data size: {e}")
 else:
     print("\nNo new valid records this time, no write needed.")
 
