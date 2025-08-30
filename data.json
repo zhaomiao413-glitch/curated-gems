@@ -780,4 +780,99 @@
     "summary_zh": "再次看到Sam Altman对Helion的重注，我内心激荡。这不仅是对一项技术的投资，更是对人类未来潜力的深刻押注。David和Chris两位创始人，用初创公司的精干效率，在极低的成本下实现了电力输出，这本身就是对传统巨额投入模式的颠覆。Helion设定的2024年实现净发电量，以及长远目标1美分/度电的成本，简直是石破天惊。如果这梦想成真，我们面对的将不仅是气候危机的曙光，更是超越想象的文明跃升。廉价而清洁的能源，如同打开了潘多拉魔盒，它将重塑经济，提升生活品质，甚至能让我们拥有更多能量去解决其他人类难题。这是一种愿景，一种对未来不再设限的豪迈宣言，让人充满希望。",
     "best_quote_en": "Helion has a clear path to net electricity by 2024, and has a long-term goal of delivering electricity for 1 cent per kilowatt-hour.",
     "best_quote_zh": "Helion有明确的路径在2024年实现净电力输出，并有长期目标，以每千瓦时1美分的价格提供电力。"
+  },{
+    "id": 41,
+    "title": "Weird Languages",
+    "title_zh": "奇特的语言",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/weird.html",
+    "tags": [
+      "programming",
+      "startups"
+    ],
+    "tags_zh": [
+      "编程",
+      "创业公司"
+    ],
+    "date": "2025-08-30",
+    "summary_en": "This essay brilliantly dissects the common misconception that all programming languages are interchangeable. It argues that such a view stems from a narrow engagement primarily with \"glue programming\" – the utilitarian act of assembling library calls, which indeed, most popular languages handle equally well. The real intellectual frontier, the author posits, lies in the esoteric 0.5% of programming, embodied by \"weird languages\" like Lisp with its powerful macros. These languages aren't weird for weirdness' sake; their unconventional structures hint at profound, unexplored programmatic paradigms beyond mere orchestration. Embracing these eccentricities, it suggests, is a conduit to expanding one's cognitive framework, enabling programmers to 'think things they couldn't previously think' by learning to 'say things they couldn't previously say.' It’s a compelling call to venture beyond the conventional, challenging us to see programming not just as a tool, but as a medium for evolving thought.",
+    "summary_zh": "这篇文章深刻剖析了编程语言的本质，揭示多数人对语言“等价”的认知，实则源于局限于库函数调用的“粘合式编程”。真正引人入胜的0.5%，存在于那些“奇特”语言中，如Lisp的宏。这些“怪异”绝非偶然，它们预示着超越传统粘合的编程范式，如元编程、领域特定语言的构建。这不仅拓宽了我们对编程可能性的认知，更是一场思维的升维。学习它们，不仅学会了表达前所未有的代码，更重要的是，学会了思考前所未有的问题。它如同一扇窗，带我们窥见编程更深层的诗意与哲学，激发我们跳出舒适区，探索思维的极限。",
+    "best_quote_en": "In the process of learning how to say things you couldn't previously say, you'll probably be learning how to think things you couldn't previously think.",
+    "best_quote_zh": "在学习如何表达你以前无法表达的事物的过程中，你可能会学会如何思考你以前无法思考的事物。"
+  },
+  {
+    "id": 42,
+    "title": "How can I bet on my values and goals to get better—and faster—information?",
+    "title_zh": "如何更好地在我的价值观和目标上下注，以更快地获取信息并改进自我？",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/D7ToDWYLDWbfrP3Fs/how-can-i-bet-on-my-values-and-goals-to-get-better-and",
+    "tags": [
+      "science"
+    ],
+    "tags_zh": [
+      "科学"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This thought-provoking article brilliantly frames life's pursuits as a series of strategic 'bets,' where time, energy, and resources are invested with the hope of valuable returns. The author's introspective journey to optimize these 'bets' resonated deeply, moving beyond mere goal-setting to a critical self-assessment. It urges readers to systematically analyze their track record, assess true odds, identify competitive advantages, understand real costs, and define victory nuancedly. Crucially, it highlights the importance of diversification and knowing when to pivot, drawing powerful parallels between personal growth and portfolio management. This piece is a valuable blueprint for anyone seeking to move from passive ambition to proactive, data-driven self-improvement, emphasizing that profound insights often stem from rigorously questioned experiences, even when outcomes are unexpected, like the humorous 'kilo of cheese' experiment.",
+    "summary_zh": "这篇文章将人生目标比作一场场精心布局的“投注”，这种视角非常新颖且引人深思。它不仅仅是关于如何设定目标，更是关于如何有策略地投资于自我，从中快速获取反馈并持续迭代。作者对自身“投注”框架的解构——从审视过往、评估概率到识别优势与成本，再到定义胜利和多元化布局，无不展现出一种深度思考的智慧。它启发我们，与其盲目前行，不如将每一步视为一个可优化的实验，用批判性思维审视路径，用数据和反思提升胜率。就像作者幽默地提到的“吃一公斤奶酪”的经历，即使是看似无意义的尝试，也能成为自我探索的宝贵信息。这不只是一篇关于目标管理的文章，更是一份关于智慧人生策略的指南，提醒我们勇敢下注，更要智慧地学习和调整。",
+    "best_quote_en": "Every goal I set in my life I see as a bet, an investment. I bet time, energy, and resources on the belief that it will lead to something valuable.",
+    "best_quote_zh": "我把我人生中设定的每一个目标都看作一场赌注，一项投资。我投入时间、精力、资源，深信它会带来宝贵的价值。"
+  },
+  {
+    "id": 43,
+    "title": "The New Orleans That Hurricane Katrina Revealed",
+    "title_zh": "卡特里娜飓风揭示的真实新奥尔良",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/the-new-orleans-that-hurricane-katrina-revealed",
+    "tags": [
+      "media",
+      "technology"
+    ],
+    "tags_zh": [
+      "媒体",
+      "科技"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This profound analysis of New Orleans, specifically through the lens of Hurricane Katrina's 20th anniversary, masterfully dissects the city's complex identity, moving beyond superficial charm to reveal deep-seated systemic frailties. The author argues that Katrina didn't just cause devastation; it brutally unmasked New Orleans as a perpetual \"extraction economy\" built on historical exploitation—from sugar and slavery to oil and tourism—which stifled the development of a robust middle class and resilient institutions. The article eloquently highlights the enduring racial injustices, where Black communities disproportionately bore the brunt of both historical and natural disasters, challenging the romanticized narratives often associated with the city. It's a poignant lament for a place beloved but fundamentally flawed, urging us to confront uncomfortable truths about civic health and the long shadow of history, reminding us that even the most enchanting places can mask profound fragility. The piece serves as a powerful call to look beyond the allure and understand the underlying socio-economic structures that shape urban resilience.",
+    "summary_zh": "读罢此文，我仿佛随作者一同穿越了新奥尔良的历史深流与卡特里娜飓风的涤荡。文章并非止步于灾难的表象，而是以手术刀般的精准，剖析了这座城市光鲜外表下，作为“榨取型经济体”的本质脆弱。从甘蔗种植园的奴役到现代旅游业，新奥尔良似乎从未真正培育出健全的公民社会和抵御风险的能力。卡特里娜，如同一次残酷的审判，不仅揭露了公共管理的失能，更将种族不公、阶级固化等沉疴顽疾暴露无遗。我深感，我们不能仅被城市的魅力所迷惑，而要深入理解其结构性困境和历史包袱。文章最终的呼吁，既是对新奥尔良的深情一瞥，也是对所有城市发展模式的警示：真正的魅力，应根植于其公民的幸福与社会的韧性。",
+    "best_quote_en": "The storm demonstrated the fragility that comes from being an extraction economy.",
+    "best_quote_zh": "这场风暴证明了作为一个榨取型经济体所带来的脆弱性。"
+  },
+  {
+    "id": 44,
+    "title": "Wisereads Vol. 💯 — Useful Not True by Derek Sivers, Andrew Ng on Building Faster with AI, and more",
+    "title_zh": "Wisereads Vol. 💯 — Derek Sivers的《有用而非真实》，吴恩达谈如何用AI更快地构建产品等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-100/",
+    "tags": [
+      "ai",
+      "design"
+    ],
+    "tags_zh": [
+      "人工智能",
+      "设计"
+    ],
+    "date": "2025-07-20",
+    "summary_en": "This Wisereads compilation, marking its 100th week, offers a fascinating blend of practical wisdom and critical insights into our rapidly evolving world. Derek Sivers' philosophy of 'Useful Not True' stands out, urging us to prioritize utility over elusive truth, a powerful call to action in an age of information overload and pervasive uncertainty. This resonates deeply with Andrew Ng's emphasis on concreteness in AI development, highlighting the critical distinction between vague aspirations and actionable innovation. The piece also provocatively examines the decline of social engagement and the surprising paradox of AI potentially hindering experienced developers. Together, these articles paint a picture of a society grappling with technological acceleration and shifting social paradigms, urging readers to adopt a mindset of pragmatic utility, critical discernment, and an awareness of unseen consequences in both our personal and professional lives. It's a poignant reminder that true progress lies in thoughtful application, not blind adherence.",
+    "summary_zh": "这期Wisereads汇集了多元而深刻的见解，尤其Derek Sivers的“有用而非真实”哲学，如灯塔般指引我们在信息爆炸的时代，跳出对绝对“真相”的执念，转而追求实际的“效用”。吴恩达关于AI应用中“具象化”思辨，与此异曲同工，提醒我们空泛的抱负终究抵不过落地的实践。文章还敏锐地捕捉到社会交往的衰退，以及AI在特定情境下反而可能拖累资深开发者的反直觉现象。这些洞察共同编织出一幅引人深思的图景：我们正被技术浪潮裹挟，社会规则悄然变化。它触动我的思考是，无论时代如何变迁，核心都在于我们如何选择看待世界，如何以批判思维和实用主义应对复杂性，并时刻警惕那些不为人知的涟漪效应。真正的进步，在于明智的选择和有意义的实践，而非盲从。",
+    "best_quote_en": "You probably already know not to believe every thought you think. But rather than asking, 'Is this thought true?' ask, 'Is this useful?'",
+    "best_quote_zh": "你可能已经知道不要相信你所想到的每一个念头。但与其问‘这个念头是真的吗？’不如问‘这个念头有用吗？’"
+  },
+  {
+    "id": 45,
+    "title": "The Strength of Being Misunderstood",
+    "title_zh": "被误解的力量",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/the-strength-of-being-misunderstood",
+    "tags": [
+      "technology"
+    ],
+    "tags_zh": [
+      "科技"
+    ],
+    "date": "2020-12-01",
+    "summary_en": "This insightful piece explores the profound strength found in being misunderstood, challenging the typical aversion to others' opinions. It argues against the pursuit of universal approval, suggesting that true impact often stems from a willingness to embrace short-term low status for long-term high status. The author highlights how visionary individuals, though seemingly indifferent, deeply consider opinions, but on an extended timeline—prioritizing historical accuracy over fleeting public perception. By embracing non-consensus bets and allowing oneself to be misunderstood, one creates the necessary space for groundbreaking solutions. This perspective redefines misunderstanding not as a weakness, but as a strategic advantage for those brave enough to forge their own path, ultimately solving important problems that others overlook. It's a powerful call to intellectual independence and long-term vision.",
+    "summary_zh": "这篇文章深刻揭示了被误解的强大力量。它颠覆了我们对他人看法的传统认知，指出真正的成就往往源于一种长远的目光和对短期“低地位”的接受。那些真正有影响力的人，并非不在意他人的看法，而是以更宏大的时间尺度去考量。他们宁愿让报纸的报道出现偏差，也要确保历史的记载是正确的。这种选择非共识路径、甘愿被误解的勇气，恰恰为解决重要问题创造了独特的空间。它不是弱点，而是少数远见者的优势，是通往深远影响力的必经之路。这让我思考，在喧嚣嘈杂的世界里，葆有一份被误解的从容，或许正是我们最强大的武器。",
+    "best_quote_en": "As long as you are right, being misunderstood by most people is a strength not a weakness. You and a small group of rebels get the space to solve an important problem that might otherwise not get solved.",
+    "best_quote_zh": "只要你是对的，被大多数人误解是一种力量，而非弱点。你和一小群反叛者因此获得空间，去解决那些本可能无法解决的重要问题。"
   }]
