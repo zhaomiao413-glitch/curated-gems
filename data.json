@@ -113,4 +113,119 @@
     "summary_zh": "亚瑟·布鲁克斯的《从优势到优势》深刻挑战了我们对成功和衰老的传统观念。它提出，人生下半场的真正富足，在于从追求表象的“流动智力”转向深耕内在的“晶体智力”——即智慧和传承。这本书不仅为高成就者指明了放下对金钱、权力的执念，转而拥抱人际关系、教学和精神成长的路径，更提供了一份充满智慧的人生下半场指南。它让我反思，真正的“成功”或许在于我们如何与世界连接，如何将积累的智慧回馈社会，而非仅仅是个人成就的堆砌。这是一次心灵的洗礼，也是对未来人生方向的深思。",
     "best_quote_en": "“The secret to bearing my decline — no, enjoying it — is to be more conscious of the roots linking me to others. If I am connected to others in love, my decrease will be more than offset by increases to others — which is to say, increases to other facets of my true self.”",
     "best_quote_zh": "“承受我的衰落——不，享受它的秘诀——在于更自觉地意识到我与他人联系的根源。如果我因爱与他人相连，我的减少将远远被他人的增加所抵消——也就是说，被我真实自我的其他方面的增加所抵消。”"
+  },{
+    "id": 6,
+    "title": "How to Do Great Work",
+    "title_zh": "如何做出伟大的工作",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/greatwork.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "education",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "教育学习",
+      "争议观点"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This essay offers a deeply insightful and unconventional perspective on achieving significant work, moving beyond simplistic advice like 'work hard.' It challenges conventional wisdom, particularly regarding planning and education, advocating instead for a process driven by intense curiosity and a willingness to embrace uncertainty. The author emphasizes the importance of choosing problems that genuinely excite you, even if they seem unfashionable, and developing a habit of independent exploration. It's a compelling argument for intellectual honesty, a rejection of pretentiousness, and a call to cultivate an almost childlike earnestness and optimism. The piece suggests that true innovation often comes from questioning established models and being comfortable with 'bad' ideas that are, in fact, 'the right kind of crazy.' This is a refreshing and actionable guide for anyone ambitious enough to pursue truly impactful contributions, stressing that the journey is less about rigid plans and more about a dynamic, iterative dance with one's evolving interests and insights.",
+    "summary_zh": "这篇文章对“如何做出伟大的工作”提供了深刻且非传统的见解，远超“努力工作”的简单说教。它挑战了传统观念，特别是关于规划和教育的，转而倡导一种由强烈好奇心和拥抱不确定性驱动的探索过程。作者强调选择真正让你兴奋、即便不时髦的问题的重要性，并培养独立探索的习惯。这篇作品有力地论证了知识的诚实、对矫饰的摒弃，以及培养一种近乎孩童般的真诚和乐观。它暗示真正的创新往往源于质疑既定模式，并乐于接受那些看似“糟糕”实则“恰到好处的疯狂”的想法。对于任何有志于做出真正有影响力贡献的人来说，这是一份令人耳目一新且可操作的指南，它强调旅程并非僵化的计划，而是与个人不断演进的兴趣和洞察力进行动态、迭代的舞蹈。",
+    "best_quote_en": "Curiosity is the best guide. Your curiosity never lies, and it knows more than you do about what's worth paying attention to.",
+    "best_quote_zh": "好奇心是最好的向导。你的好奇心从不说谎，它比你更了解什么值得关注。"
+  },
+  {
+    "id": 7,
+    "title": "Hacking The Spectrum For Profit (Maybe Fun)",
+    "title_zh": "利用自闭症谱系特征获利 (或乐趣)",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/4J2kfvKEjiXKkkJpg/hacking-the-spectrum-for-profit-maybe-fun",
+    "tags": [
+      "solve",
+      "lifestyle",
+      "ai-research",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式",
+      "AI研究",
+      "未来预测"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This thought-provoking piece explores the potential of leveraging rigid routines, a common trait in individuals on the autism spectrum, for personal improvement. The author, who identifies with spectrum characteristics, critically examines how structured habits, inspired by principles like Scott Adams' \"systems over goals,\" could be applied to areas like exercise. However, the analysis takes a darker turn, reflecting on how these same rigid routines can exacerbate negative habits, using alcohol consumption as a poignant personal example. The piece raises profound questions about the double-edged sword of neurodiversity, seeking community insight rather than external \"help.\" It's a deeply personal yet universally relevant exploration of habit formation, self-control, and the unique challenges faced by neurodivergent individuals in navigating a world often designed for neurotypicals.",
+    "summary_zh": "这篇文章以其独特的视角，探讨了自闭症谱系人群常见的“僵化日常”特质，如何被巧妙地应用于自我提升，甚至可能带来意想不到的益处。作者结合个人经历，反思了这种对规律的执着，在运动等积极领域如何成为一种优势，但也坦诚地剖析了其在不良习惯（如饮酒）上可能带来的负面影响，使其更难摆脱。这种双刃剑般的特质，引人深思：我们该如何理解和利用自身的独特之处？它不仅仅是一篇关于习惯养成的文章，更是一次对个人与社群之间寻求共鸣、而非寻求传统“帮助”的深刻探索。",
+    "best_quote_en": "For spectrumy people, the hypothesis is at least, after a while it becomes impossible not to follow.",
+    "best_quote_zh": "对于自闭症谱系的人来说，至少根据这个假设，过了一段时间后，就会变得不可能不遵守。"
+  },
+  {
+    "id": 8,
+    "title": "The New Orleans That Hurricane Katrina Revealed",
+    "title_zh": "卡特里娜飓风揭示了怎样的新奥尔良",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/the-new-orleans-that-hurricane-katrina-revealed",
+    "tags": [
+      "analyze",
+      "politics",
+      "society",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "社会议题",
+      "数据驱动"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This article offers a poignant, critical analysis of New Orleans through the lens of Hurricane Katrina's 20th anniversary. It masterfully dissects how the disaster exposed not just the city's physical vulnerabilities but, more profoundly, its deep-seated socio-economic and racial inequities, rooted in a history of extraction economies and systemic corruption. The author challenges the romanticized view of New Orleans, presenting a stark reality of a city struggling with poverty, institutional incompetence, and a declining population. It's a compelling argument for viewing natural disasters not as isolated events but as catalysts that reveal pre-existing societal fractures. The piece effectively uses historical context and contemporary observations to underscore how Katrina was a symptom, not the sole cause, of New Orleans' complex challenges, urging readers to look beyond superficial charm to understand its civic health.",
+    "summary_zh": "这篇文章以卡特里娜飓风二十周年为契机，深刻剖析了新奥尔良的真实面貌。它不仅揭示了飓风暴露的城市脆弱性，更深入探讨了其根深蒂固的社会经济与种族不平等，这些问题源于长期的剥削经济和系统性腐败。作者挑战了人们对新奥尔良的浪漫化想象，呈现了一个与贫困、机构无能和人口衰退搏斗的城市。这促使我反思，灾难往往不是孤立事件，而是社会深层矛盾的放大镜。理解新奥尔良的困境，便能洞察到许多城市在光鲜外表下隐藏的结构性问题，令人深思。",
+    "best_quote_en": "The storm demonstrated the fragility that comes from being an extraction economy. Beginning in the days of plantation slavery, New Orleans and its surrounding area had no strong motive to develop a substantial middle class or high-functioning institutions, and, compared with most American cities, it never has.",
+    "best_quote_zh": "这场风暴揭示了作为剥削型经济体所固有的脆弱性。从种植园奴隶制时代开始，新奥尔良及其周边地区就没有强大的动力去发展一个庞大的中产阶级或高效的机构，与大多数美国城市相比，它也从未做到过。"
+  },
+  {
+    "id": 9,
+    "title": "Wisereads Vol. 104 — Gary Marcus on GPT-5, The Tao of Seneca with Tim Ferriss, and more",
+    "title_zh": "Wisereads 第104期 — Gary Marcus谈GPT-5，Tim Ferriss的《塞涅卡之道》等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-104/",
+    "tags": [
+      "inspire",
+      "ai-research",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "启发",
+      "AI研究",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-08-17",
+    "summary_en": "This Wisereads digest offers a curated collection of insights, primarily focusing on the critical perspectives surrounding GPT-5's perceived shortcomings and the enduring wisdom of Stoicism. Gary Marcus and other AI commentators dissect the hype versus reality of advanced AI models, suggesting a fundamental limitation in current scaling approaches. Concurrently, the inclusion of Seneca's 'Letters from a Stoic' via Tim Ferriss's compilation, alongside other self-improvement and business literature recommendations, provides a counterpoint emphasizing timeless principles over fleeting technological trends. The digest thoughtfully blends critiques of cutting-edge tech with foundational advice on leadership, personal development, and financial wisdom, highlighting the diverse intellectual appetite of its readership. It underscores a crucial balance between understanding technological evolution and anchoring oneself in perennial human truths.",
+    "summary_zh": "本期Wisereads文摘内容丰富，既有对GPT-5局限性的深刻批判，也有对斯多葛主义永恒智慧的回归。Gary Marcus等专家质疑AI模型当前扩展路径的根本性缺陷，令人深思。与此同时，Tim Ferriss整理的《塞涅卡之道》等经典著作推荐，则提醒我们，在追逐技术前沿的同时，不应忽视那些经久不衰的人生哲理。这种新旧交织的视角，不仅展现了读者群体的多元求知欲，更传递出一种平衡的价值观：洞察科技发展，亦要立足于人类的普世智慧。",
+    "best_quote_en": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+    "best_quote_zh": "琉西利乌斯，我们更容易被想象中的恐惧吓倒，而非被现实所压垮；我们常常在想象中受苦，而非在现实中。"
+  },
+  {
+    "id": 10,
+    "title": "Leaving America/Osprey Carry-on/Residency for Paying Rent",
+    "title_zh": "离开美国/Osprey随身行李/预付租金的居留权",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/leaving-america-osprey-carry-on-residency-for-paying-rent/",
+    "tags": [
+      "solve",
+      "lifestyle"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式"
+    ],
+    "date": "2025-08-28",
+    "summary_en": "This content offers a diverse collection of insights for the modern global traveler and expat, touching on themes of relocation, practical travel gear, and unique residency pathways. The 'Leaving America' podcast snippet hints at a resource for those considering international moves, while the enthusiastic endorsement of the Osprey carry-on provides a valuable, actionable product recommendation for frequent travelers. Most intriguing is the 'Croatian Apartment Visa,' which highlights an unconventional yet potentially accessible route to residency, challenging traditional notions of immigration. The Amtrak route update, though seemingly minor, points to a broader interest in domestic travel infrastructure. Overall, the piece serves as a curated digest of practical tips and intriguing possibilities for individuals seeking a more mobile or international lifestyle, underscoring the evolving landscape of global living and travel. It prompts reflection on the accessibility of international residency and the practicalities of a nomadic existence.",
+    "summary_zh": "这篇内容像一个旅行者的私房笔记，充满惊喜和实用性。从播客到行李箱，再到那个令人拍案叫绝的克罗地亚“预付租金换居留”政策，每一条都击中了现代人对自由和探索的渴望。它不仅提供了具体的解决方案，更拓宽了我们对“生活方式”的想象。尤其是克罗地亚的案例，简直是颠覆了传统移民观念，让人不禁思考：原来世界还有这样的大门敞开着。这不仅仅是信息，更是一种生活哲学：勇敢地去尝试，世界远比你想象的要大。",
+    "best_quote_en": "I’ve run across a lot of strange visa options out there, but this is a new one on me: pre-pay a year’s worth of rent in Croatia and you can get a residency visa!",
+    "best_quote_zh": "我遇到过很多奇怪的签证选项，但这个对我来说是全新的：预付一年在克罗地亚的租金，你就可以获得居留签证！"
   }]
