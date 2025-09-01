@@ -228,4 +228,117 @@
     "summary_zh": "这篇内容像一个旅行者的私房笔记，充满惊喜和实用性。从播客到行李箱，再到那个令人拍案叫绝的克罗地亚“预付租金换居留”政策，每一条都击中了现代人对自由和探索的渴望。它不仅提供了具体的解决方案，更拓宽了我们对“生活方式”的想象。尤其是克罗地亚的案例，简直是颠覆了传统移民观念，让人不禁思考：原来世界还有这样的大门敞开着。这不仅仅是信息，更是一种生活哲学：勇敢地去尝试，世界远比你想象的要大。",
     "best_quote_en": "I’ve run across a lot of strange visa options out there, but this is a new one on me: pre-pay a year’s worth of rent in Croatia and you can get a residency visa!",
     "best_quote_zh": "我遇到过很多奇怪的签证选项，但这个对我来说是全新的：预付一年在克罗地亚的租金，你就可以获得居留签证！"
+  },{
+    "id": 11,
+    "title": "How to Get New Ideas",
+    "title_zh": "如何获得新想法",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/getideas.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "未来预测"
+    ],
+    "date": "2025-09-01",
+    "summary_en": "This piece offers a profound insight into the genesis of novel ideas, positing that true innovation stems from the acute observation of 'anomalies'—the strange, missing, or broken elements within established knowledge. It challenges the conventional view by suggesting that the most fertile ground for new ideas isn't random brainstorming, but rather a deep engagement with the 'frontiers of knowledge,' where gaps become apparent. The author’s analogy of knowledge growing fractally is particularly compelling, highlighting how a closer examination reveals intricate voids often overlooked. This perspective is highly actionable for anyone seeking to push boundaries, from scientific researchers to entrepreneurs, by redirecting their focus from broad strokes to the subtle imperfections that harbor transformative potential. It's a call to intellectual curiosity, urging us to question the seemingly obvious and explore the 'inexplicable' omissions.",
+    "summary_zh": "这篇文章对新思想的来源提出了深刻见解，认为真正的创新源于对“异常”的敏锐观察。它挑战了传统观念，指出新思想最肥沃的土壤并非随机头脑风暴，而是深入知识前沿，发现其中显而易见的空白。知识分形增长的比喻尤其引人入胜，它促使我们审视那些看似理所当然却无人问津的领域。这不仅是一篇关于创新的方法论，更是一种思维模式的转变，鼓励我们以更深邃的洞察力去探索未知的可能性，这本身就是一种思想的跃迁。",
+    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?",
+    "best_quote_zh": "获得新想法的方法是注意异常：什么看起来奇怪、缺失或损坏？"
+  },
+  {
+    "id": 12,
+    "title": "Should we align AI with maternal instinct?",
+    "title_zh": "我们应该让AI与母性本能保持一致吗？",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/C6oQaSXmTtqNxh9Ad/should-we-align-ai-with-maternal-instinct",
+    "tags": [
+      "inspire",
+      "ai-research",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "启发",
+      "AI研究",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-09-01",
+    "summary_en": "This philosophical critique challenges Geoffrey Hinton's metaphor of 'maternal instinct' for AI alignment, arguing it's a flawed and stereotypical concept. The author, a mother herself, deconstructs the idealized view of motherhood, highlighting its complexities and limitations. Instead of control or instinct, the piece advocates for a 'relational' approach to AI alignment, drawing parallels with the messy, adaptive nature of human relationships, especially parenting. It proposes that the true challenge lies in teaching AI (and ourselves) how to build, maintain, and repair trust over time, rather than seeking permanent obedience or hardwired benevolence. This perspective offers a refreshing, human-centric lens on a predominantly technical discourse, emphasizing ongoing interaction and repair as key to future AI coexistence.",
+    "summary_zh": "这篇文章对Hinton将AI对齐比作“母性本能”提出了深刻质疑。作为一位母亲，作者以亲身经历揭示了母性本能的复杂与局限，而非理想化的无限付出。她认为，AI对齐不应是技术控制或本能植入，而应是建立在“关系”基础之上，如同亲子关系般，学习如何建立、维系与修复信任。这提供了一个极具人文关怀的视角，将AI的未来引向了持续的互动与修复，而非简单的服从或本能的善意。",
+    "best_quote_en": "Obedience won't save us, and instinct won't either. Instincts, as we humans know them, are fleeting. Relationships, when designed with value recognition, memory for care, tools to repair and renew, can endure.",
+    "best_quote_zh": "服从救不了我们，本能也救不了。本能，正如我们人类所知，是短暂的。而关系，若能以价值认同、关怀记忆、修复与更新的工具来构建，方能持久。"
+  },
+  {
+    "id": 13,
+    "title": "How Robert F. Kennedy, Jr.,’s Anti-Vax Agenda Is Infecting America",
+    "title_zh": "小罗伯特·F·肯尼迪的反疫苗议程如何“感染”美国",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/q-and-a/robert-f-kennedy-jrs-anti-vax-agenda-is-infecting-our-public-health-system",
+    "tags": [
+      "solve",
+      "medicine",
+      "politics",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "医学健康",
+      "政治时事",
+      "争议观点"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This article delves into the critical implications of Robert F. Kennedy Jr.'s anti-vaccine agenda on America's public health system, particularly focusing on the deliberate creation of confusion to reduce immunization uptake. Through an interview with vaccine expert Paul Offit, the piece meticulously unpacks the dismantling of the CDC's authority and the resultant chaos in vaccine distribution. It highlights how political interference is undermining established public health protocols, making it difficult for even high-risk groups to access essential vaccines. The analysis reveals a calculated strategy to sow doubt, jeopardizing decades of public health progress and potentially leading to a resurgence of preventable diseases. It's a stark warning about the fragility of public health infrastructure when confronted with misinformation and political maneuvering.",
+    "summary_zh": "这篇文章深入探讨了小罗伯特·F·肯尼迪的反疫苗议程对美国公共卫生系统的深远影响。通过对疫苗专家的访谈，我深刻体会到，这种蓄意制造混乱以降低疫苗接种率的策略，不仅削弱了CDC的权威性，更可能导致可预防疾病的卷土重来。政治干预正在瓦解我们赖以生存的公共卫生基础，这不禁让我思考，当科学与公共利益被政治考量所绑架时，我们该如何守护集体的健康福祉。这不仅仅是关于疫苗，更是关于信任、科学和我们社会未来的方向。",
+    "best_quote_en": "I think Kennedy’s point is to make it confusing.",
+    "best_quote_zh": "我认为肯尼迪的目的就是制造混乱。"
+  },
+  {
+    "id": 14,
+    "title": "Wisereads Vol. 106 — The Origins of Efficiency by Brian Potter, Mustafa Suleyman on building AI for people, and more",
+    "title_zh": "Wisereads 第106期 — Brian Potter 著《效率的起源》、Mustafa Suleyman 论为人类构建 AI 等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-106/",
+    "tags": [
+      "update",
+      "leadership",
+      "ai-research",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "动态",
+      "领导管理",
+      "AI研究",
+      "未来预测"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This Wisereads digest offers a compelling collection of articles that collectively highlight the multifaceted impacts of AI and the often-overlooked drivers of progress. I found the excerpt from Brian Potter's 'The Origins of Efficiency' particularly insightful, as it reframes innovation not just as invention but as the painstaking process of making things widely accessible and efficient. This perspective resonates deeply, reminding us that true societal impact often follows the less glamorous work of optimization. The discussion around AI, from Joe Liemandt's AI-powered school to Mustafa Suleyman's warnings about 'Seemingly Conscious AI,' underscores the urgent need for thoughtful development and ethical considerations as technology rapidly evolves. Ezra Klein's reflection on GPT-5's perceived 'disappointment' is a poignant reminder of how quickly we normalize advanced capabilities and the potential for a profound shift in human-AI relationships. Overall, this digest encourages a critical look at both historical progress and future technological frontiers, emphasizing the human element in both.",
+    "summary_zh": "这期Wisereads文摘内容丰富，引人深思。Brian Potter关于“效率起源”的观点尤其触动我，它揭示了真正的进步不仅在于发明，更在于如何通过效率将创新普惠大众，这往往是被忽视的。AI话题的讨论也极具前瞻性，从AI学校的实践到Mustafa Suleyman对“貌似有意识AI”的担忧，都提醒我们技术发展必须审慎。Ezra Klein对GPT-5的感悟，则深刻反映了人类对AI能力的适应速度，以及未来人机关系的潜在转变。这份文摘让我对历史与未来、技术与人性有了更深刻的联结与反思。",
+    "best_quote_en": "\"The initial discovery of penicillin was, of course, necessary to these later achievements. But it was only by making antibiotics cheap and widely available—that is, by producing them efficiently—that this miracle medicine was able to save millions of lives.\"",
+    "best_quote_zh": "“青霉素的最初发现，当然是这些后来成就的必要条件。但只有通过使抗生素廉价且广泛可用——也就是说，通过高效生产它们——这种奇迹般的药物才得以挽救数百万人的生命。”"
+  },
+  {
+    "id": 15,
+    "title": "Retro Recomendo: History",
+    "title_zh": "复古推荐：历史",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/retro-recomendo-history/",
+    "tags": [
+      "update",
+      "design"
+    ],
+    "tags_zh": [
+      "动态",
+      "设计创意"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This article, part of the 'Retro Recomendo' series, curates a fascinating collection of historical resources, ranging from visual charts and interactive maps to podcasts and YouTube channels. It highlights diverse approaches to understanding the past, emphasizing both traditional and modern, digital methods. The selection is notable for its focus on making history accessible and engaging, moving beyond mere facts to explore cultural, musical, and even culinary dimensions. The inclusion of tools like The Histomap of History and TimeMap.org underscores a visual and interactive learning philosophy. This curation serves as an excellent guide for anyone seeking to deepen their historical understanding through varied and often unconventional lenses, promoting a more dynamic and personalized engagement with the past.",
+    "summary_zh": "这篇文章是“复古推荐”系列的一部分，精选了一系列引人入胜的历史资源，从图表、互动地图到播客和YouTube频道，展现了理解历史的多元视角。它不只停留在事实层面，更深入探讨了文化、音乐乃至美食的历史维度，令人耳目一新。文中推荐的工具如《历史图谱》和TimeMap.org，都体现了通过视觉和互动方式学习历史的理念。这让我思考，历史的魅力在于其无限的探索可能性，以及它如何以各种形式融入我们的生活。对于那些渴望跳出传统框架，以更生动、个性化的方式探索过去的人来说，这无疑是一份宝贵的指南。",
+    "best_quote_en": "At one glance, this colorful chart gives you the gist of world history.",
+    "best_quote_zh": "这张色彩斑斓的图表让你一眼就能了解世界历史的要旨。"
   }]
