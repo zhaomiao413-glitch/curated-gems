@@ -341,4 +341,119 @@
     "summary_zh": "这篇文章是“复古推荐”系列的一部分，精选了一系列引人入胜的历史资源，从图表、互动地图到播客和YouTube频道，展现了理解历史的多元视角。它不只停留在事实层面，更深入探讨了文化、音乐乃至美食的历史维度，令人耳目一新。文中推荐的工具如《历史图谱》和TimeMap.org，都体现了通过视觉和互动方式学习历史的理念。这让我思考，历史的魅力在于其无限的探索可能性，以及它如何以各种形式融入我们的生活。对于那些渴望跳出传统框架，以更生动、个性化的方式探索过去的人来说，这无疑是一份宝贵的指南。",
     "best_quote_en": "At one glance, this colorful chart gives you the gist of world history.",
     "best_quote_zh": "这张色彩斑斓的图表让你一眼就能了解世界历史的要旨。"
+  },{
+    "id": 16,
+    "title": "The Need to Read",
+    "title_zh": "阅读的必要性",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "education",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "教育学习",
+      "未来预测"
+    ],
+    "date": "2025-09-02",
+    "summary_en": "This insightful essay provocatively argues against the notion that technology can ever fully replace reading as a means of knowledge acquisition and idea generation. The author posits that writing is not merely a transcription of thoughts but a fundamental process through which new ideas are discovered and refined. Consequently, reading is indispensable not just for absorbing information, but for cultivating the ability to write effectively, which in turn is crucial for tackling complex, ill-defined problems. The piece emphasizes a symbiotic relationship between reading, writing, and deep thinking, suggesting that intellectual depth is unattainable without proficiency in both. It's a compelling defense of literacy's enduring value in an increasingly digital world, challenging us to reconsider the true nature of intellectual engagement.",
+    "summary_zh": "这篇文章深刻地探讨了阅读的不可替代性，它不仅是获取信息的途径，更是思想诞生的摇篮。作者指出，写作并非思想的简单记录，而是一种发现新知的过程，这种洞察力令人深思。由此，阅读对于培养优秀的写作能力至关重要，而优秀的写作能力又是解决复杂问题的基石。这种阅读、写作与深度思考之间的互惠关系，让我对知识的本质有了更深的理解。它提醒我们，在信息爆炸的时代，真正的智慧仍源于这种看似“老旧”的深度投入。",
+    "best_quote_en": "There is a kind of thinking that can only be done by writing.",
+    "best_quote_zh": "有一种思考，只能通过写作来完成。"
+  },
+  {
+    "id": 17,
+    "title": "Time's arrow => decision theory",
+    "title_zh": "时间之箭 => 决策理论",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/2m44A24pYjvEuNcKH/time-s-arrow-greater-than-decision-theory",
+    "tags": [
+      "solve",
+      "ai-research",
+      "science",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "AI研究",
+      "科学研究",
+      "争议观点"
+    ],
+    "date": "2025-09-02",
+    "summary_en": "This thought-provoking piece delves into the intricate relationship between physics, determinism, and various decision theories (EDT, CDT, UDT, FDT), challenging our intuitive understanding of 'free will.' The author ingeniously proposes a mathematically rigorous framework to reconcile microscopic irreversibility with macroscopic causality, suggesting that 'free will' is not an external force but an emergent property of deterministic algorithms. By drawing parallels to Darwinian natural selection, the article posits that agents evolve to simulate alternative actions and choose the most favorable outcome, even within a deterministic universe. This perspective reframes the rationality debate in decision theory, grounding it in evolutionary pressures rather than abstract notions. The article concludes by raising critical questions about defining rationality in a post-ASI world, where traditional selective pressures might no longer apply, prompting deeper reflection on the nature of agency and intelligence.",
+    "summary_zh": "这篇深刻的文章探讨了物理决定论与自由意志在决策理论中的交织。作者巧妙地将达尔文自然选择引入，提出“自由意志”并非超自然力量，而是确定性算法在模拟和选择最优结果中涌现的属性。这种洞见不仅弥合了微观不可逆性与宏观因果的鸿沟，也为决策理论的理性定义提供了新视角。它促使我们反思，在一个后ASI时代，当选择压力不复存在时，我们该如何重新定义智能与理性，这无疑是对人类认知边界的一次深刻挑战。",
+    "best_quote_en": "I argue that 'free will' is precisely this process of considering multiple alternatives and outputting the action whose outcome best meets some internal criteria. Note that the algorithm deterministically chooses its preferred action B. Thus, there is no contradiction between determinism and choice.",
+    "best_quote_zh": "我认为“自由意志”正是这种考虑多种替代方案并输出其结果最符合某些内部标准的行动的过程。请注意，算法确定性地选择其偏好的行动B。因此，决定论与选择之间没有矛盾。"
+  },
+  {
+    "id": 18,
+    "title": "Do State Referendums on Abortion Work?",
+    "title_zh": "州堕胎公投有效吗？",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/do-state-referendums-on-abortion-work",
+    "tags": [
+      "solve",
+      "politics",
+      "medicine",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "政治时事",
+      "医学健康",
+      "未来预测"
+    ],
+    "date": "2025-09-01",
+    "summary_en": "This article offers a sobering, in-depth look at the complex and often frustrating post-Roe landscape of abortion rights in the US, particularly focusing on Missouri. It highlights the profound disconnect between voter-approved referendums and their actual implementation, revealing how political maneuvers and legal challenges can effectively nullify democratic outcomes. The piece excels in illustrating the real-world impact on individuals, showcasing the desperate measures women take to access care and the moral dilemmas faced by medical professionals. It’s a critical examination of how legislative and judicial bodies can undermine public will, transforming a seemingly clear-cut issue into a quagmire of legal battles and human suffering. The recurring theme is the strategic, multi-pronged effort by anti-abortion forces to restrict access, regardless of public sentiment or medical necessity, painting a grim picture for reproductive freedom.",
+    "summary_zh": "这篇文章深入剖析了美国堕胎权在“罗诉韦德案”被推翻后的复杂局面，尤其以密苏里州为例，揭示了公投结果如何被政治和法律手段反复阻挠。它不仅展现了个人为寻求医疗服务所经历的艰辛，也深刻反思了立法和司法系统如何能扭曲民意。读来令人心生沉重，不禁思考在一个民主社会中，当多数人的意愿遭遇无休止的挑战时，我们该如何维护基本权利？这种持续的拉锯战，无疑是对公民自由的深刻考验。",
+    "best_quote_en": "“Unfortunately, what type of care you can access really depends on where you live.”",
+    "best_quote_zh": "“不幸的是，你能获得什么样的医疗服务，真的取决于你住在哪里。”"
+  },
+  {
+    "id": 19,
+    "title": "Wisereads Vol. 103 — Learn Like an Athlete by David Perell, Flatland by Edwin Abbott, and more",
+    "title_zh": "Wisereads 第103期 — 像运动员一样学习：大卫·佩雷尔、埃德温·阿博特的《平面国》等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-103/",
+    "tags": [
+      "inspire",
+      "education",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "教育学习",
+      "未来预测"
+    ],
+    "date": "2025-08-10",
+    "summary_en": "This Wisereads compilation offers a diverse intellectual smorgasbord, highlighting key insights from various domains. The piece on \"Learn Like an Athlete\" by David Perell resonates deeply, advocating for a proactive, structured approach to knowledge acquisition, a stark contrast to the passive consumption prevalent today. The concept of \"vibe code\" as legacy code is a sharp critique of unprincipled AI-driven development, urging caution and intentionality. Furthermore, the analysis of societal collapse through Luke Kemp's work, emphasizing elite-driven failures over inherent human flaws, provides a sobering yet insightful perspective on historical patterns. The inclusion of communication clarity and AI agent debates rounds out a collection that challenges assumptions and encourages critical thinking across technology, learning, and societal structures. It's a rich assembly for those seeking to refine their intellectual toolkit and broaden their worldview.",
+    "summary_zh": "这期Wisereads汇集了多元的智性火花，其中大卫·佩雷尔的“像运动员一样学习”尤为引人深思，它呼吁我们对知识摄取采取积极主动的策略，而非被动接受。AI时代的“氛围代码”被比作遗留代码，这深刻提醒我们，技术进步绝不能牺牲严谨性。而对社会崩溃的研究，将矛头指向精英而非人性本身，这无疑是对历史的一种颠覆性解读。整期内容跨越技术、学习与社会，激发读者跳出固有思维，以更批判的视角审视周遭世界，是提升认知层次的绝佳读物。",
+    "best_quote_en": "Even among the most ambitious individuals, learning plans are rare. Most people are reactive. They don’t plan. Like surfers in a violent ocean, they surrender to their environment. They direct their attention towards the never-ending shouts of email newsletters, friend recommendations, and social media feeds. We can do better.",
+    "best_quote_zh": "即使是最有抱负的个体，学习计划也寥寥无几。大多数人都是被动的。他们不规划。就像在狂暴海洋中的冲浪者，他们屈服于环境。他们将注意力投向永无止境的电子邮件通讯、朋友推荐和社交媒体推送。我们可以做得更好。"
+  },
+  {
+    "id": 20,
+    "title": "Pedals & Saddles",
+    "title_zh": "踏板与坐垫",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/pedals-saddles/",
+    "tags": [
+      "solve",
+      "design",
+      "beginner-friendly"
+    ],
+    "tags_zh": [
+      "解决",
+      "设计创意",
+      "新手友好"
+    ],
+    "date": "2025-09-01",
+    "summary_en": "This article thoughtfully reviews various bicycle components, including innovative pedals, ergonomic grips, and classic saddles. It highlights the PowerGrips for their balance of efficiency and ease of use, making advanced pedaling accessible without specialized footwear. The Ergon PC2 pedals and GP1 grips are praised for solving common discomforts like foot pain and hand numbness, emphasizing the importance of ergonomics in cycling. The enduring appeal of Brooks saddles is also discussed, noting their custom-fit comfort over time despite requiring a break-in period. This collection of reviews offers practical solutions for cyclists seeking enhanced comfort and performance, demonstrating how thoughtful design in even seemingly minor components can profoundly improve the riding experience. It underscores a user-centric approach to product evaluation, focusing on real-world benefits and addressing common pain points.",
+    "summary_zh": "这篇文章对自行车配件进行了细致入微的评测，从踏板到把手再到坐垫，每件产品都体现了以人为本的设计理念。PowerGrips的巧妙设计解决了效率与便捷性的平衡，Ergon的踏板和把手则直击骑行中的痛点，显著提升了舒适度。Brooks坐垫的经典传承，更是让人感受到时间的沉淀与个性化的贴合。阅读这些评测，我不禁思考，生活中那些看似微不足道的小物件，若能融入如此深思熟虑的设计，便能极大改善我们的日常体验。这不仅仅是产品的选择，更是对生活品质和个人感受的投资与尊重。",
+    "best_quote_en": "Saddle choice is as personal as musical preferences; the only way to know if a saddle works for you is to plant your butt on it and take a spin.",
+    "best_quote_zh": "鞍座的选择就像音乐品味一样个人化；判断一个鞍座是否适合你，唯一的方法就是坐上去骑一圈。"
   }]
