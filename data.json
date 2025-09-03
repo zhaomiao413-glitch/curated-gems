@@ -456,4 +456,117 @@
     "summary_zh": "这篇文章对自行车配件进行了细致入微的评测，从踏板到把手再到坐垫，每件产品都体现了以人为本的设计理念。PowerGrips的巧妙设计解决了效率与便捷性的平衡，Ergon的踏板和把手则直击骑行中的痛点，显著提升了舒适度。Brooks坐垫的经典传承，更是让人感受到时间的沉淀与个性化的贴合。阅读这些评测，我不禁思考，生活中那些看似微不足道的小物件，若能融入如此深思熟虑的设计，便能极大改善我们的日常体验。这不仅仅是产品的选择，更是对生活品质和个人感受的投资与尊重。",
     "best_quote_en": "Saddle choice is as personal as musical preferences; the only way to know if a saddle works for you is to plant your butt on it and take a spin.",
     "best_quote_zh": "鞍座的选择就像音乐品味一样个人化；判断一个鞍座是否适合你，唯一的方法就是坐上去骑一圈。"
+  },{
+    "id": 21,
+    "title": "What You (Want to)* Want",
+    "title_zh": "你（想要）* 想要什么",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "inspire",
+      "startup-strategy"
+    ],
+    "tags_zh": [
+      "启发",
+      "创业策略"
+    ],
+    "date": "2025-09-03",
+    "summary_en": "This thought-provoking essay delves into the age-old philosophical dilemma of free will versus determinism, exploring the nuanced interplay between our actions, desires, and the underlying forces that shape them. The author, reflecting on a childhood puzzle, ingeniously uses the concept of recursive \"want to\" statements to illustrate the subtle layers of desire, ultimately positing that while we can act on our immediate wants, there's always a foundational 'want' that remains beyond our conscious control. This piece challenges the reader to critically examine their own autonomy, offering a fresh perspective on the boundaries of personal agency and the complexities of human motivation. It's a concise yet profound exploration that resonates with anyone who has pondered the true source of their inclinations.",
+    "summary_zh": "这篇引人深思的文章巧妙地探讨了自由意志与决定论的哲学难题。作者从童年困惑出发，通过“想要”的层层递进，精辟地指出我们行动的自由受制于更深层的、我们无法完全掌控的“想要”。这让我不禁反思，我们究竟是欲望的主宰，还是被无形力量牵引的傀儡？文章虽短，却深刻揭示了人类选择背后的复杂性，引人深思个人意志的边界，对理解自我与世界提供了全新的视角。",
+    "best_quote_en": "You can do what you want, but there's some statement of the form \"you can't (want to)* want what you want\" that's true. Ultimately you get back to a want that you don't control.",
+    "best_quote_zh": "你可以做你想做的事，但总有某种形式的“你不能（想要）* 想要你想要的东西”的说法是正确的。最终，你总会回到一个你无法控制的欲望。"
+  },
+  {
+    "id": 22,
+    "title": "How To Become A Mechanistic Interpretability Researcher",
+    "title_zh": "如何成为一名机械可解释性研究员",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher",
+    "tags": [
+      "solve",
+      "ai-research",
+      "programming",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "解决",
+      "AI研究",
+      "编程开发",
+      "数据驱动"
+    ],
+    "date": "2025-09-02",
+    "summary_en": "This comprehensive guide offers an opinionated yet highly practical roadmap for aspiring mechanistic interpretability (mech interp) researchers. It meticulously breaks down the learning process into three stages: grasping core concepts, practicing with mini-projects, and scaling up to full research. The author emphasizes 'learning by doing,' advocating for rapid iteration, active experimentation, and leveraging LLMs as powerful tools for learning and coding. A significant portion is dedicated to cultivating essential research mindsets like skepticism, prioritization, and productivity, alongside navigating the evolving landscape of mech interp research, highlighting new opportunities and warning against fads. The advice on seeking mentorship, collaborating, and effectively communicating findings is particularly insightful, making this an invaluable resource for anyone serious about contributing to the field, regardless of their prior background.",
+    "summary_zh": "这篇指南为有志于机械可解释性研究的人提供了极其务实且充满洞见的路线图。它将学习过程细致拆解为三个阶段，强调“边做边学”的理念，鼓励快速迭代、积极实验，并充分利用大型语言模型辅助学习与编码。文章深入探讨了培养研究心态的重要性，如批判性思维、优先级管理和高效产出。同时，它前瞻性地分析了机械可解释性领域的新趋势与潜在陷阱，对寻求导师、协作及有效沟通研究成果的建议尤其精辟。读完此文，我不禁思考，这种“做中学”的模式，是否也适用于其他复杂技能的习得？其对LLM作为学习助手的定位，更是深刻捕捉了AI时代知识获取的新范式。这不仅是一份技术指南，更是一次对高效学习与科研实践的深刻反思。",
+    "best_quote_en": "My core philosophy for getting into mech interp is this: learn the absolute minimal basics as quickly as possible, and then immediately transition to learning by doing research.",
+    "best_quote_zh": "我进入机械可解释性的核心理念是：尽快学习最基本的知识，然后立即转变为通过做研究来学习。"
+  },
+  {
+    "id": 23,
+    "title": "Texas Democrats’ Weapons of the Weak",
+    "title_zh": "得州民主党人的弱者武器",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/letter-from-the-southwest/texas-democrats-weapons-of-the-weak",
+    "tags": [
+      "analyze",
+      "politics",
+      "controversial"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "争议观点"
+    ],
+    "date": "2025-09-02",
+    "summary_en": "This article offers a compelling, albeit disheartening, look into the asymmetric political warfare waged by Texas Democrats against a dominant Republican majority. It meticulously details their 'weapons of the weak'—from quorum breaks to filibusters—as desperate measures to resist gerrymandering and other restrictive legislation. While these tactics often fail to halt the legislative juggernaut, they succeed in garnering national attention and inspiring similar resistance elsewhere, highlighting the shifting battleground from legislative halls to the court of public opinion. The piece thoughtfully explores the diminishing collegiality in Texas politics, the brutal effectiveness of Republican retaliation, and the enduring, albeit often symbolic, fighting spirit of the minority. It's a poignant reflection on the challenges of democratic resistance in an increasingly polarized political landscape.",
+    "summary_zh": "这篇文章深刻剖析了得州民主党在共和党强大攻势下的无奈与抗争。从离州阻挠到冗长发言，这些“弱者武器”虽难挡立法洪流，却成功吸引全国关注，甚至激发其他州的效仿。文章揭示了政治生态中合作精神的消逝，以及共和党报复的残酷性。它不仅是对一场特定政治斗争的记录，更是对当下美国政治两极分化背景下，少数派如何挣扎求存、争取话语权的深刻反思。读来令人思考，当传统制衡手段失效，民主的韧性何在？",
+    "best_quote_en": "“I think of all of the people that really have the resources and capacity to take on Trump—the big law firms like Paul, Weiss. Harvard and Columbia and Brown. Paramount, CBS. Zuckerberg and Facebook, Bezos and the Washington Post. You know, Tim Cook giving a gold plaque to Trump in the Oval Office. Here are some of the wealthiest people on the planet, and the real centers of traditional power in America, all bending the knee,” he said. “And then you have these Texas Democrats who, though they don’t have conventional power, did something incredibly inspiring for the country. I think this fighting spirit was what the country needed, what it needs. And, of all places, it came out of Texas.”",
+    "best_quote_zh": "“我想到了所有真正有资源和能力对抗特朗普的人——像保罗·韦斯这样的大型律师事务所。哈佛、哥伦比亚和布朗。派拉蒙、哥伦比亚广播公司。扎克伯格和脸书，贝佐斯和《华盛顿邮报》。你知道，蒂姆·库克在椭圆形办公室给特朗普颁发金牌。这些人是地球上最富有的人，也是美国传统权力的真正中心，他们都屈膝了，”他说。“然后你看到这些得州民主党人，尽管他们没有传统权力，却为这个国家做了一些令人难以置信的鼓舞人心的事情。我认为这种战斗精神是这个国家所需要的，而且，它竟然来自得州。”"
+  },
+  {
+    "id": 24,
+    "title": "Wisereads Vol. 102 — Hard Lessons from the Hurt Business by Ed Latimore, Arnold Schwarzenegger on protein, and more",
+    "title_zh": "Wisereads Vol. 102 — Ed Latimore《艰难的商业教训》，阿诺德·施瓦辛格谈蛋白质等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-102/",
+    "tags": [
+      "inspire",
+      "design",
+      "ai-research",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "启发",
+      "设计创意",
+      "AI研究",
+      "数据驱动"
+    ],
+    "date": "2025-08-03",
+    "summary_en": "This Wisereads digest offers a curated collection of insights across diverse fields, highlighting the ongoing relevance of deep reading and critical thinking in an increasingly fragmented digital landscape. From Ed Latimore's raw memoir on resilience to Tyler Cowen's practice methods and a critical look at smartphone-induced inequality, the selection emphasizes practical wisdom and intellectual development. The inclusion of AI interface design and LLM mechanics points to a future-focused perspective, while Arnold Schwarzenegger's protein guide grounds the content in actionable health advice. The digest subtly advocates for intentional content consumption, suggesting that thoughtful engagement with varied perspectives is key to personal and intellectual growth in an age of information overload. It prompts readers to consider how they curate their own intellectual diet.",
+    "summary_zh": "本期Wisereads文摘内容丰富，从个人成长、社会观察到前沿科技，无所不包。Ed Latimore的自传引人深思，关乎如何将痛苦转化为力量；对智能手机导致不平等的探讨，则警示我们数字鸿沟的潜在风险。阿诺德·施瓦辛格的蛋白质指南提供了实用的健康建议，而对AI未来形态的讨论则激发了对科技发展的无限遐想。这不仅是信息的聚合，更是一场关于如何构建有价值知识体系的对话，引导读者在信息洪流中保持清醒与专注，培养深度阅读和批判性思维的习惯，这对我个人而言是极具启发性的。",
+    "best_quote_en": "Every time you read something thoughtful instead of watching some random show Netflix just recommended, you’re voting for your future self. Every time you build a library instead of a wishlist, you’re telling your mind what it’s allowed to prioritize. Taste is how you teach the world to treat your attention.",
+    "best_quote_zh": "每次你选择阅读有深度的内容，而非观看Netflix随意推荐的节目，你都在为未来的自己投票。每次你构建一个知识库而非仅仅一个愿望清单，你都在告诉你的大脑它应该优先处理什么。品味决定了你如何教导世界对待你的注意力。"
+  },
+  {
+    "id": 25,
+    "title": "Tiki Style / An Unreliable History of Tattoos",
+    "title_zh": "提基风格 / 不可靠的纹身历史",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/tiki-style-an-unreliable-history-of-tattoos/",
+    "tags": [
+      "analyze",
+      "ai-research",
+      "lifestyle",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "AI研究",
+      "生活方式",
+      "数据驱动"
+    ],
+    "date": "2025-09-02",
+    "summary_en": "This content presents two distinct book reviews: 'Tiki Style' and 'An Unreliable History of Tattoos.' The 'Tiki Style' review highlights a concise yet comprehensive dive into tiki culture, tracing its origins and impact on Americana, filled with vibrant imagery. It's pitched as an enjoyable, visually rich introduction for enthusiasts. Conversely, 'An Unreliable History of Tattoos' is presented as a humorous, satirical graphic novel that blends historical facts with fiction to explore the long, often surprising, history of body art. The review emphasizes its playful, unreliable narrative and broad cultural scope, making it an entertaining read for those interested in the quirky side of history. Both reviews offer a glimpse into niche cultural topics, appealing to readers seeking both aesthetic appreciation and unconventional historical perspectives.",
+    "summary_zh": "这篇内容巧妙地并置了两本书评：《提基风格》和《不可靠的纹身历史》。前者以精美的图片和简洁的文字，带领读者领略提基文化的魅力，让人不禁神往那份热带风情。后者则以幽默讽刺的笔触，将纹身的历史真假混杂，读来趣味盎然，挑战了我们对历史的固有认知。两本书都展现了各自独特的文化视角，引人深思。它们提醒我，文化和历史的探索总能带来意想不到的惊喜与乐趣。",
+    "best_quote_en": "Mixing fiction with facts, (honestly sometimes it’s hard to tell what’s real and what’s made up) this book is interesting, humorous, and very unusual!",
+    "best_quote_zh": "将虚构与事实混杂在一起（老实说，有时很难分辨什么是真的，什么是编造的），这本书既有趣又幽默，而且非常不寻常！"
   }]
