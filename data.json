@@ -569,4 +569,121 @@
     "summary_zh": "这篇内容巧妙地并置了两本书评：《提基风格》和《不可靠的纹身历史》。前者以精美的图片和简洁的文字，带领读者领略提基文化的魅力，让人不禁神往那份热带风情。后者则以幽默讽刺的笔触，将纹身的历史真假混杂，读来趣味盎然，挑战了我们对历史的固有认知。两本书都展现了各自独特的文化视角，引人深思。它们提醒我，文化和历史的探索总能带来意想不到的惊喜与乐趣。",
     "best_quote_en": "Mixing fiction with facts, (honestly sometimes it’s hard to tell what’s real and what’s made up) this book is interesting, humorous, and very unusual!",
     "best_quote_zh": "将虚构与事实混杂在一起（老实说，有时很难分辨什么是真的，什么是编造的），这本书既有趣又幽默，而且非常不寻常！"
+  },{
+    "id": 26,
+    "title": "Alien Truth",
+    "title_zh": "外星真理",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/alien.html",
+    "tags": [
+      "inspire",
+      "startup-strategy",
+      "science",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "创业策略",
+      "科学研究",
+      "未来预测"
+    ],
+    "date": "2025-09-04",
+    "summary_en": "This thought-provoking essay delves into the concept of \"alien truth,\" exploring universal principles that intelligent beings across the cosmos might share, beyond mere mathematics and physics. The author posits that ideas like controlled experimentation, the value of practice, and Occam's Razor could be universally recognized by any intelligence, suggesting these are more discovered than invented. The piece compellingly links this idea to Erdos's \"God's book\" and redefines philosophy as the pursuit of these fundamental, universally applicable truths. It raises profound questions about the nature of intelligence and knowledge, hinting at the potential for future AI to illuminate these shared truths, making it a fascinating exploration of epistemology and the essence of universal understanding.",
+    "summary_zh": "这篇文章对“外星真理”的探讨令人深思，它超越了数理法则，触及了智能生命可能普遍认同的更深层原理。作者提出，诸如受控实验、实践价值、奥卡姆剃刀等概念，或许是所有智能体都能共鸣的“被发现”而非“被发明”的真理。这不禁让我思考，人类心智的某些深层结构，是否也反映了宇宙中更普遍的秩序？这种对哲学本质的重新定义，以及对未来AI可能揭示这些普遍真理的展望，为我们理解知识和智能的本质提供了全新的视角，令人既好奇又振奋。",
+    "best_quote_en": "If you're trying to find the most general truths short of those of math or physics, then presumably they'll be those we'd share in common with other forms of intelligent life.",
+    "best_quote_zh": "如果你试图寻找除数学和物理之外最普遍的真理，那么它们很可能就是我们与其它智能生命形式所共有的真理。"
+  },
+  {
+    "id": 27,
+    "title": "From prison with therapeutic humor to difficult reasoning",
+    "title_zh": "从监狱治疗性幽默到艰难的理性思考",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/K9jFm9P5o258LDDW8/from-prison-with-therapeutic-humor-to-difficult-reasoning",
+    "tags": [
+      "inspire",
+      "psychology",
+      "education",
+      "case-study"
+    ],
+    "tags_zh": [
+      "启发",
+      "心理学",
+      "教育学习",
+      "案例研究"
+    ],
+    "date": "2025-09-04",
+    "summary_en": "This reflective piece chronicles a comedian's journey teaching therapeutic humor in Argentine prisons, aiming to help inmates reframe their pasts and find new perspectives. The author initially hypothesized humor as a cognitive reward for rapid perspective-shifting, observing its power to lighten heavy experiences. However, the core insight emerges as a pivot: while humor provides temporary relief and a shift in viewpoint, it's insufficient for long-term behavioral change. The author concludes that probabilistic rationality, which rewards robust model-building and decision-making, is a crucial next step. This blend of emotional healing and logical thinking offers a profound reflection on human agency, the complexities of rehabilitation, and the potential for cognitive tools to foster sustained positive change, even in challenging environments. It raises an intriguing question about whether enhanced rationality would lead to ethical behavior or merely more effective criminality.",
+    "summary_zh": "这篇深刻的思考记录了作者在阿根廷监狱教授治疗性幽默的经历，旨在帮助囚犯重新审视过去。幽默确实能提供视角的快速转换，带来短暂的慰藉，但作者敏锐地发现，它不足以支撑长期的行为改变。文章的核心洞见在于，幽默更像是一种情绪的“贝叶斯更新”，而真正的理性思考才能构建更稳定的未来选择模型。这引发了一个引人深思的问题：当认知工具赋予个体更强的理性能力时，他们会选择走向道德，还是仅仅成为更高效的“恶棍”？这不仅是对康复的探索，更是对人类本性和自由意志的深刻追问，令人不禁思考我们究竟该如何引导这种力量。",
+    "best_quote_en": "Humor teaches “there is always another angle,” but probability teaches “some angles are more likely to bring better outcomes.”",
+    "best_quote_zh": "幽默教会你“总有另一个角度”，但概率教会你“有些角度更有可能带来更好的结果”。"
+  },
+  {
+    "id": 28,
+    "title": "Trump’s Department of Energy Gets Scienced",
+    "title_zh": "特朗普能源部被科学“打脸”",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/trumps-department-of-energy-gets-scienced",
+    "tags": [
+      "analyze",
+      "politics",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-09-03",
+    "summary_en": "This article critically examines the Trump administration's attempts to undermine climate science through a Department of Energy (DOE) report that downplayed global warming. It highlights the swift and robust rebuttal by 86 international climate scientists, who meticulously debunked the DOE's cherry-picked data and flawed methodology. The piece draws a compelling parallel to a scene from \"Annie Hall,\" where intellectual charlatanism is exposed by genuine expertise. It's a poignant reflection on the erosion of scientific integrity in politics and the dangerous implications of dismissing expert consensus, not just in climate change but across public health. The author skillfully argues that while political agendas may temporarily suppress truth, reality, in the form of environmental and health crises, will ultimately prevail. This raises crucial questions about societal responsibility and the future of evidence-based policy-making.",
+    "summary_zh": "这篇文章深刻剖析了特朗普政府如何试图通过一份能源部报告来削弱气候科学的权威性。它不仅详细描述了国际气候科学家们如何以严谨的数据和逻辑对这份报告进行了有力驳斥，更引人深思的是，作者通过《安妮·霍尔》中的经典桥段，巧妙地揭示了伪科学在政治场域中的荒谬。读来不禁让人感慨，当专业被意识形态绑架，当真相被权力扭曲，我们付出的代价将是整个社会对科学的信任崩塌，以及未来可能面临的严峻环境和健康挑战。这不仅是一场科学与政治的较量，更是对人类理性与生存智慧的拷问。",
+    "best_quote_en": "The American scientific enterprise, the source of so much wealth and national prestige, is being unravelled before our eyes—research grants are being cut off, satellites disconnected, reports cooked up to meet the needs of particular industries and ideologies.",
+    "best_quote_zh": "美国科学事业，这个曾经的财富和国家声望之源，正在我们眼前瓦解——研究经费被削减，卫星被断开连接，报告被炮制以满足特定行业和意识形态的需求。"
+  },
+  {
+    "id": 29,
+    "title": "Wisereads Vol. 101 — Smart Brevity, Seth Godin's Notes to Myself, and more",
+    "title_zh": "Wisereads 第101期 — 智能简洁、赛斯·戈丁的自我笔记等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-101/",
+    "tags": [
+      "inspire",
+      "leadership",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "启发",
+      "领导管理",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-07-27",
+    "summary_en": "This Wisereads digest, volume 101, offers a curated collection of insights spanning communication, AI's impact on creativity, leadership, and personal growth. It provocatively previews \"Smart Brevity,\" advocating for concise communication in a noisy digital world. The inclusion of Seth Godin's \"Notes to Myself\" provides timeless wisdom in bite-sized pieces, while the \"Writing is thinking\" article from Nature underscores the irreplaceable cognitive benefits of the writing process, even amidst AI advancements. The segment on Ira Glass highlights the crucial 'taste-ability gap' for creatives, emphasizing perseverance. Furthermore, the analysis of Norway's wealth fund's AI experiment showcases practical AI application in finance, and the HBR classic \"Management Time\" offers enduring lessons on delegation. This compilation serves as a potent reminder that while technology evolves, fundamental principles of effective communication, critical thinking, and leadership remain paramount.",
+    "summary_zh": "Wisereads第101期如同一份智慧的浓缩，巧妙地将不同领域的思想精华汇聚一堂。它不仅前瞻性地探讨了“智能简洁”在数字时代的沟通力量，更通过赛斯·戈丁的箴言、自然杂志对写作与思考关系的剖析，以及艾拉·格拉斯对创意人“品味与能力差距”的洞察，触及了个人成长与职业发展的核心。挪威主权基金的AI实践案例和《哈佛商业评论》的经典管理文章，则从实践层面展现了效率与领导力的真谛。这让我不禁思考，在信息爆炸的时代，如何保持清醒、精炼，并持续深入思考，才是真正有价值的生存之道。",
+    "best_quote_en": "What we’re arguing is this: If you want vital information to stick in the digital world, you need to radically rethink—and repackage—how you deliver it. Start by accepting that most people will scan or skip most of what you communicate—and then make every word and sentence count.",
+    "best_quote_zh": "我们认为：如果你想让重要信息在数字世界中被记住，你需要彻底重新思考并重新包装你的传递方式。首先要接受大多数人会浏览或跳过你所传达的大部分内容——然后让每个词、每个句子都发挥作用。"
+  },
+  {
+    "id": 30,
+    "title": "What’s in my NOW? — Danielle Krage",
+    "title_zh": "我的“此刻”有什么？— Danielle Krage",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/whats-in-my-now-danielle-krage/",
+    "tags": [
+      "inspire",
+      "lifestyle",
+      "design"
+    ],
+    "tags_zh": [
+      "启发",
+      "生活方式",
+      "设计创意"
+    ],
+    "date": "2025-09-03",
+    "summary_en": "This piece offers a glimpse into Danielle Krage's current creative and intellectual pursuits, centered around her 'Ray Bradbury 1000 Nights challenge' of daily reading. It’s a personal reflection, showcasing specific recommendations for poetry, essays, and short stories that resonated with her, alongside digital resources like a pivotal Ray Bradbury talk and a daily poetry site. The most insightful aspect is her embrace of 'extended creative Quests' and her guiding mantra: 'Make it hard enough to matter—and fun enough to finish.' This content is less about providing new information and more about inspiring readers to embark on their own intellectual journeys, highlighting the joy of disciplined artistic exploration and the value of engaging with literature. It's a testament to the power of consistent creative practice and the personal growth derived from challenging one's own intellectual boundaries.",
+    "summary_zh": "这篇短文揭示了Danielle Krage当前的精神世界与创意实践，核心是她受雷·布拉德伯里启发的“千夜挑战”。她分享了触动心灵的诗歌、散文和短篇小说推荐，以及激发灵感的数字资源。最引人深思的是她对“延伸创意探索”的热爱，以及“让它足够重要到值得，足够有趣到完成”的座右铭。这不仅仅是简单的推荐，更是一种生活态度的分享，激励读者投入自我挑战的创意旅程。我从中看到了持之以恒的阅读与创作如何塑造一个人的精神内核，以及在挑战中寻得乐趣的重要性。",
+    "best_quote_en": "Make it hard enough to matter—and fun enough to finish.",
+    "best_quote_zh": "让它足够重要到值得，足够有趣到完成。"
   }]
