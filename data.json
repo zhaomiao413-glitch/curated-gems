@@ -686,4 +686,115 @@
     "summary_zh": "这篇短文揭示了Danielle Krage当前的精神世界与创意实践，核心是她受雷·布拉德伯里启发的“千夜挑战”。她分享了触动心灵的诗歌、散文和短篇小说推荐，以及激发灵感的数字资源。最引人深思的是她对“延伸创意探索”的热爱，以及“让它足够重要到值得，足够有趣到完成”的座右铭。这不仅仅是简单的推荐，更是一种生活态度的分享，激励读者投入自我挑战的创意旅程。我从中看到了持之以恒的阅读与创作如何塑造一个人的精神内核，以及在挑战中寻得乐趣的重要性。",
     "best_quote_en": "Make it hard enough to matter—and fun enough to finish.",
     "best_quote_zh": "让它足够重要到值得，足够有趣到完成。"
+  },{
+    "id": 31,
+    "title": "What I've Learned from Users",
+    "title_zh": "我从用户那里学到了什么",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/users.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "数据驱动"
+    ],
+    "date": "2025-09-05",
+    "summary_en": "This essay offers profound insights into the operational philosophy of Y Combinator, distilled from years of observing countless startups. It highlights the surprising commonality of startup problems, the counterintuitive nature of the startup journey, and the critical importance of individualized mentorship and peer support. The author, through a reflective lens, reveals how YC evolved its model to address scalability challenges (like the 'batch that broke YC') and optimize for founder success by fostering focus, rapid iteration, and a collaborative environment. The piece intelligently dissects why founders often struggle to identify their true problems or heed advice, attributing it to the counterintuitive reality of startups and the ingrained habits from traditional education. It's a compelling read for anyone interested in startup dynamics, mentorship, and organizational learning, offering a rare glimpse into the practical wisdom gained from advising thousands of nascent ventures.",
+    "summary_zh": "这篇文章深入剖析了Y Combinator的运作精髓，揭示了初创企业问题的惊人共性，以及创业过程的诸多反直觉之处。作者以坦诚的笔触，分享了YC如何从实践中学习，通过碎片化管理和强调个性化指导来应对规模化挑战。最引人深思的是，它解释了为何创始人常常难以识别核心问题或采纳建议，这不仅是固执，更是因为创业本身就充满悖论。这让我不禁思考，在快速变化的时代，我们如何才能真正学会倾听与迭代，而非固守旧有模式？文章强调的导师与同伴集群效应，更是对“孤独的创业者”这一刻板印象的有力反驳，令人受益匪浅。",
+    "best_quote_en": "The reason startups are so counterintuitive is that they're so different from most people's other experiences. No one knows what it's like except those who've done it.",
+    "best_quote_zh": "初创企业之所以如此反直觉，是因为它们与大多数人的其他经历截然不同。除了亲身实践过的人，没有人知道那是什么感觉。"
+  },
+  {
+    "id": 32,
+    "title": "Hunger strike in front of Anthropic by one guy concerned about AI risk",
+    "title_zh": "一人在Anthropic公司前绝食抗议，关注AI风险",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/RxcYnuiZZzp63Hjqr/hunger-strike-in-front-of-anthropic-by-one-guy-concerned",
+    "tags": [
+      "analyze",
+      "ai-research",
+      "controversial"
+    ],
+    "tags_zh": [
+      "分析",
+      "AI研究",
+      "争议观点"
+    ],
+    "date": "2025-09-05",
+    "summary_en": "This content presents a poignant and urgent plea from an individual undertaking a hunger strike outside Anthropic, an AI company. The core insight is the profound anxiety surrounding the uncontrolled development of powerful AI, echoing expert warnings about existential risks. It highlights a critical ethical dilemma: the tension between technological advancement and societal safety. The piece serves as a stark reminder of the growing public concern and the moral responsibility of AI developers. It prompts reflection on the broader implications of the AI race, urging immediate action and greater transparency. The individual's radical act underscores the perceived severity of the threat, challenging the industry to prioritize humanity over progress.",
+    "summary_zh": "这篇内容记录了一位在Anthropic公司前绝食抗议的个体，其行为本身就极具冲击力。它深刻揭示了AI发展失控可能带来的巨大风险，以及专家们对生存威胁的担忧。这不仅仅是一个人的抗议，更是对整个AI行业伦理与责任的拷问。它让我思考，在科技飞速进步的时代，我们是否真正做好了应对其潜在黑暗面的准备？这种近乎绝望的呼吁，无疑是对AI开发者们最沉重的警示，也促使我们所有人重新审视科技与人类未来的关系。",
+    "best_quote_en": "Experts are warning us that this race to ever more powerful artificial general intelligence puts our lives and well being at risk, as well as the lives and well being of our loved ones. They are warning us that the creation of extremely powerful AI threatens to destroy life on Earth.",
+    "best_quote_zh": "专家们警告我们，这场追求更强大通用人工智能的竞赛，将我们以及我们所爱之人的生命和福祉置于危险之中。他们警告我们，极其强大的人工智能的创造，威胁着毁灭地球上的生命。"
+  },
+  {
+    "id": 33,
+    "title": "How Many Court Cases Can Trump Lose in a Single Week?",
+    "title_zh": "特朗普一周内能输掉多少场官司？",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/letter-from-trumps-washington/how-many-court-cases-can-trump-lose-in-a-single-week",
+    "tags": [
+      "inspire",
+      "politics",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "政治时事",
+      "未来预测"
+    ],
+    "date": "2025-09-04",
+    "summary_en": "This insightful article from September 2025 critically examines a series of significant legal setbacks faced by Donald Trump in federal courts, challenging his sweeping executive actions on tariffs, immigration, and the use of military force. The author, Susan B. Glasser, meticulously details how judges are rebuffing Trump's assertions of emergency powers and unconstitutional overreach, highlighting a potential counter-narrative to the prevailing view of his second term as an unchallenged success. Glasser thoughtfully explores the implications of these rulings, even if subject to appeal, emphasizing their role in demonstrating continued judicial resistance and a commitment to the rule of law. She raises a crucial question about the judiciary's ability to curb authoritarian tendencies, while acknowledging its vital role in upholding democratic principles. The piece offers a compelling analysis of the ongoing struggle between executive power and judicial oversight in American governance.",
+    "summary_zh": "这篇文章对特朗普在联邦法院遭遇的法律挫败进行了细致入微的分析，揭示了其行政权力扩张所面临的司法制约。格拉瑟的笔触充满思辨，她不仅列举了具体案例，更深入探讨了这些判决背后所体现的法治精神与司法独立性。尽管这些裁决可能上诉，但它们无疑是美国司法体系抵御政治侵蚀的重要信号。我个人认为，这篇报道不仅仅是关于法律的输赢，更是对美国民主制度韧性的一次深刻反思。它提醒我们，即便面对强大的政治压力，法治的基石依然坚固，这是与某些国家截然不同的核心价值。",
+    "best_quote_en": "I know that the courts alone cannot save us from Trump’s would-be authoritarianism. If anything, I’ve long been struck by the faith that so many of the President’s critics have in the power of the judiciary to curb his excesses, when history is so clear about the power of a demagogue to bulldoze his way past even the most eloquent legal rulings. But I also know that America’s tradition of the rule of law is what makes it different from Vladimir Putin’s Russia or Xi Jinping’s China, where the law is whatever the boss says it is.",
+    "best_quote_zh": "我知道仅仅靠法院无法将我们从特朗普的潜在威权主义中拯救出来。如果说有什么让我长期以来感到震惊的，那就是如此多的总统批评者对司法机构遏制其过度行为的力量抱有信心，而历史却清楚地表明，煽动者有能力推翻即使是最雄辩的法律裁决。但我也知道，美国的法治传统使其有别于弗拉基米尔·普京的俄罗斯或习近平的中国，在那些地方，法律就是老板说了算。"
+  },
+  {
+    "id": 34,
+    "title": "Wisereads Vol. 💯 — Useful Not True by Derek Sivers, Andrew Ng on Building Faster with AI, and more",
+    "title_zh": "Wisereads Vol. 💯 — Derek Sivers的《有用而非真实》，Andrew Ng谈如何用AI加速构建，以及更多",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-100/",
+    "tags": [
+      "inspire",
+      "leadership",
+      "society",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "领导管理",
+      "社会议题",
+      "未来预测"
+    ],
+    "date": "2025-07-20",
+    "summary_en": "This Wisereads digest marks a significant 100-week milestone, offering a rich tapestry of thought-provoking articles and insights. It features Derek Sivers' full book, \"Useful Not True,\" challenging readers to prioritize utility over absolute truth. Other notable inclusions delve into societal shifts, like the decline of social engagement in the US, and critical takes on \"inevitabilism\" in discourse. Particularly compelling are the sections on AI's practical implications: reflections on OpenAI's meritocratic culture and, surprisingly, a study revealing AI can *slow down* experienced developers. Andrew Ng's advice on building faster with AI, emphasizing concreteness, stands out. This collection truly encourages a nuanced, critical approach to information, blending philosophical depth with practical, data-driven observations on technology and human behavior.",
+    "summary_zh": "这期Wisereads百期特刊，内容丰富且引人深思。Derek Sivers的《有用而非真实》一书，启发我们重新审视“真相”的价值，转而追求“有用”。社会洞察方面，美国社交活动衰退的分析令人警醒，而对“必然论”的批判则提醒我们保持独立思考。AI相关内容尤其精彩：OpenAI的文化反思，以及一项出人意料的研究——AI竟可能降低经验丰富的开发人员效率，这与Andrew Ng关于AI加速构建的观点形成了有趣的对比。这期内容不仅提供了知识，更鼓励我们以批判性思维审视信息，将哲学深度与现实洞察融为一体，收获颇丰。",
+    "best_quote_en": "\"By definition, 'the future' doesn’t exist. It’s what we call predictions in our imagination... Even a statement as simple as 'I need to relax' might not be true, since it’s a prediction that relaxing will help. The problem is certainty, and not realizing it’s a prediction.\"",
+    "best_quote_zh": "“从定义上讲，‘未来’是不存在的。它只是我们想象中的预测……即使是‘我需要放松’这样简单的说法也可能不是真的，因为它只是一个关于放松会有帮助的预测。问题在于确定性，以及没有意识到这只是一个预测。”"
+  },
+  {
+    "id": 35,
+    "title": "Public Speakerphone Fines/What Not to Buy/Biz Class Deals",
+    "title_zh": "公共扬声器罚款/不该买什么/商务舱优惠",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/public-speakerphone-fines-what-not-to-buy-biz-class-deals/",
+    "tags": [
+      "update",
+      "design",
+      "lifestyle"
+    ],
+    "tags_zh": [
+      "动态",
+      "设计创意",
+      "生活方式"
+    ],
+    "date": "2025-09-04",
+    "summary_en": "This piece offers a collection of bite-sized, practical travel and consumer insights, blending behavioral etiquette with financial advice. It highlights the growing trend of fining individuals for public speakerphone use, underscoring a shift towards enforcing public decorum. More importantly, it provides actionable warnings against investing in financially precarious companies like Spirit Airlines and Kodak, and cautions against the Cybertruck given its recall issues. The article also touches upon dynamic changes in airline loyalty programs and the surprising availability of affordable business class deals to Latin America. While concise, the true value lies in its direct, no-nonsense warnings and tips, serving as a quick update for savvy travelers and consumers navigating an ever-evolving market. It's a testament to how small, timely insights can significantly impact personal choices and experiences.",
+    "summary_zh": "这篇内容短小精悍，却蕴含了实用的旅行与消费洞察。从公共场所使用扬声器可能面临罚款的社会趋势，到警示消费者避免购买财务不稳的航空公司股票或问题缠身的电动皮卡，字里行间都透露出对用户利益的关切。尤其关于航空公司忠诚计划的变动和商务舱优惠的提示，对我这样经常关注旅行信息的人来说，既是更新也是启发。它提醒我们，即使是碎片化的信息，如果能精准击中痛点，也能带来巨大的决策价值。这种直接、不加修饰的建议，远比长篇大论更有力量。",
+    "best_quote_en": "Some travel etiquette “no-no” rules are up for debate. Others should not be—like playing sound on your phone or tablet speaker in a public place.",
+    "best_quote_zh": "有些旅行礼仪的“禁忌”规则尚有争议。而有些则不应该有争议——比如在公共场所用手机或平板电脑的扬声器播放声音。"
   }]
