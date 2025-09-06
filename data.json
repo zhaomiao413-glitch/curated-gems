@@ -797,4 +797,123 @@
     "summary_zh": "这篇内容短小精悍，却蕴含了实用的旅行与消费洞察。从公共场所使用扬声器可能面临罚款的社会趋势，到警示消费者避免购买财务不稳的航空公司股票或问题缠身的电动皮卡，字里行间都透露出对用户利益的关切。尤其关于航空公司忠诚计划的变动和商务舱优惠的提示，对我这样经常关注旅行信息的人来说，既是更新也是启发。它提醒我们，即使是碎片化的信息，如果能精准击中痛点，也能带来巨大的决策价值。这种直接、不加修饰的建议，远比长篇大论更有力量。",
     "best_quote_en": "Some travel etiquette “no-no” rules are up for debate. Others should not be—like playing sound on your phone or tablet speaker in a public place.",
     "best_quote_zh": "有些旅行礼仪的“禁忌”规则尚有争议。而有些则不应该有争议——比如在公共场所用手机或平板电脑的扬声器播放声音。"
+  },{
+    "id": 36,
+    "title": "Heresy",
+    "title_zh": "异端",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/heresy.html",
+    "tags": [
+      "inspire",
+      "startup-strategy",
+      "society",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "创业策略",
+      "社会议题",
+      "未来预测"
+    ],
+    "date": "2025-09-06",
+    "summary_en": "This thought-provoking essay by Paul Graham critically examines the resurgence of \"heresy\" in contemporary society, particularly within the context of free expression and employment. He masterfully draws parallels between historical religious heresy and modern-day ideological intolerance, arguing that certain opinions are now treated as unforgivable transgressions, outweighing an individual's character or achievements. Graham highlights how this phenomenon is driven by \"aggressively conventional-minded\" individuals who, when united by an ideology, create a mob dynamic that suppresses dissenting views. He observes a concerning trend where the window of acceptable public opinion, which had been widening for centuries, has begun to narrow. The essay serves as a powerful call to action, urging readers to push back against this intellectual constriction and develop new \"social antibodies\" to defend freedom of thought.",
+    "summary_zh": "保罗·格雷厄姆这篇关于“异端”的文章令人深思。他敏锐地指出，在现代社会，某些观点正被视为不可饶恕的“异端”，其严重性甚至超越了个人的品格与成就。这种现象与历史上的宗教异端有着惊人的结构性相似。文章揭示了“攻击性守旧者”在意识形态驱动下，如何形成群体效应，压制异见。我尤其赞同他对言论自由“窗口”正在缩小的担忧。这不仅是对当下社会思潮的批判，更是对未来思想开放性的警示，促使我们反思并积极抵抗这种趋势，寻找维护思想自由的新途径。",
+    "best_quote_en": "A heresy is an opinion whose expression is treated like a crime — one that makes some people feel not merely that you're mistaken, but that you should be punished. Indeed, their desire to see you punished is often stronger than it would be if you'd committed an actual crime.",
+    "best_quote_zh": "异端是一种观点，其表达被视为犯罪——让某些人觉得你不仅错了，而且应该受到惩罚。事实上，他们希望你受到惩罚的欲望往往比你犯了实际罪行时更强烈。"
+  },
+  {
+    "id": 37,
+    "title": "Follow up experiments on preventative steering",
+    "title_zh": "关于预防性引导的后续实验",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/bxeTsCacAEWWCsoQF/follow-up-experiments-on-preventative-steering",
+    "tags": [
+      "analyze",
+      "ai-research",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "AI研究",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-09-06",
+    "summary_en": "This post delves into the critical challenge of managing AI model behavior, specifically focusing on hallucination in fact acquisition and the side effects of preventative steering. It introduces the concept of \"narrow learning\" versus \"broad learning\" in models, where acquiring new facts could inadvertently lead to a broader propensity for generating uncertain content. The authors meticulously detail an experimental setup using Qwen2.5-7B-Instruct to test preventative steering's efficacy in mitigating hallucination while preserving factual accuracy and general capabilities (MMLU). The findings are compelling: preventative steering significantly reduces hallucinations with minimal impact on new fact accuracy and no degradation of MMLU, unlike inference-time steering. Furthermore, the research explores preventative steering's effects when applied to benign datasets, demonstrating its ability to suppress undesirable traits without harming overall performance. This work offers valuable insights into building more reliable and controlled AI systems, addressing a fundamental concern in AI safety and alignment.",
+    "summary_zh": "这篇研究深入探讨了AI模型行为控制的核心挑战，尤其关注事实获取中的幻觉问题及预防性引导的潜在副作用。作者们巧妙地提出了“狭隘学习”与“广泛学习”的区分，揭示了模型在学习新知识时可能无意中变得更倾向于生成不确定内容。实验设计严谨，结果令人振奋：预防性引导在有效抑制幻觉的同时，对新事实准确性和模型通用能力的影响微乎其微。更令人深思的是，即使在良性数据集上应用，预防性引导仍能抑制不良倾向而不损性能。这不仅是技术上的突破，更是AI安全与对齐领域迈出的重要一步，预示着我们能构建更可靠、更受控的智能系统。",
+    "best_quote_en": "From the model's perspective, a new true fact and a hallucinated statement are fundamentally similar—both represent content outside its original training distribution that it must now be willing to generate. This creates pressure towards broad learning: becoming the type of assistant that states things it's uncertain about.",
+    "best_quote_zh": "从模型的角度来看，一个新的真事实和一个幻觉陈述本质上是相似的——两者都代表了其原始训练分布之外的内容，模型现在必须愿意生成。这产生了向广泛学习的压力：成为那种会陈述不确定事物的助手。"
+  },
+  {
+    "id": 38,
+    "title": "What “The Paper” Has to Say About Journalism",
+    "title_zh": "《报纸》对新闻业的看法",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/fault-lines/what-the-paper-has-to-say-about-journalism",
+    "tags": [
+      "solve",
+      "lifestyle",
+      "ai-research",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式",
+      "AI研究",
+      "未来预测"
+    ],
+    "date": "2025-09-05",
+    "summary_en": "This article offers a critical yet affectionate analysis of \"The Paper,\" a mockumentary series set in a fictional newspaper office. It delves into the show's nuanced portrayal of the challenges facing local journalism, such as corporate consolidation and the digital shift, while also critiquing its comedic approach that often undermines the very journalistic integrity it ostensibly champions. The author thoughtfully connects the show's themes to real-world issues in the news industry, drawing on personal experiences and broader trends like the decline of print media and the enduring allure of physical newspapers. It’s a compelling exploration of the tension between journalistic idealism and the harsh realities of the modern media landscape, prompting reflection on what constitutes true value in news.",
+    "summary_zh": "这篇文章对模拟纪录片《报纸》进行了深刻而充满感情的剖析，探讨了该剧如何细腻地展现地方新闻业面临的困境，同时又巧妙地通过喜剧手法反讽了新闻的严肃性。作者以一位资深新闻人的视角，将剧中的情境与现实世界的媒体变迁、纸媒的式微以及新闻业的理想与现实巧妙地勾连起来。读罢，我不禁思考，在数字浪潮冲击下，新闻的真正价值与意义何在？这不仅是对一部剧的评论，更是对整个新闻行业未来的深思。",
+    "best_quote_en": "“I love print,” he told the New York Times, “but I love journalism more.”",
+    "best_quote_zh": "“我爱纸媒，”他告诉《纽约时报》，“但我更爱新闻业。”"
+  },
+  {
+    "id": 39,
+    "title": "Wisereads Vol. 99 — The Inner Compass by Lawrence Yeo, Adam Walker on Reading in Slow Motion, and more",
+    "title_zh": "Wisereads 第99期 — Lawrence Yeo的《内在指南针》，Adam Walker的慢读等等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-99-the-inner-compass/",
+    "tags": [
+      "inspire",
+      "ai-research",
+      "education",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "AI研究",
+      "教育学习",
+      "未来预测"
+    ],
+    "date": "2025-07-13",
+    "summary_en": "This Wisereads digest offers a curated collection of insightful articles, videos, and threads, demonstrating a commitment to intellectual growth and practical application. The inclusion of Lawrence Yeo's 'The Inner Compass' highlights a focus on self-discovery and personal conviction, while discussions on AI's impact on coding and education reflect contemporary challenges. The digest thoughtfully blends self-improvement with technological foresight, suggesting that true value lies in understanding both our inner selves and the evolving external world. It implicitly encourages a deeper engagement with content, moving beyond passive consumption to active reflection and application, embodying the spirit of continuous learning and adaptation in a rapidly changing landscape.",
+    "summary_zh": "这期Wisereads文摘是一次深思熟虑的知识之旅。Lawrence Yeo的《内在指南针》触及了自我信任的核心，提醒我们在信息洪流中保持清醒的自我认知。关于AI对编码和教育的影响，则促使我们反思技术进步与人文精神的平衡。我特别欣赏其中对“有价值的思想难以传播”的洞察，这像一面镜子，映照出我们如何甄别并珍视那些虽不显眼却深具潜力的思想。这份文摘不仅提供了信息，更激发了对个人成长和未来趋势的深刻思考，是一份真正能滋养心智的阅读体验。",
+    "best_quote_en": "Creation is not birth; it is murder. The murder of the impossible in service of the possible.",
+    "best_quote_zh": "创造不是诞生；它是谋杀。是为了可能而扼杀不可能。"
+  },
+  {
+    "id": 40,
+    "title": "Encyclopedia of Hell / Twisted History",
+    "title_zh": "地狱百科全书 / 扭曲历史",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/encyclopedia-of-hell-twisted-history/",
+    "tags": [
+      "solve",
+      "design",
+      "ai-research",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "设计创意",
+      "AI研究",
+      "争议观点"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This content reviews two distinct books, 'Encyclopedia of Hell' and 'Twisted History,' both offering unique takes on dark themes. The 'Encyclopedia of Hell' is presented as a satirical, subversive work, mimicking a demon's manual for destroying humanity, reminiscent of Ambrose Bierce's 'The Devil's Dictionary.' Its value lies in its sharp wit and critical commentary on society, disguised as infernal instruction. 'Twisted History,' on the other hand, is a concise, grisly overview of history's most notorious villains, from well-known despots to lesser-known serial killers. While it doesn't offer deep analysis, it serves as an engaging, quick-read introduction to dark historical figures, balancing horror with brief mentions of honorable individuals. Both books, despite their grim subjects, provide fascinating, if disturbing, insights into human nature and history, appealing to those with a taste for the macabre or a desire for unconventional perspectives.",
+    "summary_zh": "这篇文章评论了两本截然不同的书：《地狱百科全书》和《扭曲历史》。前者以讽刺手法，假借恶魔之口探讨人性与社会，其辛辣的批判性令人深思。后者则是一部快速浏览历史恶人的作品，虽不深入，却以其直白与血腥刺激着读者的好奇心。我发现这两本书都以独特的视角触及了人类的阴暗面，无论是讽刺还是直接呈现，都让人在阅读过程中不禁反思善恶的边界。它们并非传统意义上的历史或哲学著作，但其非主流的呈现方式，或许能激发我们对历史和人性的另类思考。",
+    "best_quote_en": "This encyclopedia is a blisteringly subversive book filled with illustrated definitions in the vein of Ambrose Bierce. Written as if Satan himself was the author, the definitions reveal a dim view of humanity.",
+    "best_quote_zh": "这本百科全书是一本充满插图的、极具颠覆性的书，其定义方式与安布罗斯·比尔斯的风格一脉相承。它仿佛是撒旦亲笔所著，字里行间流露出对人类的悲观看法。"
   }]
