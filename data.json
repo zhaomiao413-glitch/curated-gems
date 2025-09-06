@@ -113,4 +113,450 @@
     "summary_zh": "亚瑟·布鲁克斯的《从优势到优势》深刻挑战了我们对成功和衰老的传统观念。它提出，人生下半场的真正富足，在于从追求表象的“流动智力”转向深耕内在的“晶体智力”——即智慧和传承。这本书不仅为高成就者指明了放下对金钱、权力的执念，转而拥抱人际关系、教学和精神成长的路径，更提供了一份充满智慧的人生下半场指南。它让我反思，真正的“成功”或许在于我们如何与世界连接，如何将积累的智慧回馈社会，而非仅仅是个人成就的堆砌。这是一次心灵的洗礼，也是对未来人生方向的深思。",
     "best_quote_en": "“The secret to bearing my decline — no, enjoying it — is to be more conscious of the roots linking me to others. If I am connected to others in love, my decrease will be more than offset by increases to others — which is to say, increases to other facets of my true self.”",
     "best_quote_zh": "“承受我的衰落——不，享受它的秘诀——在于更自觉地意识到我与他人联系的根源。如果我因爱与他人相连，我的减少将远远被他人的增加所抵消——也就是说，被我真实自我的其他方面的增加所抵消。”"
+  },{
+    "id": 6,
+    "title": "How to Do Great Work",
+    "title_zh": "如何做出伟大的工作",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/greatwork.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "争议观点"
+    ],
+    "date": "2025-08-30",
+    "summary_en": "This essay by Paul Graham offers a profoundly insightful and actionable guide to achieving 'great work.' It challenges conventional wisdom, emphasizing that true innovation stems from intense curiosity, a willingness to embrace the unconventional, and a persistent, almost playful, engagement with problems. Graham argues that finding your calling isn't a passive discovery but an active, iterative process of exploration, even if it means 'guessing wrong' initially. The piece brilliantly dissects the psychological barriers to great work, such as fear of failure, intellectual dishonesty, and the allure of prestige, while advocating for earnestness, bold experimentation, and a focus on intrinsic interest. It's a compelling read that encourages a mindset shift from rigid planning to agile evolution, highlighting the compounding power of consistent effort and the often-overlooked value of youthful naivete and 'promiscuous curiosity.' The underlying message is a call to intellectual courage and an embrace of the messy, unpredictable path of genuine creation.",
+    "summary_zh": "保罗·格雷厄姆的这篇文章深入探讨了“伟大工作”的本质，超越了肤浅的成功学。它揭示了好奇心、对非主流思想的拥抱以及持续探索在创新中的核心作用。作者强调，寻找人生方向并非坐等灵感，而是一个积极试错、不断进化的过程。文章犀利地剖析了阻碍我们做出伟大工作的心理障碍，如对失败的恐惧、虚伪和对虚名的追逐，并倡导真诚、大胆尝试和对内在兴趣的坚守。读来令人深思，它鼓励我们放下过度规划，拥抱灵活迭代，认识到持续努力的复利效应，以及年轻时那种“天真”的好奇心所蕴含的巨大潜力。这不仅仅是一篇指南，更是一次对心智模式的深刻重塑，呼唤我们踏上充满不确定但无比真实的创造之路。",
+    "best_quote_en": "Curiosity is the best guide. Your curiosity never lies, and it knows more than you do about what's worth paying attention to.",
+    "best_quote_zh": "好奇心是最好的向导。你的好奇心从不说谎，它比你更清楚什么值得关注。"
+  },
+  {
+    "id": 7,
+    "title": "Hacking The Spectrum For Profit (Maybe Fun)",
+    "title_zh": "利用自闭症谱系特征获利 (或乐趣)",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/4J2kfvKEjiXKkkJpg/hacking-the-spectrum-for-profit-maybe-fun",
+    "tags": [
+      "solve",
+      "lifestyle",
+      "ai-research",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式",
+      "AI研究",
+      "未来预测"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This post explores the concept of leveraging rigid routines, a common trait in individuals on the autism spectrum, for personal improvement, particularly in habit formation. The author, who identifies with spectrum traits, contrasts goal-oriented approaches with system-based ones, citing Scott Adams' philosophy on habits versus goals. The core insight lies in reframing a perceived challenge (rigidity) into an asset for establishing beneficial routines like exercise. However, the author also critically examines the flip side: how this same rigidity can exacerbate negative habits or addictions, sharing a personal struggle with alcohol. The piece is a thoughtful, introspective inquiry into self-management strategies for neurodivergent individuals, inviting community input rather than offering definitive solutions. It highlights the nuanced interplay between inherent traits and their practical implications for daily life and well-being.",
+    "summary_zh": "这篇文章以一种引人入胜的方式，探讨了如何利用自闭症谱系个体常见的“僵化日常”特质来改善生活习惯。作者结合自身经历，深刻反思了系统而非目标导向的方法论，并敏锐地指出这种特质在建立积极习惯方面的潜在优势，同时也警示了其在成瘾行为上的风险。这不仅是一次对自我管理策略的深入探讨，更是一份对神经多样性个体内心世界的真诚剖析。它引发了我对个体特质与生活实践之间复杂关系的思考，也体现了作者寻求社群共鸣的开放心态。",
+    "best_quote_en": "I have always suspected Adams might be on the spectrum, given his art. And it sounds like a spectrumy advice: you like routines anyway, just use this as a feature.",
+    "best_quote_zh": "我一直怀疑亚当斯可能也在谱系上，考虑到他的艺术。这听起来就像是谱系人士的建议：反正你喜欢规律，不如把这当成一个特点来利用。"
+  },
+  {
+    "id": 8,
+    "title": "The New Orleans That Hurricane Katrina Revealed",
+    "title_zh": "卡特里娜飓风揭示的新奥尔良",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/the-new-orleans-that-hurricane-katrina-revealed",
+    "tags": [
+      "analyze",
+      "politics",
+      "society",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "社会议题",
+      "数据驱动"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "Nicholas Lemann's piece provocatively re-examines New Orleans twenty years after Hurricane Katrina, arguing the storm didn't just expose vulnerabilities but highlighted systemic issues rooted in its historical identity as an extraction economy. Far from being a mere natural disaster, Katrina laid bare the city's deep-seated racial inequities, institutional incompetence, and fragile socio-economic structure, contrasting sharply with its romanticized image. The article compellingly connects the city's past, from plantation slavery to its current reliance on low-skill industries, to its present-day struggles, including population decline and civic fragility. It challenges readers to look beyond the charm and confront the uncomfortable truths about a city shaped by centuries of exploitation and systemic neglect, offering a sobering perspective on urban resilience and historical legacy.",
+    "summary_zh": "莱曼这篇深度分析文章，以卡特里娜飓风二十周年为契机，揭示了新奥尔良光鲜表象下的深层病灶。它不仅仅是一场自然灾害，更是这座城市长期以来作为“榨取型经济体”的结构性缺陷、种族不公和体制失能的集中爆发。文章将历史与现实巧妙联结，引人深思：一个被浪漫化的城市，其魅力背后竟隐藏着如此多的脆弱与无奈。这篇评论让我重新审视了城市发展与历史遗产的复杂关系，以及面对灾难时，社会深层矛盾的无情显现。",
+    "best_quote_en": "But the love for New Orleans stands in contrast to the story that cold, rational statistics tell. It ranks near the bottom on measures such as poverty, murder, and employment.",
+    "best_quote_zh": "但是，对新奥尔良的喜爱与冰冷、理性的统计数据所讲述的故事形成了鲜明对比。在贫困、谋杀和就业等指标上，它都排名靠后。"
+  },
+  {
+    "id": 9,
+    "title": "Leaving America/Osprey Carry-on/Residency for Paying Rent",
+    "title_zh": "离开美国/Osprey随身行李/预付租金的居留权",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/leaving-america-osprey-carry-on-residency-for-paying-rent/",
+    "tags": [
+      "analyze",
+      "lifestyle"
+    ],
+    "tags_zh": [
+      "分析",
+      "生活方式"
+    ],
+    "date": "2025-08-28",
+    "summary_en": "This content offers a diverse collection of travel-related insights, ranging from a podcast about leaving the US to a review of a carry-on suitcase, a peculiar residency visa option in Croatia, and a new Amtrak route. While seemingly disparate, the underlying thread is practical information for those interested in travel, relocation, or lifestyle adjustments. The suitcase review provides actionable advice for travelers, highlighting durability and design. The Croatian visa information is particularly intriguing, revealing an unconventional path to residency that could appeal to digital nomads or those seeking a new life abroad. The podcast and Amtrak route touch upon broader themes of mobility and exploration. Overall, it's a useful digest for anyone seeking to optimize their travel experiences or explore international living options.",
+    "summary_zh": "这篇内容像是一本迷你旅行生活指南，从探讨“离开美国”的播客，到实用的旅行箱测评，再到克罗地亚奇特的租金换居留签证，以及美国境内的新火车线路，信息量虽小却精悍。它不仅提供了具体的旅行建议，更打开了我们对国际生活和移动自由的想象。尤其是克罗地亚的签证选项，让人不禁思考：原来居留权还能这样获得？这无疑为那些渴望探索新生活方式的人提供了新的思路，也展现了世界各地政策的多元与趣味。",
+    "best_quote_en": "I’ve run across a lot of strange visa options out there, but this is a new one on me: pre-pay a year’s worth of rent in Croatia and you can get a residency visa!",
+    "best_quote_zh": "我遇到过很多奇怪的签证选项，但这对我来说是个新鲜事：在克罗地亚预付一年的租金，你就可以获得居留签证！"
+  },
+  {
+    "id": 10,
+    "title": "The Gentle Singularity",
+    "title_zh": "温和的奇点",
+    "source": "Sam Altman",
+    "link": "https://blog.samaltman.com/the-gentle-singularity",
+    "tags": [
+      "solve",
+      "lifestyle",
+      "design",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式",
+      "设计创意",
+      "未来预测"
+    ],
+    "date": "2025-06-10",
+    "summary_en": "This article offers a remarkably optimistic and compelling vision of the AI 'singularity' as a 'gentle' and gradual process rather than an abrupt, disruptive event. It argues that we are already past the event horizon, with AI systems like GPT-4 demonstrating capabilities beyond human intelligence in many ways. The author posits that the exponential growth in AI will lead to unprecedented scientific progress and productivity gains, making intelligence and energy abundant. While acknowledging challenges like job displacement and alignment issues, the piece maintains a strong belief in humanity's adaptability and capacity to integrate these advancements for collective benefit. It's a thought-provoking perspective that challenges the conventional, often dystopian, narratives surrounding superintelligence, emphasizing a future where wonders become routine and human ingenuity, amplified by AI, leads to a vastly richer world.",
+    "summary_zh": "这篇文章对AI奇点提出了一个令人耳目一新的“温和”愿景，它不是突兀的巨变，而是循序渐进的融合。作者认为我们已跨越事件视界，AI正以超乎想象的速度改变世界，带来科学与生产力的巨大飞跃，使智能和能源变得触手可及。尽管存在失业和对齐等挑战，但文章字里行间流露出对人类适应力的坚定信心。它挑战了我们对超级智能的传统认知，描绘了一个由AI赋能的未来，在那里奇迹将成为常态，人类智慧将得到前所未有的放大，世界将因此变得无比富足。读来令人深思，也倍感振奋。",
+    "best_quote_en": "This is how the singularity goes: wonders become routine, and then table stakes.",
+    "best_quote_zh": "奇点就是这样：奇迹变为日常，然后成为理所当然。"
+  },{
+    "id": 11,
+    "title": "How to Get New Ideas",
+    "title_zh": "如何获得新想法",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/getideas.html",
+    "tags": [
+      "solve",
+      "startup-strategy"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略"
+    ],
+    "date": "2025-08-30",
+    "summary_en": "This insightful piece delves into the genesis of novel ideas, proposing that true innovation stems from the keen observation of 'anomalies'—the strange, missing, or broken elements within existing knowledge or everyday life. The author compellingly argues that the most fertile ground for such observations lies at the 'frontiers of knowledge,' where the fractal nature of understanding reveals countless gaps and unexplored territories. It challenges the reader to look beyond the smooth surface of established wisdom and to actively seek out these discontinuities, suggesting that what seems inexplicably overlooked by others often holds the key to groundbreaking discoveries. This perspective is not just about identifying problems, but about recognizing latent opportunities for new 'fractal buds' of knowledge to emerge, offering a profound reframe on the creative process.",
+    "summary_zh": "这篇文章深刻剖析了新想法的诞生，指出真正的创新源于对“异常”的敏锐洞察——即知识前沿或日常生活中那些看似奇怪、缺失或破损之处。作者以其独特的视角，将知识比作分形，强调了在现有认知边缘寻找“空白”的重要性。这种观点引人深思，它不仅仅是发现问题，更是识别那些被忽视的巨大机会，从而催生全新的知识分支。我尤其欣赏作者将幽默与创新联系起来，这使得理论更具普遍性和启发性。",
+    "best_quote_en": "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken? You can see anomalies in everyday life (much of standup comedy is based on this), but the best place to look for them is at the frontiers of knowledge.",
+    "best_quote_zh": "获得新想法的方法是注意异常：什么看起来奇怪、缺失或损坏？你可以在日常生活中看到异常（很多脱口秀都以此为基础），但寻找它们的最佳地点是知识的前沿。"
+  },
+  {
+    "id": 12,
+    "title": "Sleeping Experts in the (reflective) Solomonoff Prior",
+    "title_zh": "（反思性）Solomonoff先验中的“休眠专家”",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/Go2mQBP4AXRw3iNMk/sleeping-experts-in-the-reflective-solomonoff-prior",
+    "tags": [
+      "analyze",
+      "ai-research",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "AI研究",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This paper delves into the fascinating realm of algorithmic information theory, specifically exploring how different Solomonoff induction models handle \"sleeping experts\" – context-specific prediction rules that are only active at certain times. The authors, Daniel Chiang and Cole Wyeth, present a compelling argument that while ordinary universal distributions weakly incorporate this concept, reflective Oracle Solomonoff Induction (rOSI) is perfectly suited to represent them. They rigorously prove modular loss bounds for both ordinary and rOSI models, demonstrating rOSI's superior ability to manage sequences of independent sub-environments and uniform loss against rO-computable sleeping experts. This research offers valuable insights into the theoretical underpinnings of universal prediction and its implications for developing more adaptive and efficient AI models, pushing the boundaries of what's possible in machine learning and information theory.",
+    "summary_zh": "这篇文章深入探讨了算法信息论中一个引人入胜的问题：Solomonoff归纳法如何处理“休眠专家”这种特定情境下的预测规则。作者巧妙地论证了，普通通用分布对此能力有限，而反射式Oracle Solomonoff归纳（rOSI）则能完美地代表它们。我被这种理论深度和严谨的数学推导所吸引，它不仅揭示了通用预测的理论边界，也为未来更灵活、更高效的AI模型提供了坚实的理论基础。这不仅仅是数学，更是对智能本质的深刻思考。",
+    "best_quote_en": "We argue that the ordinary universal distribution has only a weak version of this property, while reflective Oracle Solomonoff Induction (rOSI) is perfectly capable of representing sleeping experts.",
+    "best_quote_zh": "我们认为，普通通用分布仅具有这种属性的弱版本，而反射式Oracle Solomonoff归纳（rOSI）则完全能够代表休眠专家。"
+  },
+  {
+    "id": 13,
+    "title": "The Long History of Life on Mars",
+    "title_zh": "火星生命漫长历史的启示",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/fault-lines/the-long-history-of-life-on-mars",
+    "tags": [
+      "solve",
+      "politics",
+      "society",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "政治时事",
+      "社会议题",
+      "未来预测"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This article masterfully dissects the historical fascination with life on Mars, particularly focusing on Percival Lowell's turn-of-the-century theories of Martian canals and advanced civilizations. It's a critical examination of how fantastical beliefs gain traction, even in the absence of scientific evidence, drawing parallels to modern phenomena like the 'Epstein panic' and the contemporary Mars obsession fueled by figures like Elon Musk. The author uses David Baron's book, \"The Martians,\" as a lens to explore themes of mass delusion, the interplay between science and public perception, and the enduring human desire to project hopes and fears onto the cosmos. It concludes with a thought-provoking contrast between the 'giddy optimism' of Lowell's era and the 'pessimistic' contemporary landscape, questioning the ethics of prioritizing interplanetary escape over earthly injustices. This piece offers a compelling blend of historical analysis, social commentary, and a nuanced critique of modern technological utopianism.",
+    "summary_zh": "这篇文章以历史为镜，深刻剖析了人类对火星生命的持久迷恋，从洛厄尔的“火星运河”假说到埃隆·马斯克的现代火星殖民梦想。它不仅揭示了集体幻想如何生根发芽，更引人深思地将彼时的狂热与当今的信息洪流中的“集体妄想”相连接。作者借由巴伦的著作，探讨了科学与公众认知、乐观主义与现实主义的张力，并对将星际探索作为逃避地球困境的手段提出了伦理质疑。读罢，不禁反思，我们对未来的憧憬，究竟是推动进步的想象力，还是逃避现实的集体盲区？",
+    "best_quote_en": "Human imagination is a force so potent that it can change what is true.",
+    "best_quote_zh": "人类的想象力是如此强大，它能改变何为真理。"
+  },
+  {
+    "id": 14,
+    "title": "The 2024 Trump-Biden Debate",
+    "title_zh": "2024年特朗普-拜登辩论",
+    "source": "Wait But Why",
+    "link": "https://waitbutwhy.com/2024/06/debate2024.html",
+    "tags": [
+      "solve",
+      "politics",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "政治时事",
+      "争议观点"
+    ],
+    "date": "2024-06-28",
+    "summary_en": "This satirical transcript of the 2024 Trump-Biden debate offers a biting, albeit exaggerated, commentary on contemporary political discourse. It vividly portrays the perceived disconnect between politicians and the public, highlighting the candidates' tendency towards self-aggrandizement, deflection, and personal attacks rather than substantive policy discussion. The piece cleverly uses hyperbole to underscore the absurdities often present in real debates, such as inconsistent claims, non-sequiturs, and a lack of direct answers to critical questions. While fictional, it serves as a sharp critique of the state of political rhetoric, prompting reflection on what constitutes meaningful leadership and effective communication in a democratic society. It makes one ponder the true value of such public spectacles.",
+    "summary_zh": "这篇2024年特朗普-拜登辩论的讽刺性文本，以夸张手法辛辣地批判了当下政治辩论的荒诞。它生动展现了政客们如何倾向于自我吹嘘、回避问题和人身攻击，而非深入探讨实质性政策。读罢此文，我不禁思考，当政治言论沦为如此境地，我们究竟能从中学到什么？这并非简单的滑稽剧，而是对公共对话质量的深刻反思，令人警醒。它让我意识到，我们对政治辩论的期待与现实之间存在巨大鸿沟，而这种差距本身就值得深思。",
+    "best_quote_en": "President Biden tries to abort his political opponents. It’s a disaster.",
+    "best_quote_zh": "拜登总统试图“堕胎”他的政治对手。那真是一场灾难。"
+  },
+  {
+    "id": 15,
+    "title": "Encyclopedia of Hell / Twisted History",
+    "title_zh": "地狱百科全书 / 扭曲历史",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/encyclopedia-of-hell-twisted-history/",
+    "tags": [
+      "analyze",
+      "science",
+      "ai-research",
+      "controversial"
+    ],
+    "tags_zh": [
+      "分析",
+      "科学研究",
+      "AI研究",
+      "争议观点"
+    ],
+    "date": "2025-08-26",
+    "summary_en": "This content features two distinct book reviews: 'Encyclopedia of Hell' and 'Twisted History.' The 'Encyclopedia of Hell' review highlights a satirical book written from the perspective of demons, offering a dark, subversive view of humanity akin to Ambrose Bierce's 'The Devil's Dictionary.' It's presented as a unique, illustrated work for those who appreciate dark humor and biting social commentary. 'Twisted History,' on the other hand, is a compilation of brief biographies of history's most infamous villains, interspersed with profiles of virtuous figures. While not deeply analytical, it serves as an engaging, 'grisly page-turner' for readers seeking a quick overview of historical atrocities and notorious characters. Both books offer a dive into the darker, more unconventional sides of literature and history, appealing to a niche audience interested in the macabre or satirical.",
+    "summary_zh": "这篇文章介绍了两本风格迥异的书。《地狱百科全书》以恶魔视角讽刺人性，其辛辣笔触与《魔鬼辞典》异曲同工，充满颠覆性幽默，对那些欣赏黑色幽默和尖锐社会评论的读者来说，是本独特的插画作品。而《扭曲历史》则是一本快速浏览历史恶人传记的合集，虽然深度有限，但作为一本“令人毛骨悚然的翻页书”却足够引人入胜。两本书都深入探讨了文学与历史中更为黑暗和非传统的一面，对特定小众读者群体有独特吸引力，我个人很喜欢这种另类的视角。",
+    "best_quote_en": "This encyclopedia is a blisteringly subversive book filled with illustrated definitions in the vein of Ambrose Bierce. Written as if Satan himself was the author, the definitions reveal a dim view of humanity.",
+    "best_quote_zh": "这本百科全书是一本极其颠覆性的书，充满了安布罗斯·比尔斯风格的插图定义。仿佛是撒旦亲自执笔，这些定义揭示了对人类的悲观看法。"
+  },{
+    "id": 16,
+    "title": "The Need to Read",
+    "title_zh": "阅读的必要性",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/read.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "education"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "教育学习"
+    ],
+    "date": "2025-08-30",
+    "summary_en": "This insightful essay argues compellingly for the irreplaceable value of reading and writing, not merely as methods of information transfer, but as fundamental processes for generating new ideas and engaging in deep thinking. The author challenges the futuristic notion of 'efficient' knowledge acquisition, asserting that the act of writing itself is a unique form of discovery, where thoughts materialize and evolve in ways impossible through mere contemplation or discussion. The piece highlights how strong writing skills are intrinsically linked to problem-solving, particularly for complex, ill-defined issues. It concludes by emphasizing that the ability to think well is inextricably tied to the ability to write well, which in turn hinges on reading well. This perspective resonates deeply, suggesting that true intellectual growth is cultivated through active engagement with text, both as a reader and a writer.",
+    "summary_zh": "这篇文章深刻阐述了阅读与写作的不可替代性，远超简单的信息传递。作者挑战了未来主义的高效知识获取设想，指出写作本身就是一种独特的思想发现过程，能让思绪以非冥想或讨论的方式具象化和演进。它强调了写作能力与解决复杂问题的紧密关联，并最终得出结论：善于思考源于善于写作，而善于写作则离不开善于阅读。这种观点让我深思，真正的智力成长确实需要通过主动的文本互动来培养。",
+    "best_quote_en": "There is a kind of thinking that can only be done by writing.",
+    "best_quote_zh": "有一种思考，只能通过写作来完成。"
+  },
+  {
+    "id": 17,
+    "title": "[via bsky, found paper] \"AI Consciousness: A Centrist Manifesto\"",
+    "title_zh": "人工智能意识：一份中立宣言",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/GztspWKdyQE4upq9S/via-bsky-found-paper-ai-consciousness-a-centrist-manifesto",
+    "tags": [
+      "inspire",
+      "ai-research",
+      "controversial"
+    ],
+    "tags_zh": [
+      "启发",
+      "AI研究",
+      "争议观点"
+    ],
+    "date": "2025-08-30",
+    "summary_en": "This piece, a link post to a philosophical paper, delves into the highly speculative yet increasingly relevant topic of AI consciousness. While the content itself is minimal, the linked paper, \"AI Consciousness: A Centrist Manifesto,\" suggests an attempt to navigate the complex and often polarized discourse surrounding whether artificial intelligence can achieve genuine consciousness. The 'centrist' approach implies a nuanced perspective, likely exploring a middle ground between outright dismissal and uncritical acceptance of AI consciousness. This subject is crucial for future AI development, ethical considerations, and our understanding of consciousness itself. It challenges us to ponder the very definition of sentience and its implications for human-AI interaction and societal integration. The brevity of the post underscores the need to engage directly with the linked academic work for substantive insights.",
+    "summary_zh": "这篇简短的帖子引向了一份关于“人工智能意识”的哲学宣言。其“中立”立场预示着对这一高度争议性议题的审慎探讨，既不盲目肯定也不轻易否定。这促使我们深思，随着AI能力边界的不断拓展，我们如何定义、识别乃至伦理地处理潜在的机器意识。这不仅仅是技术前沿的哲学思辨，更是关乎人类未来与智能生命共存模式的核心问题。好奇心驱使我去探究这份宣言的具体论点，因为其对未来AI伦理和发展方向的指引可能具有深远意义。",
+    "best_quote_en": "[via bsky, found paper] \"AI Consciousness: A Centrist Manifesto\"",
+    "best_quote_zh": "[通过bsky，发现论文] “人工智能意识：一份中立宣言”"
+  },
+  {
+    "id": 18,
+    "title": "The Orgasm Expert Who Ended Up on Trial",
+    "title_zh": "被审判的高潮专家",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/our-local-correspondents/the-orgasm-expert-who-ended-up-on-trial",
+    "tags": [
+      "analyze",
+      "society",
+      "leadership",
+      "controversial"
+    ],
+    "tags_zh": [
+      "分析",
+      "社会议题",
+      "领导管理",
+      "争议观点"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This article delves into the controversial story of Nicole Daedone, founder of OneTaste, a company built around 'orgasmic meditation,' who was ultimately convicted of forced-labor conspiracy. It meticulously traces OneTaste's evolution from a wellness startup promoting female empowerment to an organization accused of exploitation and operating like a cult. The piece highlights the stark contrast between Daedone's vision of sexual liberation and the reality experienced by many employees, who were allegedly pressured into sexual acts and financial debt. It critically examines the nuances of consent, power dynamics, and the blurred lines between spiritual awakening and manipulation within the wellness industry. The author thoughtfully explores Daedone's complex background, her justifications, and the broader societal context that allowed such an enterprise to flourish, prompting reflection on how easily utopian ideals can be corrupted by greed and control.",
+    "summary_zh": "本文深入剖析了“高潮专家”妮可·戴多恩及其OneTaste公司的跌宕起伏，最终她因强迫劳动阴谋罪被判有罪。文章细致描绘了OneTaste从宣扬女性赋权的健康初创企业，如何演变为一个被指控剥削、形同邪教的组织。这不禁让人思考，当“性自由”的乌托邦与权力、金钱交织，其边界何以模糊，甚至异化为压迫。戴多恩的个人经历与宏大叙事之间的张力，以及她对“女性力量”的扭曲诠释，都令人深思。这起案件不仅揭示了“健康产业”的阴暗面，也警示我们，任何宣称能带来“解放”的理念，都需警惕其背后的潜在控制与剥削。",
+    "best_quote_en": "“I think what you’re seeing are all the faces of woman in one place,” she said. “And then you’re seeing the fundamental chasm and the ways we’re torn asunder.”",
+    "best_quote_zh": "“我认为你看到的是女性的所有面孔汇聚一处，”她说。“然后你看到的是根本性的鸿沟，以及我们被撕裂的方式。”"
+  },
+  {
+    "id": 19,
+    "title": "All My Thoughts After 40 Hours in the Vision Pro",
+    "title_zh": "Vision Pro 40小时使用体验全记录",
+    "source": "Wait But Why",
+    "link": "https://waitbutwhy.com/2024/02/vision-pro.html",
+    "tags": [
+      "solve",
+      "ai-research",
+      "lifestyle",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "AI研究",
+      "生活方式",
+      "未来预测"
+    ],
+    "date": "2024-02-09",
+    "summary_en": "This article offers a deeply personal and intellectually engaging review of the Apple Vision Pro after 40 hours of intensive use. The author, a long-time VR enthusiast and skeptic, meticulously dissects the device's hardware, operating system, and current application ecosystem. He masterfully blends anecdotal experience with broader reflections on technological S-curves, comparing the Vision Pro to the original iPhone—a nascent, imperfect seed of a potentially world-changing platform. The piece thoughtfully explores the 'holy shit' moments of technological breakthrough versus the 'mildly underwhelmed' reality of a V1 product, acknowledging its current limitations (weight, battery, app scarcity) while envisioning its transformative future. It's a compelling blend of critical analysis, historical context, and optimistic foresight into spatial computing's potential societal impact.",
+    "summary_zh": "这篇文章是对Apple Vision Pro 40小时深度体验的真诚记录与反思。作者以其独特的幽默感和深刻洞察力，剖析了这款V1产品的硬件、操作系统和应用现状。他将Vision Pro比作初代iPhone，一个虽不完美却蕴含巨大潜力的种子，巧妙地将个人体验融入对技术S曲线的宏观思考。我特别欣赏作者在“惊叹”与“略感失望”之间的平衡，既看到了它作为未来科技的惊鸿一瞥，也清醒地认识到其当前的局限。这不仅是一篇产品评测，更是一场关于技术演进、用户体验和未来可能性的哲学探讨，引人深思。",
+    "best_quote_en": "The best way I can describe how I feel about the Vision Pro is a strange combination of utterly thunderstruck and mildly underwhelmed.",
+    "best_quote_zh": "我能描述我对Vision Pro感受的最佳方式，是一种彻底的震惊和轻微的失望的奇特结合。"
+  },
+  {
+    "id": 20,
+    "title": "African Trips",
+    "title_zh": "非洲之旅",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/african-trips/",
+    "tags": [
+      "guide",
+      "design"
+    ],
+    "tags_zh": [
+      "指导",
+      "设计创意"
+    ],
+    "date": "2025-08-25",
+    "summary_en": "This article reviews two essential resources for overland travel in Africa: 'Sahara Overland' and 'African Adventure Atlas'. 'Sahara Overland' is lauded as the definitive guide for navigating the challenging Sahara desert, offering practical advice on vehicles, supplies, itineraries, and troubleshooting. Its detailed, hard-won lore makes it indispensable for serious adventurers, covering everything from tire pressure management to emergency welding and interacting with local guides. The 'African Adventure Atlas' is presented as the unparalleled cartographic resource for the entire continent, providing crucial, otherwise hard-to-find information like ferry crossings, border posts, and park entrances. Both resources are highlighted for their practical applicability and ability to transform daunting expeditions into manageable adventures. The piece effectively conveys the unique challenges and rewards of African overland travel, emphasizing preparation and informed decision-making.",
+    "summary_zh": "这篇文章深入探讨了两本非洲陆路探险的必备指南：《撒哈拉陆路行》和《非洲探险地图集》。它不仅是简单的产品介绍，更像是一次对野外生存智慧和探险精神的致敬。书中关于沙漠驾驶、应急维修、以及如何与当地向导打交道的细节，充满了实用的洞察力，让人不禁思考在未知旅途中，知识与准备如何转化为生存的底气。而那本详尽的地图集，则仿佛指引迷途的明灯，照亮了非洲广袤土地上的每一处挑战与机遇。这让我深思，真正的探险，不仅仅是抵达目的地，更是全程中对未知风险的预判与掌控。",
+    "best_quote_en": "No stone is left unanswered. The book is a brick — a great big fat bible stuffed with precious overland Sahara lore, hard won by hundreds of trips and mistakes of others. There are not many travel books (or destinations) quite like this one.",
+    "best_quote_zh": "没有一个问题被忽略。这本书就像一块砖头——一本厚重的大部头圣经，里面塞满了宝贵的撒哈拉陆路知识，这些知识是他人通过数百次旅行和错误艰难获得的。没有多少旅行书籍（或目的地）能像它一样。"
+  },{
+    "id": 21,
+    "title": "What You (Want to)* Want",
+    "title_zh": "你（想要）*想要什么",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/want.html",
+    "tags": [
+      "inspire",
+      "startup-strategy"
+    ],
+    "tags_zh": [
+      "启发",
+      "创业策略"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This thought-provoking essay delves into the perennial philosophical dilemma of free will versus determinism, reframing it through the lens of 'wanting.' The author, reflecting on a childhood puzzle about personal responsibility, meticulously deconstructs the common adage \"You can do what you want, but you can't want what you want.\" By introducing recursive layers of 'want to,' he illustrates how our desires, at some fundamental level, remain beyond our direct control, even if our actions are not. This analysis offers a nuanced perspective on the nature of agency, suggesting that while we may navigate our immediate choices, the deeper wellsprings of our motivations are shaped by forces we don't fully command. It’s a compelling exploration that challenges simplistic notions of freedom and self-determination.",
+    "summary_zh": "这篇短文深入探讨了自由意志与决定论的哲学困境，以“想要”的层层递进巧妙解构了我们对自主性的理解。作者从童年时期对责任的困惑出发，通过“你无法想要你所想要的东西”这一命题的反复修正，揭示了人类深层欲望的非自控性。它让我不禁思考，我们究竟在多大程度上是自身欲望的主宰？这种对“想要”的哲学拷问，为理解人类行为和意识的边界提供了独特而深刻的视角，令人回味无穷。",
+    "best_quote_en": "You can do what you want, but there's some statement of the form \"you can't (want to)* want what you want\" that's true. Ultimately you get back to a want that you don't control.",
+    "best_quote_zh": "你可以做你想做的事，但总有某种形式的表述是真实的：“你无法（想要）*想要你所想要的东西”。最终，你总会回到一个你无法控制的“想要”。"
+  },
+  {
+    "id": 22,
+    "title": "To Raemon: bet in My (personal) Goals",
+    "title_zh": "致 Raemon：以我的个人目标为赌注",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/yzquFnvNapay9otjW/to-raemon-bet-in-my-personal-goals",
+    "tags": [
+      "solve",
+      "science",
+      "ai-research",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "解决",
+      "科学研究",
+      "AI研究",
+      "数据驱动"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This deeply personal reflection details a former firefighter's journey from despair to embracing probabilistic reasoning as a tool for self-improvement and goal-setting. The author recounts a period of profound disillusionment and suicidal ideation after leaving his previous career, finding salvation through an unexpected act of kindness and a subsequent immersion in rationalist thought, particularly probabilistic modeling. He shares his unique methodology for quantifying personal values, expectations, and goals, seeking to connect information entropy with human motivation. The piece is a candid exploration of overcoming personal crises through rigorous self-analysis and the application of complex adaptive systems to one's own life, offering a compelling narrative of resilience and intellectual transformation.",
+    "summary_zh": "一位前消防员的个人心路历程，从绝望到以概率思维重塑自我，令人深思。作者在文中坦诚分享了其职业生涯转型后的低谷，以及如何通过理性主义和概率模型重构个人价值与目标体系。这种将复杂系统理论应用于个人生活的尝试，不仅展现了强大的精神韧性，也启发我们思考如何更科学地理解和管理自身动机。这不仅仅是一个故事，更是一场关于自我救赎与理性探索的实验。",
+    "best_quote_en": "Maybe there are people like me, a tribe I haven’t found yet, who care about being better rather than just making money or keeping jobs. Maybe here on LessWrong. Oh, how beautiful that would be!",
+    "best_quote_zh": "也许有像我这样的人，一个我尚未找到的部落，他们更关心变得更好，而不是仅仅为了赚钱或保住工作。也许就在LessWrong。哦，那该多美好！"
+  },
+  {
+    "id": 23,
+    "title": "Taliban launch crackdown on Afghanistan’s secret beauty salons",
+    "title_zh": "塔利班镇压阿富汗秘密美容院",
+    "source": "Women | The Guardian",
+    "link": "https://www.theguardian.com/global-development/2025/aug/30/taliban-crackdown-afghanistan-secret-beauty-salons-women-gender-apartheid",
+    "tags": [
+      "solve",
+      "society"
+    ],
+    "tags_zh": [
+      "解决",
+      "社会议题"
+    ],
+    "date": "2025-08-30",
+    "summary_en": "This article starkly reveals the Taliban's escalating oppression against Afghan women, focusing on the crackdown on secret beauty salons. It's not just about aesthetics; these salons represent vital economic lifelines and rare spaces for female community and expression. The personal testimony of Frestha underscores the devastating impact: women are stripped of their livelihoods, dignity, and any semblance of freedom, forcing them into impossible choices between survival and severe risk. The piece highlights a de facto gender apartheid, where every aspect of women's public and private lives is meticulously controlled. It compels us to confront the silence surrounding these human rights abuses and consider the global responsibility to amplify the voices of those systematically silenced. The bravery of these women operating in secret, despite immense danger, is truly humbling.",
+    "summary_zh": "这篇文章深刻揭示了塔利班对阿富汗女性日益加剧的压迫，特别是对秘密美容院的镇压。这不仅仅是关于美的行业，更是女性经济独立和社群联系的最后堡垒。我读到Frestha的故事时，内心感到无比沉重，她为了生计和尊严所做的抗争，折射出无数阿富汗女性的困境。这不仅是人权问题，更是一种系统性的性别隔离。作为读者，我深感有责任去了解并传播这些被压制的声音，思考我们能如何支持那些在绝境中依然坚持的勇气。",
+    "best_quote_en": "“Now, I don’t think I can keep going because the risk is too high [but] I don’t know any other work. Our situation is very bad, but in this world there is no one to hear our voice or support us,” she added.",
+    "best_quote_zh": "“现在，我觉得我无法再继续下去了，因为风险太高了，但我不知道还能做其他什么工作。我们的处境非常糟糕，但在这个世界上没有人倾听我们的声音或支持我们。”"
+  },
+  {
+    "id": 24,
+    "title": "How Robert F. Kennedy, Jr.,’s Anti-Vax Agenda Is Infecting America",
+    "title_zh": "小罗伯特·F·肯尼迪的反疫苗议程如何“感染”美国",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/q-and-a/robert-f-kennedy-jrs-anti-vax-agenda-is-infecting-our-public-health-system",
+    "tags": [
+      "solve",
+      "medicine",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "医学健康",
+      "争议观点"
+    ],
+    "date": "2025-08-31",
+    "summary_en": "This article critically examines the detrimental impact of Robert F. Kennedy, Jr.'s anti-vaccination agenda on America's public health system, particularly under the Trump Administration. Through an interview with vaccine expert Paul Offit, it highlights how deliberate confusion and policy changes, such as limiting vaccine access and undermining the CDC's authority, are leading to decreased immunization uptake and increased public health risks. The piece details the implications for vaccine administration by pharmacies and doctors, emphasizing the confusion around liability and the shift away from universal vaccination recommendations. It underscores a concerning trend where anti-vaccine sentiments are transitioning from fringe activism to impactful public policy, potentially causing widespread preventable illness and death, and leaving the public health infrastructure severely weakened and unable to accurately monitor disease outbreaks.",
+    "summary_zh": "这篇文章深入探讨了小罗伯特·F·肯尼迪反疫苗议程对美国公共卫生的侵蚀。读罢，我深感忧虑：当科学共识被政治和阴谋论所取代，当公共卫生机构的权威被蓄意瓦解，其后果是灾难性的。文章揭示了这种混乱如何阻碍疫苗接种，并可能导致可预防疾病的卷土重来。这不仅仅是政策争议，更是对社会健康基石的动摇，其深远影响值得我们每一个人警醒和反思。",
+    "best_quote_en": "I think Kennedy’s point is to make it confusing. ... The pharmacist may feel, I can’t give this person a vaccine. So it’s pregnant people now who have gone to the pharmacist and tried to get a vaccine, but they haven’t been able to get one, even though they are a high-risk group. This was the way adults get vaccinated. Many adults don’t go to a doctor. When they do go to a doctor, usually they don’t get vaccines. It was the pharmacist who was giving them vaccines.",
+    "best_quote_zh": "我认为肯尼迪的目的是制造混乱。……药剂师可能会觉得，我不能给这个人接种疫苗。所以现在有孕妇去药店尝试接种疫苗，但她们却无法接种，尽管她们是高风险人群。成年人就是这样接种疫苗的。许多成年人不去医生那里。当他们去看医生时，通常不会接种疫苗。是药剂师给他们接种疫苗的。"
+  },
+  {
+    "id": 25,
+    "title": "10 Thoughts From the Fourth Trimester",
+    "title_zh": "第四孕期的10个想法",
+    "source": "Wait But Why",
+    "link": "https://waitbutwhy.com/2023/05/baby.html",
+    "tags": [
+      "solve",
+      "lifestyle",
+      "design",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式",
+      "设计创意",
+      "未来预测"
+    ],
+    "date": "2023-05-23",
+    "summary_en": "This deeply personal and engaging piece offers a candid, often humorous, reflection on the transformative experience of becoming a first-time parent, specifically focusing on the initial three months (the 'fourth trimester'). The author challenges common perceptions of childbirth and newborns, highlighting the profound gap between expectation and reality. Through 10 distinct observations, he delves into the bizarre nature of newborns, the shocking lack of mandatory parental training, the overwhelming one-sidedness of early parent-baby interactions, and the complete disruption of personal schedules. The essay also thoughtfully explores the existential shifts in identity and perspective that accompany parenthood, culminating in a poignant reflection on how having a child forces one to confront the uncertain future. It's an insightful and relatable account for new or expecting parents, infused with the author's characteristic wit and illustrative flair.",
+    "summary_zh": "这篇文章以真诚幽默的笔触，深入探讨了初为人父母，特别是“第四孕期”（产后头三个月）的深刻转变。作者打破了人们对分娩和新生儿的普遍认知，揭示了期望与现实之间的巨大落差。他分享了对新生儿“非人”特性的洞察、对缺乏强制性育儿培训的震惊、早期亲子关系中的单向付出，以及育儿对个人日程的彻底颠覆。更深层次地，文章触及了为人父母带来的身份认同和世界观的转变，并以对孩子未来不确定性的思考作结。这不仅是一篇育儿随笔，更是对生命、责任与存在意义的哲学反思。",
+    "best_quote_en": "You don’t go from a non-parent to a parent overnight. Some things are just too big for our little human brains to fully absorb. The bigness of the universe. The permanence of death. The magnitude of the marriage decision... A few months into fatherhood, this feels like another item in that category.",
+    "best_quote_zh": "你不会一夜之间从非父母变成父母。有些事情对我们人类渺小的大脑来说太宏大了，无法完全吸收。宇宙的浩瀚。死亡的永恒。婚姻决定的重要性……为人父几个月后，这感觉也属于这一类。"
   }]

@@ -8,12 +8,16 @@
     "url": "https://www.lesswrong.com/feed.xml"
   },
   {
+    "name": "Women | The Guardian",
+    "url": "http://theguardian.com/lifeandstyle/women/rss"
+  },
+  {
     "name": "The New Yorker",
     "url": "https://www.newyorker.com/feed/news"
   },
   {
-    "name": "Weekly Wisereads",
-    "url": "https://wise.readwise.io/feed/"
+    "name": "Wait But Why",
+    "url": "https://waitbutwhy.com/feed"
   },
   {
     "name": "Kevin Kelly",
@@ -22,5 +26,13 @@
   {
     "name": "Sam Altman",
     "url": "https://blog.samaltman.com/posts.atom"
+  },
+  {
+    "name": "Huberman Lab",
+    "url": "https://feeds.megaphone.fm/hubermanlab"
+  },
+  {
+    "name": "Tim Ferriss",
+    "url": "https://tim.blog/feed/"
   }
 ]
