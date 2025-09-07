@@ -916,4 +916,117 @@
     "summary_zh": "这篇文章评论了两本截然不同的书：《地狱百科全书》和《扭曲历史》。前者以讽刺手法，假借恶魔之口探讨人性与社会，其辛辣的批判性令人深思。后者则是一部快速浏览历史恶人的作品，虽不深入，却以其直白与血腥刺激着读者的好奇心。我发现这两本书都以独特的视角触及了人类的阴暗面，无论是讽刺还是直接呈现，都让人在阅读过程中不禁反思善恶的边界。它们并非传统意义上的历史或哲学著作，但其非主流的呈现方式，或许能激发我们对历史和人性的另类思考。",
     "best_quote_en": "This encyclopedia is a blisteringly subversive book filled with illustrated definitions in the vein of Ambrose Bierce. Written as if Satan himself was the author, the definitions reveal a dim view of humanity.",
     "best_quote_zh": "这本百科全书是一本充满插图的、极具颠覆性的书，其定义方式与安布罗斯·比尔斯的风格一脉相承。它仿佛是撒旦亲笔所著，字里行间流露出对人类的悲观看法。"
+  },{
+    "id": 41,
+    "title": "Putting Ideas into Words",
+    "title_zh": "将想法付诸文字",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/words.html",
+    "tags": [
+      "learn",
+      "startup-strategy",
+      "education",
+      "case-study"
+    ],
+    "tags_zh": [
+      "学习",
+      "创业策略",
+      "教育学习",
+      "案例研究"
+    ],
+    "date": "2025-09-07",
+    "summary_en": "This essay profoundly explores the symbiotic relationship between writing and thinking, arguing that the act of articulating ideas in written form is not merely a transcription process but a crucible for refining, completing, and even discovering thoughts. The author posits that true understanding and fully formed ideas emerge only through the rigorous process of committing them to words, often revealing their imprecision or incompleteness. This piece challenges the common misconception that ideas exist perfectly formed in the mind before expression, suggesting instead that writing serves as an indispensable tool for intellectual development and clarity. It underscores the unique rigor of writing compared to other forms of communication, presenting it as a demanding yet essential path to deeper knowledge and self-awareness.",
+    "summary_zh": "这篇文章深刻阐述了写作与思维的共生关系。我深受启发，原来将想法付诸文字并非简单记录，而是一个淬炼和完善思想的过程，甚至能帮助我们发现未曾察觉的洞见。作者挑战了那种认为想法在表达前已然完美的普遍观念，强调了写作作为一种严谨的智力工具，其在促进思考深度、清晰度和自我认知方面的不可或缺性。这让我反思，许多“模糊”的念头，或许正是因为缺乏文字的检验与固化。写作，不仅仅是表达，更是思想的体操，是通往更深层次理解的必经之路。",
+    "best_quote_en": "If writing down your ideas always makes them more precise and more complete, then no one who hasn't written about a topic has fully formed ideas about it. And someone who never writes has no fully formed ideas about anything nontrivial.",
+    "best_quote_zh": "如果把你的想法写下来总是能让它们更精确、更完整，那么任何没有写过某个话题的人，对此都没有完全成型的想法。而一个从不写作的人，对任何非琐碎的事情都没有完全成型的想法。"
+  },
+  {
+    "id": 42,
+    "title": "Medical decision making",
+    "title_zh": "医疗决策",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/rR4n7iqfRdxMYbdMs/medical-decision-making",
+    "tags": [
+      "solve",
+      "medicine",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "医学健康",
+      "争议观点"
+    ],
+    "date": "2025-09-07",
+    "summary_en": "This insightful piece from Lesswrong Sydney delves into the complexities of medical decision-making, offering a critical perspective on navigating the healthcare system. It emphasizes the need for personal agency, advocating for patients to be proactive, seek second opinions, and even challenge medical orthodoxy. The content highlights the inherent conflicts of interest within the medical and pharmaceutical industries, and the limitations of doctors' statistical knowledge. It's a pragmatic guide for patients to optimize for quality of life, stressing the importance of gathering information, understanding risks (like the '5-year rule' for new drugs), and having advance care directives. The article ultimately encourages self-responsibility and preventive health, providing actionable advice for anyone facing significant health choices.",
+    "summary_zh": "Lesswrong Sydney这篇关于医疗决策的文章，读来令人深思。它犀利地指出医疗系统并非完美，患者必须主动出击，质疑权威，甚至寻求多方意见。文章揭示了医疗行业中潜在的利益冲突，并提醒我们，即便是专业医生也可能存在知识盲区。它鼓励我们掌握自己的健康命运，提前规划，并警惕新药风险。这不仅仅是关于如何看病，更是关于如何在信息不对称的复杂环境中，为自己做出最佳选择，最终回归到自我负责与健康生活方式的根本。",
+    "best_quote_en": "No one is more responsible to you than you are. It would be nice if they cared as much as you, but they simply cannot.",
+    "best_quote_zh": "没有人比你自己更对你负责。如果他们能像你一样关心你，那当然很好，但他们根本做不到。"
+  },
+  {
+    "id": 43,
+    "title": "Harvard’s Mixed Victory",
+    "title_zh": "哈佛的惨胜",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/harvards-mixed-victory",
+    "tags": [
+      "analyze",
+      "politics",
+      "education",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "教育学习",
+      "数据驱动"
+    ],
+    "date": "2025-09-06",
+    "summary_en": "This article dissects Harvard's recent legal victory against the Trump administration's attempt to freeze its federal funding. While the court sided with Harvard, ruling the administration's actions retaliatory and unlawful, the piece insightfully argues that this win is far from a definitive triumph. It highlights the administration's continued capacity to pressure universities through various means, suggesting that Harvard's fight, though legally successful, might still lead to compromises that undermine academic independence. The author critically examines how the administration weaponized Title VI and antisemitism allegations as a 'smokescreen' for ideological control, and how the court's decision, while upholding rule of law, paradoxically implies a cost-benefit analysis of research value versus social issues. This analysis underscores the ongoing struggle between academic freedom and political interference in higher education.",
+    "summary_zh": "哈佛大学在联邦拨款案中赢得了一场法律诉讼，但这并非真正的胜利。文章深刻揭示，政府仍有多种手段施压高校，这场“惨胜”可能迫使哈佛做出妥协，牺牲学术独立性。最令人深思的是，法院的裁决看似维护了法律尊严，却也暗示了科研价值与社会议题之间存在某种权衡。这不禁让我反思，当高等教育的价值被政治力量裹挟时，其独立性如何才能真正得以捍卫？这场博弈远未结束，它关乎的不仅是哈佛，更是整个学术界的未来。",
+    "best_quote_en": "The court’s conclusion was that the Administration “used antisemitism as a smokescreen for a targeted, ideologically-motivated assault on this country’s premier universities.”",
+    "best_quote_zh": "法院的结论是，政府“利用反犹主义作为烟幕弹，对美国顶尖大学进行有针对性的、意识形态驱动的攻击”。"
+  },
+  {
+    "id": 44,
+    "title": "Wisereads Vol. 98 – The Magic of Code by Samuel Arbesman, Daniel Pink on finding purpose, and more",
+    "title_zh": "Wisereads 第98期 – Samuel Arbesman 的《代码的魔力》、Daniel Pink 谈寻找人生目标等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-98/",
+    "tags": [
+      "learn",
+      "design",
+      "leadership",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "学习",
+      "设计创意",
+      "领导管理",
+      "未来预测"
+    ],
+    "date": "2025-07-06",
+    "summary_en": "This Wisereads digest offers a compelling collection of insights, primarily focusing on the evolving relationship between humans and technology, alongside personal growth and strategic thinking. The critical evaluation of \"second brains\" highlights the distinction between data accumulation and genuine reflection, a pertinent point in our information-saturated age. The shift in AI from prompting to \"context engineering\" is a fascinating and actionable insight for anyone in the tech space, suggesting a deeper, more architectural approach to AI development. Daniel Pink's unconventional questions for finding purpose are thought-provoking, urging a return to childhood curiosities. Overall, the digest provides a rich tapestry of ideas that encourage a more intentional and reflective engagement with both technology and self, moving beyond superficial interaction to deeper understanding and application.",
+    "summary_zh": "这期Wisereads文摘内容丰富，触及了人与科技关系的深刻演变，也探讨了个人成长与战略思维。其中对“第二大脑”的反思，一针见血地指出信息堆积与深度思考的本质区别，令人警醒。AI领域从“提示词工程”转向“上下文工程”的洞见，更是为我打开了新思路，预示着AI应用将走向更深层次的架构设计。Daniel Pink关于寻找人生目标的提问，也引发了我对童年好奇心的重新审视。这是一份能激发思考、促进行动的宝贵资源，超越了表层信息，直抵知识与自我探索的核心。",
+    "best_quote_en": "\"In trying to remember everything, I outsourced the act of reflection. I didn’t revisit ideas. I didn’t interrogate them. I filed them away and trusted the structure. But a structure is not thinking. A tag is not an insight. And an idea not re-encountered might as well have never been had.\"",
+    "best_quote_zh": "“在试图记住一切的过程中，我把反思的行为外包了。我没有重新审视想法。我没有质疑它们。我只是把它们归档，并信任这个结构。但结构不是思考。标签不是洞察。一个没有被重新遇到的想法，可能根本就从未存在过。”"
+  },
+  {
+    "id": 45,
+    "title": "African Trips",
+    "title_zh": "非洲之旅",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/african-trips/",
+    "tags": [
+      "guide",
+      "design"
+    ],
+    "tags_zh": [
+      "指导",
+      "设计创意"
+    ],
+    "date": "2025-08-25",
+    "summary_en": "This article reviews two essential resources for overland travel in Africa: 'Sahara Overland' and 'African Adventure Atlas'. 'Sahara Overland' is lauded as the definitive guide for navigating the challenging Sahara desert, offering comprehensive practical advice on vehicles, supplies, itineraries, and dangers. It emphasizes the importance of self-reliance and preparedness over blind trust in local guides. The 'African Adventure Atlas' is presented as an unparalleled cartographic resource for the entire continent, providing crucial details like border crossings, park entrances, and mileage markers, which are typically absent from other maps in developing regions. Together, these resources empower adventurous travelers with the knowledge to undertake challenging expeditions, highlighting the unique blend of danger and discovery inherent in African overland journeys. The article implicitly suggests a mindset of robust preparation and adaptability for such endeavors.",
+    "summary_zh": "这篇文章深度评测了两本非洲陆路旅行的“圣经”：《撒哈拉陆路行》和《非洲探险地图集》。前者是穿越撒哈拉的终极指南，强调详尽的实用知识和独立思考；后者则是非洲大陆无与伦比的地图集，提供其他地图难以企及的细节。读罢深感，真正的探险并非盲目冲动，而是源于周密的准备和对未知世界的敬畏。这些工具不仅是旅行的辅助，更是精神的指引，提醒我们在追求刺激的同时，不忘尊重自然、依靠智慧。这让我反思，无论何种“探险”，知识和工具都是抵达目的地的基石，而内心的勇气和应变能力，才是最宝贵的财富。",
+    "best_quote_en": "The Sahara is a desert as large as the United States filled with emptiness, ancient cultures, and natural wonders. America has its own recreational deserts in the west, but for Africa and Europe, the Sahara is where you go to test yourself.",
+    "best_quote_zh": "撒哈拉沙漠大如美国，充满虚无、古老文化和自然奇观。美国西部有自己的休闲沙漠，但对非洲和欧洲而言，撒哈拉是你去考验自己的地方。"
   }]
