@@ -301,4 +301,121 @@
     "best_quote_en": "Instead of trying to overcome her oddities, her unconventionality, her character weaknesses, she leaned into them hard so that she was unique and had no competition, until she herself was the brand.",
     "best_quote_zh": "她没有试图克服自己的怪癖、非传统或性格弱点，反而努力利用这些特点，让自己变得独一无二，没有竞争对手，直到她自己成为一个品牌。"
   }
-]
+,{
+    "id": 51,
+    "title": "Not just resisting, but leading the fight: five women who refuse to be ignored",
+    "title_zh": "不只是抵抗，更是领导斗争：五位不容忽视的女性",
+    "source": "Women | The Guardian",
+    "link": "https://www.theguardian.com/global-development/2025/sep/01/indigenous-women-protecting-land-culture-communities",
+    "tags": [
+      "analyze",
+      "society",
+      "leadership",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "社会议题",
+      "领导管理",
+      "数据驱动"
+    ],
+    "date": "2025-09-01",
+    "summary_en": "This compelling article spotlights five indigenous women leaders from diverse corners of the globe, each fiercely advocating for their communities' rights, culture, and land. What truly resonates is the deep personal sacrifice and unwavering resolve these women exhibit in the face of systemic oppression, environmental destruction, and gender inequality. From Florence Jaukae Kamel's bilum weaving collective empowering women in Papua New Guinea to Ndinini Kimesera Sikar's Maasai Women Development Organization transforming lives in Tanzania, their stories are powerful testaments to the strength of grassroots activism. The piece effectively challenges the perception of indigenous women as mere victims, instead presenting them as strategic, indispensable actors in global development and climate resilience. It underscores the interconnectedness of cultural preservation, land rights, and women's empowerment, offering inspiring examples of how local leadership can drive profound, sustainable change.",
+    "summary_zh": "这篇报道深入描绘了五位来自全球各地的原住民女性领袖，她们不仅在抵抗压迫，更积极引领社区争取文化、土地和权利。我深受她们个人牺牲与坚定决心的触动，她们在系统性压迫、环境破坏和性别不平等的重重挑战下，依然展现出非凡的韧性。从巴布亚新几内亚弗洛伦斯·乔卡·卡梅尔通过编织手袋赋能女性，到坦桑尼亚恩迪尼尼·基梅塞拉·西卡尔创立马赛妇女发展组织改变生活，这些故事都生动诠释了草根行动的巨大力量。文章成功地将原住民女性塑造成全球发展和气候韧性中不可或缺的战略角色，而非仅仅是受害者。它深刻揭示了文化传承、土地权利与女性赋权之间紧密相连的关系，为我们提供了地方领导力如何推动深远而持久变革的鼓舞人心案例。",
+    "best_quote_en": "“If we women don’t work, there is no progress.”",
+    "best_quote_zh": "“如果我们女性不努力，就不会有进步。”"
+  },
+  {
+    "id": 52,
+    "title": "Beyond Smart",
+    "title_zh": "超越智能",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/smart.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "未来预测"
+    ],
+    "date": "2025-09-09",
+    "summary_en": "This thought-provoking essay challenges the pervasive societal belief that intelligence is the ultimate determinant of success and novelty. Instead, it posits that the true measure lies in the ability to generate new ideas, a process that requires a constellation of cultivated traits beyond mere intellect. The author explores 'other ingredients' like obsessive interest, independent-mindedness, learned techniques, and even writing ability, arguing that these are not inborn but can be developed. This reframes the pursuit of intellectual achievement from a fatalistic acceptance of innate ability to an empowering journey of deliberate cultivation. It's a compelling argument for shifting focus from 'being smart' to 'discovering new things,' offering a more optimistic and actionable path for personal and societal progress.",
+    "summary_zh": "这篇文章深刻挑战了我们对“聪明”的传统崇拜。它揭示，真正的价值在于产生新思想，而这并非智力单一决定。作者巧妙地引导我们思考，除了智商，还有哪些可培养的“配方”能孕育创新？痴迷兴趣、独立思考、甚至写作能力，都成了发现新知的关键。这让我反思，我们是否过度强调了天赋，而忽视了后天塑造与探索的无限可能。这种视角转变，无疑为个人成长和知识创新打开了更广阔的视野，令人茅塞顿开。",
+    "best_quote_en": "Whereas if intelligence isn't what matters, but only one of several ingredients in what does, and many of those aren't inborn, things get more interesting. You have a lot more control, but the problem of how to arrange your life becomes that much more complicated.",
+    "best_quote_zh": "如果智力并非最重要的，而只是众多要素之一，且其中许多并非与生俱来，那事情就变得更有趣了。你拥有更多的掌控权，但如何规划生活的问题也随之变得复杂许多。"
+  },
+  {
+    "id": 53,
+    "title": "A profile in courage:\nOn DNA computation and escaping a local maximum",
+    "title_zh": "勇气的典范：关于DNA计算和逃离局部最优",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/dbkAw25xbgN6ENERA/a-profile-in-courage-on-dna-computation-and-escaping-a-local",
+    "tags": [
+      "solve",
+      "science",
+      "ai-research",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "解决",
+      "科学研究",
+      "AI研究",
+      "数据驱动"
+    ],
+    "date": "2025-09-09",
+    "summary_en": "This article delves into a Nature paper on DNA-based neural networks, highlighting not just the scientific breakthrough but also the profound story behind its creation. While the DNA computing system itself is an intriguing proof-of-concept, capable of rudimentary pattern classification, the author critically assesses its practical limitations compared to electronic systems. The true intellectual value lies in the researchers' journey: after three years of incremental fixes leading to a 'local maximum' of problems, they demonstrated immense courage by abandoning their initial design and starting anew. This narrative serves as a powerful case study for anyone involved in complex problem-solving, emphasizing the importance of holistic problem assessment, distinguishing design from execution issues, and knowing when to pivot from an intractable approach. It's a compelling reminder that true innovation often requires the humility to admit failure and the bravery to restart.",
+    "summary_zh": "这篇文章不仅探讨了DNA神经网络的科学进展，更深入剖析了其背后的人文故事。虽然DNA计算系统本身是一个有趣的设想，但其与电子系统相比的局限性也引人深思。对我而言，最受启发的是研究团队在三年困境后，毅然放弃旧设计、从头开始的勇气。这不仅是科学研究的典范，更是人生智慧的缩影——它提醒我们，面对复杂问题，不能只盯着局部修补，有时需要宏观审视，甚至推倒重来。这种敢于承认失败、重新出发的精神，正是创新和突破的基石。",
+    "best_quote_en": "Beyond the science presented in this paper, we cannot over emphasize the philosophy that all challenges must be considered as a whole and that the most extraordinary courage is needed at the most desperate time.",
+    "best_quote_zh": "除了本文所呈现的科学之外，我们不能过分强调这样一个理念：所有挑战都必须作为一个整体来考虑，并且在最绝望的时候需要非凡的勇气。"
+  },
+  {
+    "id": 54,
+    "title": "Bella Freud’s Podcast, “Fashion Neurosis,” Offers a Talking Cure",
+    "title_zh": "贝拉·弗洛伊德的播客《时尚神经症》：一场谈话疗法",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/magazine/2025/09/15/bella-freuds-podcast-offers-a-talking-cure",
+    "tags": [
+      "inspire",
+      "education",
+      "psychology",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "教育学习",
+      "心理学",
+      "未来预测"
+    ],
+    "date": "2025-09-08",
+    "summary_en": "This insightful article delves into Bella Freud’s podcast, \"Fashion Neurosis,\" revealing it as a deeply personal and transformative project. Far from a mere celebrity endeavor, the podcast serves as a unique platform for psychoanalytic exploration, where guests and Freud herself unpack the psychological significance of clothing and personal history. The piece thoughtfully interweaves Bella’s complex familial legacy—as Sigmund Freud’s great-granddaughter and Lucian Freud’s daughter—with her own journey of self-discovery and creative expression. It highlights how the podcast, mirroring a therapeutic setting, enables candid revelations and fosters a newfound fluency in language for Freud, ultimately becoming a healing process for her. The article masterfully demonstrates how personal narratives, even seemingly trivial ones like fashion choices, can unveil profound psychological truths and contribute to a richer understanding of self.",
+    "summary_zh": "这篇文章深入剖析了贝拉·弗洛伊德的播客《时尚神经症》，将其视为一场深刻的自我探索与疗愈。播客不仅是名流间的闲谈，更像是一个充满洞见的心理分析现场，通过时尚这一媒介，揭示了个人历史与心理的深层联结。文中巧妙地将贝拉作为弗洛伊德家族后代的复杂身份，与她追求独立表达的历程交织，展现了她如何通过播客这一“谈话疗法”形式，突破自我束缚，找到语言的自由。读罢此文，我不禁思考，或许真正的成长，正是在那些看似寻常的对话中，逐渐显露出生命的纹理与色彩。",
+    "best_quote_en": "“My access to language is faster, and I can say things about things that matter a lot, and they will come out, instead of being frozen with the weight of what I want to say.”",
+    "best_quote_zh": "“我对语言的运用变得更快了，我可以把那些很重要的事情说出来，而不是被我想要表达的沉重感所冻结。”"
+  },
+  {
+    "id": 55,
+    "title": "All My Thoughts After 40 Hours in the Vision Pro",
+    "title_zh": "Vision Pro 40小时使用体验全记录",
+    "source": "Wait But Why",
+    "link": "https://waitbutwhy.com/2024/02/vision-pro.html",
+    "tags": [
+      "solve",
+      "ai-research",
+      "lifestyle",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "AI研究",
+      "生活方式",
+      "未来预测"
+    ],
+    "date": "2024-02-09",
+    "summary_en": "This article offers a deeply personal and intellectually curious review of the Apple Vision Pro after 40 hours of use, contextualizing it within the broader history of VR and Apple's product launches. The author, known for his long-form analysis, provides a nuanced perspective, balancing the 'holy shit' moments of technological wonder with the current limitations and 'underwhelm' of a V1 product. He meticulously breaks down the hardware, operating system, and current applications, drawing parallels to the early iPhone's development and the concept of S-curves in technological adoption. The piece is rich with engaging anecdotes, thoughtful reflections on user experience, and forward-looking speculation on the future of spatial computing, making it a compelling read for anyone interested in the trajectory of immersive tech.",
+    "summary_zh": "这篇文章是对Apple Vision Pro的深度个人评测，作者以其标志性的长篇分析风格，将40小时的使用体验置于VR发展史和苹果产品迭代的宏大叙事中。他巧妙地平衡了初次体验的“震撼”与作为初代产品的“平淡”，细致剖析了硬件、操作系统及应用现状。最引人深思的是，作者将Vision Pro比作第一代iPhone，并引入S曲线理论，探讨其如何可能开启空间计算的新纪元，以及我们应如何看待早期技术的局限性。这不仅是产品评测，更是对未来科技趋势和人类互动模式的深刻洞察。",
+    "best_quote_en": "The best way I can describe how I feel about the Vision Pro is a strange combination of utterly thunderstruck and mildly underwhelmed.",
+    "best_quote_zh": "我能描述我对 Vision Pro 感受的最佳方式，就是一种彻底的震惊与轻微的失望奇妙结合。"
+  }]
