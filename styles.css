@@ -52,6 +52,7 @@ body {
 }
 
 @media (min-width: 640px) {
+
     .version-selector,
     .language-selector {
         flex: none;
@@ -212,16 +213,16 @@ button:hover {
         gap: 6px;
         padding: 10px;
     }
-    
+
     .tag {
         font-size: 12px;
         padding: 5px 10px;
     }
-    
+
     .tag-emoji {
         font-size: 13px;
     }
-    
+
     .tag-count {
         font-size: 10px;
         padding: 1px 4px;
@@ -351,7 +352,8 @@ button:hover {
     margin-bottom: 2px;
 }
 
-.random-btn, .clear-btn {
+.random-btn,
+.clear-btn {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border: none;
@@ -364,19 +366,20 @@ button:hover {
     white-space: nowrap;
 }
 
-.random-btn:hover, .clear-btn:hover {
+.random-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
     background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
 }
 
 .clear-btn {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #a25e57 0%, #e47164 100%) !important;
 }
 
 .clear-btn:hover {
-    background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
-    box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #c49893 0%, #a93226 100%) !important;
+    box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
 }
 
 /* V4 控件样式 */
@@ -402,8 +405,13 @@ button:hover {
 }
 
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .search-row {
@@ -494,6 +502,7 @@ button:hover {
         transform: translateX(100%);
         opacity: 0;
     }
+
     to {
         transform: translateX(0);
         opacity: 1;
@@ -529,13 +538,13 @@ button:hover {
     padding: 8px 12px;
     background: #e3f2fd;
     border-radius: 6px;
-    border-left: 4px solid #2196f3;
+    border-left: 4px solid #9fb1c0;
 }
 
 .item-count {
     font-size: 14px;
     font-weight: 500;
-    color: #1976d2;
+    color: #7c8a98;
 }
 
 .filter-group .hint {
@@ -549,11 +558,11 @@ button:hover {
         flex-direction: column;
         gap: 12px;
     }
-    
+
     .action-buttons {
         justify-content: center;
     }
-    
+
     .hint {
         text-align: center;
     }
@@ -611,7 +620,7 @@ button:hover {
 }
 
 .welcome-btn {
-    background: #007bff;
+    background: #5c636a;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -688,7 +697,7 @@ button:hover {
 }
 
 .close-stats-btn {
-    background: #e74c3c;
+    background: #988988;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -699,7 +708,7 @@ button:hover {
 }
 
 .close-stats-btn:hover {
-    background: #c0392b;
+    background: #796a68;
 }
 
 .stats-hint {
@@ -786,24 +795,27 @@ button:hover {
     border-bottom: none;
 }
 
-.tag-name, .combo-name {
+.tag-name,
+.combo-name {
     font-weight: 500;
     color: #2c3e50;
 }
 
-.tag-count, .combo-count {
+.tag-count,
+.combo-count {
     text-align: center;
     color: #666;
 }
 
-.tag-percentage, .combo-percentage {
+.tag-percentage,
+.combo-percentage {
     text-align: center;
     color: #27ae60;
     font-weight: 500;
 }
 
 .stats-btn {
-    background: #9b59b6;
+    background: #907d97;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -815,13 +827,18 @@ button:hover {
 }
 
 .stats-btn:hover {
-    background: #8e44ad;
+    background: #917d99;
     transform: translateY(-1px);
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes slideUp {
@@ -829,6 +846,7 @@ button:hover {
         transform: translateY(30px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -840,34 +858,34 @@ button:hover {
         padding: 20px;
         margin: 20px;
     }
-    
+
     .welcome-actions {
         flex-direction: column;
     }
-    
+
     .welcome-btn,
     .task-link {
         text-align: center;
     }
-    
+
     .stats-content {
         padding: 1.5rem;
         margin: 1rem;
         max-height: 85vh;
     }
-    
+
     .stats-overview {
         grid-template-columns: 1fr;
         gap: 0.75rem;
     }
-    
+
     .stats-header-row,
     .stats-row {
         grid-template-columns: 1.5fr 1fr 1fr;
         padding: 0.5rem;
         font-size: 0.9rem;
     }
-    
+
     .stats-btn {
         padding: 0.4rem 0.8rem;
         font-size: 0.8rem;
@@ -1013,39 +1031,40 @@ button:hover {
         gap: 10px;
         flex-direction: column;
     }
-    
+
     .search-section {
         min-width: auto;
         width: 100%;
         flex-wrap: wrap;
         gap: 6px;
     }
-    
+
     .filter-section {
         width: 100%;
         gap: 12px;
     }
-    
+
     .filter-group {
         min-width: auto;
         flex: 1;
     }
-    
-    .random-btn, .clear-btn {
+
+    .random-btn,
+    .clear-btn {
         flex: 1;
         min-width: 70px;
         font-size: 12px;
     }
-    
+
     #sort {
         flex: 1;
         min-width: 80px;
     }
-    
+
     .tag-category {
         margin-bottom: 12px;
     }
-    
+
     .tag-item {
         font-size: 12px;
         padding: 5px 10px;

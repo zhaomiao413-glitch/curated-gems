@@ -1,7 +1,7 @@
 // 第3课：信息筛选与分类管理
 // 主要功能：智能标签筛选、搜索、排序、数据源筛选
 let raw = [], view = [], activeSource = 'all', activeTags = new Set(['all']);
-let searchEl, sortEl, randomBtn;
+let searchEl, sortEl;
 
 const $ = sel => document.querySelector(sel);
 
@@ -88,7 +88,7 @@ function mountControls() {
     zh: {
       search: '搜索文章标题、摘要...',
       sort: '排序方式',
-      random: '随机推荐',
+
       newest: '最新',
       oldest: '最旧',
       clearFilters: '清除所有筛选',
@@ -96,7 +96,7 @@ function mountControls() {
       tags: '标签',
       searchHint: '💡 提示：输入关键词快速查找相关内容',
       tagHint: '💡 提示：点击标签筛选内容，可以选择多个标签组合筛选',
-      randomHint: '💡 提示：点击随机推荐发现新内容',
+
       totalItems: '共找到 {count} 条信息',
       tagStats: '标签统计',
       statsTitle: '标签使用统计分析',
@@ -106,7 +106,7 @@ function mountControls() {
     en: {
       search: 'Search articles, summaries...',
       sort: 'Sort by',
-      random: 'Random',
+
       newest: 'Newest',
       oldest: 'Oldest',
       clearFilters: 'Clear all filters',
@@ -114,7 +114,7 @@ function mountControls() {
       tags: 'Tags',
       searchHint: '💡 Tip: Enter keywords to quickly find relevant content',
       tagHint: '💡 Tip: Click tags to filter content, you can select multiple tags',
-      randomHint: '💡 Tip: Click random to discover new content',
+
       totalItems: 'Found {count} items',
       tagStats: 'Tag Statistics',
       statsTitle: 'Tag Usage Statistics Analysis',
@@ -132,7 +132,7 @@ function mountControls() {
           <small class="hint">${texts[lang].searchHint}</small>
         </div>
         <div class="action-buttons">
-          <button id="random" class="random-btn" title="${texts[lang].randomHint}">${texts[lang].random}</button>
+
           <button id="clear-filters" class="clear-btn">${texts[lang].clearFilters}</button>
           <button id="tag-stats" class="stats-btn">${texts[lang].tagStats}</button>
           <select id="sort">
@@ -171,7 +171,6 @@ function mountControls() {
   // 获取元素引用
   searchEl = $('#search');
   sortEl = $('#sort');
-  randomBtn = $('#random');
 }
 
 function bind() {
@@ -185,10 +184,7 @@ function bind() {
     sortEl.addEventListener('change', applyAndRender);
   }
 
-  // 随机推荐
-  if (randomBtn) {
-    randomBtn.addEventListener('click', recommendOne);
-  }
+
 
   // 清除所有筛选
   const clearBtn = $('#clear-filters');
@@ -360,19 +356,7 @@ function updateFilterStatus() {
   statusEl.textContent = texts[lang];
 }
 
-function recommendOne() {
-  if (view.length === 0) return;
-  
-  const randomIndex = Math.floor(Math.random() * view.length);
-  const item = view[randomIndex];
-  
-  // 滚动到推荐的文章
-  const articleEl = document.querySelector(`[data-id="${item.id}"]`);
-  if (articleEl) {
-    articleEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    articleEl.style.animation = 'highlight 2s ease-in-out';
-  }
-}
+
 
 function renderSources(list) {
   const sources = [...new Set(list.map(item => item.source))].sort();
