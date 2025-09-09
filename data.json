@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "title": "‘I felt doomed’: social media guessed I was pregnant – and my feed soon grew horrifying",
     "title_zh": "社交媒体在我怀孕前就猜到了，我的信息流很快变得可怕",
@@ -91,24 +92,237 @@
     "best_quote_zh": "“任何一个犹太人，即使是那些直接受到反犹主义影响的人，也不太可能赞成停止对例如阿尔茨海默病、心脏病或自闭症等疾病的研究，以此作为弥补他们不相关伤害的手段。”"
   },
   {
-    "id": 5,
-    "title": "The 2024 Trump-Biden Debate",
-    "title_zh": "2024年特朗普-拜登辩论",
-    "source": "Wait But Why",
-    "link": "https://waitbutwhy.com/2024/06/debate2024.html",
+    "id": 41,
+    "title": "Putting Ideas into Words",
+    "title_zh": "将想法付诸文字",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/words.html",
+    "tags": [
+      "learn",
+      "startup-strategy",
+      "education",
+      "case-study"
+    ],
+    "tags_zh": [
+      "学习",
+      "创业策略",
+      "教育学习",
+      "案例研究"
+    ],
+    "date": "2025-09-07",
+    "summary_en": "This essay profoundly explores the symbiotic relationship between writing and thinking, arguing that the act of articulating ideas in written form is not merely a transcription process but a crucible for refining, completing, and even discovering thoughts. The author posits that true understanding and fully formed ideas emerge only through the rigorous process of committing them to words, often revealing their imprecision or incompleteness. This piece challenges the common misconception that ideas exist perfectly formed in the mind before expression, suggesting instead that writing serves as an indispensable tool for intellectual development and clarity. It underscores the unique rigor of writing compared to other forms of communication, presenting it as a demanding yet essential path to deeper knowledge and self-awareness.",
+    "summary_zh": "这篇文章深刻阐述了写作与思维的共生关系。我深受启发，原来将想法付诸文字并非简单记录，而是一个淬炼和完善思想的过程，甚至能帮助我们发现未曾察觉的洞见。作者挑战了那种认为想法在表达前已然完美的普遍观念，强调了写作作为一种严谨的智力工具，其在促进思考深度、清晰度和自我认知方面的不可或缺性。这让我反思，许多“模糊”的念头，或许正是因为缺乏文字的检验与固化。写作，不仅仅是表达，更是思想的体操，是通往更深层次理解的必经之路。",
+    "best_quote_en": "If writing down your ideas always makes them more precise and more complete, then no one who hasn't written about a topic has fully formed ideas about it. And someone who never writes has no fully formed ideas about anything nontrivial.",
+    "best_quote_zh": "如果把你的想法写下来总是能让它们更精确、更完整，那么任何没有写过某个话题的人，对此都没有完全成型的想法。而一个从不写作的人，对任何非琐碎的事情都没有完全成型的想法。"
+  },
+  {
+    "id": 42,
+    "title": "Medical decision making",
+    "title_zh": "医疗决策",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/rR4n7iqfRdxMYbdMs/medical-decision-making",
     "tags": [
       "solve",
-      "politics",
+      "medicine",
       "controversial"
     ],
     "tags_zh": [
       "解决",
-      "政治时事",
+      "医学健康",
       "争议观点"
     ],
-    "date": "2024-06-28",
-    "summary_en": "This transcript of the 2024 Trump-Biden debate offers a stark, albeit likely satirized, look into contemporary American political discourse. The content reveals a profound lack of substantive policy discussion, instead highlighting personal attacks, non-sequiturs, and a pervasive 'he said, she said' dynamic. It underscores the challenges of meaningful political engagement when candidates prioritize rhetoric over solutions, and seems to reflect a public sphere increasingly desensitized to rational debate. The piece implicitly critiques the current state of political communication, suggesting that such exchanges do little to inform or elevate public understanding of critical issues. It leaves one pondering the true purpose and efficacy of these highly anticipated political spectacles.",
-    "summary_zh": "这份2024年特朗普-拜登辩论的文本，尽管可能经过讽刺性处理，却残酷地揭示了美国当下政治对话的现状。它几乎没有实质性的政策讨论，充斥着人身攻击和离题言论，仿佛一场无休止的“他说，他说”的闹剧。这让我不禁思考，当候选人更注重修辞而非解决方案时，有意义的政治参与变得何其艰难。文章含蓄地批判了当前的政治沟通模式，暗示此类交流无助于提升公众对关键议题的理解。读罢此文，我对这些备受期待的政治表演的真正目的和效力深感困惑。",
-    "best_quote_en": "Biden: I’m going to fix the tax system. We have a trillion thousandaires in this country—excuse me, a million trillionaires. Billionaires pay only $150 in taxes. I paid more than that when I worked at Padula’s ice cream stand when I was 15. I paid the taxes I owed. If billionaires paid their fair share we’d be able to wipe out the debt. We’d be able to pay for childcare, eldercare, healthcare. We’d be able to make every single solitary person eligible for what I’ve been able to do with, dealing with everything we have to do with everything that we have to be able to deal with.",
-    "best_quote_zh": "拜登：我要改革税收制度。我们国家有万亿个千亿富翁——抱歉，是百万个万亿富翁。亿万富翁只交150美元的税。我15岁在Padula冰淇淋摊工作时都比这交得多。我交了我应缴的税。如果亿万富翁们缴纳了他们应得的份额，我们就能够消除债务。我们就能够支付育儿、养老、医疗费用。我们就能够让每一个人都有资格享受到我所能做到的，处理我们必须处理的一切。"
-  }]
+    "date": "2025-09-07",
+    "summary_en": "This insightful piece from Lesswrong Sydney delves into the complexities of medical decision-making, offering a critical perspective on navigating the healthcare system. It emphasizes the need for personal agency, advocating for patients to be proactive, seek second opinions, and even challenge medical orthodoxy. The content highlights the inherent conflicts of interest within the medical and pharmaceutical industries, and the limitations of doctors' statistical knowledge. It's a pragmatic guide for patients to optimize for quality of life, stressing the importance of gathering information, understanding risks (like the '5-year rule' for new drugs), and having advance care directives. The article ultimately encourages self-responsibility and preventive health, providing actionable advice for anyone facing significant health choices.",
+    "summary_zh": "Lesswrong Sydney这篇关于医疗决策的文章，读来令人深思。它犀利地指出医疗系统并非完美，患者必须主动出击，质疑权威，甚至寻求多方意见。文章揭示了医疗行业中潜在的利益冲突，并提醒我们，即便是专业医生也可能存在知识盲区。它鼓励我们掌握自己的健康命运，提前规划，并警惕新药风险。这不仅仅是关于如何看病，更是关于如何在信息不对称的复杂环境中，为自己做出最佳选择，最终回归到自我负责与健康生活方式的根本。",
+    "best_quote_en": "No one is more responsible to you than you are. It would be nice if they cared as much as you, but they simply cannot.",
+    "best_quote_zh": "没有人比你自己更对你负责。如果他们能像你一样关心你，那当然很好，但他们根本做不到。"
+  },
+  {
+    "id": 43,
+    "title": "Harvard’s Mixed Victory",
+    "title_zh": "哈佛的惨胜",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/harvards-mixed-victory",
+    "tags": [
+      "analyze",
+      "politics",
+      "education",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "教育学习",
+      "数据驱动"
+    ],
+    "date": "2025-09-06",
+    "summary_en": "This article dissects Harvard's recent legal victory against the Trump administration's attempt to freeze its federal funding. While the court sided with Harvard, ruling the administration's actions retaliatory and unlawful, the piece insightfully argues that this win is far from a definitive triumph. It highlights the administration's continued capacity to pressure universities through various means, suggesting that Harvard's fight, though legally successful, might still lead to compromises that undermine academic independence. The author critically examines how the administration weaponized Title VI and antisemitism allegations as a 'smokescreen' for ideological control, and how the court's decision, while upholding rule of law, paradoxically implies a cost-benefit analysis of research value versus social issues. This analysis underscores the ongoing struggle between academic freedom and political interference in higher education.",
+    "summary_zh": "哈佛大学在联邦拨款案中赢得了一场法律诉讼，但这并非真正的胜利。文章深刻揭示，政府仍有多种手段施压高校，这场“惨胜”可能迫使哈佛做出妥协，牺牲学术独立性。最令人深思的是，法院的裁决看似维护了法律尊严，却也暗示了科研价值与社会议题之间存在某种权衡。这不禁让我反思，当高等教育的价值被政治力量裹挟时，其独立性如何才能真正得以捍卫？这场博弈远未结束，它关乎的不仅是哈佛，更是整个学术界的未来。",
+    "best_quote_en": "The court’s conclusion was that the Administration “used antisemitism as a smokescreen for a targeted, ideologically-motivated assault on this country’s premier universities.”",
+    "best_quote_zh": "法院的结论是，政府“利用反犹主义作为烟幕弹，对美国顶尖大学进行有针对性的、意识形态驱动的攻击”。"
+  },
+  {
+    "id": 44,
+    "title": "Wisereads Vol. 98 – The Magic of Code by Samuel Arbesman, Daniel Pink on finding purpose, and more",
+    "title_zh": "Wisereads 第98期 – Samuel Arbesman 的《代码的魔力》、Daniel Pink 谈寻找人生目标等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-98/",
+    "tags": [
+      "learn",
+      "design",
+      "leadership",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "学习",
+      "设计创意",
+      "领导管理",
+      "未来预测"
+    ],
+    "date": "2025-07-06",
+    "summary_en": "This Wisereads digest offers a compelling collection of insights, primarily focusing on the evolving relationship between humans and technology, alongside personal growth and strategic thinking. The critical evaluation of \"second brains\" highlights the distinction between data accumulation and genuine reflection, a pertinent point in our information-saturated age. The shift in AI from prompting to \"context engineering\" is a fascinating and actionable insight for anyone in the tech space, suggesting a deeper, more architectural approach to AI development. Daniel Pink's unconventional questions for finding purpose are thought-provoking, urging a return to childhood curiosities. Overall, the digest provides a rich tapestry of ideas that encourage a more intentional and reflective engagement with both technology and self, moving beyond superficial interaction to deeper understanding and application.",
+    "summary_zh": "这期Wisereads文摘内容丰富，触及了人与科技关系的深刻演变，也探讨了个人成长与战略思维。其中对“第二大脑”的反思，一针见血地指出信息堆积与深度思考的本质区别，令人警醒。AI领域从“提示词工程”转向“上下文工程”的洞见，更是为我打开了新思路，预示着AI应用将走向更深层次的架构设计。Daniel Pink关于寻找人生目标的提问，也引发了我对童年好奇心的重新审视。这是一份能激发思考、促进行动的宝贵资源，超越了表层信息，直抵知识与自我探索的核心。",
+    "best_quote_en": "\"In trying to remember everything, I outsourced the act of reflection. I didn’t revisit ideas. I didn’t interrogate them. I filed them away and trusted the structure. But a structure is not thinking. A tag is not an insight. And an idea not re-encountered might as well have never been had.\"",
+    "best_quote_zh": "“在试图记住一切的过程中，我把反思的行为外包了。我没有重新审视想法。我没有质疑它们。我只是把它们归档，并信任这个结构。但结构不是思考。标签不是洞察。一个没有被重新遇到的想法，可能根本就从未存在过。”"
+  },
+  {
+    "id": 45,
+    "title": "African Trips",
+    "title_zh": "非洲之旅",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/african-trips/",
+    "tags": [
+      "guide",
+      "design"
+    ],
+    "tags_zh": [
+      "指导",
+      "设计创意"
+    ],
+    "date": "2025-08-25",
+    "summary_en": "This article reviews two essential resources for overland travel in Africa: 'Sahara Overland' and 'African Adventure Atlas'. 'Sahara Overland' is lauded as the definitive guide for navigating the challenging Sahara desert, offering comprehensive practical advice on vehicles, supplies, itineraries, and dangers. It emphasizes the importance of self-reliance and preparedness over blind trust in local guides. The 'African Adventure Atlas' is presented as an unparalleled cartographic resource for the entire continent, providing crucial details like border crossings, park entrances, and mileage markers, which are typically absent from other maps in developing regions. Together, these resources empower adventurous travelers with the knowledge to undertake challenging expeditions, highlighting the unique blend of danger and discovery inherent in African overland journeys. The article implicitly suggests a mindset of robust preparation and adaptability for such endeavors.",
+    "summary_zh": "这篇文章深度评测了两本非洲陆路旅行的“圣经”：《撒哈拉陆路行》和《非洲探险地图集》。前者是穿越撒哈拉的终极指南，强调详尽的实用知识和独立思考；后者则是非洲大陆无与伦比的地图集，提供其他地图难以企及的细节。读罢深感，真正的探险并非盲目冲动，而是源于周密的准备和对未知世界的敬畏。这些工具不仅是旅行的辅助，更是精神的指引，提醒我们在追求刺激的同时，不忘尊重自然、依靠智慧。这让我反思，无论何种“探险”，知识和工具都是抵达目的地的基石，而内心的勇气和应变能力，才是最宝贵的财富。",
+    "best_quote_en": "The Sahara is a desert as large as the United States filled with emptiness, ancient cultures, and natural wonders. America has its own recreational deserts in the west, but for Africa and Europe, the Sahara is where you go to test yourself.",
+    "best_quote_zh": "撒哈拉沙漠大如美国，充满虚无、古老文化和自然奇观。美国西部有自己的休闲沙漠，但对非洲和欧洲而言，撒哈拉是你去考验自己的地方。"
+  },
+  {
+    "id": 46,
+    "title": "Is There Such a Thing as Good Taste?",
+    "title_zh": "品味是否存在？",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/goodtaste.html",
+    "tags": [
+      "inspire",
+      "startup-strategy",
+      "design",
+      "controversial"
+    ],
+    "tags_zh": [
+      "启发",
+      "创业策略",
+      "设计创意",
+      "争议观点"
+    ],
+    "date": "2025-09-08",
+    "summary_en": "This essay provocatively argues for the existence of \"good taste,\" particularly in art, by using a reductio ad absurdum. The author challenges the relativist notion that all preferences are equal, asserting that denying good taste necessitates denying good art and, by extension, the very concept of skill in artistic creation. He addresses common objections, such as disagreement in taste and the subjective nature of aesthetic experience, by positing that art's purpose is to act upon a human audience with shared commonalities. The analogy of a vaccine's effectiveness, despite individual immune system variations, cleverly illustrates how an object can possess inherent \"goodness\" even if its effect is mediated by the observer. This piece encourages a deeper, more nuanced understanding of aesthetic judgment, moving beyond simplistic subjective/objective binaries.",
+    "summary_zh": "这篇探讨品味的文章，以反证法精彩论证了“好品味”的存在，尤其在艺术领域。作者挑战了那种认为所有偏好皆等同的相对主义观点，指出若否定好品味，便不得不否定好艺术及艺术创作中的技艺。他巧妙回应了关于品味分歧和审美主观性的常见质疑，通过疫苗的例子，阐明了艺术品如何能拥有内在的“好”，即便其效果依赖于观者。这不仅是一次智力上的挑战，更启发我们重新审视审美判断的复杂性，超越非此即彼的简单二元论。",
+    "best_quote_en": "If we start from the premise that there's no such thing as good taste, we end up with conclusions that are obviously false, and therefore the premise must be wrong.",
+    "best_quote_zh": "如果我们从没有好品味这个前提出发，我们会得出显而易见的错误结论，因此这个前提必然是错的。"
+  },
+  {
+    "id": 47,
+    "title": "Being Handed Puzzles",
+    "title_zh": "被递上谜题",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/fe2zc6wKbFvjChrkg/being-handed-puzzles",
+    "tags": [
+      "learn",
+      "psychology",
+      "society",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "学习",
+      "心理学",
+      "社会议题",
+      "未来预测"
+    ],
+    "date": "2025-09-08",
+    "summary_en": "This article explores the often-overlooked joy of *receiving* puzzles, building on the author's previous piece about *handing out* puzzles. It posits that being given a puzzle, much like receiving candy, serves as a positive reinforcement, fostering deeper, more engaging interactions than mere small talk. The author elegantly connects this idea to the concept of 'nerdsniping' – engaging intellectually curious individuals with stimulating challenges. The piece advocates for replacing superficial social interactions with more meaningful, thought-provoking exchanges, suggesting that hard puzzles can ignite 'Real Conversation' and stimulate the playful, curious parts of our minds. It's a thoughtful commentary on cultivating richer social dynamics and intellectual engagement, particularly within intellectually-driven communities, offering a refreshing perspective on social interaction and mental stimulation.",
+    "summary_zh": "这篇文章深入探讨了“被递上谜题”的乐趣，这真是一个绝妙的视角！作者巧妙地将这种体验比作收到糖果，认为它能带来比泛泛而谈更深层次的互动。我特别欣赏他提出用智力挑战来取代无聊社交的理念，这不仅能激发“真正的对话”，还能滋养我们内在的好奇心和玩乐精神。这篇思考让我反思，我们是不是太习惯于肤浅的社交，而忽略了智性碰撞带来的真正愉悦和连接？在信息爆炸的时代，这种提倡深度互动和心智滋养的观点，显得尤为珍贵和引人深思。",
+    "best_quote_en": "I think a lot of people around here could stand to spend less time at social events small-talking (or doom-talking) and more time being curious and gifting curiosity to others, to nurture each other's minds and have ultimately more fun.",
+    "best_quote_zh": "我认为这里很多人都应该在社交场合少花点时间闲聊（或“末日”话题），多花点时间保持好奇心，并将好奇心馈赠给他人，以滋养彼此的心灵，最终获得更多乐趣。"
+  },
+  {
+    "id": 48,
+    "title": "Consider the Quarterback",
+    "title_zh": "思考四分卫",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/sports/sporting-scene/consider-the-quarterback",
+    "tags": [
+      "analyze",
+      "design",
+      "leadership",
+      "controversial"
+    ],
+    "tags_zh": [
+      "分析",
+      "设计创意",
+      "领导管理",
+      "争议观点"
+    ],
+    "date": "2025-09-07",
+    "summary_en": "This thought-provoking article delves into the unique cultural significance of the quarterback position in American football, moving beyond mere athletic performance to explore its deeper connections to leadership, manhood, and societal myths. It critically examines Seth Wickersham's book \"American Kings,\" which reveals the often dark and psychologically demanding realities faced by quarterbacks, highlighting the personal costs of ambition and the warped personalities fostered by extreme pressure. The piece intelligently questions the individualistic hero narrative surrounding quarterbacks, arguing for a more holistic, team-oriented perspective. It prompts reflection on how a society's values are mirrored in its sporting heroes, offering a nuanced view that challenges conventional wisdom and invites readers to consider the broader implications of this iconic role.",
+    "summary_zh": "这篇文章对美式橄榄球四分卫的文化意义进行了深刻剖析，超越了简单的体育竞技层面，触及了领导力、男子气概和社会神话的深层联结。它引人深思地揭示了这一光鲜角色背后，个人所承受的巨大心理压力与代价。读完不禁反思，我们社会对“英雄”的定义，是否也无形中塑造了某些扭曲的人格特质？作者最后提出，四分卫并非孤立的个体，而是团队的一员，这无疑是对传统个人英雄主义叙事的有力挑战，也引发了对集体协作价值的再认识。",
+    "best_quote_en": "“The very idea of the quarterback was and remains bound up with who we are and how we see ourselves on a national scale.”",
+    "best_quote_zh": "“四分卫这个概念过去是，现在依然是，与我们是谁以及我们如何看待自己在国家层面上的形象紧密相连的。”"
+  },
+  {
+    "id": 49,
+    "title": "Wisereads Vol. 107 — Handbook for Hard Times by Gelong Thubten, Farnam Street on Irrational Dedication, and more",
+    "title_zh": "Wisereads 第107期 — 格隆·图布丹的《艰难时刻手册》、法纳姆街的非理性奉献等等",
+    "source": "Weekly Wisereads",
+    "link": "https://wise.readwise.io/issues/wisereads-vol-107/",
+    "tags": [
+      "solve",
+      "ai-research",
+      "leadership",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "AI研究",
+      "领导管理",
+      "未来预测"
+    ],
+    "date": "2025-09-07",
+    "summary_en": "This curated digest, Wisereads Vol. 107, offers a thought-provoking collection of articles and media, delving into themes of decision-making, dedication, and personal resilience. I found the inclusion of 'Via Negativa' particularly insightful, highlighting the power of subtraction in achieving excellence, a concept often overlooked in our additive-driven society. The piece on 'Irrational Dedication' by Farnam Street resonates deeply, underscoring that true success frequently stems from an unwavering commitment beyond rational bounds. The exploration of AI's employment effects provides a timely and critical perspective on technological disruption, while the monk's guide to fearless living offers profound wisdom for navigating life's inevitable challenges. This volume serves as a rich resource for self-improvement and critical thinking across diverse domains.",
+    "summary_zh": "这期Wisereads文摘内容丰富且发人深省。我尤其欣赏对“负向方法论”的探讨，它提醒我们，有时减去不必要的比增加新的更重要，这是一种反直觉但高效的智慧。法纳姆街关于“非理性奉献”的观点也触动了我，真正的成就往往源于一种近乎偏执的坚持，这在浮躁的时代显得尤为珍贵。AI对就业市场的影响分析则提供了冷静的思考，而僧侣的指南则为我们如何在逆境中保持内心平静指明了方向。这份合集不仅是知识的汲取，更是对人生哲学的深度探索。",
+    "best_quote_en": "Behind every seemingly effortless success lies a landscape of invisible battles: endless meetings, self-doubts, and moments of near-total collapse. What truly separates people isn’t some magical talent, but an almost irrational commitment to pushing through pain that would break most people.",
+    "best_quote_zh": "在每一个看似轻松的成功背后，都隐藏着一片无形的战场：无休止的会议、自我怀疑，以及濒临崩溃的时刻。真正区分人们的不是什么神奇的天赋，而是一种近乎非理性的承诺，去穿越大多数人无法承受的痛苦。"
+  },
+  {
+    "id": 50,
+    "title": "Cheapest destinations/Similar song finder/Mini vacuum",
+    "title_zh": "最便宜的目的地/相似歌曲查找器/迷你吸尘器",
+    "source": "Kevin Kelly",
+    "link": "https://kk.org/cooltools/cheapest-destinations-similar-song-finder-mini-vacuum/",
+    "tags": [
+      "solve",
+      "lifestyle",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-09-07",
+    "summary_en": "This curated collection offers a fascinating blend of practical tools and insightful reflections. From identifying the most budget-friendly travel destinations for digital nomads to a clever AI-powered song finder that broadens musical horizons, the content consistently delivers actionable value. The inclusion of a review for a mini vacuum highlights the utility of small, effective gadgets in daily life. Most compellingly, the analysis of Martha Stewart's 'category of one' brand strategy provides a potent lesson in authentic self-positioning and leveraging uniqueness, while the guide on resisting temptations offers empathetic, actionable psychological insights. Finally, a newsletter recommendation promises a weekly dose of experimental living. Each piece, though disparate, converges on themes of optimization, discovery, and self-improvement, making this a rich resource for practical living and personal growth.",
+    "summary_zh": "这篇精选内容巧妙融合了实用工具与深刻洞察。从为数字游民寻找最经济的旅行地，到AI驱动的歌曲推荐工具拓展音乐视野，处处体现了可操作的价值。对迷你吸尘器的评测凸显了小而高效设备的日常便利性。最引人深思的是，对玛莎·斯图尔特“独一无二”品牌策略的剖析，提供了关于如何定位自我、利用独特性的有力一课。此外，抵制诱惑的指南则提供了富有同理心且实用的心理学见解。最后，一份关于实验生活的时事通讯推荐，承诺带来每周的灵感。尽管内容多样，但都围绕着优化、发现和自我提升的主题，使其成为一份关于实用生活和个人成长的宝贵资源。",
+    "best_quote_en": "Instead of trying to overcome her oddities, her unconventionality, her character weaknesses, she leaned into them hard so that she was unique and had no competition, until she herself was the brand.",
+    "best_quote_zh": "她没有试图克服自己的怪癖、非传统或性格弱点，反而努力利用这些特点，让自己变得独一无二，没有竞争对手，直到她自己成为一个品牌。"
+  }
+]
