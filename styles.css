@@ -257,6 +257,12 @@ button:hover {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
+.tag.selected {
+    background: #17a2b8;
+    color: white;
+    border-color: #138496;
+}
+
 .tag-emoji {
     font-size: 14px;
     line-height: 1;
@@ -268,11 +274,15 @@ button:hover {
 }
 
 .tag-count {
-    background: rgba(255, 255, 255, 0.3);
-    color: inherit;
-    padding: 2px 6px;
-    border-radius: 10px;
-    font-size: 11px;
+    opacity: 0.7;
+    font-size: 0.75em;
+    margin-left: 0.25rem;
+    font-weight: normal;
+}
+
+.tag.active .tag-count,
+.tag.selected .tag-count {
+    opacity: 0.8;
     font-weight: 600;
     min-width: 18px;
     text-align: center;
@@ -487,6 +497,382 @@ button:hover {
     to {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+/* 新手友好的提示样式 */
+.hint {
+    display: block;
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 4px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.results-info {
+    margin: 8px 0;
+    padding: 8px 12px;
+    background: #e3f2fd;
+    border-radius: 6px;
+    border-left: 4px solid #2196f3;
+}
+
+.item-count {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1976d2;
+}
+
+.filter-group .hint {
+    margin-top: 8px;
+    margin-left: 0;
+}
+
+/* 响应式调整 */
+@media (max-width: 640px) {
+    .search-section {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .action-buttons {
+        justify-content: center;
+    }
+    
+    .hint {
+        text-align: center;
+    }
+}
+
+/* 欢迎引导弹窗样式 */
+.welcome-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+}
+
+.welcome-content {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: slideUp 0.3s ease;
+}
+
+.welcome-content h3 {
+    margin: 0 0 16px 0;
+    color: #2c3e50;
+    font-size: 20px;
+    text-align: center;
+}
+
+.welcome-body {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.welcome-body strong {
+    color: #2c3e50;
+}
+
+.welcome-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.welcome-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.welcome-btn:hover {
+    background: #0056b3;
+}
+
+.task-link {
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.task-link:hover {
+    background: #1e7e34;
+}
+
+/* 标签统计弹窗样式 */
+.stats-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.stats-modal.hidden {
+    display: none;
+}
+
+.stats-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: slideInUp 0.3s ease-out;
+}
+
+.stats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.stats-header h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.close-stats-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.close-stats-btn:hover {
+    background: #c0392b;
+}
+
+.stats-hint {
+    background: #e8f4fd;
+    border: 1px solid #bee5eb;
+    border-radius: 6px;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    color: #0c5460;
+    font-size: 0.9rem;
+}
+
+.stats-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-item {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #e9ecef;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.stats-section {
+    margin-bottom: 2rem;
+}
+
+.stats-section h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+.stats-table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e9ecef;
+}
+
+.stats-header-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background: #f8f9fa;
+    padding: 0.75rem;
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.stats-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 0.75rem;
+    border-bottom: 1px solid #f1f3f4;
+    transition: background-color 0.2s;
+}
+
+.stats-row:hover {
+    background: #f8f9fa;
+}
+
+.stats-row:last-child {
+    border-bottom: none;
+}
+
+.tag-name, .combo-name {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.tag-count, .combo-count {
+    text-align: center;
+    color: #666;
+}
+
+.tag-percentage, .combo-percentage {
+    text-align: center;
+    color: #27ae60;
+    font-weight: 500;
+}
+
+.stats-btn {
+    background: #9b59b6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    margin-left: 0.5rem;
+}
+
+.stats-btn:hover {
+    background: #8e44ad;
+    transform: translateY(-1px);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-content {
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .welcome-actions {
+        flex-direction: column;
+    }
+    
+    .welcome-btn,
+    .task-link {
+        text-align: center;
+    }
+    
+    .stats-content {
+        padding: 1.5rem;
+        margin: 1rem;
+        max-height: 85vh;
+    }
+    
+    .stats-overview {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    .stats-header-row,
+    .stats-row {
+        grid-template-columns: 1.5fr 1fr 1fr;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .stats-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+        margin-left: 0.25rem;
+        margin-top: 0.25rem;
     }
 }
 

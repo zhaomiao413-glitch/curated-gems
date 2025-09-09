@@ -2,7 +2,6 @@
 
 > **适合人群**：完全零基础的同学  
 > **学习目标**：学会使用GitHub创建和部署个人网站  
-> **难度等级**：⭐⭐（1-5星）  
 > **前置要求**：无（这是第一课）  
 
 ## 🎯 课程概述
@@ -52,8 +51,7 @@
 ### 开始前请确认
 - [ ] 有一台能上网的电脑（Windows、Mac、Linux都可以）
 - [ ] 浏览器已打开（推荐Chrome、Firefox、Safari、Edge）
-- [ ] 网络连接稳定
-- [ ] 预留了30分钟不被打扰的时间
+- [ ] 网络连接稳定是否可以访问 https://github.com
 
 ### 需要注册的账号
 - **GitHub账号**：免费注册，这是我们的主要工具
@@ -86,11 +84,6 @@
    - 上传头像
    - 填写简介
    - 设置个人主页
-
-**✅ 完成标志**：
-- [ ] 能够成功登录GitHub
-- [ ] 个人主页显示你的用户名
-- [ ] 邮箱已验证（邮箱旁边有绿色勾号）
 
 **🔧 常见问题**：
 
@@ -172,56 +165,51 @@
 
 ---
 
-好的，我已经根据你的要求，在课程的第三个任务中增加了启用工作流（Actions）的步骤。这是一个非常重要的细节，因为 Fork 后的项目默认会禁用工作流，需要手动开启才能自动部署网站。
+### 任务3：启用GitHub Pages部署网站
 
-这是更新后的 **任务3** 指导：
-
----
-
-### 任务3：启用工作流并部署网站
-
-**🎯 目标**：激活自动化工作流，并将你的项目变成一个可以访问的网站。
+**🎯 目标**：让你的网站在互联网上"上线"，获得一个可以访问的网址
 
 **📋 操作步骤**：
 
-1.  **进入Actions页面启用工作流**
-    *   在你 Fork 后的 `curated-gems` 项目页面，点击顶部的 "Actions" 标签。
-    *   你会看到一个黄色的提示条，说明工作流未在本仓库运行。
-    *   点击 "I understand my workflows, go ahead and enable them" 按钮来启用。
+1. **进入项目设置**
+   - 在你的项目页面，点击顶部的"Settings"（设置）选项卡
+   - 💡 **小贴士**：Settings在项目名称下方的导航栏中
 
-2.  **进入项目设置**
-    *   返回到你的项目主页，点击页面上方的 "Settings"（设置）标签。
-    *   ⚠️ **注意**：确保你在自己账号下的项目，而不是原项目。
+2. **找到Pages设置**
+   - 在左侧菜单中找到"Pages"选项
+   - 点击进入GitHub Pages设置页面
 
-3.  **找到Pages设置**
-    *   在左侧菜单中向下滚动，找到并点击 "Pages" 选项。
+3. **配置部署源**
+   - 在"Source"（源）部分，选择"Deploy from a branch"（从分支部署）
+   - 在"Branch"（分支）下拉菜单中选择"main"或"master"
+   - 文件夹保持默认的"/ (root)"
+   - 点击"Save"（保存）按钮
 
-4.  **配置部署源**
-    *   在 "Source"（源）部分，选择 "Deploy from a branch"（从分支部署）。
-    *   在 "Branch"（分支）部分，选择 "main" 分支，文件夹选择 "/ (root)"（根目录），然后点击 "Save"（保存)。
+4. **等待部署完成**
+   - GitHub会开始构建你的网站
+   - 等待1-3分钟，页面会显示网站地址
+   - 网站地址格式：`https://你的用户名.github.io/curated-gems`
 
-5.  **等待部署完成**
-    *   GitHub 会开始构建你的网站，这通常需要1-5分钟。
-    *   你可以在 "Actions" 标签页查看部署进度。
-
-6.  **获取网站地址**
-    *   部署成功后，在 Pages 设置页面顶部会显示绿色的提示，告诉你网站已经上线。
-    *   你的网站地址是：`https://你的用户名.github.io/curated-gems`
+5. **测试网站访问**
+   - 点击显示的网站地址
+   - 确认网站能够正常打开和使用
+   - 测试搜索、筛选、语言切换等功能
 
 **✅ 完成标志**：
-- [ ] Pages设置页面显示绿色的"Your site is live at..."消息
-- [ ] 能够通过网站地址访问你的网站
-- [ ] 网站显示正常，包含文章列表和搜索功能
+- [ ] GitHub Pages设置页面显示绿色的"Your site is live at..."消息
+- [ ] 能够通过网址正常访问你的网站
+- [ ] 网站所有功能正常工作
+- [ ] 可以将网址分享给其他人访问
 
 **🔧 常见问题**：
 
 <details>
-<summary>问题1：找不到Settings标签怎么办？</summary>
+<summary>问题1：找不到Settings选项卡怎么办？</summary>
 
 **解决方案**：
-1. 确认你在自己的项目页面（地址包含你的用户名）
-2. 如果在别人的项目页面，你看不到Settings
-3. 回到你的GitHub主页，找到curated-gems项目
+1. 确认你在自己Fork的项目页面，不是原项目页面
+2. 确认已经登录GitHub账号
+3. Settings通常在项目名称下方，Code、Issues、Pull requests的右侧
 
 </details>
 
@@ -229,20 +217,21 @@
 <summary>问题2：网站显示404错误怎么办？</summary>
 
 **解决方案**：
-1. 等待5-10分钟，部署需要时间
-2. 检查网站地址是否正确
-3. 确认Pages设置中的分支选择是"main"
-4. 刷新浏览器重试
+1. 等待5-10分钟，GitHub需要时间构建网站
+2. 检查分支选择是否正确（应该是main或master）
+3. 确认项目中有index.html文件
+4. 尝试强制刷新浏览器
 
 </details>
 
 <details>
-<summary>问题3：网站样式显示不正常怎么办？</summary>
+<summary>问题3：网站地址访问不了怎么办？</summary>
 
 **解决方案**：
-1. 等待完整部署完成（可能需要10分钟）
-2. 强制刷新浏览器（Ctrl+F5 或 Cmd+Shift+R）
-3. 检查浏览器控制台是否有错误信息
+1. 检查网址拼写是否正确
+2. 确认格式：https://用户名.github.io/curated-gems
+3. 等待更长时间，首次部署可能需要10-15分钟
+4. 检查项目名称是否为"curated-gems"
 
 </details>
 
@@ -260,7 +249,7 @@
 
 2. **编辑标题内容**
    - 点击文件右上角的铅笔图标（Edit this file）
-   - 找到第13-14行，包含网站标题的部分：
+   - 使用Ctrl+F（Windows）或Cmd+F（Mac）搜索"孙玲的精选内容收藏"，找到网站标题部分：
    ```html
    <h1 data-zh="孙玲的精选内容收藏" data-en="Ling Sun's Curated Content">孙玲的精选内容收藏</h1>
    <p class="subtitle" data-zh="优质文章、播客和资源分享" data-en="Quality articles, podcasts and resources">优质文章、播客和资源分享</p>
@@ -335,36 +324,42 @@
 3. **添加新内容**
    - 可以自己寻找值得推荐的网站、文章、视频等资源，也可以让 AI 帮你根据链接自动生成摘要和标签。
    - 在文件开头的`[`后面添加你的内容
-   - 或者复制下面的数据，可以选择修改成你自己的信息：
+   - 💡 **小贴士**：先从简单的开始，复制下面的基础示例：
+
+**简单示例**（推荐新手使用）：
 ```json
 {
-    "id": 6,
+    "id": 1,
+    "title": "我喜欢的网站",
+    "title_zh": "我喜欢的网站",
+    "source": "网站名称",
+    "link": "https://example.com",
+    "tags": ["推荐"],
+    "tags_zh": ["推荐"],
+    "date": "2024-01-01",
+    "summary_en": "This is a great website.",
+    "summary_zh": "这是一个很棒的网站。",
+    "best_quote_en": "Great content here.",
+    "best_quote_zh": "这里有很棒的内容。"
+  },
+```
+
+**完整示例**（熟悉后可以使用）：
+```json
+{
+    "id": 2,
     "title": "Atomic Habits",
     "title_zh": "原子习惯",
     "source": "James Clear",
     "link": "https://jamesclear.com/atomic-habits",
     "tags": ["habits", "self-improvement"],
     "tags_zh": ["习惯", "自我提升"],
-    "date": "2025-08-26",
-    "summary_en": "A practical guide to building good habits and breaking bad ones, with actionable strategies.",
-    "summary_zh": "一本关于养成好习惯和打破坏习惯的实用指南，提供可操作的方法。",
+    "date": "2024-01-01",
+    "summary_en": "A practical guide to building good habits and breaking bad ones.",
+    "summary_zh": "一本关于养成好习惯和打破坏习惯的实用指南。",
     "best_quote_en": "You do not rise to the level of your goals. You fall to the level of your systems.",
     "best_quote_zh": "你不会达到目标的高度，而是会跌落到系统的水平。"
   },
-  {
-    "id": 7,
-    "title": "TED: The Power of Vulnerability",
-    "title_zh": "TED：脆弱的力量",
-    "source": "Brené Brown",
-    "link": "https://www.ted.com/talks/brene_brown_the_power_of_vulnerability",
-    "tags": ["psychology", "TED"],
-    "tags_zh": ["心理学", "TED"],
-    "date": "2025-08-26",
-    "summary_en": "A TED talk exploring how embracing vulnerability can lead to deeper connections and personal growth.",
-    "summary_zh": "一场TED演讲，探讨拥抱脆弱如何带来更深的连接和个人成长。",
-    "best_quote_en": "Vulnerability is the birthplace of innovation, creativity and change.",
-    "best_quote_zh": "脆弱是创新、创造力和改变的源头。"
-  }
 ```
 
 4. **保存修改**
@@ -416,7 +411,7 @@
 
 - [ ] **GitHub账号**：已注册并验证邮箱
 - [ ] **项目复制**：成功Fork了curated-gems项目
-- [ ] **网站部署**：网站能够正常访问，地址格式正确
+- [ ] **网站部署**：启用了GitHub Pages，网站地址为 `https://你的用户名.github.io/curated-gems`
 - [ ] **功能测试**：搜索、筛选、语言切换等功能正常
 - [ ] **标题个性化**：成功将网站标题改为自己的名字
 - [ ] **内容添加**：成功添加了自己的内容并在网站中显示

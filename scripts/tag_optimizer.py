@@ -17,7 +17,7 @@ from typing import List, Tuple
 from smart_tag_generator import SmartTagGenerator, TagResult
 
 class TagOptimizer:
-    """标签优化器 - 新版本"""
+    """标签优化器"""
     
     def __init__(self, scripts_dir: str = "scripts"):
         self.scripts_dir = scripts_dir

@@ -1,5 +1,5 @@
-// 第3课优化版：信息筛选与分类管理
-// 主要改进：优化标签分类体系、改善用户体验、增强代码可维护性
+// 第3课：信息筛选与分类管理
+// 主要功能：智能标签筛选、搜索、排序、数据源筛选
 let raw = [], view = [], activeSource = 'all', activeTags = new Set(['all']);
 let searchEl, sortEl, randomBtn;
 
@@ -58,6 +58,9 @@ async function init() {
   // 初始化渲染
   applyAndRender();
   bind();
+  
+  // 显示新手引导提示
+  showWelcomeGuide();
 }
 
 async function loadData() {
@@ -90,7 +93,15 @@ function mountControls() {
       oldest: '最旧',
       clearFilters: '清除所有筛选',
       sources: '数据源',
-      tags: '标签'
+      tags: '标签',
+      searchHint: '💡 提示：输入关键词快速查找相关内容',
+      tagHint: '💡 提示：点击标签筛选内容，可以选择多个标签组合筛选',
+      randomHint: '💡 提示：点击随机推荐发现新内容',
+      totalItems: '共找到 {count} 条信息',
+      tagStats: '标签统计',
+      statsTitle: '标签使用统计分析',
+      statsHint: '💡 分析这些统计数据，找出标签使用规律',
+      closeStats: '关闭统计'
     },
     en: {
       search: 'Search articles, summaries...',
@@ -100,21 +111,38 @@ function mountControls() {
       oldest: 'Oldest',
       clearFilters: 'Clear all filters',
       sources: 'Sources',
-      tags: 'Tags'
+      tags: 'Tags',
+      searchHint: '💡 Tip: Enter keywords to quickly find relevant content',
+      tagHint: '💡 Tip: Click tags to filter content, you can select multiple tags',
+      randomHint: '💡 Tip: Click random to discover new content',
+      totalItems: 'Found {count} items',
+      tagStats: 'Tag Statistics',
+      statsTitle: 'Tag Usage Statistics Analysis',
+      statsHint: '💡 Analyze this statistical data to find tag usage patterns',
+      closeStats: 'Close Statistics'
     }
   };
 
-  // 创建简化的控件结构
+  // 创建新手友好的控件结构
   $('#controls').innerHTML = `
     <div class="controls">
       <div class="search-section">
-        <input id="search" placeholder="${texts[lang].search}" type="text" />
-        <button id="random" class="random-btn">${texts[lang].random}</button>
-        <button id="clear-filters" class="clear-btn">${texts[lang].clearFilters}</button>
-        <select id="sort">
-          <option value="newest">${texts[lang].newest}</option>
-          <option value="oldest">${texts[lang].oldest}</option>
-        </select>
+        <div class="search-container">
+          <input id="search" placeholder="${texts[lang].search}" type="text" />
+          <small class="hint">${texts[lang].searchHint}</small>
+        </div>
+        <div class="action-buttons">
+          <button id="random" class="random-btn" title="${texts[lang].randomHint}">${texts[lang].random}</button>
+          <button id="clear-filters" class="clear-btn">${texts[lang].clearFilters}</button>
+          <button id="tag-stats" class="stats-btn">${texts[lang].tagStats}</button>
+          <select id="sort">
+            <option value="newest">${texts[lang].newest}</option>
+            <option value="oldest">${texts[lang].oldest}</option>
+          </select>
+        </div>
+      </div>
+      <div class="results-info">
+        <span id="item-count" class="item-count"></span>
       </div>
       <div class="filter-section">
         <div class="filter-group">
@@ -124,7 +152,18 @@ function mountControls() {
         <div class="filter-group">
           <span class="filter-label">${texts[lang].tags}:</span>
           <div id="tags" class="tags"></div>
+          <small class="hint">${texts[lang].tagHint}</small>
         </div>
+      </div>
+    </div>
+    <div id="stats-modal" class="stats-modal hidden">
+      <div class="stats-content">
+        <div class="stats-header">
+          <h3>${texts[lang].statsTitle}</h3>
+          <button id="close-stats" class="close-stats-btn">${texts[lang].closeStats}</button>
+        </div>
+        <div class="stats-hint">${texts[lang].statsHint}</div>
+        <div id="stats-body" class="stats-body"></div>
       </div>
     </div>
   `;
@@ -155,6 +194,17 @@ function bind() {
   const clearBtn = $('#clear-filters');
   if (clearBtn) {
     clearBtn.addEventListener('click', clearAllFilters);
+  }
+  
+  // 标签统计
+  const statsBtn = $('#tag-stats');
+  if (statsBtn) {
+    statsBtn.addEventListener('click', showTagStatistics);
+  }
+  
+  const closeStatsBtn = $('#close-stats');
+  if (closeStatsBtn) {
+    closeStatsBtn.addEventListener('click', hideTagStatistics);
   }
 
   // 标签点击事件（事件委托）
@@ -354,129 +404,18 @@ function renderSources(list) {
   `;
 }
 
-// 优化后的标签配置 - 按5大类别重新组织
-const TAG_CONFIG = {
-  // 🧠 思维认知类 - 紫色系
-  '思考': { emoji: '🤔', color: '#9333ea', bgColor: '#f3e8ff', category: 'thinking' },
-  '学习': { emoji: '📚', color: '#7c3aed', bgColor: '#ede9fe', category: 'thinking' },
-  '心理学': { emoji: '🧠', color: '#8b5cf6', bgColor: '#f3e8ff', category: 'thinking' },
-  '哲学': { emoji: '🎭', color: '#a855f7', bgColor: '#f3e8ff', category: 'thinking' },
-  'thinking': { emoji: '🤔', color: '#9333ea', bgColor: '#f3e8ff', category: 'thinking' },
-  'learning': { emoji: '📚', color: '#7c3aed', bgColor: '#ede9fe', category: 'thinking' },
-  'psychology': { emoji: '🧠', color: '#8b5cf6', bgColor: '#f3e8ff', category: 'thinking' },
-  'philosophy': { emoji: '🎭', color: '#a855f7', bgColor: '#f3e8ff', category: 'thinking' },
-
-  // 💼 技术商业类 - 蓝色系
-  '科技': { emoji: '💻', color: '#2563eb', bgColor: '#dbeafe', category: 'business' },
-  '商业': { emoji: '💼', color: '#1d4ed8', bgColor: '#dbeafe', category: 'business' },
-  '人工智能': { emoji: '🤖', color: '#3b82f6', bgColor: '#dbeafe', category: 'business' },
-  '创业': { emoji: '🚀', color: '#1e40af', bgColor: '#dbeafe', category: 'business' },
-  '管理': { emoji: '👔', color: '#1e3a8a', bgColor: '#dbeafe', category: 'business' },
-  'technology': { emoji: '💻', color: '#2563eb', bgColor: '#dbeafe', category: 'business' },
-  'business': { emoji: '💼', color: '#1d4ed8', bgColor: '#dbeafe', category: 'business' },
-  'artificial-intelligence': { emoji: '🤖', color: '#3b82f6', bgColor: '#dbeafe', category: 'business' },
-  'entrepreneurship': { emoji: '🚀', color: '#1e40af', bgColor: '#dbeafe', category: 'business' },
-  'management': { emoji: '👔', color: '#1e3a8a', bgColor: '#dbeafe', category: 'business' },
-
-  // 🌍 社会文化类 - 绿色系
-  '社会': { emoji: '🌍', color: '#059669', bgColor: '#d1fae5', category: 'society' },
-  '政治': { emoji: '🏛️', color: '#047857', bgColor: '#d1fae5', category: 'society' },
-  '历史': { emoji: '📜', color: '#065f46', bgColor: '#d1fae5', category: 'society' },
-  '法律': { emoji: '⚖️', color: '#064e3b', bgColor: '#d1fae5', category: 'society' },
-  '伦理': { emoji: '🤲', color: '#10b981', bgColor: '#d1fae5', category: 'society' },
-  'society': { emoji: '🌍', color: '#059669', bgColor: '#d1fae5', category: 'society' },
-  'politics': { emoji: '🏛️', color: '#047857', bgColor: '#d1fae5', category: 'society' },
-  'history': { emoji: '📜', color: '#065f46', bgColor: '#d1fae5', category: 'society' },
-  'law': { emoji: '⚖️', color: '#064e3b', bgColor: '#d1fae5', category: 'society' },
-  'ethics': { emoji: '🤲', color: '#10b981', bgColor: '#d1fae5', category: 'society' },
-
-  // 🚀 个人发展类 - 橙色系
-  '效率': { emoji: '⚡', color: '#ea580c', bgColor: '#fed7aa', category: 'personal' },
-  '个人成长': { emoji: '🌱', color: '#dc2626', bgColor: '#fee2e2', category: 'personal' },
-  '健康': { emoji: '❤️', color: '#c2410c', bgColor: '#fed7aa', category: 'personal' },
-  '沟通': { emoji: '💬', color: '#ea580c', bgColor: '#fed7aa', category: 'personal' },
-  '创造力': { emoji: '💡', color: '#f97316', bgColor: '#fed7aa', category: 'personal' },
-  'productivity': { emoji: '⚡', color: '#ea580c', bgColor: '#fed7aa', category: 'personal' },
-  'personal-growth': { emoji: '🌱', color: '#dc2626', bgColor: '#fee2e2', category: 'personal' },
-  'health': { emoji: '❤️', color: '#c2410c', bgColor: '#fed7aa', category: 'personal' },
-  'communication': { emoji: '💬', color: '#ea580c', bgColor: '#fed7aa', category: 'personal' },
-  'creativity': { emoji: '💡', color: '#f97316', bgColor: '#fed7aa', category: 'personal' },
-
-  // 🔮 其他重要类 - 灰色系
-  '未来': { emoji: '🔮', color: '#6b7280', bgColor: '#f3f4f6', category: 'other' },
-  '环境': { emoji: '🌿', color: '#6b7280', bgColor: '#f3f4f6', category: 'other' },
-  'future': { emoji: '🔮', color: '#6b7280', bgColor: '#f3f4f6', category: 'other' },
-  'environment': { emoji: '🌿', color: '#6b7280', bgColor: '#f3f4f6', category: 'other' },
-
-  // 默认样式
-  'all': { emoji: '📚', color: '#6b7280', bgColor: '#f3f4f6', category: 'all' }
-};
-
-// 获取标签配置（增强版）
-function getTagConfig(tag) {
-  // 标准化标签名
-  const normalizedTag = tag.toLowerCase().trim();
-  
-  // 直接匹配
-  if (TAG_CONFIG[normalizedTag]) {
-    return TAG_CONFIG[normalizedTag];
-  }
-  
-  // 中英文映射
-  const tagMapping = {
-    'ai': '人工智能',
-    'tech': '科技',
-    'startup': '创业',
-    'growth': '个人成长',
-    'mindset': '思考',
-    'culture': '社会'
-  };
-  
-  if (tagMapping[normalizedTag]) {
-    return TAG_CONFIG[tagMapping[normalizedTag]] || getDefaultTagConfig();
-  }
-  
-  // 关键词匹配
-  const keywordMap = {
-    'ai': 'artificial-intelligence',
-    'tech': 'technology',
-    'startup': 'entrepreneurship',
-    'growth': 'personal-growth',
-    'mindset': 'thinking',
-    'culture': 'society',
-    'wisdom': 'philosophy',
-    'life': 'philosophy'
-  };
-  
-  for (const [keyword, mappedTag] of Object.entries(keywordMap)) {
-    if (normalizedTag.includes(keyword)) {
-      return TAG_CONFIG[mappedTag] || getDefaultTagConfig();
-    }
-  }
-  
-  return getDefaultTagConfig();
-}
-
-// 获取默认标签配置
-function getDefaultTagConfig() {
-  return { emoji: '🏷️', color: '#6b7280', bgColor: '#f9fafb', category: 'other' };
-}
-
-// 计算标签统计信息（优化版）
-function getTagStats(tagList) {
+// 标签统计功能
+function getTagStats(list) {
   const stats = {};
   const lang = window.currentLang || 'zh';
   const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
   
-  tagList.forEach(tag => {
-    if (tag === 'all') {
-      stats[tag] = raw.length;
-    } else {
-      stats[tag] = raw.filter(item => {
-        const itemTags = item[tagsField] || item.tags || [];
-        return itemTags.includes(tag);
-      }).length;
-    }
+  // 统计每个标签的使用次数
+  list.forEach(item => {
+    const itemTags = item[tagsField] || item.tags || [];
+    itemTags.forEach(tag => {
+      stats[tag] = (stats[tag] || 0) + 1;
+    });
   });
   
   return stats;
@@ -488,14 +427,23 @@ function renderTags(list) {
   const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
   const allTags = [...new Set(list.flatMap(item => item[tagsField] || item.tags || []))];
   
+  // 统计每个标签的使用次数
+  // TODO: 学员任务 - 实现标签统计功能
+  // 提示：需要统计每个标签在当前列表中的使用次数
+  // 参考格式：const tagCounts = {};
+  const tagCounts = {};
+  
   // 添加"全部"选项
   const allText = lang === 'zh' ? '全部' : 'All';
   const tags = [allText, ...allTags];
   
+  // TODO: 学员任务 - 实现标签数量显示功能
+  // 提示：需要在标签后面显示使用次数，格式如 "AI (15)"
   $('#tags').innerHTML = tags.map(t => {
     const isAll = t === allText;
     const tagValue = isAll ? 'all' : t;
     const isActive = activeTags.has(tagValue);
+    // TODO: 在这里添加标签数量显示逻辑
     return `<span class="tag ${isActive ? 'active' : ''}" data-tag="${esc(tagValue)}">${esc(t)}</span>`;
   }).join('');
 }
@@ -522,6 +470,9 @@ function render(items) {
     return;
   }
   
+  // 更新信息数量显示
+  updateItemCount(items.length);
+  
   if (items.length === 0) {
     listEl.innerHTML = '';
     const emptyTexts = {
@@ -538,6 +489,213 @@ function render(items) {
   // 渲染筛选器
   renderSources(raw);
   renderTags(raw);
+}
+
+function updateItemCount(count) {
+  const lang = window.currentLang || 'zh';
+  const texts = {
+    zh: { totalItems: '共找到 {count} 条信息' },
+    en: { totalItems: 'Found {count} items' }
+  };
+  
+  const countEl = $('#item-count');
+  if (countEl) {
+    countEl.textContent = texts[lang].totalItems.replace('{count}', count);
+  }
+}
+
+function showWelcomeGuide() {
+  const lang = window.currentLang || 'zh';
+  
+  // 检查是否是首次访问
+  const hasVisited = localStorage.getItem('v3_visited');
+  if (hasVisited) return;
+  
+  const welcomeTexts = {
+    zh: {
+      title: '🎉 欢迎来到第三课：信息筛选与分类管理',
+      content: '这里有 {count} 条精选内容等你探索！<br><br>💡 <strong>快速上手指南：</strong><br>• 使用搜索框快速查找内容<br>• 点击标签进行筛选（可多选）<br>• 试试随机推荐发现新内容<br>• 完成任务文档中的4个学习任务',
+      button: '开始探索',
+      taskLink: '查看学习任务'
+    },
+    en: {
+      title: '🎉 Welcome to Lesson 3: Information Filtering & Classification',
+      content: 'There are {count} curated items waiting for you to explore!<br><br>💡 <strong>Quick Start Guide:</strong><br>• Use search box to find content quickly<br>• Click tags to filter (multiple selection)<br>• Try random recommendation to discover new content<br>• Complete 4 learning tasks in the task document',
+      button: 'Start Exploring',
+      taskLink: 'View Learning Tasks'
+    }
+  };
+  
+  const totalCount = raw.length;
+  const content = welcomeTexts[lang].content.replace('{count}', totalCount);
+  
+  // 创建欢迎弹窗
+  const modal = document.createElement('div');
+  modal.className = 'welcome-modal';
+  modal.innerHTML = `
+    <div class="welcome-content">
+      <h3>${welcomeTexts[lang].title}</h3>
+      <div class="welcome-body">${content}</div>
+      <div class="welcome-actions">
+        <a href="task.md" target="_blank" class="task-link">${welcomeTexts[lang].taskLink}</a>
+        <button class="welcome-btn" onclick="closeWelcomeGuide()">${welcomeTexts[lang].button}</button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(modal);
+  
+  // 标记已访问
+  localStorage.setItem('v3_visited', 'true');
+}
+
+function closeWelcomeGuide() {
+  const modal = document.querySelector('.welcome-modal');
+  if (modal) {
+    modal.remove();
+  }
+}
+
+// 全局函数，供HTML调用
+window.closeWelcomeGuide = closeWelcomeGuide;
+
+function showTagStatistics() {
+  const lang = window.currentLang || 'zh';
+  const statsModal = $('#stats-modal');
+  const statsBody = $('#stats-body');
+  
+  if (!statsModal || !statsBody) return;
+  
+  // 统计所有标签
+  const tagStats = {};
+  const tagCombinations = {};
+  let totalItems = 0;
+  
+  raw.forEach(item => {
+    // 根据当前语言选择正确的标签字段
+    const tagsField = lang === 'zh' ? 'tags_zh' : 'tags';
+    const itemTags = item[tagsField];
+    
+    if (itemTags && Array.isArray(itemTags)) {
+      totalItems++;
+      
+      // 统计单个标签
+      itemTags.forEach(tag => {
+        tagStats[tag] = (tagStats[tag] || 0) + 1;
+      });
+      
+      // 统计标签组合（2个标签的组合）
+      for (let i = 0; i < itemTags.length; i++) {
+        for (let j = i + 1; j < itemTags.length; j++) {
+          const combo = [itemTags[i], itemTags[j]].sort().join(' + ');
+          tagCombinations[combo] = (tagCombinations[combo] || 0) + 1;
+        }
+      }
+    }
+  });
+  
+  // 排序标签（按使用频率）
+  const sortedTags = Object.entries(tagStats)
+    .sort(([,a], [,b]) => b - a)
+    .map(([tag, count]) => ({ tag, count, percentage: ((count / totalItems) * 100).toFixed(1) }));
+  
+  // 排序标签组合
+  const sortedCombos = Object.entries(tagCombinations)
+    .sort(([,a], [,b]) => b - a)
+    .slice(0, 10) // 只显示前10个组合
+    .map(([combo, count]) => ({ combo, count, percentage: ((count / totalItems) * 100).toFixed(1) }));
+  
+  const texts = {
+    zh: {
+      totalTags: '标签总数',
+      totalItems: '内容总数',
+      avgTagsPerItem: '平均每条内容的标签数',
+      topTags: '使用频率最高的标签',
+      topCombos: '常见标签组合',
+      tag: '标签',
+      count: '使用次数',
+      percentage: '占比',
+      combination: '标签组合'
+    },
+    en: {
+      totalTags: 'Total Tags',
+      totalItems: 'Total Items',
+      avgTagsPerItem: 'Average Tags per Item',
+      topTags: 'Most Frequently Used Tags',
+      topCombos: 'Common Tag Combinations',
+      tag: 'Tag',
+      count: 'Count',
+      percentage: 'Percentage',
+      combination: 'Tag Combination'
+    }
+  };
+  
+  const totalTags = Object.keys(tagStats).length;
+  const avgTags = (Object.values(tagStats).reduce((a, b) => a + b, 0) / totalItems).toFixed(1);
+  
+  statsBody.innerHTML = `
+    <div class="stats-overview">
+      <div class="stat-item">
+        <span class="stat-label">${texts[lang].totalTags}:</span>
+        <span class="stat-value">${totalTags}</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">${texts[lang].totalItems}:</span>
+        <span class="stat-value">${totalItems}</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">${texts[lang].avgTagsPerItem}:</span>
+        <span class="stat-value">${avgTags}</span>
+      </div>
+    </div>
+    
+    <div class="stats-section">
+      <h4>${texts[lang].topTags}</h4>
+      <div class="stats-table">
+        <div class="stats-header-row">
+          <span>${texts[lang].tag}</span>
+          <span>${texts[lang].count}</span>
+          <span>${texts[lang].percentage}</span>
+        </div>
+        ${sortedTags.map(item => `
+          <div class="stats-row">
+            <span class="tag-name">${item.tag}</span>
+            <span class="tag-count">${item.count}</span>
+            <span class="tag-percentage">${item.percentage}%</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    
+    ${sortedCombos.length > 0 ? `
+      <div class="stats-section">
+        <h4>${texts[lang].topCombos}</h4>
+        <div class="stats-table">
+          <div class="stats-header-row">
+            <span>${texts[lang].combination}</span>
+            <span>${texts[lang].count}</span>
+            <span>${texts[lang].percentage}</span>
+          </div>
+          ${sortedCombos.map(item => `
+            <div class="stats-row">
+              <span class="combo-name">${item.combo}</span>
+              <span class="combo-count">${item.count}</span>
+              <span class="combo-percentage">${item.percentage}%</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    ` : ''}
+  `;
+  
+  statsModal.classList.remove('hidden');
+}
+
+function hideTagStatistics() {
+  const statsModal = $('#stats-modal');
+  if (statsModal) {
+    statsModal.classList.add('hidden');
+  }
 }
 
 function renderWithLanguage(items, lang) {
@@ -558,7 +716,7 @@ function card(item, lang = 'zh') {
   const aiSummaryLabel = lang === 'zh' ? 'AI总结：' : 'AI Summary: ';
   
   return `
-    <article class="card">
+    <article class="card" data-id="${item.id}">
       <h3><a href="${item.link}" target="_blank" rel="noopener">${esc(title)}</a></h3>
       ${desc ? `<p><span class="ai-label">${aiSummaryLabel}</span>${esc(desc)}</p>` : ''}
       ${quote ? `<blockquote>${quoteSymbols[0]}${esc(quote)}${quoteSymbols[1]}</blockquote>` : ''}
