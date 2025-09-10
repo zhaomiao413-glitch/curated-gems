@@ -418,4 +418,117 @@
     "summary_zh": "这篇文章是对Apple Vision Pro的深度个人评测，作者以其标志性的长篇分析风格，将40小时的使用体验置于VR发展史和苹果产品迭代的宏大叙事中。他巧妙地平衡了初次体验的“震撼”与作为初代产品的“平淡”，细致剖析了硬件、操作系统及应用现状。最引人深思的是，作者将Vision Pro比作第一代iPhone，并引入S曲线理论，探讨其如何可能开启空间计算的新纪元，以及我们应如何看待早期技术的局限性。这不仅是产品评测，更是对未来科技趋势和人类互动模式的深刻洞察。",
     "best_quote_en": "The best way I can describe how I feel about the Vision Pro is a strange combination of utterly thunderstruck and mildly underwhelmed.",
     "best_quote_zh": "我能描述我对 Vision Pro 感受的最佳方式，就是一种彻底的震惊与轻微的失望奇妙结合。"
+  },{
+    "id": 56,
+    "title": "The one change that worked: I got a period cup – and saved £120 a year",
+    "title_zh": "唯一有效的改变：我开始使用月经杯——每年节省120英镑",
+    "source": "Women | The Guardian",
+    "link": "https://www.theguardian.com/lifeandstyle/2025/sep/01/the-one-change-that-worked-i-got-a-period-cup-and-saved-120-a-year",
+    "tags": [
+      "solve",
+      "lifestyle"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式"
+    ],
+    "date": "2025-09-01",
+    "summary_en": "This article offers a compelling personal narrative about the author's positive experience switching to a menstrual cup. It effectively highlights the practical benefits, such as significant cost savings (£120 annually), environmental advantages by reducing waste, and improved personal comfort and health (reduced cramps, no toxic chemicals). The author's initial skepticism and eventual conversion provide a relatable journey, emphasizing the ease of use after a brief learning curve. This piece serves as a practical guide and persuasive argument for adopting menstrual cups, addressing common concerns while showcasing the long-term value and convenience, especially for eco-conscious individuals and travelers. It's a testament to how small, conscious choices can lead to substantial personal and environmental benefits.",
+    "summary_zh": "这篇文章以真诚的个人视角，分享了作者使用月经杯的转变与心得。它不仅细致入微地描绘了从怀疑到接受的过程，更深刻揭示了这一选择在经济、环保和个人舒适度上的多重价值。每年节省百镑，减少塑料垃圾，告别传统产品的诸多不适，这些实实在在的益处，足以让人重新审视女性生理期护理的未来。这不仅仅是一篇使用体验分享，更是一份关于可持续生活方式的启发，体现了小改变如何带来大不同，令人深思。",
+    "best_quote_en": "Switching to a menstrual cup has turned my once stressful period into something so simple that I hardly notice it, and I haven’t looked back since.",
+    "best_quote_zh": "改用月经杯，把我曾经压力重重的经期变成了如此简单的事情，以至于我几乎没有察觉到它的存在，从那时起我就再也没有回头。"
+  },
+  {
+    "id": 57,
+    "title": "Weird Languages",
+    "title_zh": "怪异的语言",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/weird.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "programming",
+      "case-study"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "编程开发",
+      "案例研究"
+    ],
+    "date": "2025-09-10",
+    "summary_en": "This essay provocatively challenges the conventional view that all programming languages are fundamentally similar, arguing that such a perspective often stems from exposure only to 'glue programming'—the 99.5% of coding that involves linking library functions. The author champions 'weird languages' as gateways to understanding the more profound, less explored 0.5% of programming, which involves meta-programming and language design. Using Lisp macros as a prime example, the piece illustrates how these unconventional features enable programmers to transcend mere application development, venturing into the realm of creating domain-specific languages. This intellectual journey, the author suggests, not only expands one's technical capabilities but also reshapes cognitive processes, fostering new ways of thinking about problem-solving. It's a compelling argument for intellectual curiosity and venturing beyond the familiar to unlock deeper insights into the nature of computation.",
+    "summary_zh": "这篇文章颠覆了对编程语言的普遍认知，指出多数人仅限于“胶水编程”。它独到地倡导探索“怪异语言”，认为它们是通往编程深层奥秘的钥匙，如Lisp宏，能启发我们超越传统应用开发，进入元编程和语言设计的广阔天地。这不仅仅是技术能力的提升，更是一场思维范式的重塑。我深以为然，真正的创新往往诞生于对“怪异”的拥抱，它促使我们跳出舒适区，以全新的视角审视问题，从而实现认知的跃迁。",
+    "best_quote_en": "If you want to expand your concept of what programming can be, one way to do it is by learning weird languages. Pick a language that most programmers consider weird but whose median user is smart, and then focus on the differences between this language and the intersection of popular languages.",
+    "best_quote_zh": "如果你想扩展你对编程可能性的认知，学习怪异的语言是其中一种方法。选择一种大多数程序员认为怪异但其中位数用户很聪明的语言，然后专注于这种语言与流行语言交集之间的差异。"
+  },
+  {
+    "id": 58,
+    "title": "Nvidia Comes Out Swinging as Congress Weighs Limits on China Chip Sales",
+    "title_zh": "英伟达在国会权衡对华芯片销售限制之际强势出击",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/ncMkbwdTvfXNyHAhy/nvidia-comes-out-swinging-as-congress-weighs-limits-on-china",
+    "tags": [
+      "analyze",
+      "politics",
+      "controversial"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "争议观点"
+    ],
+    "date": "2025-09-10",
+    "summary_en": "This article delves into Nvidia's aggressive lobbying against proposed U.S. congressional restrictions on AI chip sales to China. It highlights the complex interplay between national security concerns, economic interests, and the philosophical divide within the AI community (accelerationists vs. doomers). Nvidia's strategy, particularly its framing of restrictions as 'left-wing paranoia,' is a fascinating and controversial move that has effectively muddied the policy waters. The piece masterfully exposes how corporate self-interest can intersect with and even manipulate broader geopolitical and philosophical debates, forcing readers to question the true drivers behind policy advocacy. It's a compelling look at the high stakes involved in the tech-geopolitics nexus.",
+    "summary_zh": "这篇文章揭示了英伟达如何强势游说，以对抗美国国会拟议的对华AI芯片销售限制。它不仅展现了国家安全、经济利益与AI社群内部哲学分歧（加速主义者与末日论者）之间的复杂交织，更令人深思的是，英伟达将限制描述为“左翼偏执”的策略，着实搅浑了政策辩论的清水。这不禁让我思考，当商业巨头的利益与地缘政治议题碰撞时，话语权的争夺会如何影响公众认知与政策走向。这不仅仅是芯片销售，更是关于技术主导权和未来愿景的深刻博弈。",
+    "best_quote_en": "“There’s nothing more ‘America First’ than making sure that our chips don’t go to our enemies to use against us.”",
+    "best_quote_zh": "“没有什么比确保我们的芯片不被我们的敌人用来对付我们更能体现‘美国优先’了。”"
+  },
+  {
+    "id": 59,
+    "title": "Inside the Chaos at the C.D.C.",
+    "title_zh": "美国疾控中心内部的混乱",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/inside-the-chaos-at-the-cdc",
+    "tags": [
+      "analyze",
+      "politics",
+      "ai-research",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "AI研究",
+      "未来预测"
+    ],
+    "date": "2025-09-09",
+    "summary_en": "This article offers a chilling look into the Centers for Disease Control and Prevention (CDC) under controversial new leadership, particularly focusing on the perspectives of former senior official Daniel Jernigan. It vividly portrays the agency's turmoil, from a shocking active shooter incident linked to vaccine misinformation to the systematic dismantling of scientific integrity and expertise. The piece critically evaluates the impact of politically motivated appointments and budget cuts on the CDC's ability to protect public health, highlighting a profound crisis of morale and competence. It raises serious concerns about America's preparedness for future health crises, underscoring the critical importance of science-driven public health institutions. The narrative is a stark warning about the consequences of eroding trust in expert bodies.",
+    "summary_zh": "这篇文章揭示了美国疾控中心（CDC）在充满争议的新领导层下的混乱局面。通过前高官丹尼尔·杰尼根的视角，我们看到了一个曾是全球公共卫生灯塔的机构如何被政治干预和反科学思潮侵蚀。从疫苗谣言引发的枪击案到专业人员的流失，字里行间充满了对科学被架空、公共卫生基石动摇的深切忧虑。这不禁让人反思，当专业被偏见取代，我们又将如何应对未来的未知挑战？其深远影响令人不安。",
+    "best_quote_en": "“I don’t know what this Administration expects. If every state health department is supposed to be doing what the C.D.C. has been doing, those departments—the vast majority of their communicable-diseases budgets are paid for with C.D.C. dollars! If you cut the people at C.D.C. and their expertise, and you cut the funding that goes to states, you undermine the institution. What are you left with?”",
+    "best_quote_zh": "“我不知道这届政府期待什么。如果每个州卫生部门都要做疾控中心一直在做的事情，那些部门——他们绝大多数传染病预算都是由疾控中心的资金支付的！如果你削减疾控中心的人员和他们的专业知识，并且削减流向各州的资金，你就是在破坏这个机构。那你还剩下什么？”"
+  },
+  {
+    "id": 60,
+    "title": "10 Thoughts From the Fourth Trimester",
+    "title_zh": "第四孕期十日谈",
+    "source": "Wait But Why",
+    "link": "https://waitbutwhy.com/2023/05/baby.html",
+    "tags": [
+      "solve",
+      "lifestyle",
+      "design",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "解决",
+      "生活方式",
+      "设计创意",
+      "未来预测"
+    ],
+    "date": "2023-05-23",
+    "summary_en": "This article offers a highly personal, humorous, and refreshingly honest account of the author's first three months of fatherhood, challenging many preconceived notions about newborns and parenting. Through 10 distinct observations, it delves into the initial shock of a newborn's reality, the surprising lack of mandatory parental training, and the profound, yet often one-sided, early relationship with an infant. The author's unique blend of wit, self-deprecating humor, and insightful analogies (like comparing newborns to 'human larvae' or crying babies to 'Shakespearean agony') makes complex emotional shifts relatable. It's a candid exploration of the monumental life change that parenthood represents, emphasizing how one gradually transforms into a parent rather than an overnight switch, and provocatively touches upon the future implications of raising a child in an uncertain world. This piece stands out for its raw authenticity and intellectual curiosity.",
+    "summary_zh": "这篇文章以幽默风趣且极为真诚的笔触，分享了作者初为人父三个月的十点心得。它颠覆了许多关于新生儿和育儿的刻板印象，坦率地描述了从分娩的意想不到，到新手父母的茫然，再到与婴儿建立单向关系的种种经历。作者用生动的比喻和自嘲式的幽默，将育儿的挑战与乐趣展现得淋漓尽致。读来不禁让人深思，为人父母不仅是身份的转变，更是一个缓慢而深刻的自我重塑过程，同时也引发了对孩子未来和不确定世界的深远思考。这份坦率与洞察力，令人感同身受，深有启发。",
+    "best_quote_en": "You don’t go from a non-parent to a parent overnight. Some things are just too big for our little human brains to fully absorb. The bigness of the universe. The permanence of death. The magnitude of the marriage decision... A few months into fatherhood, this feels like another item in that category. When your baby is born, you will (hopefully) never live another day as a non-parent. For people who make the decision to do this, it is the BC-AD line of their life.",
+    "best_quote_zh": "你不会一夜之间从非父母变成父母。有些事情对我们人类渺小的大脑来说太宏大了，无法完全理解。宇宙的浩瀚。死亡的永恒。婚姻决定的重要性……为人父几个月后，这感觉就像是那个类别中的又一项。当你的孩子出生时，你（希望）永远不会再过一天非父母的生活。对于那些做出这个决定的人来说，这是他们人生的公元前-公元线。"
   }]
