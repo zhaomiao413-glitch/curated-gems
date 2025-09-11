@@ -531,4 +531,119 @@
     "summary_zh": "这篇文章以幽默风趣且极为真诚的笔触，分享了作者初为人父三个月的十点心得。它颠覆了许多关于新生儿和育儿的刻板印象，坦率地描述了从分娩的意想不到，到新手父母的茫然，再到与婴儿建立单向关系的种种经历。作者用生动的比喻和自嘲式的幽默，将育儿的挑战与乐趣展现得淋漓尽致。读来不禁让人深思，为人父母不仅是身份的转变，更是一个缓慢而深刻的自我重塑过程，同时也引发了对孩子未来和不确定世界的深远思考。这份坦率与洞察力，令人感同身受，深有启发。",
     "best_quote_en": "You don’t go from a non-parent to a parent overnight. Some things are just too big for our little human brains to fully absorb. The bigness of the universe. The permanence of death. The magnitude of the marriage decision... A few months into fatherhood, this feels like another item in that category. When your baby is born, you will (hopefully) never live another day as a non-parent. For people who make the decision to do this, it is the BC-AD line of their life.",
     "best_quote_zh": "你不会一夜之间从非父母变成父母。有些事情对我们人类渺小的大脑来说太宏大了，无法完全理解。宇宙的浩瀚。死亡的永恒。婚姻决定的重要性……为人父几个月后，这感觉就像是那个类别中的又一项。当你的孩子出生时，你（希望）永远不会再过一天非父母的生活。对于那些做出这个决定的人来说，这是他们人生的公元前-公元线。"
+  },{
+    "id": 61,
+    "title": "Taliban launch crackdown on Afghanistan’s secret beauty salons",
+    "title_zh": "塔利班镇压阿富汗秘密美容院",
+    "source": "Women | The Guardian",
+    "link": "https://www.theguardian.com/global-development/2025/aug/30/taliban-crackdown-afghanistan-secret-beauty-salons-women-gender-apartheid",
+    "tags": [
+      "analyze",
+      "society",
+      "controversial"
+    ],
+    "tags_zh": [
+      "分析",
+      "社会议题",
+      "争议观点"
+    ],
+    "date": "2025-08-30",
+    "summary_en": "This article starkly reveals the Taliban's escalating oppression against Afghan women, focusing on the crackdown on clandestine beauty salons. Beyond the immediate economic devastation for women who rely on these businesses as their sole income, the piece underscores a deeper, systemic gender apartheid. It highlights how these salons, though small, represent vital spaces of female autonomy, economic independence, and even psychological solace. The heartbreaking testimony of Frestha, a mother forced to choose between extreme risk and destitution, powerfully conveys the human cost. This situation is not merely a ban on services but a calculated erasure of women from public and economic life, reinforcing a grim reality where basic human rights are systematically denied. The international community's silence or inaction in the face of such systematic oppression is a critical, implicit question raised by the content.",
+    "summary_zh": "这篇文章深刻揭示了塔利班对阿富汗女性日益加剧的压迫，特别是对秘密美容院的镇压。这不仅仅是经济上的打击，更是对女性生存空间和基本人权的系统性剥夺。它让我深思，当一个政权将女性视为隐形人，剥夺她们工作、受教育乃至发出声音的权利时，社会将走向何方？文中女性的绝望呐喊，如“没有人听我们的声音或支持我们”，令人心碎。这不仅是阿富汗的悲剧，也是对全球人权和性别平等的严峻挑战，提醒我们，自由与尊严的捍卫永无止境。",
+    "best_quote_en": "“Now, I don’t think I can keep going because the risk is too high [but] I don’t know any other work. Our situation is very bad, but in this world there is no one to hear our voice or support us,” she added.",
+    "best_quote_zh": "“现在，我想我不能再继续下去了，因为风险太高了，但我不知道还有什么其他工作。我们的处境非常糟糕，但在这个世界上没有人能听到我们的声音或支持我们。”"
+  },
+  {
+    "id": 62,
+    "title": "How to Work Hard",
+    "title_zh": "如何努力工作",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/hwh.html",
+    "tags": [
+      "solve",
+      "startup-strategy",
+      "leadership",
+      "case-study"
+    ],
+    "tags_zh": [
+      "解决",
+      "创业策略",
+      "领导管理",
+      "案例研究"
+    ],
+    "date": "2025-09-11",
+    "summary_en": "This essay challenges conventional notions of 'working hard,' arguing that it's far more nuanced than simply putting in long hours. It delves into the interplay of natural ability, practice, and conscious effort, emphasizing that truly great work requires all three. The author critically examines how external impositions (like school) can distort our perception of 'real work' and highlights the importance of intrinsic motivation, self-honesty, and discerning one's true interests over perceived talents. The piece offers a dynamic framework for understanding productivity, stressing the need for constant self-assessment to find the optimal balance between effort and quality, rather than blindly pushing oneself. It’s a thought-provoking exploration into the psychology and practicalities of sustained, high-quality output, urging readers to cultivate a deep, honest relationship with their work.",
+    "summary_zh": "这篇关于“如何努力工作”的文章，让我对勤奋有了更深层的理解。它不仅仅是投入时间，更是天赋、练习与自省的复杂交织。作者深刻指出，真正的努力是找到与自己兴趣契合的“真实工作”，并不断诚实地评估和调整。我特别认同“诚实”是贯穿始终的关键，无论是识别惰性还是避免过度工作。这不仅是一篇关于工作方法的文章，更是一次关于自我认知和人生方向的哲学探讨，启发我们如何更智慧、更有效地投入到真正有价值的事业中。",
+    "best_quote_en": "Working hard is not just a dial you turn up to 11. It's a complicated, dynamic system that has to be tuned just right at each point.",
+    "best_quote_zh": "努力工作不仅仅是一个你能调到11的旋钮。它是一个复杂、动态的系统，必须在每个点上都恰到好处地调整。"
+  },
+  {
+    "id": 63,
+    "title": "Announcing the Cooperative AI Research Fellowship",
+    "title_zh": "合作式人工智能研究奖学金项目公布",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/njLv7xTpqNstjb3to/announcing-the-cooperative-ai-research-fellowship",
+    "tags": [
+      "analyze",
+      "education",
+      "science",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "分析",
+      "教育学习",
+      "科学研究",
+      "未来预测"
+    ],
+    "date": "2025-09-11",
+    "summary_en": "This announcement details a fully-funded, three-month Cooperative AI Research Fellowship in Cape Town, South Africa, from January to April 2026. It targets ambitious researchers globally, particularly those from backgrounds that face barriers to accessing similar opportunities in the UK or US. Participants will engage in cutting-edge AI safety research under the guidance of world-class mentors from institutions like Google DeepMind and Oxford. The program emphasizes multi-agent safety, AI for human cooperation, and mitigating gradual disempowerment, while also supporting the burgeoning AI safety ecosystem in South Africa. The fellowship's commitment to diversity and its strategic location for broader access highlight a thoughtful approach to fostering global talent in a critical field. This initiative is a commendable effort to democratize access to advanced AI research and strengthen international collaboration on AI safety.",
+    "summary_zh": "这份合作式人工智能研究奖学金项目公告令人振奋，它不仅提供全额资助，更将全球英才汇聚南非开普敦，共同探索AI安全前沿。我特别欣赏其对多元化申请者的考量，这无疑能为AI安全领域注入更广泛的视角与智慧。在顶尖导师的指导下，研究多智能体安全、AI促进人类合作等议题，无疑将对未来AI发展产生深远影响。此举不仅培养了关键人才，也积极推动了非洲AI生态系统的建设，展现了对全球AI治理的责任与担当，非常有意义。",
+    "best_quote_en": "We particularly look at candidates who would have limited access to similar opportunities elsewhere, those from underrepresented communities, or those who could significantly benefit from exposure to the cooperative AI research community.",
+    "best_quote_zh": "我们特别关注那些在其他地方获得类似机会有限的候选人、来自代表性不足社区的候选人，或那些能从合作式人工智能研究社区中显著受益的候选人。"
+  },
+  {
+    "id": 64,
+    "title": "Brazil Braces for a Verdict on Its Ex-President—and on Its Democracy",
+    "title_zh": "巴西前总统及其民主的判决悬而未决",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/the-lede/brazil-braces-for-a-verdict-on-its-ex-president-and-on-its-democracy",
+    "tags": [
+      "analyze",
+      "politics",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "分析",
+      "政治时事",
+      "未来预测"
+    ],
+    "date": "2025-09-10",
+    "summary_en": "This article offers a deep dive into the impending verdict of former Brazilian President Jair Bolsonaro, accused of attempting a coup, drawing compelling parallels with Donald Trump's political trajectory and influence. It critically examines the fragility of democratic institutions in the face of rising authoritarianism and politicized religion, highlighted by the role of figures like Justice Alexandre de Moraes and pastor Silas Malafaia. The piece thoughtfully explores the intricate geopolitical dynamics, including US intervention, and reflects on Brazil's unique historical reckoning with its military past. It poses profound questions about the future of global democracy, suggesting that Brazil's handling of Bolsonaro's case could set a crucial precedent against modern fascism, even as the US grapples with its own democratic challenges.",
+    "summary_zh": "巴西前总统博索纳罗的判决，不仅关乎他个人命运，更牵动着巴西民主的未来。文章精妙地将博索纳罗与特朗普的政治轨迹并置，揭示了民粹主义和威权主义如何侵蚀民主基石。我尤其被亚历山大·德·莫赖斯大法官与西拉斯·马拉法亚牧师之间的较量所吸引，这不仅是法律与宗教的冲突，更是理性与狂热的对决。巴西能否通过此案，真正清算其军事独裁的历史遗产，为全球反法西斯浪潮树立榜样，这不仅是巴西的戏剧，更是我们时代共同的考验。",
+    "best_quote_en": "“It’s interesting to see that we are changing places with the United States, somehow. The United States promoted the Brazilian military coup [of 1964], but now Brazil is the first nation to actually defeat this wave of new fascism, while the United States has shown itself unable to do anything about its own coup attempt and has even elected Donald Trump again.”",
+    "best_quote_zh": "“有趣的是，我们似乎在和美国互换位置。美国曾支持巴西1964年的军事政变，但现在巴西是第一个真正击败这股新法西斯浪潮的国家，而美国却未能对其自身的政变企图采取任何行动，甚至再次选出了唐纳德·特朗普。”"
+  },
+  {
+    "id": 65,
+    "title": "A Short History of My Last Six Years",
+    "title_zh": "我过去六年的简史",
+    "source": "Wait But Why",
+    "link": "https://waitbutwhy.com/2023/02/last-six-years.html",
+    "tags": [
+      "learn",
+      "design",
+      "ai-research",
+      "case-study"
+    ],
+    "tags_zh": [
+      "学习",
+      "设计创意",
+      "AI研究",
+      "案例研究"
+    ],
+    "date": "2023-02-17",
+    "summary_en": "This deeply personal reflection by Tim Urban chronicles his six-year odyssey to write a book on societal problems, initially conceived as a 'mini-post.' What began as a blogger's instinct to address a perceived societal 'cloud' morphed into an all-consuming, perfectionist quest, delaying marriage plans and consuming his life. Urban candidly details the pitfalls of sunk cost fallacy, scope creep, and self-delusion, leading to an ever-expanding project. The narrative culminates with the unexpected catalyst of impending fatherhood, finally forcing the completion of his book, \"What's Our Problem?\" The article is a fascinating case study in creative process, personal discipline, and the overwhelming nature of ambitious intellectual pursuits, offering relatable insights into the struggle between passion and practicality.",
+    "summary_zh": "蒂姆·厄班这篇真诚的自述，讲述了他如何将一篇“迷你”博文，耗费六年心血打磨成一部探讨社会问题的巨著。它揭示了完美主义、沉没成本谬误和项目范围蔓延的陷阱，甚至影响了作者的个人生活。文章中最触动我的，是那种创作的执念与现实压力的拉扯。直到即将为人父的喜讯，才最终迫使他完成这部作品。这不仅是一个关于写作的故事，更是对我们如何平衡雄心与生活、如何面对无尽追求的深刻反思，读来令人深思。",
+    "best_quote_en": "The baby was due on March 7, 2023, so this book would be completely done by mid-February, period end of story.",
+    "best_quote_zh": "孩子将于2023年3月7日出生，所以这本书必须在2月中旬前彻底完成，句号，故事结束。"
   }]
