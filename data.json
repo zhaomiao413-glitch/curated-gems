@@ -761,4 +761,121 @@
     "summary_zh": "这篇“读者来信”是作者思想深度与奇思妙想的独特融合，从科学、哲学到个人习惯，无所不包。最打动我的是作者的真诚和幽默感，他不仅仅是回答问题，更是在开启一场思维的探索之旅。文章鼓励我们质疑既有观念，以好奇心拥抱世界，展现了深度对话的价值。读完让人不禁反思，一个有思想且敢于展现脆弱的作者，其文字何以如此引人入胜，让人在轻松愉悦中收获启发。",
     "best_quote_en": "The pessimistic part of my brain, looking at reality, makes a sad face and pats the optimistic part of my brain on the head. The optimistic part of my brain, remembering how bad humans are at intuitively understanding exponential growth, pats the pessimistic part of my brain on the head.",
     "best_quote_zh": "我大脑中悲观的那部分，看着现实，伤心地拍了拍我大脑中乐观的那部分。我大脑中乐观的那部分，想起人类在直观理解指数增长方面有多么糟糕，拍了拍我大脑中悲观的那部分。"
+  },{
+    "id": 71,
+    "title": "‘Too many women choose death over divorce’: the Indian retreats taking the shame out of separation",
+    "title_zh": "“许多女性宁愿选择死亡而非离婚”：印度疗养营正在消除离婚的耻辱",
+    "source": "Women | The Guardian",
+    "link": "https://www.theguardian.com/global-development/2025/aug/29/women-divorce-indian-retreats-camps-marriage-domestic-violence",
+    "tags": [
+      "analyze",
+      "society",
+      "science",
+      "data-driven"
+    ],
+    "tags_zh": [
+      "分析",
+      "社会议题",
+      "科学研究",
+      "数据驱动"
+    ],
+    "date": "2025-08-29",
+    "summary_en": "This compelling article sheds light on a groundbreaking initiative in India: 'divorce camps' founded by Rafia Afi, which aim to destigmatize separation and provide a supportive community for women. It critically examines the societal pressures in India that often force women to remain in abusive marriages, highlighting the alarming statistic of domestic violence. The camps offer a safe space for healing, legal advice, and financial independence discussions, fostering a sense of sisterhood and empowerment. What truly resonates is the article's emphasis on transforming the narrative around divorce from shame to courage, offering a beacon of hope and practical solutions for women navigating challenging life transitions. It's a powerful story of resilience and community building.",
+    "summary_zh": "这篇文章深刻揭示了印度女性在离婚上面临的巨大社会压力和耻辱感。拉菲亚·阿菲创办的“离婚营”不仅提供了一个疗愈和支持的社群，更重要的是，它挑战了根深蒂固的文化观念，将离婚从“失败”转化为“勇敢的开始”。我被这种打破沉默、赋能女性的行动深深打动，这不仅是关于个人选择，更是对社会结构性压迫的反抗。它提醒我们，真正的自由往往始于自我价值的重新定义。",
+    "best_quote_en": "Society romanticises silent suffering, and that’s dangerous. I want to change that narrative.",
+    "best_quote_zh": "社会将默默承受痛苦浪漫化，这是危险的。我想要改变这种叙事。"
+  },
+  {
+    "id": 72,
+    "title": "Fierce Nerds",
+    "title_zh": "凶猛的极客",
+    "source": "Paul Graham",
+    "link": "http://www.paulgraham.com/fn.html",
+    "tags": [
+      "inspire",
+      "startup-strategy",
+      "psychology",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "创业策略",
+      "心理学",
+      "未来预测"
+    ],
+    "date": "2025-09-13",
+    "summary_en": "This essay provocatively redefines the 'nerd' archetype, introducing the 'fierce nerd' – a competitive, independent-minded, overconfident, and intelligent individual. It argues that these seemingly abrasive qualities, often misunderstood in social settings, are in fact powerful drivers of success, particularly in scientific breakthroughs and modern business. The author uses historical examples like Watson and Crick to illustrate how impatience and a disregard for social niceties can accelerate problem-solving. A key insight is the transformation of power from 'dealmakers' to 'technicians,' suggesting that fierce nerds are increasingly monopolizing significant achievements. The piece also offers a crucial warning: unchanneled fierceness can lead to bitterness, advocating ambitious projects as an antidote. It’s a compelling exploration of how unconventional traits, when properly directed, become potent assets in an evolving world.",
+    "summary_zh": "这篇文章对“极客”的刻板印象进行了颠覆性重塑，提出了“凶猛的极客”这一概念。作者指出，竞争性强、独立思考、过度自信和高智商这些特质，在传统社交场合可能显得格格不入，但在解决复杂问题和商业成功中却是强大的驱动力。我尤其认同其对“力量从交易者转向技术人员”的洞察，这精准捕捉了时代趋势。同时，文章也警示，若不善加引导，这种“凶猛”可能转化为怨恨，因此投身宏大项目至关重要。这不仅是对极客群体的重新审视，更是对现代成功要素的深刻思考，令人茅塞顿开。",
+    "best_quote_en": "The good news is that your fierceness will be a great help in solving difficult problems. And not just the kind of scientific and technical problems that nerds have traditionally solved. As the world progresses, the number of things you can win at by getting the right answer increases.",
+    "best_quote_zh": "好消息是，你的凶猛将极大地帮助你解决难题。而且不只是极客传统上解决的那种科学技术问题。随着世界的发展，通过找到正确答案而能获胜的事情越来越多。"
+  },
+  {
+    "id": 73,
+    "title": "The Dutch are Working Four Days a Week",
+    "title_zh": "荷兰人每周工作四天",
+    "source": "LessWrong",
+    "link": "https://www.lesswrong.com/posts/2MK3ynj9qSmcH637J/the-dutch-are-working-four-days-a-week",
+    "tags": [
+      "inspire",
+      "economics",
+      "politics",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "启发",
+      "经济金融",
+      "政治时事",
+      "未来预测"
+    ],
+    "date": "2025-09-13",
+    "summary_en": "This article provocatively examines the Dutch phenomenon of widespread four-day workweeks, driven by individual choices for part-time employment rather than systemic failures. It intelligently juxtaposes libertarian perspectives, which champion personal freedom in work-life balance, against progress studies arguments that highlight the potential long-term economic drag of reduced working hours on GDP growth. The piece raises crucial questions about government policy's role in shaping labor markets, particularly regarding part-time work. It further delves into a fascinating distinction between jobs that enhance productivity (like scientific research) versus those that merely contribute to current output (like assembly line work), suggesting a nuanced approach to policy might be necessary. This analysis compels one to reconsider conventional notions of economic progress and individual well-being, prompting a deeper inquiry into the societal implications of work culture.",
+    "summary_zh": "这篇文章探讨了荷兰普遍存在的每周四天工作制，这不仅仅是个人选择，更引出了深刻的政策和社会哲学讨论。它巧妙地对比了自由主义者对工作自由的推崇与进步研究者对经济增长放缓的担忧，让我不禁思考：我们究竟应该优先追求个人福祉还是集体经济效率？文中对不同类型工作对生产力增长贡献的区分，更是对传统劳动价值论的挑战，促使我们重新审视政府在塑造未来工作模式中的角色，以及如何平衡短期满足与长期发展。",
+    "best_quote_en": "Progress studies people would point out that GDP growth decreased by, say, 1% over 100 years will leave people in the resulting economy almost three times poorer.",
+    "best_quote_zh": "进步研究者会指出，GDP增长在100年内下降1%，将导致未来经济中的人们贫穷近三倍。"
+  },
+  {
+    "id": 74,
+    "title": "The Intertwined Legacies of Rupert Murdoch and Donald Trump",
+    "title_zh": "鲁珀特·默多克与唐纳德·特朗普交织的遗产",
+    "source": "The New Yorker",
+    "link": "https://www.newyorker.com/news/fault-lines/the-intertwined-legacies-of-rupert-murdoch-and-donald-trump",
+    "tags": [
+      "learn",
+      "politics",
+      "future-prediction"
+    ],
+    "tags_zh": [
+      "学习",
+      "政治时事",
+      "未来预测"
+    ],
+    "date": "2025-09-12",
+    "summary_en": "This article delves into the complex, often contradictory, yet persistently mutually beneficial relationship between media mogul Rupert Murdoch and former President Donald Trump. It examines recent events, including the Wall Street Journal's Epstein reporting and the resolution of Murdoch's family succession battle, to illuminate the dynamics of their intertwined legacies. The author critically analyzes how Murdoch, despite occasional public disagreements and internal skepticism, consistently leveraged Trump's popularity to advance his media empire's right-wing agenda, particularly through Fox News. Conversely, Trump benefited immensely from Murdoch's vast media platform. The piece thoughtfully explores Murdoch's strategic flexibility, his perceived underestimation of his own power, and the profound political implications of his decision to secure Lachlan's conservative control over the empire, suggesting that Murdoch is not just living, but planning to die, in Trump's world. It's a fascinating look at media influence and political power.",
+    "summary_zh": "本文深入剖析了媒体大亨默多克与特朗普之间复杂而互惠的关系。作者通过《华尔街日报》的爱泼斯坦报道和默多克家族继承战的终结等近期事件，揭示了他们遗产交织的动态。默多克表面上的矛盾与私下的怀疑，最终都服务于其媒体帝国右翼议程的推进，而特朗普则受益于默多克的媒体平台。文章尤其引人深思的是，默多克为何看似低估自身影响力，却又执意将帝国交予保守派之手，这不仅是商业决策，更是对政治未来的一种深刻押注。我从中看到，即便是在媒体巨头眼中，个人意志与时代洪流的交锋也远比我们想象的更为曲折。",
+    "best_quote_en": "Their relationship, ultimately, deserves to be remembered not as one of occasional antagonism but one of persistent mutual benefit. Not that we’ve necessarily seen the season finale just yet.",
+    "best_quote_zh": "他们的关系，最终值得被记住的不是偶尔的对抗，而是持续的互惠互利。这并不意味着我们已经看到了季终集。"
+  },
+  {
+    "id": 75,
+    "title": "The Trump-Biden Debate",
+    "title_zh": "特朗普-拜登辩论",
+    "source": "Wait But Why",
+    "link": "https://waitbutwhy.com/2020/09/debate2020.html",
+    "tags": [
+      "solve",
+      "politics",
+      "medicine",
+      "controversial"
+    ],
+    "tags_zh": [
+      "解决",
+      "政治时事",
+      "医学健康",
+      "争议观点"
+    ],
+    "date": "2020-09-30",
+    "summary_en": "This transcript of the first Trump-Biden debate offers a raw, unfiltered look at the chaotic and often absurd nature of modern political discourse. Far from a substantive policy discussion, it devolves into personal attacks, interruptions, and a clear lack of respect for both the moderator and democratic processes. The content highlights the deep partisan divide and the performative aspect of political campaigning, where soundbites and accusations often overshadow factual debate. It's a sobering illustration of how political communication has deteriorated, making it challenging for voters to discern truth or policy positions. The piece implicitly critiques the media's role in facilitating such spectacles and the public's hunger for political drama over genuine governance.",
+    "summary_zh": "这份特朗普与拜登首次辩论的文字记录，简直是一场政治闹剧的真实写照。它揭示了现代政治话语的混乱与荒谬，政策讨论几乎缺席，取而代之的是人身攻击和无休止的打断。读完不禁感慨，这种辩论形式究竟是为了什么？它更像是一场表演，而非寻求解决之道。作为读者，我从中看到了美国政治极化的深层问题，以及在信息爆炸时代，理性对话的稀缺性。这篇内容不仅是对事件的记录，更是对当前政治生态的一种批判性反思。",
+    "best_quote_en": "One thing we all know for sure is that this election is going to be a shitshow. Will you accept the results of the shitshow and tell your supporters to accept the results peacefully?",
+    "best_quote_zh": "有一件事我们都确定，那就是这次选举会是一场乱局。你会接受这场乱局的结果并告诉你的支持者和平地接受结果吗？"
   }]
