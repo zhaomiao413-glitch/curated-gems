@@ -12,5 +12,20 @@
 "summary_zh": "作者提出“AI现实主义”，反对把AI神化或魔化的两极化叙事。文章认为，所谓“AGI 超越人类”是科幻式预设；智能并非可精确衡量的终点。AI应被视为放大人类能力的工具，而非神祇或恶魔。政策上主张投入基础设施、人才与开源，避免以恐惧为导向的禁令。",
 "best_quote_en": "Doomers believe AI will become godlike and destroy us. Zealots believe AI will become godlike and save us.",
 "best_quote_zh": "末日派认为 AI 将神一般并毁灭我们；狂热派认为 AI 将神一般并拯救我们。"
+},
+ {
+"id": 2,
+"title": "300回合狂测GPT5，有点真东西！〖做了个三体〗",
+"title\_zh": "300回合狂测GPT-5，有点真东西！〖做了个三体〗",
+"source": "哔哩哔哩",
+"link": "[https://www.bilibili.com/video/BV11xbazdE9M/?spm\_id\_from=333.337.search-card.all.click\&vd\_source=a7dc528b4624a363b6c41036e0359611](https://www.bilibili.com/video/BV11xbazdE9M/?spm_id_from=333.337.search-card.all.click&vd_source=a7dc528b4624a363b6c41036e0359611)",
+"tags": \["AI testing", "GPT-5", "benchmark", "technology review"],
+"tags\_zh": \["AI 测试", "GPT-5", "基准测评", "科技评估"],
+"date": "2025-08-13",
+"summary\_en": "In this video the creator performs a rigorous test of GPT-5 across 300 rounds, using numerous tasks or questions, to evaluate how well GPT-5 performs. The test aims to deeply probe GPT-5’s capabilities, strengths, and limitations. The presenter also draws comparisons, discussing whether the performance justifies subscription renewal of ChatGPT or value for users.",
+"summary\_zh": "视频中，创作者对 GPT-5 进行了 300 回合的密集实测，通过大量题目检验其性能。目标是深入探讨 GPT-5 的能力、优势与局限。作者也比较了其表现，并讨论是否值得续费 ChatGPT 或其对于用户的价值。",
+"best\_quote\_en": "Let’s do 300 rounds and see what it really can do.",
+"best\_quote\_zh": "我们来做 300 回合，看看它到底能做些什么。"
 }
+
 ]
